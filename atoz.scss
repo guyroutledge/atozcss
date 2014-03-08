@@ -23,6 +23,12 @@ body {
 	@media screen and (max-width:840px) {
 		font-size:0.975em;
 	}
+	@media screen and (max-width:670px) {
+		position:relative;
+		font-size:1em;
+		background:rgba(37,37,37,0.975);
+		border:9px solid #333;
+	}
 }
 a {
 	color:#999;
@@ -52,6 +58,17 @@ body:before {
 	border-right:0;
 
 	z-index:10;
+
+	@media screen and (max-width:670px) {
+		position:relative;
+		left:50%;
+		width:320px;
+		margin-left:-160px;
+		padding:1em;
+
+		border:0;
+		background:none;
+	}
 }
 .the-sessions-container {
 	position:absolute;
@@ -69,6 +86,10 @@ body:before {
 	overflow:hidden;
 	text-align:center;
 	z-index:0;
+
+	@media screen and (max-width:670px) {
+		display:none;
+	}
 }
 
 .the-logo {
@@ -378,12 +399,22 @@ body:before {
 	list-style:none;
 	text-align:center;
 	line-height:0.875em;
+
+	@media screen and (max-width:670px) {
+		display:none;
+	}
+
 	li {
 		display:inline;
 		margin:0 0.25em;
 
 		color:#999;
 		font-size:0.7em;
+
+		@media screen and (max-width:840px) {
+			font-size: 0.9em;
+			line-height: 1.5;
+		}
 	}
 }
 .the-form {
@@ -392,6 +423,18 @@ body:before {
 
 	@media screen and (max-width:840px) {
 		margin-top:10em;
+	}
+	@media screen and (max-width:670px) {
+		display:none;
+	}
+}
+.the-form-sidebar {
+	display:none;
+	max-width:100%;
+	margin:2em auto;
+
+	@media screen and (max-width:670px) {
+		display:block;
 	}
 }
 .the-form label,
@@ -432,6 +475,10 @@ body:before {
 	        appearance:none;
 	-webkit-transition:0.3s;
 	        transition:0.3s;
+
+	.the-sidebar & {
+		border-color:#222;
+	}
 }
 .the-form input[type="submit"]:hover {
 	color:#f39;
@@ -443,4 +490,9 @@ body:before {
 
 	color:#ccc;
 	font-size:0.75em;
+
+	@media screen and (max-width:670px) {
+		position:static;
+		margin-bottom:2em;
+	}
 }
