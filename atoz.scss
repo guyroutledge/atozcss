@@ -490,6 +490,26 @@ body:before {
 	color:#f39;
 	background: #fff;
 }
+
+.the-banner {
+	position:absolute;
+	top:3.5em;
+	right:-5em;
+
+	width:20em;
+	padding:0.5em;
+
+	font-size:1em;
+	font-weight:normal;
+
+	color:#fff;
+	background:#770e43;
+	border-top:1px solid #333;
+	border-bottom:1px solid #333;
+
+	-webkit-transform:rotate(45deg);
+	        transform:rotate(45deg);
+}
 .the-footer {
 	position:absolute;
 	bottom:2em;
