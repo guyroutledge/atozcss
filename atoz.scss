@@ -251,7 +251,7 @@ body:before {
 	98% { margin-left:-6000px; }
 	100% { margin-left:-6250px; }
 }
-@-keyframes moveLeft {
+@keyframes moveLeft {
 	0% { margin-left:0; }
 	2% { margin-left:0; }
 	4% { margin-left:-250px; }
@@ -334,7 +334,7 @@ body:before {
 	75% { -webkit-transform:rotate(0deg); }
 	100% { -webkit-transform:rotate(0deg); }
 }
-@-keyframes rotate {
+@keyframes rotate {
 	0% { transform:rotate(0); }
 	25% { transform:rotate(90deg); }
 	50% { transform:rotate(90deg); }
