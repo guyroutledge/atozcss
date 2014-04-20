@@ -16,6 +16,14 @@
 	margin:0;
 	line-height:1;
 }
+.episode h1 {
+	@extend %h1;
+	margin:0;
+	line-height:1;
+}
 .episode-date {
 	color:#666;
+}
+.episode p + h2 {
+	margin-top:$font-margin-bottom;
 }

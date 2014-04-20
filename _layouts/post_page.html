@@ -5,7 +5,7 @@ layout: default
 <article class="episode">
 
 	<h1>{{page.title}}</h1>
-	<p>{{ page.date | date: "%d %B %Y" }}</p>
+	<p class="episode-date">{{ page.date | date: "%d %B %Y" }}</p>
 
 	<div class="episode-content">
 		{% include video.html %}
