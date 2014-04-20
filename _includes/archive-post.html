@@ -1,0 +1,8 @@
+<div class="episode-content">
+	<a href="{{ post.url }}">
+		<h3>{{ post.title }}</h3>
+		<span>{{ post.date | date: "%d %B %Y" }}</span>
+	</a>
+	{{ post.content |truncatehtml | truncatewords: 30 }}
+</div>
+

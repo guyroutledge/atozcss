@@ -1,0 +1,13 @@
+---
+layout: default
+title: All Episodes
+---
+
+<h1 class="page-title">{{ page.title }}</h1>
+<ul class="entries">
+	{% for post in site.posts %}
+
+		<li>{% include archive-post.html %}</li>
+
+	{% endfor %}
+</ul>
