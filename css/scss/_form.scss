@@ -1,0 +1,55 @@
+.subscribe-form {
+	margin:4rem auto 0;
+	padding:2rem;
+	background:rgba(desaturate(darken($color-brand, 50%), 20%), 0.2);
+
+	form {
+		max-width:60rem;
+		margin:0 auto;
+	}
+
+	label,
+	p {
+		display:block;
+		margin:2rem 0;
+	}
+	input[type="email"] {
+		width:16em;
+		max-width:100%;
+		margin:0;
+		padding:0.5em 1em;
+
+		color:#333;
+		font-size:1em;
+
+		background:#eee;
+		border:0;
+		box-shadow:inset 0.2em 0.2em 0.25em rgba(0,0,0,0.2);
+
+		&:focus {
+			outline:0;
+		}
+	}
+
+	input[type="submit"] {
+		margin:0;
+		padding:0.5em 1em;
+
+		color:#333;
+		font-size:1em;
+		background:$color-blue;
+		border:0;
+
+		cursor:pointer;
+		-webkit-appearance:none;
+		-moz-appearance:none;
+				appearance:none;
+		-webkit-transition:0.3s;
+				transition:0.3s;
+
+		&:hover {
+			color:#fff;
+			background: $color-brand;
+		}
+	}
+}

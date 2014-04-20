@@ -12,17 +12,17 @@
 	margin:4rem auto;
 }
 .site-footer {
-	padding:2rem;
+	padding:4rem;
 	background:$color-brand;
-	text-align:center;
 
 	p {
-		margin:0;
-		color:#000;
+		max-width:60rem;
+		margin:0 auto;
+		color:#111;
 		font-size:1.5rem;
 	}
 	a {
-		color:#000;
+		color:#111;
 
 		&:hover {
 			color:#fff;
