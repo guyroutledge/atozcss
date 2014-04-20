@@ -1,0 +1,178 @@
+//*************************
+// $$ Reset
+//**************************
+
+// Use a better box-model
+* {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+audio, canvas, video {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: $font-copy; color: $color-copy; }
+body {
+	margin: 0;
+	background:$color-dark;
+	color:$color-copy;
+}
+
+//*************************
+// $$ Links
+//**************************
+
+a {
+	color:$color-link;
+	text-decoration:none;
+	cursor:pointer;
+	-webkit-transition:0.3s;
+	        transition:0.3s;
+}
+a:visited { color:$color-link; }
+a:hover { color:$color-link-hover; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+
+//*************************
+// $$ Typography
+//**************************
+
+html {
+	font-size:10px; // make rems calculations easy
+}
+body {
+	font-size:2rem;
+	line-height:1.5;
+	-webkit-font-smoothing:antialiased;
+}
+
+@for $i from 1 to 4 {
+	h#{$i},
+	%h#{$i} {
+		font-size: nth($font-sizes, $i);
+		font-weight:normal;
+		margin:0 0 $font-margin-bottom / 2;
+	}
+}
+
+p {
+	margin:0 0 $font-margin-bottom;
+}
+
+b, strong { font-weight:bold; }
+i, em { font-style:italic; }
+small { font-size:80%; }
+
+pre, code, kbd, samp {
+	font-family: monospace, serif;
+	_font-family: 'courier new', monospace;
+	font-size: 1em;
+}
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+//*************************
+// $$ Lists
+//**************************
+
+ul, ol {
+	margin: 0 0 $font-margin-bottom 1.5em;
+	padding:0;
+	list-style-position:outside;
+	list-style-image:none;
+}
+ul { list-style-type:disc; }
+ol { list-style-type:decimal; }
+li {
+	line-height:$font-leading;
+	font-size:inherit;
+	padding:0;
+}
+nav ul,
+nav ol {
+	list-style: none;
+	list-style-image: none;
+}
+
+//*************************
+// $$ Tables
+//**************************
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+//*************************
+// $$ Images
+//**************************
+
+img, a img {
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+	max-width:100%;
+}
+
+figure { margin:0; }
+figcaption {
+	margin:$font-margin-bottom 0;
+	font-style:italic;
+}
+
+//*************************
+// $$ Forms
+//**************************
+
+form { margin:0; }
+label { cursor: pointer; }
+input, select, textarea { margin:0 0 $font-margin-bottom; }
+input, select, textarea{ font:inherit; }
+button, input, select, textarea {
+	font:inherit;
+	vertical-align: baseline;
+	*vertical-align: middle;
+}
+button, input {
+	line-height: normal;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	cursor: pointer;
+	*overflow: visible;
+}
+textarea {
+	overflow: auto;
+	vertical-align: top;
+	resize:vertical; // only allow verticle resizing so fluid layout doesn't break
+}
+
+// Make sure all lists of form elements don't display like a bullet list
+form ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+
+	li {
+		position:relative;
+		margin:0 0 1em 0;
+	}
+}
+
+//*************************
+// $$ Layout
+//**************************
+
+body {
+	margin:0 auto;
+	padding:0;
+	overflow-x:hidden;
+}

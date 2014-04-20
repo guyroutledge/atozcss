@@ -1,7 +1,7 @@
 <div class="episode-content">
 	<a href="{{ post.url }}">
-		<h3>{{ post.title }}</h3>
-		<span>{{ post.date | date: "%d %B %Y" }}</span>
+		<h1>{{ post.title }}</h1>
+		<h2>{{ post.date | date: "%d %B %Y" }}</h2>
 	</a>
 	{{ post.content |truncatehtml | truncatewords: 30 }}
 </div>
