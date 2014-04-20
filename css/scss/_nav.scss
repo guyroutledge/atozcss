@@ -1,0 +1,44 @@
+//*************************
+// $$ Nav
+//**************************
+
+.site-nav {
+	text-align:center;
+	overflow:hidden;
+
+	ul {
+		display:inline-block;
+		margin:0 0 -1rem;
+		padding:0;
+		text-align:center;
+	}
+	li {
+		float:left;
+		margin:0;
+	}
+	a {
+		position:relative;
+		top:0.5rem;
+
+		display:inline-block;
+		padding:1rem 2rem;
+
+		color:#000;
+		background:$color-brand;
+		text-align:center;
+
+		&:hover {
+			top:0;
+		}
+	}
+	.site-nav-all-episodes {
+		background:$color-purple;
+	}
+	.site-nav-about {
+		background:$color-blue;
+	}
+	.site-nav-subscribe {
+		background:$color-yellow;
+	}
+
+}

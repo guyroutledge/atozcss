@@ -2,9 +2,15 @@
 // $$ Variables
 //**************************
 
-$color-brand:#CC3F85; // pink
+$color-blue:   #66d9ef;
+$color-purple: #ae81ff;
+$color-green:  #9be22d;
+$color-yellow: #e6db74;
+$color-pink:   #CC3F85;
+
+$color-brand:$color-pink;
 $color-dark:#222;
-$color-link:#9be22d; // green
+$color-link:$color-green;
 $color-link-hover:lighten($color-link, 20%);
 $color-copy:#fff;
 

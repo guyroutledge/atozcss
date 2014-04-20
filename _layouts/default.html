@@ -20,6 +20,15 @@
 				A<span>to</span>Z
 				<b>CSS</b>
 			</h1>
+			<nav class="site-nav">
+				<ul>
+				{% for link in site.links %}
+					<li>
+						<a href="{{ link.url }}" class="site-nav-{{ link.title | downcase | replace:' ','-' }}"> {{ link.title }} </a>
+					</li>
+				{% endfor %}
+				</ul>
+			</nav>
 		</header>
 
 		<main class="site-content">
