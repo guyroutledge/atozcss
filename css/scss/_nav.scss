@@ -27,18 +27,27 @@
 		background:$color-brand;
 		text-align:center;
 
-		&:hover {
+		&:hover, &:focus, &:active {
 			top:0;
 		}
 	}
-	.site-nav-all-episodes {
-		background:$color-purple;
+}
+$i:1;
+$nav-items:'home', 'all-episodes', 'about', 'subscribe';
+$nav-colours:$color-home, $color-all-episodes, $color-about, $color-subscribe;
+
+@each $item in $nav-items {
+
+	.site-nav .site-nav-#{$item} {
+		background:nth($nav-colours, $i);
 	}
-	.site-nav-about {
-		background:$color-blue;
+	.page-#{$item} {
+		.site-nav-#{$item} {
+			top:0;
+			color:#fff;
+			background:$color-brand;
+		}
 	}
-	.site-nav-subscribe {
-		background:$color-yellow;
-	}
+	$i: $i + 1;
 
 }
