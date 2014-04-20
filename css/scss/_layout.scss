@@ -20,7 +20,7 @@ Contents
 // --------------------------------------------------
 
 body{
-    background-color: $black;
+    background-color: #000;
 }
 
 main.container, main.content > .container{
@@ -48,41 +48,31 @@ main.container, main.content > .container{
 }
 
 
-.a-hover{
-        color: $grayDark;
-        @include transition(0.3s linear);
-
-        &:hover{
-            color: $grayDark;
-            text-decoration:none;
-            @include opacity(50);
-        }    
-}
 
 // 2. Header Section
 // --------------------------------------------------
 
 .content{
-    background-color: $white;
+    background-color: #fff;
 
     & > .container{
-       min-height: 58em;  
+       min-height: 58em;
     }
 }
 
 .content h1{
     font-family: Georgia, "Times New Roman", Times, serif;
      @extend .center-txt;
-    font-size: 6em;  
+    font-size: 6em;
     margin-top: 1em;
-    border-bottom: 1px solid $grayDarker;
+    border-bottom: 1px solid #333;
     padding-bottom: 0.6em;
     letter-spacing: 0.04em;
 }
 
 .top-strip{
-    background-color: $black;
-    height: 1em;    
+    background-color: #000;
+    height: 1em;
 }
 
 
@@ -111,11 +101,9 @@ main.container, main.content > .container{
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 2em;
         margin-top: 0.2em;
-        @extend .a-hover;
     }
 
     a{
-        @extend .a-hover;
     }
 
     div{
@@ -130,7 +118,7 @@ main.container, main.content > .container{
 
 .pages{
      @extend .center-txt;
-    list-style: none;    
+    list-style: none;
 }
 
 .next{
@@ -139,7 +127,7 @@ main.container, main.content > .container{
 }
 
 .prev{
-    float: left;   
+    float: left;
 }
 
 #post-pagination{
@@ -155,8 +143,7 @@ main.container, main.content > .container{
      font-size: 2.5em;
      margin: 1.5em 0 -1.1em;
      a{
-        @extend .a-hover; 
-     } 
+     }
 }
 
 .post{
@@ -189,11 +176,11 @@ main.container, main.content > .container{
 footer .container{
     @extend .center-txt;
     font-family: 'Noto Serif';
-    color: $white;
+    color: #fff;
     padding: 2em 0;
     font-size: 0.8em;
     a{
-        color: $white;
+        color: #fff;
         text-decoration: underline;
-    }    
+    }
 }
