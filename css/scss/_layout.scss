@@ -3,6 +3,7 @@
 //**************************
 
 .site-header {
+	margin-bottom:$font-margin-bottom;
 	text-align:center;
 	border-bottom:1rem solid $color-brand;
 }
@@ -21,7 +22,7 @@
 		font-size:1.5rem;
 	}
 	a {
-		color:#333;
+		color:#000;
 
 		&:hover {
 			color:#fff;

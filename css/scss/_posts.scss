@@ -1,0 +1,21 @@
+//*************************
+// $$ Posts
+//**************************
+
+
+.episodes {
+	margin:$font-margin-bottom*1.5 0 $font-margin-bottom*2;
+	padding:0;
+	list-style:none;
+}
+.episode-video {
+	margin:0 0 $font-margin-bottom;
+}
+.episode-title {
+	@extend %h2;
+	margin:0;
+	line-height:1;
+}
+.episode-date {
+	color:#666;
+}
