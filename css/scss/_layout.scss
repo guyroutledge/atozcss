@@ -2,5 +2,30 @@
 // $$ Layout
 //**************************
 
+.site-header {
+	text-align:center;
+	border-top:1rem solid $color-brand;
+}
+.site-content {
+	max-width:60rem;
+	margin:4rem auto;
+}
+.site-footer {
+	padding:2rem;
+	background:$color-brand;
+	text-align:center;
 
+	p {
+		margin:0;
+		color:#000;
+		font-size:1.5rem;
+	}
+	a {
+		color:#333;
+
+		&:hover {
+			color:#fff;
+		}
+	}
+}
 
