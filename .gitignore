@@ -1,2 +1,3 @@
 .sass-cache/*
-*.css
+css/*.css
+_site/*
