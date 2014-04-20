@@ -4,8 +4,10 @@ layout: default
 
 <article class="episode">
 
-	<h1>{{page.title}}</h1>
-	<p class="episode-date">{{ page.date | date: "%d %B %Y" }}</p>
+	<h1>
+		{{page.title}}
+	</h1>
+	<p class="episode-meta">Posted on: {{ page.date | date: "%d %B %Y" }} </p>
 
 	<div class="episode-content">
 		{% include video.html %}

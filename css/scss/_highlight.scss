@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6, p, li {
 		display:inline-block;
 		color:$color-brand;
 		background:rgba(desaturate(darken($color-brand, 50%), 20%), 0.2);
-		padding:0.1em 0.25em;
+		padding:0 0.25em;
 	}
 }
 .c                 { color: #75715e }                            /* Comment                     */

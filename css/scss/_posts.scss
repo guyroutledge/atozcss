@@ -7,6 +7,10 @@
 	margin:$font-margin-bottom*1.5 0 $font-margin-bottom*2;
 	padding:0;
 	list-style:none;
+
+	li {
+		margin-bottom:$font-margin-bottom;
+	}
 }
 .episode-video {
 	margin:0 0 $font-margin-bottom;
@@ -21,7 +25,10 @@
 	margin:0;
 	line-height:1;
 }
-.episode-date {
+.episode-time {
+	font-size:0.5em;
+}
+.episode-meta {
 	color:#666;
 }
 .episode p + h2 {
