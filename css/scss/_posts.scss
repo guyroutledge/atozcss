@@ -13,7 +13,7 @@
 	}
 }
 .episode-video {
-	margin:0 0 $font-margin-bottom;
+	margin:$font-margin-bottom 0;
 }
 .episode-title {
 	@extend %h2;
@@ -31,6 +31,19 @@
 .episode-meta {
 	color:#666;
 }
-.episode p + h2 {
-	margin-top:$font-margin-bottom;
+.episode-featured {
+	margin-bottom:4rem;
+}
+.episodes-list {
+	margin:2rem auto 4rem;
+	padding:0;
+	list-style:none;
+	line-height:0.875em;
+
+	li {
+		display:inline;
+		margin:0 0.25em;
+
+		color:#999;
+	}
 }

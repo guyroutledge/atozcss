@@ -5,7 +5,7 @@ title: Home
 
 <section class="episode-featured">
 
-	<h1>Latest Episode</h1>
+	<h1 class="home-title">Latest Episode</h1>
 
 	{% for post in site.posts | limit: 1 %}
 
@@ -16,5 +16,6 @@ title: Home
 
 </section>
 
+{% include episodes-list.html %}
 {% include animation.html %}
 

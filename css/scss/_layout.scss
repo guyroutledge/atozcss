@@ -2,22 +2,30 @@
 // $$ Layout
 //**************************
 
+%container {
+	max-width:60rem;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:2rem;
+	padding-right:2rem;
+}
 .site-header {
 	margin-bottom:$font-margin-bottom;
 	text-align:center;
 	border-bottom:1rem solid $color-brand;
 }
 .site-content {
-	max-width:60rem;
-	margin:4rem auto;
+	@extend %container;
+	margin-top:4rem;
+	margin-bottom:4rem;
 }
 .site-footer {
 	padding:4rem;
 	background:$color-brand;
 
 	p {
-		max-width:60rem;
-		margin:0 auto;
+		@extend %container;
+		margin-bottom:0;
 		color:#111;
 		font-size:1.5rem;
 	}
@@ -28,5 +36,34 @@
 			color:#fff;
 		}
 	}
+	br {
+		display:none;
+
+		@media screen and (min-width:28.125em) {
+			display:block;
+		}
+	}
 }
 
+//*************************
+// $$ Homepage
+//**************************
+
+.home-title {
+	line-height:1.1;
+}
+
+//*************************
+// $$ About Page
+//**************************
+
+.about-equipment {
+	margin:0 0 $font-margin-bottom 0;
+	overflow:hidden;
+
+	img {
+		float:left;
+		width:50%;
+		border:1px solid #333;
+	}
+}

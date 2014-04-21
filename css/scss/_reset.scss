@@ -45,7 +45,10 @@ a:hover, a:active { outline: 0; }
 //**************************
 
 html {
-	font-size:10px; // make rems calculations easy
+	font-size:8px; // make rems calculations easy
+	@media screen and (min-width:31.25em) {
+		font-size:10px;
+	}
 }
 body {
 	font-size:2rem;
@@ -59,6 +62,9 @@ body {
 		font-size: nth($font-sizes, $i);
 		font-weight:normal;
 		margin:0 0 $font-margin-bottom / 2;
+	}
+	p + h#{$i} {
+		margin-top:$font-margin-bottom;
 	}
 }
 

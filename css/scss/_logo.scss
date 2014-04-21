@@ -2,7 +2,7 @@
 	position:relative;
 	left:-0.15em;
 	display:inline-block;
-	margin:0.5em 0 0.75em;
+	margin:0.25em 0 1em;
 
 	color:#fff;
 	text-shadow:
@@ -33,11 +33,16 @@
 	hsl(0, 0%, 20%) 25px 25px,
 	hsl(0, 0%, 20%) 26px 26px;
 
-	font-size:3em;
+	font-size:2em;
 	font-family:monospace;
 	font-weight:bold;
 	line-height:0.6em;
 	text-align:center;
+
+	@media screen and (min-width:25em) {
+		font-size:3em;
+		margin:0.5em 0 0.75em;
+	}
 }
 .site-logo:before {
 	content:"{";
