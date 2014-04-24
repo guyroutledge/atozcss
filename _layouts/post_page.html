@@ -11,7 +11,25 @@ layout: default
 
 	<div class="episode-content">
 		{% include video.html %}
-		{{ content }}
+
+		<section>
+			<input type="checkbox" id="summary" checked>
+			<h1 class="episode-content-title">
+				<label for="summary">Summary</label>
+			</h1>
+			<div class="episode-accordion">
+				{{ page.summary | markdownify }}
+			</div>
+		</section>
+		<section>
+			<input type="checkbox" id="transcript">
+			<h1 class="episode-content-title">
+				<label for="transcript">Transcript</label>
+			</h1>
+			<div class="episode-accordion">
+				{{ content }}
+			</div>
+		</section>
 	</div>
 
 	<nav class="episode-nav">

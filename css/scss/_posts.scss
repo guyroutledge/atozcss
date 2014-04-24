@@ -28,6 +28,9 @@
 	margin:0;
 	line-height:1;
 }
+.episode h2 {
+	@extend %h3;
+}
 .episode-time {
 	font-size:0.5em;
 }
@@ -51,6 +54,59 @@
 		color:#999;
 	}
 }
+
+.episode .episode-content-title {
+	@extend %h2;
+}
+.episode-content-title label {
+	position:relative;
+	display:inline-block;
+	margin-bottom:$font-margin-bottom/2;
+	color:$color-link;
+	cursor:pointer;
+	vertical-align:middle;
+
+	&:before,
+	&:after {
+		content:"";
+		position:absolute;
+		top:0.25em;
+		left:-0.5em;
+
+		width:0;
+		height:0.5em;
+		border-left:3px solid $color-link;
+
+		-webkit-transition:0.3s;
+				transition:0.3s;
+	}
+	&:after {
+		-webkit-transform:rotate(90deg);
+				transform:rotate(90deg);
+	}
+}
+.episode-accordion {
+	-webkit-transition:all 1s ease-in-out;
+	        transition:all 1s ease-in-out;
+}
+.episode-content input[type="checkbox"] {
+	position:absolute;
+	left:-9999em;
+
+	& ~ .episode-accordion {
+		max-height:0;
+		overflow:hidden;
+	}
+	&:checked ~ .episode-content-title label:before {
+		-webkit-transform:rotate(90deg);
+		        transform:rotate(90deg);
+	}
+	&:checked ~ .episode-accordion {
+		max-height:10000px;
+	}
+}
+
+
 .episode-nav {
 	overflow:hidden;
 }
