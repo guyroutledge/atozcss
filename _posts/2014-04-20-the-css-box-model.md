@@ -1,6 +1,7 @@
 ---
 layout: post_page
 title: Box Model
+alias: /b
 wistiaId: 606bb5sann
 videoLength: 4 minutes 31 seconds
 excerpt: >

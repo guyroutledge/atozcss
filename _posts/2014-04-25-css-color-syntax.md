@@ -1,6 +1,7 @@
 ---
 layout: post_page
 title: Color
+alias: /c
 wistiaId: qjnplokbyh
 videoLength: 6 minutes 22 seconds
 excerpt: >

@@ -1,6 +1,7 @@
 ---
 layout: post_page
 title: Auto
+alias: /a
 wistiaId: vg84pyi0rg
 videoLength: 5 minutes 25 seconds
 excerpt: >
