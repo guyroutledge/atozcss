@@ -116,3 +116,26 @@
 .episode-nav-prev {
 	float:left;
 }
+
+.tip {
+	margin:3rem 0;
+	padding:3rem;
+	color:#000;
+	background:$color-yellow;
+}
+.tip-icon {
+	float:left;
+	margin:0 0.5em 0 0;
+	font-size:2em;
+	font-style:normal;
+}
+.tip-message {
+	display:table-cell;
+	width:10000px;
+	margin:0;
+
+	span {
+		position:relative;
+		top:0.25em;
+	}
+}
