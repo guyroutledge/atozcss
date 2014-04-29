@@ -124,10 +124,12 @@
 	background:$color-yellow;
 }
 .tip-icon {
-	float:left;
-	margin:0 0.5em 0 0;
+	margin:0 0.5em 1rem 0;
 	font-size:2em;
-	font-style:normal;
+
+	@media screen and (min-width:31.25em) {
+		float:left;
+	}
 }
 .tip-message {
 	display:table-cell;
