@@ -2,6 +2,10 @@
 	-webkit-transform:translateX($amount);
 	        transform:translateX($amount);
 }
+.the-sessions-wrap {
+	width:100%;
+	overflow:hidden;
+}
 .the-sessions {
 	width:10000px;
 	margin:0;

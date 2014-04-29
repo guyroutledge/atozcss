@@ -30,6 +30,10 @@
 			{{ content }}
 		</main>
 
+		{% if page.title == "Home" %}
+			{% include animation.html %}
+		{% endif %}
+
 		<section class="subscribe">
 			{% include form.html %}
 		</section>
