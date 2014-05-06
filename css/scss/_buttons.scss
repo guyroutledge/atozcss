@@ -1,0 +1,27 @@
+//*************************
+// $$ Buttons
+//**************************
+
+.button {
+	margin:0;
+	padding:0.5em 1em;
+
+	color:#333;
+	font-size:2rem;
+	font-weight:400;
+	background:$color-blue;
+	border:0;
+
+	cursor:pointer;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+			appearance:none;
+	-webkit-transition:0.3s;
+			transition:0.3s;
+
+	&:hover {
+		color:#fff;
+		background: $color-brand;
+	}
+}
+

@@ -1,0 +1,31 @@
+//*************************
+// $$ Variables
+//**************************
+
+$color-blue:   #66d9ef;
+$color-purple: #ae81ff;
+$color-green:  #9be22d;
+$color-yellow: #e6db74;
+$color-pink:   #CC3F85;
+
+$color-brand:$color-pink;
+$color-dark:#222;
+$color-link:$color-green;
+$color-link-hover:$color-blue;
+$color-copy:#fff;
+
+$color-home:$color-green;
+$color-all-episodes:$color-purple;
+$color-about:$color-blue;
+$color-subscribe:$color-yellow;
+
+$font-brand:Avenir, Helvetica, Arial, sans-serif;
+$font-copy:$font-brand;
+$font-margin-bottom:3rem;
+$font-leading:1.5;
+
+$font-size-h1:6rem;
+$font-size-h2:4rem;
+$font-size-h3:3rem;
+$font-size-h4:2rem;
+$font-sizes:$font-size-h1, $font-size-h2, $font-size-h3, $font-size-h4;

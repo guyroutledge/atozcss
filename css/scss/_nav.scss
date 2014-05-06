@@ -1,0 +1,67 @@
+//*************************
+// $$ Nav
+//**************************
+
+.site-nav {
+	text-align:center;
+	overflow:hidden;
+
+	ul {
+		margin:0;
+		padding:0;
+		text-align:center;
+	}
+	li {
+		float:left;
+		width:50%;
+		margin:0;
+	}
+	a {
+		display:inline-block;
+		width:100%;
+		padding:1rem 2rem;
+
+		color:#000;
+		background:$color-brand;
+		text-align:center;
+	}
+}
+@media screen and (min-width:25em) {
+	.site-nav {
+		ul {
+			display:inline-block;
+			margin-bottom:-1rem;
+		}
+		li {
+			width:auto;
+		}
+		a {
+			position:relative;
+			top:0.5rem;
+			width:auto;
+
+			&:hover, &:focus, &:active {
+				top:0;
+			}
+		}
+	}
+}
+$i:1;
+$nav-items:'home', 'all-episodes', 'about', 'subscribe';
+$nav-colours:$color-home, $color-all-episodes, $color-about, $color-subscribe;
+
+@each $item in $nav-items {
+
+	.site-nav .site-nav-#{$item} {
+		background:nth($nav-colours, $i);
+	}
+	.page-#{$item} {
+		.site-nav-#{$item} {
+			top:0;
+			color:#fff;
+			background:$color-brand;
+		}
+	}
+	$i: $i + 1;
+
+}

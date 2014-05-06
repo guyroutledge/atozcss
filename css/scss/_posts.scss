@@ -1,0 +1,143 @@
+//*************************
+// $$ Posts
+//**************************
+
+
+.episodes {
+	margin:$font-margin-bottom*1.5 0 $font-margin-bottom*2;
+	padding:0;
+	list-style:none;
+
+	li {
+		margin-bottom:$font-margin-bottom;
+	}
+}
+.episode-video {
+	margin:$font-margin-bottom 0;
+}
+.wistia_socialbar {
+	margin-top:1rem!important;
+}
+.episode-title {
+	@extend %h2;
+	margin:0;
+	line-height:1;
+}
+.episode h1 {
+	@extend %h1;
+	margin:0;
+	line-height:1;
+}
+.episode h2 {
+	@extend %h3;
+}
+.episode-time {
+	font-size:0.5em;
+}
+.episode-meta {
+	margin-bottom:$font-margin-bottom/2;
+	color:#666;
+}
+.episode-featured {
+	margin-bottom:4rem;
+}
+.episodes-list {
+	margin:2rem auto 4rem;
+	padding:0;
+	list-style:none;
+	line-height:0.875em;
+
+	li {
+		display:inline;
+		margin:0 0.25em;
+
+		color:#999;
+	}
+}
+
+.episode .episode-content-title {
+	@extend %h2;
+}
+.episode-content-title label {
+	position:relative;
+	display:inline-block;
+	margin-bottom:$font-margin-bottom/2;
+	color:$color-link;
+	cursor:pointer;
+	vertical-align:middle;
+
+	&:before,
+	&:after {
+		content:"";
+		position:absolute;
+		top:0.25em;
+		left:-0.5em;
+
+		width:0;
+		height:0.5em;
+		border-left:3px solid $color-link;
+
+		-webkit-transition:0.3s;
+				transition:0.3s;
+	}
+	&:after {
+		-webkit-transform:rotate(90deg);
+				transform:rotate(90deg);
+	}
+}
+.episode-accordion {
+	-webkit-transition:all 1s ease-in-out;
+	        transition:all 1s ease-in-out;
+}
+.episode-content input[type="checkbox"] {
+	position:absolute;
+	left:-9999em;
+
+	& ~ .episode-accordion {
+		max-height:0;
+		overflow:hidden;
+	}
+	&:checked ~ .episode-content-title label:before {
+		-webkit-transform:rotate(90deg);
+		        transform:rotate(90deg);
+	}
+	&:checked ~ .episode-accordion {
+		max-height:10000px;
+	}
+}
+
+
+.episode-nav {
+	overflow:hidden;
+}
+.episode-nav-next {
+	float:right;
+}
+.episode-nav-prev {
+	float:left;
+}
+
+.tip {
+	margin:3rem 0;
+	padding:3rem;
+	color:#000;
+	background:$color-yellow;
+}
+.tip-icon {
+	margin:0 0.5em 1rem 0;
+	font-size:2em;
+
+	@media screen and (min-width:31.25em) {
+		float:left;
+	}
+}
+.tip-message {
+	display:table-cell;
+	width:10000px;
+	margin:0;
+
+	span {
+		position:relative;
+		top:0.25em;
+	}
+}
