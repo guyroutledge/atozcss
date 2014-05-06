@@ -25,7 +25,6 @@
 
 	p {
 		@extend %container;
-		margin-bottom:0;
 		color:#111;
 		font-size:1.5rem;
 	}
@@ -42,6 +41,13 @@
 		@media screen and (min-width:28.125em) {
 			display:block;
 		}
+	}
+}
+.site-footer-tweet-buttons {
+	margin:2rem 0 0;
+
+	#twitter-widget-0 {
+		width:85px!important;
 	}
 }
 
