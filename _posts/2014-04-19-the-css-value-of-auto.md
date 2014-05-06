@@ -5,7 +5,7 @@ alias: /a
 wistiaId: vg84pyi0rg
 videoLength: 5 minutes 25 seconds
 excerpt: >
-  `auto` a CSS value that has a number of uses.  It’s the default value
+  Auto a CSS value that has a number of uses.  It’s the default value
   for a lot of properties but can be used for horizontal centering and
   is a handy tool to have in the box when dealing with responsive
   design. 
