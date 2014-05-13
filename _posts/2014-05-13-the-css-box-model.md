@@ -2,7 +2,7 @@
 layout: post_page
 title: Box Model
 alias: /b
-wistiaId: 606bb5sann
+wistiaId: koja055lr9
 videoLength: 4 minutes 31 seconds
 excerpt: >
   Every element on a web page is a box and we can describe the 
