@@ -36,6 +36,9 @@
 
 		<section class="subscribe">
 			{% include form.html %}
+			{% if page.title != "Subscribe" %}
+				{% include itunes.html %}
+			{% endif %}
 		</section>
 
 		<footer class="site-footer">

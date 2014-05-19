@@ -78,9 +78,33 @@
 // $$ Subscribe
 //**************************
 
+.subscribe-itunes {
+	position:fixed;
+	top:200px;
+	left:50%;
+
+	width:14rem;
+	margin-left:-40rem;
+	text-align:center;
+
+	h2 {
+		color:#fff;
+		font-size:3rem;
+		line-height:1em;
+	}
+}
 .subscribe-itunes-img {
 	float:left;
 	width:90px;
 	margin-right:2rem;
+}
+
+.subscribe-button-container {
+	overflow:hidden;
+}
+.button-itunes {
+	float:right;
+	color:#333;
+	margin:$font-margin-bottom 0;
 }
 
