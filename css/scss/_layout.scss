@@ -20,8 +20,10 @@
 	margin-bottom:4rem;
 }
 .site-footer {
+	position:relative;
 	padding:4rem;
 	background:$color-brand;
+	z-index:20;
 
 	p {
 		@extend %container;
@@ -78,9 +80,48 @@
 // $$ Subscribe
 //**************************
 
+.subscribe-itunes {
+	position:fixed;
+	top:265px;
+	left:50%;
+
+	width:14rem;
+	margin-left:-48rem;
+	text-align:center;
+
+	opacity:0;
+	z-index:0;
+
+	&:hover img {
+		-webkit-filter:brightness(1.3);
+	}
+	img {
+		-webkit-transition:0.5s;
+				transition:0.5s;
+	}
+
+	h2 {
+		color:#fff;
+		font-size:3rem;
+		line-height:1em;
+	}
+
+	@media screen and (min-width:60.3125em) {
+		opacity:1;
+	}
+}
 .subscribe-itunes-img {
 	float:left;
 	width:90px;
 	margin-right:2rem;
+}
+
+.subscribe-button-container {
+	overflow:hidden;
+}
+.button-itunes {
+	float:right;
+	color:#333;
+	margin:$font-margin-bottom 0;
 }
 

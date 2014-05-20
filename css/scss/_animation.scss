@@ -3,8 +3,12 @@
 	        transform:translateX($amount);
 }
 .the-sessions-wrap {
+	position:relative;
 	width:100%;
+	padding-bottom:4rem;
+	background:#222;
 	overflow:hidden;
+	z-index:20;
 }
 .the-sessions {
 	width:10000px;

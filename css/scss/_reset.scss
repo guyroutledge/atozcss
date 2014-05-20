@@ -34,7 +34,6 @@ a {
 	-webkit-transition:0.3s;
 	        transition:0.3s;
 }
-a:visited { color:$color-link; }
 a:hover { color:$color-link-hover; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
