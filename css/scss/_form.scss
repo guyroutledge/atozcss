@@ -1,6 +1,10 @@
+.subscribe {
+	position:relative;
+	background:#000;
+	z-index:20;
+}
 .subscribe-form {
-	margin:4rem auto 0;
-	background:rgba(desaturate(darken($color-brand, 50%), 20%), 0.2);
+	margin:0 auto 0;
 
 	form {
 		@extend %container;
