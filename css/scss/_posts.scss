@@ -22,9 +22,9 @@
 .wistia_socialbar {
 	margin-top:1rem!important;
 }
-#wistia_12_requireEmail_text_below {
+[id*=requireEmail_text_below] {
 	font-size:20px!important;
-	font-style:none!important;
+	font-style:normal!important;
 }
 .episode-title {
 	@extend %h2;
