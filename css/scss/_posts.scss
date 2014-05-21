@@ -14,9 +14,17 @@
 }
 .episode-video {
 	margin:$font-margin-bottom 0;
+
+	input[type="email"] {
+		color:#333;
+	}
 }
 .wistia_socialbar {
 	margin-top:1rem!important;
+}
+#wistia_12_requireEmail_text_below {
+	font-size:20px!important;
+	font-style:none!important;
 }
 .episode-title {
 	@extend %h2;
@@ -141,3 +149,4 @@
 		top:0.25em;
 	}
 }
+
