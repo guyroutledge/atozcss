@@ -185,7 +185,7 @@ Now everything works as expected.
 ## Outro
 
 A transcript and code snippets for this video can be found in the
-shownotes at [atozcss.com/a](atozcss.com/a)
+shownotes at [atozcss.com/a](http://www.atozcss.com/a)
 
 If you have any questions, feedback or comments, please tweet me
 [@guyroutledge](http://www.twitter.com/guyroutledge) or drop me an email
