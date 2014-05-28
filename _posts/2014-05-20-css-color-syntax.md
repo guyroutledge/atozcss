@@ -2,7 +2,7 @@
 layout: post_page
 title: Color
 alias: /c
-wistiaId: qmw1dqzbd4
+videoId: S-mc4vHFZrM
 videoLength: 6 minutes 22 seconds
 excerpt: >
   The web would be a pretty dull place without a splash of colour.
