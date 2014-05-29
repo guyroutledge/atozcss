@@ -3,7 +3,7 @@ layout: post_page
 title: Display
 alias: /d
 date: 2014-05-27
-videoId: ZrOlTXgBgq8
+wistiaId: kgrhaeh5o3
 videoLength: 6 minutes 23 seconds
 excerpt: >
   How elements take up space on the page is controlled by their display.

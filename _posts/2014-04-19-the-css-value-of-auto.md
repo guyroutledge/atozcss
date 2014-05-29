@@ -2,7 +2,7 @@
 layout: post_page
 title: Auto
 alias: /a
-videoId: ZvqJJpHETbc
+wistiaId: vg84pyi0rg
 videoLength: 5 minutes 25 seconds
 excerpt: >
   Auto a CSS value that has a number of uses.  It’s the default value

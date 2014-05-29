@@ -1,6 +1,16 @@
-{% if post.videoId %}
-	<iframe width="560" height="315" src="//www.youtube.com/embed/{{ post.videoId }}?rel=0" frameborder="0" allowfullscreen></iframe>
+{% if post.wistiaId %}
+	<div id="wistia_{{ post.wistiaId }}" class="wistia_embed episode-video" style="width:640px;height:360px;">&nbsp;</div>
+	<script>
+		wistiaEmbed = Wistia.embed("{{ post.wistiaId }}", {
+			videoFoam: true
+		});
+	</script>
 {% endif %}
-{% if page.videoId %}
-	<iframe width="560" height="315" src="//www.youtube.com/embed/{{ page.videoId }}?rel=0" frameborder="0" allowfullscreen></iframe>
+{% if page.wistiaId %}
+	<div id="wistia_{{ page.wistiaId }}" class="wistia_embed episode-video" style="width:640px;height:360px;">&nbsp;</div>
+	<script>
+		wistiaEmbed = Wistia.embed("{{ page.wistiaId }}", {
+			videoFoam: true
+		});
+	</script>
 {% endif %}
