@@ -4,15 +4,19 @@ title: All Episodes
 permalink: /episodes/index.html
 ---
 
-<h1 class="page-title">{{ page.title }}</h1>
-<ul class="episodes">
-	{% for post in site.posts %}
+<div class="site-container-inner">
 
-		<li>
-			{% include archive-post.html %}
-		</li>
+	<h1 class="page-title">{{ page.title }}</h1>
+	<ul class="episodes">
+		{% for post in site.posts %}
 
-	{% endfor %}
-</ul>
+			<li>
+				{% include archive-post.html %}
+			</li>
 
-{% include episodes-list.html %}
+		{% endfor %}
+	</ul>
+
+	{% include episodes-list.html %}
+
+</div>

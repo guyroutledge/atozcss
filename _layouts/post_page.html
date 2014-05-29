@@ -4,47 +4,52 @@ layout: default
 
 <article class="episode">
 
-	<h1>
-		{{page.title}}
-	</h1>
-	<p class="episode-meta">Posted on: {{ page.date | date: "%d %B %Y" }} </p>
-
+	<div class="site-container-inner">
+		<h1>{{page.title}}</h1>
+		<p class="episode-meta">Posted on: {{ page.date | date: "%d %B %Y" }} </p>
+	</div>
 	<div class="episode-content">
 		{% include video.html %}
 
-		<section>
-			<input type="checkbox" id="summary" checked>
-			<h1 class="episode-content-title">
-				<label for="summary">Summary</label>
-			</h1>
-			<div class="episode-accordion">
-				{{ page.summary | markdownify }}
-			</div>
-		</section>
-		<section>
-			<input type="checkbox" id="transcript">
-			<h1 class="episode-content-title">
-				<label for="transcript">Transcript</label>
-			</h1>
-			<div class="episode-accordion">
-				{{ content }}
-			</div>
-		</section>
+		<div class="site-container-inner">
+			<section>
+				<input type="checkbox" id="summary" checked>
+				<h1 class="episode-content-title">
+					<label for="summary">Summary</label>
+				</h1>
+				<div class="episode-accordion">
+					{{ page.summary | markdownify }}
+				</div>
+			</section>
+			<section>
+				<input type="checkbox" id="transcript">
+				<h1 class="episode-content-title">
+					<label for="transcript">Transcript</label>
+				</h1>
+				<div class="episode-accordion">
+					{{ content }}
+				</div>
+			</section>
+		</div>
 	</div>
 
-	<nav class="episode-nav">
-		{% if page.previous %}
-			<a rel="prev" class="episode-nav-prev" href="{{ page.previous.url }}">
-				← {{ page.previous.title }}
-			</a>
-		{% endif %}
-		{% if page.next %}
-			<a rel="next" class="episode-nav-next" href="{{ page.next.url }}">
-				{{ page.next.title }} →
-			</a>
-		{% endif %}
-	</nav>
+	<div class="site-container-inner">
+		<nav class="episode-nav">
+			{% if page.previous %}
+				<a rel="prev" class="episode-nav-prev" href="{{ page.previous.url }}">
+					← {{ page.previous.title }}
+				</a>
+			{% endif %}
+			{% if page.next %}
+				<a rel="next" class="episode-nav-next" href="{{ page.next.url }}">
+					{{ page.next.title }} →
+				</a>
+			{% endif %}
+		</nav>
+	</div>
 
 </article>
 
-{% include git-tip.html %}
+<div class="site-container-inner">
+	{% include git-tip.html %}
+</div>

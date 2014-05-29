@@ -5,17 +5,24 @@ title: Home
 
 <section class="episode-featured">
 
-	<h1 class="home-title">This Week&rsquo;s Episode</h1>
+	<div class="site-container-inner">
+		<h1 class="home-title">This Week&rsquo;s Episode</h1>
+	</div>
 
 	{% for post in site.posts | limit: 1 %}
 
 		{% include video.html %}
-		{% include archive-post.html %}
+
+		<div class="site-container-inner">
+			{% include archive-post.html %}
+		</div>
 
 	{% endfor %}
 
 </section>
 
-{% include git-tip.html %}
+<div class="site-container-inner">
+	{% include git-tip.html %}
 
-{% include episodes-list.html %}
+	{% include episodes-list.html %}
+</div>

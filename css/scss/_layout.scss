@@ -3,12 +3,19 @@
 //**************************
 
 %container {
-	max-width:60rem;
 	margin-left:auto;
 	margin-right:auto;
 	padding-left:2rem;
 	padding-right:2rem;
 }
+%container {
+	max-width:90rem;
+}
+.site-container-inner {
+	@extend %container;
+	max-width:60rem;
+}
+
 .site-header {
 	margin-bottom:$font-margin-bottom;
 	text-align:center;
@@ -49,7 +56,7 @@
 	margin:2rem 0 0;
 
 	#twitter-widget-0 {
-		width:85px!important;
+		width:95px!important;
 	}
 }
 
@@ -60,6 +67,7 @@
 .home-title {
 	line-height:1.1;
 }
+
 
 //*************************
 // $$ About Page
@@ -76,18 +84,22 @@
 	}
 }
 
+
 //*************************
 // $$ Subscribe
 //**************************
 
 .subscribe-icons {
 	position:fixed;
-	top:265px;
+	top:350px;
 	left:50%;
 
 	width:14rem;
-	margin-left:-48rem;
+	margin-left:-57rem;
 	text-align:center;
+
+	-webkit-transition:0.5s;
+			transition:0.5s;
 
 	opacity:0;
 	z-index:0;
@@ -97,8 +109,8 @@
 	}
 	img {
 		width:60px;
-		-webkit-transition:0.5s;
-				transition:0.5s;
+		-webkit-transition:0.3s;
+				transition:0.3s;
 	}
 
 	h2 {
@@ -107,7 +119,7 @@
 		line-height:1em;
 	}
 
-	@media screen and (min-width:60.3125em) {
+	@media screen and (min-width:66.875em) {
 		opacity:1;
 	}
 }
@@ -125,4 +137,5 @@
 	color:#333;
 	margin:$font-margin-bottom 0;
 }
+
 
