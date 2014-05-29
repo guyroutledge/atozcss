@@ -7,6 +7,9 @@ title: Home
 
 	<div class="site-container-inner">
 		<h1 class="home-title">This Week&rsquo;s Episode</h1>
+		{% for post in site.posts | limit: 1 %}
+			<p class="episode-meta">Posted on: {{ post.date | date: "%d %B %Y" }} </p>
+		{% endfor %}
 	</div>
 
 	{% for post in site.posts | limit: 1 %}

@@ -91,7 +91,7 @@
 
 .subscribe-icons {
 	position:fixed;
-	top:350px;
+	top:265px;
 	left:50%;
 
 	width:14rem;
@@ -123,7 +123,7 @@
 		opacity:1;
 	}
 }
-.subscribe-itunes-img {
+.subscribe-img {
 	float:left;
 	width:90px;
 	margin-right:2rem;
@@ -132,8 +132,8 @@
 .subscribe-button-container {
 	overflow:hidden;
 }
-.button-itunes {
-	float:right;
+.button-subscribe {
+	float:left;
 	color:#333;
 	margin:$font-margin-bottom 0;
 }
