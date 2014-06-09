@@ -13,21 +13,21 @@ summary: |
 
 ID is a CSS selector that allows the styling of a single unique element.
 
-There use in CSS is common and often controversial.
+Their use in CSS is common and often a little controversial.
 
 I personally avoid ID for styling things in CSS but I’m not going to
 force my personal preferences on you.
 
-In this video, I will outline some of the reasons why I prefer `class`
-over `ID`, how CSS specificity works and some tips for writing more
-modular and reusable code.
+In this video, I will outline some of the reasons why I prefer the
+`class` selector over `ID`, how CSS specificity works and some tips for
+writing more modular and reusable code.
 
 ## Syntax
 
 Let’s start with the basics and look at how ID can be used to select an
 element in CSS.
 
-Given this series of `divs`, if I wanted the third on to be a feature
+Given this series of `divs`, if I wanted the third one to be a feature
 box, I could add an `id` attribute to the HTML as follows. This is a
 unique identifier, a bit like your passport number or social security
 number and there can be only one with this value on any given page.
@@ -77,28 +77,74 @@ option of using it again.
 Thinking in reusable blocks can also help you break down lots of CSS
 into smaller chunks that have more likelihood of being reused. 
 
+To make your code more modular, consider breaking things down into
+separate classes for structure and look.
+
+We could have a reusable button component with the following structural
+styles:
+
+{% highlight css %}
+.button {
+	display:inline-block;
+	margin:1em 0;
+	padding:0.5em 1.5em;
+
+	font-size:1em;
+	text-align:center;
+}
+{% endhighlight %}
+
+We could then create a series of modifier classes that allow us to
+create a range of different buttons for use throughout a project.
+
+{% highlight css %}
+.button-large {
+	font-size:2em;
+}
+.button-rounded {
+	border-radius:1em;
+}
+.button-confirm {
+	color:#333;
+	background:lightgreen;
+	border:1px solid darkgreen;
+}
+.button-cancel {
+	color:#fff;
+	background:crimson;
+	border:1px solid darkred;
+}
+{% endhighlight %}
+
+These modifier classes can then be added to the markup as needed to
+build the whole component up of many smaller pieces.
+
+{% highlight html %}
+<a href="#" class="button button-large button-confirm">OK?</a>
+{% endhighlight %}
+
 ### Specificity
 
-Specificity is a complex concept but it’s important to gasp in order to
-understand what styles get applied and when.
+Specificity determines what styles get applied and when.
 
 When writing CSS, things that come further down the stylesheet tend to
-override things above them.
+override things that have been declared above them.
 
 {% highlight css %}
 .box p { background:black; color:white; }
 .box p { background:white; color:black; }
 {% endhighlight %}
 
-The second set of styles override the first. What color will the box be
-in this snippet?
+The second set of styles override the first. 
+
+What color text will the box have in this snippet?
 
 {% highlight css %}
 #box p { background:black; color:white; }
 .box p { background:black; color:red; }
 {% endhighlight %}
 
-The text will be *white* because the although the class selector comes
+The text will be *white* because although the class selector comes
 after the ID selector, the ID is a more *powerful* selector.
 
 How about now?
@@ -118,7 +164,7 @@ Check out these demos to see for yourself:
 [http://jsbin.com/obeliz/1/edit](http://jsbin.com/obeliz/1/edit)
 
 Regardless of this complex technicality, it should be clear that
-overriding an ID takes a lot of work and it’s due to how specificity is
+overriding an ID takes a lot of work. This is due to how specificity is
 actually calculated.
 
 ## Calculating specificity
@@ -133,10 +179,10 @@ header ul#main-nav li .sub-menu li.child a:hover { }
 This will style the hover states of any links in a sub-menu of a site’s
 main navigation. Yuck.
 
-To calculate the specificity of this selector - ie. what we would need
-to concoct to override these styles somewhere else in the stylesheet
-- we need to add up all the style attributes, id selectors, classes and
-pseudo classes and elements.
+To calculate the specificity of this selector - ie. what we would have to 
+concoct to override these styles somewhere else in the stylesheet
+- we need to count all the style attributes, id selectors, classes and
+pseudo classes and elements to create a 4-figure number.
 
 There are no style attributes here. So the first number is 0.
 
@@ -168,10 +214,10 @@ And had the same visual result with a specificity of `0,0,2,1` which
 would be much easier to deal with if needing to be overwritten at
 a later stage.
 
-I like to keep my specificity as low as possible and favour classes
-wherever possible; it reduces dependency on certain markup structure and
-allows things to be easily overwritten with another single class
-selector if needs be.
+I like to keep my specificity low and favour classes wherever
+possible; it reduces dependency on certain markup structure and allows
+things to be easily overwritten with another single class selector if
+needs be.
 
 This approach of avoiding `ID` works for me, but you’re preference might
 differ. I’d encourage you to try this approach, but only as part of
@@ -188,7 +234,7 @@ from AtoZ CSS in a number of ways. Head to
 If you find these videos at all useful and want to help keep them free
 forever, donations are more than welcome!
 
-If you have any questions of comments, you can tweet me
+If you have any questions or comments, you can tweet me
 [@guyroutledge](http://www.twitter.com/guyroutledge) or
 drop me an email.
 
