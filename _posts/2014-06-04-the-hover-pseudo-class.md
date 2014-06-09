@@ -57,6 +57,7 @@ stylesheet that will set sensible defaults for an entire project.
 
 {% highlight css %}
 a { color:blue; }
+a:hover { color:lightblue; }
 a:visited { color:darkblue; }
 a:focus { outline:1px dotted grey; }
 a:active { color:lightblue; }
