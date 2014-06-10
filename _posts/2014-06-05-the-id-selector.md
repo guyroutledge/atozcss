@@ -33,10 +33,10 @@ unique identifier, a bit like your passport number or social security
 number and there can be only one with this value on any given page.
 
 {% highlight html %}
-<div class="box">lorem ipsum</div>
-<div class="box">lorem ipsum</div>
-<div id="feature" class="box">lorem ipsum</div>
-<div class="box">lorem ipsum</div>
+<div>lorem ipsum</div>
+<div>lorem ipsum</div>
+<div id="feature-box" class="box">lorem ipsum</div>
+<div>lorem ipsum</div>
 {% endhighlight %}
 
 With the `id` attribute added in the markup, this can be selected in CSS
@@ -44,7 +44,7 @@ using the hash symbol which outside of the UK is sometimes call the
 pound sign.
 
 {% highlight css %}
-#feature {
+#feature-box {
 	/*styles*/
 }
 {% endhighlight %}
@@ -131,8 +131,8 @@ When writing CSS, things that come further down the stylesheet tend to
 override things that have been declared above them.
 
 {% highlight css %}
-.box p { background:black; color:white; }
-.box p { background:white; color:black; }
+.box p { color:white; }
+.box p { color:black; }
 {% endhighlight %}
 
 The second set of styles override the first. 
@@ -140,8 +140,8 @@ The second set of styles override the first.
 What color text will the box have in this snippet?
 
 {% highlight css %}
-#box p { background:black; color:white; }
-.box p { background:black; color:red; }
+#box p { color:white; }
+.box p { color:red; }
 {% endhighlight %}
 
 The text will be *white* because although the class selector comes
@@ -150,8 +150,8 @@ after the ID selector, the ID is a more *powerful* selector.
 How about now?
 
 {% highlight css %}
-#box p { background:black; color:white; }
-body section div.box p { background:black; color:red; }
+#box p { color:white; }
+body h1 + div.box p { color:green; }
 {% endhighlight %}
 
 The text is still white. The ID selector is so powerful you would need
