@@ -4,6 +4,7 @@ title: Auto
 alias: /a
 wistiaId: vg84pyi0rg
 videoLength: 5 minutes 25 seconds
+comments: true
 excerpt: >
   Auto a CSS value that has a number of uses.  It’s the default value
   for a lot of properties but can be used for horizontal centering and
