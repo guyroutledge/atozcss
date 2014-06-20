@@ -23,6 +23,7 @@ class Post < Thor
       post.puts "date: #{date}"
 	  post.puts "wistiaId: "
 	  post.puts "videoLength: ? minutes ? seconds"
+	  post.puts "comments: true"
 	  post.puts "excerpt: >"
 	  post.puts "  "
 	  post.puts "summary: |"

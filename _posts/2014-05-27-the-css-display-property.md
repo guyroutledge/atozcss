@@ -5,6 +5,7 @@ alias: /d
 date: 2014-05-27
 wistiaId: kgrhaeh5o3
 videoLength: 6 minutes 23 seconds
+comments: true
 excerpt: >
   How elements take up space on the page is controlled by their display.
 

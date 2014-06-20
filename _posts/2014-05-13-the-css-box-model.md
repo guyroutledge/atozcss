@@ -4,6 +4,7 @@ title: Box Model
 alias: /b
 wistiaId: koja055lr9
 videoLength: 4 minutes 31 seconds
+comments: true
 excerpt: >
   Every element on a web page is a box and we can describe the 
   characteristics of these boxes using the CSS Box Model. 

@@ -2,6 +2,7 @@
 name: A to Z CSS
 description: Learn CSS and sharpen your front-end skills with this totally free 26-part video series
 url: www.atozcss.com
+disqusName: atozcss
 
 permalink: /:categories/:title
 links:
