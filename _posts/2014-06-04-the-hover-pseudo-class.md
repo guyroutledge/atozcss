@@ -3,12 +3,25 @@ layout: post_page
 title: Hover
 alias: /h
 date: 2014-06-04
-wistiaId: 
-videoLength: x minutes x seconds
+wistiaId: ig3axa1zs3
+videoLength: 6 minutes 19 seconds
 excerpt: >
-  
+  Hover is a pseudo class and can be used to style state. The hover state is 
+  active when a users mouse enters the bounding box of an element and is 
+  inactive when the users mouse leaves it. In this episode, we’ll look at 
+  the :hover pseudo class on text links and create a CSS dropdown menu 
+  triggered by hover and enhanced with jQuery for touch devices.
 summary: |
-  
+  We can enhance user experience by styling elements that are being
+  interacted with under different states like `:hover`, `:focus` and
+  `:active`. It's important to bear in mind that some users don't have
+  a mouse and `:hover` on touch devices can be a bit flaky. 
+
+  When dealing with touch devices, key bits of info shouldn't be hidden
+  behind hover interactions but if this can't be avoided, hover events
+  can be swapped out for clicks using JavaScript. For a demo of doing
+  that for a dropdown nav, check out 
+  [this demo on Codepen](http://codepen.io/guyroutledge/pen/cJmeH).
 ---
 
 Hover is a pseudo class and can be used to style state.
