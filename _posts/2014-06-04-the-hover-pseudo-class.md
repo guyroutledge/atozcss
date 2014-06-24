@@ -2,9 +2,10 @@
 layout: post_page
 title: Hover
 alias: /h
-date: 2014-06-04
+date: 2014-06-24
 wistiaId: ig3axa1zs3
 videoLength: 6 minutes 19 seconds
+comments: true
 excerpt: >
   Hover is a pseudo class and can be used to style state. The hover state is 
   active when a users mouse enters the bounding box of an element and is 

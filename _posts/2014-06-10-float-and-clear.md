@@ -5,6 +5,7 @@ alias: /f
 date: 2014-06-10
 wistiaId: t8ekz6iwcv
 videoLength: 6 minutes 35 seconds
+comments: true
 excerpt: >
   The float property is most commony used for page layout.
   However, the original purpose of float was to allow text to

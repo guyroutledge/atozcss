@@ -5,6 +5,7 @@ alias: /g
 date: 2014-06-17
 wistiaId: 9d4r1qiqe4
 videoLength: 5 minutes 19 seconds
+comments: true
 excerpt: >
   General sibling is a little known but very useful CSS selector.
   It allows the styling of an element that is a sibling of another.
