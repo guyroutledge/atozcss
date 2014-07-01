@@ -3,8 +3,8 @@ layout: post_page
 title: ID
 alias: /i
 date: 2014-07-01
-wistiaId: 
-videoLength: 7 minutes 40 seconds
+wistiaId: q9m9d0n2hl
+videoLength: 7 minutes 12 seconds
 excerpt: >
   ID is a CSS selector that allows the styling of a single unique element. 
   Their use in CSS is common and often a little controversial. In this 
@@ -13,8 +13,8 @@ excerpt: >
 summary: |
   ID is a CSS selector that allows the styling of a single unique element. 
   Their use in CSS is common and often a little controversial. In this 
-  video, I will outline some of the reasons why I prefer the `class`
-  selector over `ID`, how CSS specificity works. 
+  video, I will outline some of the reasons why I prefer the class
+  selector over ID, how CSS specificity works. 
 ---
 
 ID is a CSS selector that allows the styling of a single unique element.
@@ -160,17 +160,7 @@ How about now?
 body h1 + div.box p { color:green; }
 {% endhighlight %}
 
-The text is still white. The ID selector is so powerful you would need
-256 element selectors to change the color - and this is only because
-classes are stored as 8-bit strings and 256 maxes this out and adds to
-the ID count in most browsers.
-
-Check out these demos to see for yourself:
-[http://codepen.io/chriscoyier/pen/lzjqh](http://codepen.io/chriscoyier/pen/lzjqh)
-[http://jsbin.com/obeliz/1/edit](http://jsbin.com/obeliz/1/edit)
-
-Regardless of this complex technicality, it should be clear that
-overriding an ID takes a lot of work. This is due to how specificity is
+The text is still white. This is due to how specificity is
 actually calculated.
 
 ## Calculating specificity
