@@ -2,13 +2,19 @@
 layout: post_page
 title: ID
 alias: /i
-date: 2014-06-05
+date: 2014-07-01
 wistiaId: 
-videoLength: x minutes x seconds
+videoLength: 7 minutes 40 seconds
 excerpt: >
-  
+  ID is a CSS selector that allows the styling of a single unique element. 
+  Their use in CSS is common and often a little controversial. In this 
+  video, I will outline some of the reasons why I prefer the `class`
+  selector over `ID`, how CSS specificity works. 
 summary: |
-  
+  ID is a CSS selector that allows the styling of a single unique element. 
+  Their use in CSS is common and often a little controversial. In this 
+  video, I will outline some of the reasons why I prefer the `class`
+  selector over `ID`, how CSS specificity works. 
 ---
 
 ID is a CSS selector that allows the styling of a single unique element.
