@@ -11,20 +11,15 @@ summary: |
   
 ---
 
-Justify is one available option for the text align property.
+Justify is one available value for the text align property.
 
-It allows the formatting of text in a similar style often used in
-newspaper design.
-
-This style of text alignment spaces a line of text out so the left and
-right most edges of a paragraph align with the edge of their paragraph
-container.
+It allows the formatting of text in a style often used in newspaper
+design.
 
 In this epsiode, we’ll look at the 12 possible values for text-align,
-one of which is justify. Next we'll look at a good use case for
-justified text, using CSS columns and finally look at how
-`text-align:justify` can be used to create a floatless responsive grid
-system with just a few lines of code.
+one of which is justify, next we'll look at using justified text with
+CSS columns and finally look at how `justify` can be used to create
+a floatless responsive grid system with just a few lines of code.
 
 
 ## Text Align
@@ -60,7 +55,7 @@ has poor browser support but does work in Chrome.
 
 The `<string>` values allow alignment to be determined by an arbitrary
 string of text. This value is currently not supported in any browser so
-I wasn’t able to text it. The example on MDN sounds quite useful though,
+I wasn’t able to test it. The example on MDN sounds quite useful though,
 to align decimal values on the "." full-stop string.
 
 
@@ -108,7 +103,7 @@ I’ll create an unordered list with a class of "grid-container" with six
 list items to act as "grid-items". 
 
 I'll add a width, a background color and some padding to the list items
-to space them out a bit and set them to `display:inline-block` which is
+to space them out a bit. I'll also set them to `display:inline-block` which is
 required for them to be justified. To remove the spacing introduced by
 `inline-block`, I'll set the `font-size` of the grid container to zero
 and the `font-size` of the grid items to `1rem`.
@@ -124,7 +119,13 @@ its parent. Now the grid items space out correctly and reflow as the
 browser window changes size. 
 
 {% highlight css %}
+* {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
 ul { 
+	margin:0;
+	padding:0;
 	text-align: justify; 
 	font-size:0; 
 }
@@ -135,8 +136,8 @@ ul:after {
 }
 li { 
 	display:inline-block; 
-	width:48%; 
-	margin:0 0 4%; 
+	width:50%; 
+	margin:0 0 1em; 
 	padding:1em; 
 	background:#eee; 
 	font-size:1rem; 
@@ -151,3 +152,14 @@ elegant technique and one that might come in handy for a future project.
 
 
 ## Outro
+
+A transcript and code snippets for this video can be found in the
+shownotes at [atozcss.com/j](http://www.atozcss.com/j).
+
+If you have any questions or comments, you can tweet me
+[@guyroutledge](http://www.twitter.com/guyroutledge) or
+drop me an email.
+
+Cheers.
+
+
