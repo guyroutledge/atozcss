@@ -54,10 +54,10 @@ During the animation, the styles between keframes are automatically
 calculated by the browser - a process known as `tweening`. 
 
 Each keyframe is defined as a style block of CSS properties that will be
-applied to any element that uses that set of keyframes. 
+applied to any element that uses that `set` of keyframes. 
 
 {% highlight css %}
-@keyframes {
+@keyframes moveLeft {
 	from { left:0; }
 	to   { left:500px; }
 }
@@ -92,7 +92,7 @@ as needed:
 * `animation-duration` specified the time the animation lasts
 * `animation-delay` specifies any delay before the animation starts
 * `animation-iteration-count` specifies the number of times to repeat
-* `animation-direction` animations can play forwards (normal), in reverse or alternate back and forth
+* `animation-direction` specifies the direction; animations can play forwards (normal), in reverse or alternate back and forth
 * `animation-play-state` allows the animation to be paused and resumed
 * `animation-timing-function` determines an acceleration curve of how the animation plays between keyframes
 * `animation-fill-mode` determines how styles are applied before and after the animation
@@ -155,14 +155,13 @@ We can make the ball move across the screen by adding a second animation
 that animates the `left` property of the ball. These can be comma
 separated so they are both applied to the same element.
 
-To make it appear as though the ball slowly travels across the screen,
-we can increase the duration of its animation.
+To make it appear as though the ball bounces slowly across the screen,
+we can increase the duration of this second animation.
 
 {% highlight css %}
 @keyframes moveLeft {
-	0% { left:0; }
-	50% { left:50%; }
-	100% { left:100%; }
+	from { left:0; }
+	to   { left:100%; }
 }
 .ball {
 	animation: bounce 3s linear, moveLeft 12s linear infinite;
@@ -179,9 +178,6 @@ unprefixed but `-webkit` prefixes are needed everywhere else.
 
 A transcript and code snippets for this video can be found in the
 shownotes at [atozcss.com/k](http://www.atozcss.com/k).
-
-If you enjoy these videos and know someone else who might find them 
-useful, please let them know.
 
 If you have any questions or comments, you can tweet me
 [@guyroutledge](http://www.twitter.com/guyroutledge) or
