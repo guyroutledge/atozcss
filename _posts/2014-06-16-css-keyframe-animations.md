@@ -67,7 +67,7 @@ Given this set of keyframes, the starting keyframe of the animation will
 look like this; and the ending one will look like this.
 
 {% highlight css %}
-@keyframes {
+@keyframes grow {
 	0%   { font-size:20px; }
 	75%  { font-size:100px; }
 	100% { font-size:10px; }
