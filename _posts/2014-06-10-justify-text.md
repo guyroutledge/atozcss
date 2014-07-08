@@ -5,6 +5,7 @@ alias: /j
 date: 2014-07-08
 wistiaId: h307awvs6z
 videoLength: 6 minutes 01 seconds
+comments: true
 excerpt: >
   In this epsiode, we’ll look at the 12 possible values for text-align,
   one of which is justify, next we'll look at using justified text with
