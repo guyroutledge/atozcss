@@ -7,7 +7,7 @@ wistiaId: h307awvs6z
 videoLength: 6 minutes 01 seconds
 comments: true
 excerpt: >
-  In this epsiode, we’ll look at the 12 possible values for text-align,
+  In this episode, we’ll look at the 12 possible values for text-align,
   one of which is justify, next we'll look at using justified text with
   CSS columns and finally look at how justify can be used to create
   a floatless responsive grid system with just a few lines of code.
@@ -17,7 +17,7 @@ summary: |
   It allows the formatting of text in a style often used in newspaper
   design.
 
-  In this epsiode, we’ll look at the 12 possible values for text-align,
+  In this episode, we’ll look at the 12 possible values for text-align,
   one of which is justify, next we'll look at using justified text with
   CSS columns and finally look at how `justify` can be used to create
   a floatless responsive grid system with just a few lines of code.
@@ -27,7 +27,7 @@ Justify is one available value for the `text-align` property.
 It allows the formatting of text in a style often used in newspaper
 design.
 
-In this epsiode, we’ll look at the 12 possible values for text-align,
+In this episode, we’ll look at the 12 possible values for text-align,
 one of which is justify, next we'll look at using justified text with
 CSS columns and finally look at how `justify` can be used to create
 a floatless responsive grid system with just a few lines of code.
@@ -72,7 +72,7 @@ to align decimal values on the "." full-stop string.
 
 ## CSS Columns
 
-Leaving behind this quagmire of browser compatability and some rather
+Leaving behind this quagmire of browser compatibility and some rather
 niche uses for `text-align`, let’s look at something more visual where
 `text-align:justify` becomes very useful.
 
@@ -124,7 +124,7 @@ grid items will be equally spaced out, we need to create a full-width
 "hidden" element that will determine the space in which to spread out the
 items.
 
-Using an `:after` pseudo element, a bit like the approch used in
+Using an `:after` pseudo element, a bit like the approach used in
 clearfix, we can force the width of the grid container to be as wide as
 its parent. Now the grid items space out correctly and reflow as the
 browser window changes size. 
@@ -158,7 +158,7 @@ li {
 
 Changing the width of the list items, allows you to easily create
 different numbers of columns without doing lots of calculations for
-margins and gutter widths. I think this is a fantasticly simple and
+margins and gutter widths. I think this is a fantastically simple and
 elegant technique and one that might come in handy for a future project.
 
 
