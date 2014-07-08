@@ -2,16 +2,26 @@
 layout: post_page
 title: "Justify"
 alias: /j
-date: 2014-06-10
-wistiaId: 
-videoLength: x minutes x seconds
+date: 2014-07-08
+wistiaId: h307awvs6z
+videoLength: 6 minutes 01 seconds
 excerpt: >
-  
+  In this epsiode, we’ll look at the 12 possible values for text-align,
+  one of which is justify, next we'll look at using justified text with
+  CSS columns and finally look at how justify can be used to create
+  a floatless responsive grid system with just a few lines of code.
 summary: |
-  
----
+  Justify is one available value for the `text-align` property.
 
-Justify is one available value for the text align property.
+  It allows the formatting of text in a style often used in newspaper
+  design.
+
+  In this epsiode, we’ll look at the 12 possible values for text-align,
+  one of which is justify, next we'll look at using justified text with
+  CSS columns and finally look at how `justify` can be used to create
+  a floatless responsive grid system with just a few lines of code.
+---
+Justify is one available value for the `text-align` property.
 
 It allows the formatting of text in a style often used in newspaper
 design.
@@ -39,9 +49,9 @@ others too.
 * end
 * start end
 * match-parent
-* <string>
-* start <string>
-* <string> end
+* `<string>`
+* start `<string>`
+* `<string>` end
 * inherit
 
 The `start` and `end` keywords are similar to `left` and `right` but
