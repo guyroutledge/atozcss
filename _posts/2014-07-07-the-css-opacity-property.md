@@ -30,10 +30,10 @@ a img {
 }
 {% endhighlight %}
 
-I have a linked image here with `opacity` set to 1. This is the default and
-makes the image completely opaque. Setting a value of 0 makes it
-completely transparent. Setting any value between 0 and 1 makes it
-semi-transparent.
+I have a linked image here with `opacity` set to 1. This is the default
+and makes the image completely opaque. Setting a value of 0 makes it
+completely transparent but does maintain its position in the document.
+Setting any value between 0 and 1 makes it semi-transparent.
 
 When setting opacity to anything other than 1, a new stacking context is
 created which places the semi-transparent element on a new layer. As
