@@ -12,8 +12,8 @@ summary: |
   
 ---
 
-Pseudo elements are elements on the page that didn't originate from the
-HTML document.
+Pseudo elements are elements on the page that aren't found in the HTML
+code.
 
 They can be manipulated with any CSS that would be applied to any other
 element.
@@ -24,7 +24,7 @@ generate content on the page from CSS and have many potential use cases.
 In this episode we'll learn about:
 
 * The five different pseudo elements
-* Generating content like text, images and counters from CSS
+* Generating content like text, images attribute values and counters from CSS
 * And how to make complex shapes with minimal markup
 
 ## Pseudo Elements
@@ -46,7 +46,7 @@ true when the text reflows. I can create a drop cap by styling the
 `:first-letter` with float and a larger font-size. And I can change the
 colour of selected text with `:selection`.
 
-I can add large double quotes before and after the blockquote with the
+I can add large quotation marks before and after the blockquote with the
 `:before` and `:after` pseudo elements. The text gets generated from the
 `content` property and can then be styled with CSS to get the desired
 effect.
