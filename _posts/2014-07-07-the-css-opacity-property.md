@@ -41,7 +41,7 @@ such, the background on the element beneath is partially visible.
 
 I like to use this effect to give some visual feedback to uses hovering
 over images that are links. Opacity is a property that can be animated,
-by adding a transition to the image, the effect is a nice subtle fade.
+and by adding a transition to the image, the effect is a nice subtle fade.
 
 {% highlight css %}
 a img { transition:0.3s; }
@@ -119,13 +119,12 @@ To set up the keyframes for each other the other images, we could copy
 and paste the block of code we've already created but a tidier way of
 doing it would be to use the `animation-delay` property to offset when
 each animation starts by 1/5 of the total duration - this is the time
-that the first slide will be visible for before it starts to fade out.
+that the first slide will be visible before it starts to fade out.
 
 Duplicating the animation declaration for slides 2-5 and increasing the
 `animation-delay` value in 4 second increments, completes the effect.
 
-Not bad for 25 lines of CSS, eh?
-
+Not bad for a few lines of CSS, eh?
 
 ## Outro
 
