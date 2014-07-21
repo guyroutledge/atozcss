@@ -33,7 +33,7 @@ devices or when certain characteristics of the device are true.
 For example, we might want to remove the header and footer when printing
 a web page.
 
-Using the query `print` will apply the contents of the at-rule to
+Using the query `print` will restrict the styles of the at-rule to
 the `print` media type.
 
 {% highlight css %}
@@ -77,8 +77,8 @@ body {
 
 In this example the initial `font-size` for all devices is `0.75em` but if
 the device has a minimum width of `600px` (ie. is 600px or wider) then the
-`font-size` will be increased to `1em`. I'll increase the `font-size` to
-`3em` so the change is more obvious.
+`font-size` will be increased to `1em`. I'll increase the `font-size`
+in the example to `3em` so the change is more obvious.
 
 There are a number of things we can query about the device:
 
@@ -94,6 +94,8 @@ There are a number of things we can query about the device:
 * color-index | min-color-index | max-color-index
 * monochrome | min-monochrome | max-monochrome
 * scan | grid
+
+Many of these have a corresponding `min` and `max` variety as well.
 
 I use `min-width` and `max-width` a lot, `orientation`, `aspect-ratio`
 and `resolution` occasionally and `min-height` and `max-height` from
@@ -140,7 +142,7 @@ have to write that much CSS to change the design for multiple devices.
 
 As `@media` queries allow the conditional styling when certain device
 characteristics are true, we can use them to control the styling of
-a page across a range of different devices or device sizes at least.
+a page across a range of different devices or device sizes.
 
 We can control fine details or big-picture layout. It's common for
 websites viewed on a large screen to have multiple columns of text and
