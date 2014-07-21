@@ -17,6 +17,9 @@ The `@media` rule allows conditional styling of elements.
 The conditions can be based on the type of media or known
 characteristics of the device being used.
 
+Combining media queries with fluid layout and flexible images, allows us
+to implement responsive web design.
+
 In this episdode we'll look at how `@media` queries can be used to
 change the styling of websites based on querying information about the
 device and two approaches for tackling page layout in responsive
@@ -51,9 +54,9 @@ Other media types include
 * tty
 * tv
 
-The only two media types I tend to use are `print` and `screen` which is
-a bit of a catch-all for any screen-based device including mobile, tv
-and projection of a computer monitor.
+The only two media types I use are `print` and `screen`, which is
+a bit of a catch-all for any screen-based device including mobile
+devices, tv and projection.
 
 ### Device Queries
 
@@ -92,16 +95,21 @@ There are a number of things we can query about the device:
 * monochrome | min-monochrome | max-monochrome
 * scan | grid
 
-I use `min-width` and `max-width` a lot, `orientation` and `resolution`
-occasionally and `min-height` and `max-height` from time to time. I've never
-used the others as far as I can remember.
+I use `min-width` and `max-width` a lot, `orientation`, `aspect-ratio`
+and `resolution` occasionally and `min-height` and `max-height` from
+time to time. I've never used the others as far as I can remember.
 
 Width is by far the most common thing to query about the device, but as
-the reported width and device width are often different, it's always
-wise to add the following `meta` tag to your HTML which will make them
+the reported width and device width are often different, it's necessary
+to add the following `meta` tag to your HTML which will make them
 equivalent:
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+The `initial-scale` is set to prevent devices zooming out to fit the
+whole site in the viewport. It's possible to set `maximum-scale=1` but
+then this removes the ability for a user to zoom the page in which isn't
+good user experience.
 
 ## Multiple queries
 
@@ -172,8 +180,8 @@ change the `width` of each box to 25% instead.
 }
 {% endhighlight %}
 
-Because of how CSS style cascade, we don't need to specify `float:left`
-again. For more info on `float` check out Episode 6.
+Because of how CSS styles cascade, we don't need to specify `float:left`
+again.
 
 This approach of starting with the small screen and adding styles to
 make a more complex layout is known as Mobile First, as coined in [the
@@ -191,3 +199,16 @@ layout on to a tiny screen.
 
 It took me a while to get used to mobile first, but it's definitely my
 go-to approach these days - although I'd love to know what you think...
+
+## Outro
+
+A transcript and code snippets for this video can be found in the
+shownotes at [atozcss.com/m](http://www.atozcss.com/m).
+
+If you have any questions please leave a comment or, you can tweet me
+[@guyroutledge](http://www.twitter.com/guyroutledge) or drop me an
+email.
+
+Cheers.
+
+
