@@ -1,6 +1,6 @@
 ---
 layout: post_page
-title: ":nth-child and :nth-of-type pseudo classes"
+title: ":nth-child"
 alias: /
 date: 2014-07-07
 wistiaId: 
@@ -18,9 +18,11 @@ expression.
 The syntax is quite different to most other aspects of CSS and can be
 a bit tricky to get your head around to begin with.
 
-In this episode we'll look at the various ways of using `:nth-child`,
-the slightly more flexible `:nth-of-type` selector as well as their
-counterparts selectors `:nth-last-child` and `:nth-last-of-type`.
+In this episode we'll look at 
+
+* the various ways of using `:nth-child`,
+* the slightly more flexible `:nth-of-type` selector 
+* and their counterparts selectors `:nth-last-child` and `:nth-last-of-type`.
 
 ## `:nth-child`
 
@@ -62,8 +64,7 @@ I have a unordered list, with 12 list items. Let's see how we can use
 </ul>
 {% endhighlight %}
 
-To select the third list-item, I could add a class to it in the HTML or
-use `li:nth-child(3)`.
+To select the third list-item, I could use `li:nth-child(3)`.
 
 To select all the even items, I can use `even` keyword.  Conversely,
 I can use `:nth-child(odd)` to select all the odd numbered items.
@@ -141,10 +142,20 @@ Something that often catches me out with `:nth-child` is that the
 selector just matches based on index of child elements and doesn't take
 the type of element into account.
 
-Let's look at the following markup for a snippet of content. I have
-a section with a heading and sub-heading and a series of paragraphs
-beneath. I want to make the first paragraph stand out a bit by
-increasing the `font-size` to `1.5em`.
+Let's look at the following markup for a snippet of content.
+
+{% highlight html %}
+<section>
+	<h1>lorem ipsum</h1>
+	<p>Aenean commodo ligula eget dolor. Vestibulum dapibus nunc ac
+	augue.</p>
+	<p>Nunc sed turpis. Donec posuere vulputate arcu.</p>
+</section>
+{% endhighlight %}
+
+I have a section with a heading and sub-heading and a series of
+paragraphs beneath. I want to make the first paragraph stand out a bit
+by increasing the `font-size` to `1.5em`.
 
 I might try `section p:first-child`, as I want to style the first
 paragraph in the section. But this doesn't work as the first child of
