@@ -3,13 +3,24 @@ layout: post_page
 title: "Line-height"
 alias: /l
 date: 2014-07-01
-wistiaId: 
-videoLength: x minutes x seconds
+wistiaId: fwtui3zjc3
+videoLength: 6 minutes 44 seconds
 comments: true
 excerpt: >
-  
+  The CSS `line-height` property acts in a similar way to leading in print
+  design.
+
+  It allows us to control the spacing between lines in paragraphs,
+  headings and other text elements.
+
+  Line-height can also be used as a base to create consistent vertical
+  rhythm and spacing throught an entire project.
 summary: |
-  
+  In this episode, we'll look at 
+
+  * the difference between `line-height` and leading 
+  * using `line-height` for vertical alignment and 
+  * using the value of `line-height` to set up site wide default spacing.
 ---
 
 The CSS `line-height` property acts in a similar way to leading in print
