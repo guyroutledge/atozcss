@@ -77,8 +77,7 @@ body {
 
 In this example the initial `font-size` for all devices is `0.75em` but if
 the device has a minimum width of `600px` (ie. is 600px or wider) then the
-`font-size` will be increased to `1em`. I'll increase the `font-size`
-in the example to `3em` so the change is more obvious.
+`font-size` will be increased to `1em`. 
 
 There are a number of things we can query about the device:
 
@@ -113,7 +112,7 @@ whole site in the viewport. It's possible to set `maximum-scale=1` but
 then this removes the ability for a user to zoom the page in which isn't
 good user experience.
 
-## Multiple queries
+## Combined queries
 
 It's possible to combine queries together using the `and` keyword:
 
