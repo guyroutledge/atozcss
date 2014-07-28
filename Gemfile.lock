@@ -16,6 +16,7 @@ GEM
     liquid (2.4.1)
     maruku (0.6.1)
       syntax (>= 1.0.0)
+    nokogiri (1.5.9)
     nokogiri (1.5.9-x86-mingw32)
     posix-spawn (0.3.6)
     pygments.rb (0.3.7)
@@ -23,9 +24,11 @@ GEM
       yajl-ruby (~> 1.1.0)
     sass (3.2.5)
     syntax (1.0.0)
+    yajl-ruby (1.1.0)
     yajl-ruby (1.1.0-x86-mingw32)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES

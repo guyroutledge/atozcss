@@ -2,8 +2,8 @@
 layout: post_page
 title: "Media"
 alias: /m
-date: 2014-07-01
-wistiaId: 
+date: 2014-07-29
+wistiaId: 85ensigs69
 videoLength: 6 minutes 59 seconds
 comments: true
 excerpt: >
