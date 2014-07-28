@@ -4,12 +4,22 @@ title: "Media"
 alias: /m
 date: 2014-07-01
 wistiaId: 
-videoLength: x minutes x seconds
+videoLength: 6 minutes 59 seconds
 comments: true
 excerpt: >
-  
+  The @media rule allows conditional styling of elements. The conditions
+  can be based on the type of media or known characteristics of the
+  device being used. Combining media queries with fluid layout and
+  flexible images, allows us to implement responsive web design.
 summary: |
-  
+  In this episdode we'll learn 
+
+  * how `@media` queries can be used to change the styling of websites based on querying information about the device and 
+  * two approaches for tackling page layout in responsive design.
+
+  ## Browser Suport
+
+  Media queries are supported in IE9+ and all modern browsers.
 ---
 
 The `@media` rule allows conditional styling of elements.
@@ -105,7 +115,9 @@ the reported width and device width are often different, it's necessary
 to add the following `meta` tag to your HTML which will make them
 equivalent:
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+{% highlight html %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% endhighlight %}
 
 The `initial-scale` is set to prevent devices zooming out to fit the
 whole site in the viewport. It's possible to set `maximum-scale=1` but
@@ -211,5 +223,3 @@ If you have any questions please leave a comment or, you can tweet me
 email.
 
 Cheers.
-
-
