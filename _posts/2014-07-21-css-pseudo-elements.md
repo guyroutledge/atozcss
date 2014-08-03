@@ -104,7 +104,7 @@ As each element on the page can have two "extra" elements and these can
 be styled however we like, it's possible to make all sorts of complex
 shapes.
 
-When thinking for an example to demonstrate, I can across a reference of
+When thinking for an example to demonstrate, I came across a reference of
 shapes on CSS-Tricks; one of them really stood out and I'm going to walk
 through the process of how it works. Let's make the Yin-Yang symbol with
 a single element.
