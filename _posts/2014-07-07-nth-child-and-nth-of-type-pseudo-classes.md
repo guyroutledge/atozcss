@@ -1,15 +1,21 @@
 ---
 layout: post_page
 title: ":nth-child"
-alias: /
+alias: /n
 date: 2014-07-07
-wistiaId: 
-videoLength: x minutes x seconds
+wistiaId: 8effled1nu
+videoLength: 7 minutes 25 seconds
 comments: true
 excerpt: >
-  
+  :nth-child is a pseudo class used to select elements by a numeric
+  expression. The syntax is quite different to most other aspects of CSS
+  and can be a bit tricky to get your head around to begin with.
 summary: |
-  
+  In this episode we'll look at 
+
+  * the various ways of using `:nth-child`,
+  * the slightly more flexible `:nth-of-type` selector 
+  * and their counterparts selectors `:nth-last-child` and `:nth-last-of-type`.
 ---
 
 `:nth-child` is a pseudo class used to select elements by a numeric
