@@ -2,7 +2,7 @@
 layout: post_page
 title: ":nth-child"
 alias: /n
-date: 2014-07-07
+date: 2014-08-05
 wistiaId: 8effled1nu
 videoLength: 7 minutes 25 seconds
 comments: true
