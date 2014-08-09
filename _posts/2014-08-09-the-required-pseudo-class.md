@@ -12,7 +12,7 @@ summary: |
   
 ---
 
-`:required` is another state based pseudo class that can be useful when
+`:required` is a state based pseudo class that can be useful when
 styling forms.
 
 Combined with `:valid` and `:invalid` we can have a lot of control over
@@ -21,17 +21,17 @@ JavaScript.
 
 In this episode we'll learn:
 
-* How to enable HTML5 form validation
-* Using `:required` and other form state-based pseudo classes
+* How to use HTML5 form validation
+* Using `:required` and other state-based pseudo classes
 * A creative technique for displaying validation messages to users
 
 ## HTML5 Validation
 
 When asking a user to fill out a form, it's very common to have certain
-fields marked as mandatory. These might be name, email address or credit
+mandatory fields. These might be for their name, email address or credit
 card details.
 
-In HTML5 we can leverage client-side validation without JavaScript as
+In HTML5 we can leverage client-side validation without JavaScript when
 the behaviour is built into modern browsers.
 
 To create a required field in a form, the `required` attribute is added
@@ -48,7 +48,7 @@ to the HTML.
 		<label for="email">Your email</label>
 	</div>
 	<div>
-		<input id="phone" type="tel">
+		<input id="phone" type="tel" pattern="[0-9]+">
 		<label for="phone">Your phone number</label>
 	</div>
 	<div>
@@ -92,7 +92,8 @@ follow a required input.
 
 If your design requires a different markup structure, with the label
 before the input, a similar effect could be achieved but you'd need to
-add a class to the parent container to get the right styling.
+add a class to the parent container of any required fields to add the
+desired styling.
 
 The opposite of "required" is "optional" and we can make this clear in
 our form by adding the text "optional" to any inputs that aren't
@@ -100,8 +101,9 @@ expicitly `required`. The `:optional` pseudo class has us covered here.
 
 {% highlight css %}
 input:optional ~ label:after { 
-	content:" (optional)";
-	color:#ccc; 
+	content:" (optional)"; 
+	display:block;
+	color:#888; 
 }
 {% endhighlight %}
 
@@ -110,19 +112,15 @@ to whether they have correctly filled in their details by styling the
 `:valid` and `:invalid` states.
 
 {% highlight css %}
-input[type="text"]:valid:focus,
-input[type="tel"]:valid:focus,
-input[type="email"]:valid:focus,
+input:not([type="submit"]):valid:focus,
 textarea:valid:focus {
-  box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
-  outline:0;
+	box-shadow: 0 0 10px rgba(101, 169, 10, 0.8);
+	outline:0;
 }
-input[type="text"]:invalid:focus,
-input[type="tel"]:invalid:focus,
-input[type="email"]:invalid:focus,
+input:not([type="submit"]):invalid:focus,
 textarea:invalid:focus {
-  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
-  outline:none;
+	box-shadow: 0 0 10px rgba(204, 63, 133, 0.8);
+	outline:none;
 }
 {% endhighlight %}
 
@@ -139,34 +137,55 @@ descriptive validation messages to our form.
 I've created a series of messages that will be injected via the
 `content` property of various combinations of valid and invalid fields.
 
+{% highlight css %}
+input[type="text"]:focus:invalid ~ label:before {
+	content:"Please enter your full name";
+}
+input[type="email"]:focus:invalid ~ label:before {
+	content:"Please enter a valid email";
+}
+input[type="tel"]:focus:invalid ~ label:before {
+	content:"Please only use numbers";
+}
+textarea:focus:invalid ~ label:before {
+	content:"Please enter a message";
+}
+input:focus:valid ~ label:before,
+textarea:focus:valid ~ label:before {
+	content:"Perfect, thanks!";
+}
+{% endhighlight %}
+
 These can then be animated into position when the user focuses the input
 and will change based on the valid or invalid state. 
 
 {% highlight css %}
-input:focus:invalid ~ label:before {
-	content:"Fill this in";
-	bottom:100%;
-	color:red;
-	opacity:1;
-}
-input:focus:valid ~ label:before {
-	content:"All good!";
-	bottom:100%;
-	color:green;
-	opacity:1;
-}
 label:before {
 	content:"";
 	position:absolute;
 	bottom:0;
 	right:0;
+	font-size:1rem;
 	opacity:0;
-	transition:all 0.2s 0.1s ease;
+	transition:0.2s;
+}
+input:focus ~ label:before,
+textarea:focus ~ label:before {
+	bottom:100%;
+	opacity:1;
+}
+input:focus:invalid ~ label:before,
+textarea:focus:invalid ~ label:before {
+	color:#cc3f85;
+}
+input:focus:valid ~ label:before,
+textarea:focus:valid ~ label:before {
+	color:#65a90a;
 }
 {% endhighlight %}
 
 Now when we fill out the form, we get a bit more info about each step of
-the process.
+the process which should be a nice UX boost to a fairly dull form.
 
 ## Outro
 
