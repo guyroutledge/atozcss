@@ -14,8 +14,8 @@ summary: |
 
 Single and double quotes appear frequently when writing code.
 
-However, any quoted text like the `q` element or when using apostropes
-we should use smart quotes.
+However, when displaying any quoted text like the `q` element or when
+using apostropes we should use smart quotes.
 
 These are often added by the browser, but we can control their
 appearance and the choice of character from CSS.
@@ -35,7 +35,7 @@ The same character is used at the beginning of the string as at the end.
 
 Smart quotes are the correct typographic choice for any quotes or
 apostrophes that are displayed in the browser. They are often curly or
-sloped and the start and end quotes are both different.
+sloped and the start and end quotes are often different.
 
 If your document uses the `utf-8` character set you can add smart quotes
 directly into the HTML with the following keyboard shortcuts on a Mac:
