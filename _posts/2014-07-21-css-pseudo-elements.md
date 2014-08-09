@@ -7,9 +7,21 @@ wistiaId:
 videoLength: x minutes x seconds
 comments: true
 excerpt: >
-  
+  Pseudo elements are elements on the page that aren't found in the HTML
+  code.  They can be manipulated with any CSS that would be applied to
+  any other element.  Two special pseudo elements - `:before` and
+  `:after` can be used to generate content on the page from CSS and have
+  many potential use cases.
 summary: |
-  
+  In this episode we'll learn about:
+
+  * The five different pseudo elements
+  * Generating content like text, images attribute values and counters from CSS
+  * And how to make complex shapes with minimal markup
+
+  ## Browser Support
+
+  Pseudo elements are supported in IE8+
 ---
 
 Pseudo elements are elements on the page that aren't found in the HTML
@@ -51,6 +63,48 @@ I can add large quotation marks before and after the blockquote with the
 `content` property and can then be styled with CSS to get the desired
 effect.
 
+{% highlight css %}
+blockquote {
+	position: relative;
+	border-left:5px solid #66d9ef;	
+	padding:1em 1em 1em 2em;
+}
+blockquote p:first-line {
+	color:#cc3f85;
+}
+blockquote p:first-letter {
+	float:left;
+	font-size:4em;
+	margin-right:0.5em;
+}
+::selection {
+	background:#cc3f85;
+	color:#fff;
+}
+blockquote:before {
+	content:"“";
+	position:absolute;
+	top:0;
+	left:-0.6em;
+	font-size:8em;
+	font-family: Georgia;
+}
+blockquote:after {
+	content:"”";
+	bottom:-0.25em;
+	right:-0.5em;
+	line-height: 1rem;
+	
+}
+blockquote:before,
+blockquote:after {
+	position:absolute;
+	color:#66d9ef;
+	font-size:8em;
+	font-family: Georgia;
+}
+{% endhighlight %}
+
 ## Generated Content
 
 Using `:before` and `:after` pseudo elements allows us to add all sorts
@@ -67,6 +121,15 @@ elements by creating an empty string for `content`. This gives more
 control over the image as all the usual properties like
 `background-position`, `background-repeat` and `background-size` become
 available.
+
+{% highlight css %}
+li:before {
+	content:url(star.png);
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 0.5em;
+}
+{% endhighlight %}
 
 It's possible to inject the value of an HTML attribute into the page
 using the `content` property too. When creating a print stylesheet,
@@ -98,6 +161,19 @@ between the counters to create a complex numbering system. A simplified
 form of this method could be used to control the styling of the numbers
 or bullets in lists.
 
+{% highlight css %}
+h2 { counter-increment: section; }
+ul { counter-reset: item; }
+li { counter-increment: item; }
+
+h2:before {
+	content: counter(section) " - ";
+}
+li:before {
+	content: counter(section) "." counter(item);
+}
+{% endhighlight %}
+
 ## Shapes
 
 As each element on the page can have two "extra" elements and these can
@@ -108,6 +184,38 @@ When thinking for an example to demonstrate, I came across a reference of
 shapes on CSS-Tricks; one of them really stood out and I'm going to walk
 through the process of how it works. Let's make the Yin-Yang symbol with
 a single element.
+
+{% highlight css %}
+.yin-yang {
+	position:relative;
+	width:200px;
+	height:200px;
+	border-style:solid;
+	border-color:black;
+	border-width:4px 4px 100px 4px;
+	background:#fff;
+	border-radius: 100%;
+}
+.yin-yang:before,
+.yin-yang:after {
+	content:"";
+	position:absolute;
+	top:50%;
+	border-radius: 100%;
+	width:24px;
+	height:24px;
+}
+.yin-yang:before {
+	background:white;
+	left:0;
+	border:36px solid black;
+}
+.yin-yang:after {
+	background:black;
+	left:50%;
+	border:36px solid white;
+}
+{% endhighlight %}
 
 Starting with box, this can be turned into a circle with
 `border-radius`. Two coloured semi-circles can be created by using
@@ -124,7 +232,7 @@ markup.
 ## Outro
 
 A transcript and code snippets for this video can be found in the
-shownotes at [atozcss.com/m](http://www.atozcss.com/m).
+shownotes at [atozcss.com/p](http://www.atozcss.com/p).
 
 If you have any questions please leave a comment or, you can tweet me
 [@guyroutledge](http://www.twitter.com/guyroutledge) or drop me an
