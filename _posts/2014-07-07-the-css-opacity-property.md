@@ -2,14 +2,27 @@
 layout: post_page
 title: "Opacity"
 alias: /o
-date: 2014-07-07
+date: 2014-08-11
 wistiaId: 
-videoLength: x minutes x seconds
+videoLength: 4 minutes 43 seconds
 comments: true
 excerpt: >
-  
+  The opacity property specifies how opaque an element is. It takes
+  a value ranging from 0 to 1 where 0 is completely transparent and 1 is
+  completely opaque. In this practical episode we'll look at how the
+  opacity property works - including some of it's downsides - and then
+  create a CSS only fading slideshow using `opacity` and what we learned
+  about `@keyframes` in Episode 11.
 summary: |
-  
+  The `opacity` property specifies how opaque an element is.
+
+  It takes a value ranging from 0 to 1 where 0 is completely transparent
+  and 1 is completely opaque.
+
+  In this practical episode we'll look at how the opacity property works,
+  including some of it's downsides - and then create a CSS only fading
+  slideshow using `opacity` and what we learned about `@keyframes` in
+  [Episode 11](http://www.atozcss.com/k).
 ---
 
 The `opacity` property specifies how opaque an element is.
@@ -20,7 +33,7 @@ and 1 is completely opaque.
 In this practical episode we'll look at how the opacity property works
 - including some of it's downsides - and then create a CSS only fading
 slideshow using `opacity` and what we learned about `@keyframes` in
-Episode 11.
+[Episode 11](http://www.atozcss.com/k).
 
 ## Opacity
 
