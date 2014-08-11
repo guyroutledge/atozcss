@@ -3,7 +3,7 @@ layout: post_page
 title: "Opacity"
 alias: /o
 date: 2014-08-11
-wistiaId: 
+wistiaId: 1lm6l98v58
 videoLength: 4 minutes 43 seconds
 comments: true
 excerpt: >
