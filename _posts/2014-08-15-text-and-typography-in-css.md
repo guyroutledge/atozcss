@@ -35,14 +35,14 @@ summary: |
   * `white-space`
 ---
 
-Text is everywhere. Without it, the web wouldn't be such a valuable
-resource.
+Text is everywhere. Without it, the web wouldn't be such a useful
+place.
 
 There are many different CSS properties for styling text and in this
 video we'll cover most of them in some way shape or form.
 
 There's quite a few, so we best get started! As there are so many things
-to cover, this episode will demo a selection but in part just act as an
+to cover, this episode will demo some of them, but in part just act as an
 overview of the tools in the box.
 
 ## Text Properties
@@ -132,7 +132,7 @@ size and line-height in a single line as follows:
 p { font: 12px/24px 'Avenir', 'Arial', sans-serif; }
 {% endhighlight %}
 
-## Other text properties
+## Other properties
 
 We've looked in some detail at the `text-` and `font-` properties but
 there's a handful of others that can also come in handy when styling
