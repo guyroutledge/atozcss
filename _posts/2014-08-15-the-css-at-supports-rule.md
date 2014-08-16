@@ -12,7 +12,7 @@ summary: |
   
 ---
 
-When using new or experimental CSS properties, it can be useful to know
+When using new or experimental CSS, it can be useful to know
 if the browser supports the features we're writing code for.
 
 Feature detection is often done in JavaScript with tools like Modernizr
@@ -43,7 +43,7 @@ In the previous episode we learned about the `:required` pseudo
 class, which is supported in IE10, Firefox, Chrome, Safari, Opera and
 Blackberry but not Opera Mini or iOS Safari or Android Browser.
 
-We also learned about `@keyframes` in episode 11 which is supported in
+We also learned about `@keyframes` in episode 11 which are supported in
 all current browsers apart from Opera Mini but is only available in IE
 from version 10 and is prefixed in Chrome, Safari, Opera, Android and
 Blackberry.
@@ -52,12 +52,12 @@ As you can see, the feature support landscape is vast and complex. This
 resource is amazing and an integral part of knowing what will work under
 what browsing conditions. It allows us to decide what features we may
 need to provide fallbacks for in case the required feature is key to the
-design or functionality of our sites.
+design or functionality of the site.
 
 ## The @supports rule
 
-`@supports` is a bit like the `@media` rule which we looked at in
-Episode 13.
+`@supports` is an at-rule, a bit like the `@media` queries which we looked
+at in Episode 13.
 
 These at-rules apply styles contained within them, only if a condition
 is true. 
@@ -86,7 +86,7 @@ use the following snippet:
 Here I'm using a visual cue of making the background of the page pink to
 show whether the feature is supported or not. We can see that the
 background is still black, so unprefixed animations are not supported in
-Chrome.
+Chrome, which is what I'm currently using here.
 
 {% highlight css %}
 @supports ( animation-name: test ) or ( -webkit-animation-name:test ) {
@@ -133,7 +133,7 @@ background if the feature is available.
 {% endhighlight %}
 
 You could argue that this is a little long winded and a much more common
-approach to this particular problem would be just just allow the `hsla`
+approach to this particular problem would be to just allow the `hsla`
 declaration to override the solid background as follows:
 
 {% highlight css %}
@@ -148,11 +148,22 @@ a lot of CSS if a certain feature was or wasn't supported, we'd need
 something more comprehensive.
 
 A good example would be something like flex-box which is a completely
-different layout model for creating complex UI components.
+different layout model for creating complex user interfaces.
 
 We could start with a float or position based layout as a good solid
 base, but then detect flex box with `@supports` and take advantage of
 all the features that new layout engine provides.
+
+Here I've made a an app-like header bar which shows the name of the view
+with back and forward buttons to the left and right. To get this effect,
+we can use a combination of absolute positioning and text-align center.
+
+However, with flexbox support, we can just set the nav container to
+`display:flex` and `justify-content` with `space-between` to equally
+space the three elements out.
+
+We could wrap the flex-box styles in an `@supports` rule and wrap the
+fallback styles with one for `not (display:flex)`.
 
 {% highlight css %}
 nav {
@@ -191,11 +202,14 @@ be removed.
 
 While I'm really looking forward to this feature gaining more traction,
 it's still a long way off being useful as the browser support for
-`@supports` itself is quite limited. In the meantime, I tend to use the
-Modernizr JavaScript library instead. This will add classes to the
-`html` element like `flexbox` if the feature is supported or
-`no-flexbox` if it's not. These can then be used in place of the
-`@supports` rule:
+`@supports` itself is quite limited. 
+
+In the meantime, I tend to use the Modernizr JavaScript library for
+feature detection instead.
+
+This will add classes to the `html` element like `flexbox` if the
+feature is supported or `no-flexbox` if it's not. These can then be used
+in place of the `@supports` rule:
 
 {% highlight css %}
 nav {
@@ -228,7 +242,7 @@ nav {
 {% endhighlight %}
 
 Feature detection and cross-browser support are an important but
-frustrating part of front-end design and development.  But with the
+often frustrating part of front-end design and development.  But with the
 tools we've looked at here, hopefully some of that pain can be eased and
 we can continue to focus on just making awesome websites.
 
