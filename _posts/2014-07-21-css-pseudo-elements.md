@@ -2,10 +2,10 @@
 layout: post_page
 title: "Pseudo Elements"
 alias: /p
-date: 2014-07-21
-wistiaId: 
-videoLength: x minutes x seconds
-comments: true
+date: 2014-08-19
+wistiaId: gjhbhy0vtm
+videoLength: 6 minutes 36 seconds
+comments: false
 excerpt: >
   Pseudo elements are elements on the page that aren't found in the HTML
   code.  They can be manipulated with any CSS that would be applied to
@@ -43,11 +43,11 @@ In this episode we'll learn about:
 
 There are five pseudo elements in CSS:
 
-* ::first-line
-* ::first-letter
-* ::selection
-* ::before
-* ::after
+* `::first-line`
+* `::first-letter`
+* `::selection`
+* `::before`
+* `::after`
 
 These are differentiated from pseudo classes with the double colon but
 are often written in CSS with a single colon for brevity.
