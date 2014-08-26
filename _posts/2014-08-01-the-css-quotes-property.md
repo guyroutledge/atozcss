@@ -3,13 +3,25 @@ layout: post_page
 title: "Quotes"
 alias: /q
 date: 2014-08-01
-wistiaId: 
+wistiaId: y3p4f1gz4k
+disqusId: quotes
 videoLength: x minutes x seconds
 comments: true
 excerpt: >
-  
+  Single and double quotes appear frequently when writing code.  However,
+  when displaying any quoted text like the `q` element or when using
+  apostropes we should use smart quotes.  These are often added by the
+  browser, but we can control their appearance and the choice of character
+  from CSS.
 summary: |
-  
+  In this episode about we'll learn all about: 
+
+  * the difference between dumb quotes and smart quotes
+  * the different styles of quotes used internationally
+  * and the somewhat under-used CSS `quotes` property
+
+  ## Browser Support
+  The `quotes` property is supported in IE8+
 ---
 
 Single and double quotes appear frequently when writing code.
