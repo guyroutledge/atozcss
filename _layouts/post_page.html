@@ -50,7 +50,11 @@ layout: default
 			<div id="disqus_thread" class="episode-comments"></div>
 			<script type="text/javascript">
 				var disqus_shortname = '{{ site.disqusName }}';
-				var disqus_identifier = '{{ page.wistiaId }}';
+				{% if page.disqusId %}
+					var disqus_identifier = '{{ page.disqusId }}';
+				{% else %}
+					var disqus_identifier = '{{ page.wistiaId }}';
+				{% endif %}
 				(function() {
 					var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
 					dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
