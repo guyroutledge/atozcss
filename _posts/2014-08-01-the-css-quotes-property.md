@@ -2,10 +2,10 @@
 layout: post_page
 title: "Quotes"
 alias: /q
-date: 2014-08-01
+date: 2014-08-26
 wistiaId: y3p4f1gz4k
 disqusId: quotes
-videoLength: x minutes x seconds
+videoLength: 5 minutes 02 seconds
 comments: true
 excerpt: >
   Single and double quotes appear frequently when writing code.  However,
