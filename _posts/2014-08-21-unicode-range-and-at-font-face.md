@@ -15,13 +15,16 @@ summary: |
 In the previous episode we looked at all sorts of properties for styling
 text. 
 
-In this episode we'll look at adding custom fonts with CSS and refining
-the range of characters they apply to with `unicode-range`.
+In modern browsers, and in IE back to version 4, we can add custom
+fonts to enhance the design of our websites.
+
+We can leverage various features of these custom fonts to help boost
+performance and improve our typography.
 
 In this episode we'll learn:
 
-* How to add custom typefaces with `@font-face`
-* And how to substitute certain characters in a font by leveraging `unicode-range`
+* All about the `@font-face` at-rule
+* And how to control typography with font stacks and `unicode-range`
 
 ## @font-face
 
