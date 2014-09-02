@@ -2,14 +2,28 @@
 layout: post_page
 title: "Required"
 alias: /r
-date: 2014-08-09
-wistiaId: 
-videoLength: x minutes x seconds
+date: 2014-09-02
+wistiaId: qdefggbhue
+videoLength: 5 minutes 36 seconds
 comments: true
 excerpt: >
-  
+  :required is a state based pseudo class that can be useful when
+  styling forms.
+
+  Combined with :valid and :invalid we can have a lot of control over
+  providing visual feedback to users without having to write lots of
+  JavaScript.
 summary: |
-  
+  In this episode we'll learn:
+
+  * How to use HTML5 form validation
+  * Using `:required` and other state-based pseudo classes
+  * A creative technique for displaying validation messages to users
+
+  ## Browser Support
+
+  HTML5 validation is supported in IE10+ but not supported in iOS
+  Safari, Opera mini or Android browser 4.4.
 ---
 
 `:required` is a state based pseudo class that can be useful when
