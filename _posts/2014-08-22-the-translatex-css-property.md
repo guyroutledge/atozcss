@@ -17,20 +17,20 @@ of AtoZ CSS, there aren't many properties, values or concepts that start
 with the letter X.
 
 There are however a series of transform properties that allow elements
-to have their visual co-ordinated changed to create complex and
-interesting visual details on the page.
+to have their visual co-ordinates changed along the x-axis to create
+complex and interesting visual details on the page.
 
 In this episode we'll learn all about:
 
 * The CSS transform property
-* Moving elements with translate
-* The performance benefits to using translate over other methods
+* Moving elements with translate and translateX
+* The performance benefits of using translate over other methods
 
 ## Transform
 
 The transform property allows elements to be moved from their natural
 position in the document whilst maintaining that original space - a bit
-like the result of manipulating elements with `position:relative`.
+like the result of moving elements with `position:relative`.
 
 Elements can be translated, rotated, scaled or skewed in various
 different ways on various different axis.
@@ -57,6 +57,15 @@ The transform property can take the following values:
 * rotateZ()
 * rotate3d()
 * perspective()
+
+There's a long list here and to be honest, I only use a small selection
+of them on day to day projects. It's useful to know the other options
+but I most often use: 
+
+* translate()
+* rotate()
+* scale()
+* and skew()
 
 It's also possible to chain multiple transforms together by creating
 a space separated list as follows:
@@ -89,13 +98,45 @@ If just one value is provided, the second value is assumed to be zero
 and so no y-axis translation takes place.
 
 Using `translateX()` we can be more explicit about the transformation we
-can to create as it's very clear that this is only supposed to occur in
-the x-direction.
+want to create as it's very clear that this is only supposed to occur in
+the x-direction. If I only wanted this single-axis movement,
+`translateX` would be my preference as it's always best to be clear
+about your intent when writing code.
 
-A combination of `translateX`, rotation and `@keyframes` are what's used
+A combination of `translateX`, `rotate` and `@keyframes` are what's used
 to create the animated devices on the [AtoZ CSS
 homepage](http://www.atozcss.com)
 
 ## Performance
 
-http://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/
+When animating elements, like the animation on the AtoZ CSS homepage,
+there are benefits to animating the `transform` property over animating
+something like `margin` or `top` and `left` position.
+
+When animating elements with `transform`, the processing is moved on to
+the *graphical* processing unit (GPU) rather than the CPU. The net
+result of this is that animations are smoother and they have less of an
+impact on perceived responsiveness and battery life.
+
+For an in-depth and technical screencast that outlines these benefits
+really well, check out a this video from Paul Irish titled "why moving
+elements with translate is better than position absolute".
+
+[http://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/](http://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/)
+
+I found this to be the case first hand when I made the animation for
+AtoZ CSS - to begin with, I animated the `margin-left` property of the
+animation container but found this to be very janky and slow. Moving to
+animating the container with translate, really improved the visual
+performance.
+
+## Outro
+
+A transcript and code snippets for this video can be found in the
+shownotes at [atozcss.com/r](http://www.atozcss.com/r).
+
+If you have any questions please leave a comment or, you can tweet me
+[@guyroutledge](http://www.twitter.com/guyroutledge) or drop me an
+email.
+
+Cheers.
