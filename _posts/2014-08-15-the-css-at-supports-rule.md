@@ -3,13 +3,29 @@ layout: post_page
 title: " @supports"
 alias: /s
 date: 2014-08-15
-wistiaId: 
-videoLength: x minutes x seconds
+wistiaId: 08d1e2yncj
+videoLength: 7 minutes 25 seconds
 comments: true
 excerpt: >
-  
+  When using new or experimental CSS, it can be useful to know
+  if the browser supports the features we're writing code for.
+
+  Feature detection is often done in JavaScript with tools like Modernizr
+  but in some browsers, we can now detect capabilities from CSS.
+
+  The `@supports` rule allows us to conditionally apply styles for
+  features that are or are not supported.
 summary: |
-  
+  In this episode we'll learn all about
+
+  * Browser support for various CSS features
+  * How the `@supports` at-rule works
+  * and how to provide alternative styles for unsupported features
+
+  ## Browser support
+
+  `@supports` isn't really ready for mainstream use so I still recommend
+  using the Modernizr JavaScript library for feature detection.
 ---
 
 When using new or experimental CSS, it can be useful to know
