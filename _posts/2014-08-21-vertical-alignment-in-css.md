@@ -49,9 +49,9 @@ Keyword values can be one of the following:
 * top
 * bottom
 
-Most of these are intuitive but `sub` aligns the baseline to the parent's
-sub-script baseline and `super` aligns the baseline of the element to
-the parent's super-script baseline.
+Most of these are quite intuitive but `sub` aligns the baseline to the
+parent's sub-script baseline and `super` aligns the baseline of the
+element to the parent's super-script baseline.
 
 Let's take a look at `vertical-align` in a practical example.
 
@@ -89,10 +89,10 @@ effect.
 In Episode 12 we looked at `line-height` and demoed one way to fake
 vertical centering for text. 
 
-If I wanted to center a container box of text inside of another box,
-we'll need a different approach.
+If I wanted to center a whole container of multiple elements inside of
+another container, we'll need a different approach.
 
-I've got a container here with a d dark background and a border around
+I've got a container here with a dark background and a border around
 it. Inside is another, smaller box with a width and height set to give
 it some shape.
 
@@ -112,7 +112,8 @@ vertically and horizontally center it within the container.
 
 With `position:relative` on the container, the box can be positioned
 absolutely within it. If we set the `top` and `left` properties to `50%`
-the top-left corner of the box will be placed in the exact center of the
+the box will be moved 50% away from the top and 50% away from the left,
+leaving the top-left corner of the box placed in the exact center of the
 container.
 
 {% highlight css %}
@@ -149,7 +150,7 @@ combining knowledge of `vertical-align:center` and pseudo elements which
 we covered in Episode 16.
 
 We'll take the same example of a box inside a container from before, but
-this time, both will be fluid.
+this time, the subject box will be fluid.
 
 The trick is to create an invisible element - using a pseudo element
 - that will be the full-height of the container and set it to
@@ -188,3 +189,14 @@ center the inner box by also making it `inline-block` and
 Now as the container box changes it's width, the percentage width of the
 child box also changes, altering it's height - but the box remains
 vertically centered. Pretty sweet, eh?
+
+## Outro
+
+A transcript and code snippets for this video can be found in the
+shownotes at [atozcss.com/v](http://www.atozcss.com/v).
+
+If you have any questions please leave a comment or, you can tweet me
+[@guyroutledge](http://www.twitter.com/guyroutledge) or drop me an
+email.
+
+Cheers.
