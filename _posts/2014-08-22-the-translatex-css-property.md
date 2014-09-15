@@ -16,7 +16,7 @@ As we approach the end of the alphabet, and the end of the first season
 of AtoZ CSS, there aren't many properties, values or concepts that start
 with the letter X.
 
-There are however a series of transform properties that allow elements
+There are however a series of transform values that allow elements
 to have their visual co-ordinates changed along the x-axis to create
 complex and interesting visual details on the page.
 
@@ -133,7 +133,7 @@ performance.
 ## Outro
 
 A transcript and code snippets for this video can be found in the
-shownotes at [atozcss.com/r](http://www.atozcss.com/r).
+shownotes at [atozcss.com/x](http://www.atozcss.com/x).
 
 If you have any questions please leave a comment or, you can tweet me
 [@guyroutledge](http://www.twitter.com/guyroutledge) or drop me an
