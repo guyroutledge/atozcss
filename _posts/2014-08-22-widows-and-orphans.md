@@ -15,9 +15,9 @@ summary: |
 More and more these days, CSS is being used to control the styling of
 things other than websites.
 
-One type of media that CSS can be used to apply styling to is paged
-media - things like digital magazines and ebooks or a website in the
-form of a print stylesheet.
+One type of media that CSS can apply styling to is paged media - things
+like digital magazines and ebooks or a website in the form of a print
+stylesheet.
 
 There are some properties that only apply to this media type. The
 `widows` and `orphans` properties are two that allow us to control how
@@ -33,7 +33,7 @@ In this episode we'll learn about:
 When writing CSS, we are normally styling content that is destined for
 being displayed on a screen. 
 
-But there's a whole range of styles specifically for paged media which
+But there's a whole range of properties specifically for paged media which
 describes how a document can be flowed into a series of pages.
 
 It adds functionality for pagination, page margins, page size,
@@ -68,7 +68,7 @@ p {
 {% endhighlight %}
 
 This will ensure that there are a minimum of 3 lines of text at the
-start of a new page.
+start of a new page or, in this case, at the start of a new column.
 
 ## Orphans
 
@@ -80,7 +80,7 @@ The minimum number of lines that should be left before a page break can
 be controlled by the CSS `orphans` property.
 
 This takes a positive integer and only applies to paged media such as in
-a print media query.
+a print stylesheet.
 
 {% highlight css %}
 @media print {
@@ -105,7 +105,7 @@ This paragraph has an orphan as the last word. It sits all on its own
 and doesn't look great.
 
 We could try and force this not to happen by inserting forced
-line-breaks further up the paragraph. 
+line-breaks further up the paragraph with a `<br>` tag.
 
 This gets the desired effect, but if we're working in a responsive
 project, this forced line-break can cause some pretty ugly results when
@@ -121,3 +121,14 @@ in the paragraph.
 Now, if there's plenty of space, everything appears normal, but if the
 space gets too tight, both words, joined by the non-breaking space will
 bump down to the next line, keeping everything looking neat and tidy.
+
+## Outro
+
+A transcript and code snippets for this video can be found in the
+shownotes at [atozcss.com/w](http://www.atozcss.com/w).
+
+If you have any questions please leave a comment or, you can tweet me
+[@guyroutledge](http://www.twitter.com/guyroutledge) or drop me an
+email.
+
+Cheers.
