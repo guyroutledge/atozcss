@@ -16,9 +16,7 @@ Some interface designs may call for elements to be layered or stacked on
 top of each other.
 
 There are many ways that elements will naturally stack on top of each
-other.
-
-But we can control this stacking order using a combination of the
+other. But we can control this stacking order using a combination of the
 `position` and `z-index` properties.
 
 In this final episode of AtoZ CSS season one we'll learn about:
