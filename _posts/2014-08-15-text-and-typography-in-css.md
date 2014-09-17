@@ -2,9 +2,9 @@
 layout: post_page
 title: "Text"
 alias: /t
-date: 2014-08-15
-wistiaId: 
-videoLength: x minutes x seconds
+date: 2014-09-16
+wistiaId: kuc9u5inju
+videoLength: 7 minutes 17 seconds
 comments: true
 excerpt: >
   Text is everywhere. Without it, the web wouldn't be such a valuable
