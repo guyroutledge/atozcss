@@ -3,13 +3,25 @@ layout: post_page
 title: "Unicode-range"
 alias: /u
 date: 2014-08-21
-wistiaId: uabc
-videoLength: x minutes x seconds
+wistiaId: kxh7150659 
+videoLength: 6 minutes 31 seconds
 comments: true
 excerpt: >
-  
+  In the previous episode we looked at all sorts of properties for styling
+  text. In modern browsers, and in IE back to version 4, we can add
+  *custom* fonts to enhance the design of our websites.  We can leverage
+  various features of these custom fonts to help boost performance and
+  improve our typography overall.
 summary: |
-  
+  In this episode we'll learn:
+
+  * All about the `@font-face` at-rule
+  * And how to control typography with font stacks and `unicode-range`
+
+  ## Browser Support
+
+  Unicode-range is supported in all modern browsers except FF.
+  @font-face is supported everywhere except Opera Mini 
 ---
 
 In the previous episode we looked at all sorts of properties for styling
@@ -129,6 +141,14 @@ character. It's possible to specify a whole range of characters, as the
 property name suggests, but just a single character is needed in this
 case.
 
+{% highlight css %}
+@font-face {
+	font-family:'Ampersand';
+	src: local('Baskerville-italic');
+	unicode-range: U+0026;
+}
+{% endhighlight %}
+
 In this sample HTML file, I've got a series of heading and paragraphs
 that both contain a couple of ampersands.
 
@@ -139,6 +159,15 @@ custom "Ampersand" font.
 For the headings, I'll add Museo or Rockwell or serif as a fallback.
 
 For the body, I'll add Avenir, Arial or sans-serif as the fallback.
+
+{% highlight css %}
+h1, h2 {
+	font-family: 'Ampersand', 'Museo Slab', 'Rockwell', serif;
+}
+p {
+	font-family: 'Ampersand', 'Avenir', 'Arial', sans-serif;
+}
+{% endhighlight %}
 
 And that's it. When the browser renders the text, the first font in the
 stack only contains an ampersand character so it will use the next one
