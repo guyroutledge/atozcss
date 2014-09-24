@@ -2,7 +2,7 @@
 layout: post_page
 title: "Unicode-range"
 alias: /u
-date: 2014-08-21
+date: 2014-09-24
 wistiaId: kxh7150659 
 videoLength: 6 minutes 31 seconds
 comments: true
