@@ -2,7 +2,7 @@
 layout: post_page
 title: "Vertical-align"
 alias: /v
-date: 2014-08-21
+date: 2014-10-01
 wistiaId: ijork7g838
 videoLength: 5 minutes 24 seconds
 comments: true
