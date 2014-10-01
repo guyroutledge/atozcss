@@ -3,13 +3,22 @@ layout: post_page
 title: "Vertical-align"
 alias: /v
 date: 2014-08-21
-wistiaId: vw 
-videoLength: x minutes x seconds
+wistiaId: ijork7g838
+videoLength: 5 minutes 24 seconds
 comments: true
 excerpt: >
-  
+  Vertical centering is a firm favourite of designers - for both print
+  and digital media. But aligning things vertically with CSS is not the
+  easiest thing to do. This issue is made worse in a world of multiple
+  devices and responsive design as we need our elements to be flexible
+  in height - which can make calculating their vertical center quick
+  tricky.
 summary: |
-  
+  In this episode we'll learn all about
+
+  * The vertical-align property and how and when it works
+  * A method for vertical aligning an element with a known height
+  * And finally one approach for vertically centering elements with variable height.
 ---
 
 Vertical centering is a firm favourite of designers - for both print and
@@ -81,7 +90,7 @@ We can set the grid containers to `display:inline-block` and use
 `vertical-align:bottom` on the images to make everything line up nicely.
 
 If there was no text here and we wanted all the images to be vertically
-centered, we could use `vertical-align:center` and achieve quite a nice
+centered, we could use `vertical-align:middle` and achieve quite a nice
 effect. 
 
 ## Vertical centering
@@ -146,7 +155,7 @@ a responsive project.
 ## Fluid vertical center
 
 We can accomplish vertical centering of fluid height elements by
-combining knowledge of `vertical-align:center` and pseudo elements which
+combining knowledge of `vertical-align:middle` and pseudo elements which
 we covered in Episode 16.
 
 We'll take the same example of a box inside a container from before, but
