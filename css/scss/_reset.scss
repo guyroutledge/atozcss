@@ -55,14 +55,14 @@ body {
 	-webkit-font-smoothing:antialiased;
 }
 
-@for $i from 1 to 4 {
-	h#{$i},
-	%h#{$i} {
-		font-size: nth($font-sizes, $i);
+@each $heading, $font-size in $font-sizes {
+	#{$heading},
+	%#{$heading} {
+		font-size: $font-size;
 		font-weight:normal;
 		margin:0 0 $font-margin-bottom / 2;
 	}
-	p + h#{$i} {
+	p + #{$heading} {
 		margin-top:$font-margin-bottom;
 	}
 }
