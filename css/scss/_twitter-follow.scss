@@ -1,0 +1,25 @@
+.twitter-follow {
+	margin:$font-margin-bottom*1.5 0;
+	overflow:hidden;
+
+	.twitter-avatar {
+		float:left;
+		width:30%;
+	}
+	.twitter-copy {
+		float:right;
+		width:70%;
+		text-align:right;
+		font-size:1.5em;
+
+		span { display:block; font-size:1.125em; }
+		img { clear:both; }
+	}
+	a {
+		color:$color-brand;
+		&:hover {
+			color:$color-about;
+		}
+	}
+}
+
