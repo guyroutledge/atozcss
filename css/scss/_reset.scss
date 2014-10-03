@@ -18,7 +18,6 @@ audio, canvas, video {
 html { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 html, button, input, select, textarea { font-family: $font-copy; color: $color-copy; }
 body {
-	margin: 0;
 	background:$color-dark;
 	color:$color-copy;
 }
@@ -161,11 +160,16 @@ textarea {
 }
 
 // Make sure all lists of form elements don't display like a bullet list
-form ul {
-	list-style:none;
-	margin:0;
-	padding:0;
+form,
+nav {
+	ul {
+		list-style:none;
+		margin:0;
+		padding:0;
+	}
+}
 
+form {
 	li {
 		position:relative;
 		margin:0 0 1em 0;
@@ -177,7 +181,7 @@ form ul {
 //**************************
 
 body {
-	margin:0 auto;
+	margin: 0 auto;
 	padding:0;
 	overflow-x:hidden;
 }
