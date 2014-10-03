@@ -50,8 +50,11 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          'css/style.css' : 'css/style.scss'
-        }
+          '_includes/style.css' : 'css/style.scss'
+        },
+		options: {
+			style: 'compressed'
+		}
       }
     },
     watch: {
