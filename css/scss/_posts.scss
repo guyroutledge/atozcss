@@ -16,7 +16,7 @@
 	margin:$font-margin-bottom 0 $font-margin-bottom*2;
 
 	input[type="email"] {
-		color:#333;
+		color:$color-dark;
 	}
 }
 .wistia_socialbar {
@@ -24,7 +24,7 @@
 	margin-top:1rem!important;
 }
 [id*=requireEmail_text_below] {
-	font-size:20px!important;
+	font-size:2rem!important;
 	font-style:normal!important;
 }
 .episode-title {
@@ -45,7 +45,7 @@
 }
 .episode-meta {
 	margin-bottom:$font-margin-bottom/2;
-	color:#666;
+	color:$color-medium-grey;
 }
 .episode-featured {
 	margin-bottom:4rem;
@@ -60,14 +60,12 @@
 		display:inline;
 		margin:0 0.25em;
 
-		color:#999;
+		color:$color-medium-grey;
 	}
 }
 
-.episode .episode-content-title {
+.episode-content-title {
 	@extend %h2;
-}
-.episode-content-title label {
 	position:relative;
 	display:inline-block;
 	margin-bottom:$font-margin-bottom/2;
@@ -79,7 +77,7 @@
 	&:after {
 		content:"";
 		position:absolute;
-		top:0.25em;
+		top:0.5em;
 		left:-0.5em;
 
 		width:0;
@@ -98,7 +96,7 @@
 	-webkit-transition:all 1s ease-in-out;
 	        transition:all 1s ease-in-out;
 }
-.episode-content input[type="checkbox"] {
+.episode-content-toggle {
 	position:absolute;
 	left:-9999em;
 
@@ -106,7 +104,7 @@
 		max-height:0;
 		overflow:hidden;
 	}
-	&:checked ~ .episode-content-title label:before {
+	&:checked ~ .episode-content-title:before {
 		-webkit-transform:rotate(90deg);
 		        transform:rotate(90deg);
 	}
@@ -128,28 +126,4 @@
 
 .episode-comments {
 	margin:3rem 0;
-}
-.twitter-follow {
-	margin:$font-margin-bottom*1.5 0;
-	overflow:hidden;
-
-	.twitter-avatar {
-		float:left;
-		width:30%;
-	}
-	.twitter-copy {
-		float:right;
-		width:70%;
-		text-align:right;
-		font-size:1.5em;
-
-		span { display:block; font-size:1.125em; }
-		img { clear:both; }
-	}
-	a {
-		color:$color-brand;
-		&:hover {
-			color:$color-about;
-		}
-	}
 }

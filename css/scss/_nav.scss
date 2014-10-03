@@ -46,14 +46,17 @@
 		}
 	}
 }
-$i:1;
-$nav-items:'home', 'all-episodes', 'about', 'subscribe';
-$nav-colours:$color-home, $color-all-episodes, $color-about, $color-subscribe;
+$nav-items: (
+	'home': $color-home,
+	'all-episodes': $color-all-episodes,
+	'about': $color-about,
+	'subscribe': $color-subscribe
+);
 
-@each $item in $nav-items {
+@each $item, $item-color in $nav-items {
 
 	.site-nav .site-nav-#{$item} {
-		background:nth($nav-colours, $i);
+		background:$item-color;
 	}
 	.page-#{$item} {
 		.site-nav-#{$item} {
@@ -62,6 +65,5 @@ $nav-colours:$color-home, $color-all-episodes, $color-about, $color-subscribe;
 			background:$color-brand;
 		}
 	}
-	$i: $i + 1;
 
 }
