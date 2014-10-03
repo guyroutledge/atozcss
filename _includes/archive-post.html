@@ -4,6 +4,8 @@
 	</a>
 	<p class="episode-meta">Duration: {{ post.videoLength }}</p>
 	<p>{{ post.excerpt }}</p>
-	<p><a href="{{ post.url }}">Full transcript and code snippets for this&nbsp;epsiode&nbsp;&gt;</a></p>
+	{% if page.title == 'Home' %}
+		<p><a href="{{ post.url }}">Full transcript and code snippets for this&nbsp;epsiode&nbsp;&gt;</a></p>
+	{% endif %}
 </div>
 
