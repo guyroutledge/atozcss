@@ -34,11 +34,11 @@
 
 	p {
 		@extend %container;
-		color:#111;
+		color:$color-dark;
 		font-size:1.5rem;
 	}
 	a {
-		color:#111;
+		color:$color-dark;
 
 		&:hover {
 			color:#fff;
@@ -134,7 +134,7 @@
 }
 .button-subscribe {
 	float:left;
-	color:#333;
+	color:$color-dark;
 	margin:$font-margin-bottom 0;
 }
 

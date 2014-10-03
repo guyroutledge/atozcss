@@ -16,7 +16,7 @@
 	margin:$font-margin-bottom 0 $font-margin-bottom*2;
 
 	input[type="email"] {
-		color:#333;
+		color:$color-dark;
 	}
 }
 .wistia_socialbar {
@@ -45,7 +45,7 @@
 }
 .episode-meta {
 	margin-bottom:$font-margin-bottom/2;
-	color:#666;
+	color:$color-medium-grey;
 }
 .episode-featured {
 	margin-bottom:4rem;
@@ -60,7 +60,7 @@
 		display:inline;
 		margin:0 0.25em;
 
-		color:#999;
+		color:$color-medium-grey;
 	}
 }
 
