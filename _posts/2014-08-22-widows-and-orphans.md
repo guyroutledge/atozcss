@@ -1,15 +1,27 @@
 ---
 layout: post_page
-title: "Widows and Orphans"
+title: "Widows"
 alias: /w
-date: 2014-08-22
-wistiaId: wxyz
-videoLength: x minutes x seconds
+date: 2014-10-09
+wistiaId: w6czfxn0k9
+videoLength: 5 minutes 24 seconds
 comments: true
 excerpt: >
-  
+  More and more these days, CSS is being used to control the styling of
+  things other than websites.
+
+  One type of media that CSS can apply styling to is paged media - things
+  like digital magazines and ebooks or a website in the form of a print
+  stylesheet.
+
+  There are some properties that only apply to this media type. The
+  `widows` and `orphans` properties are two that allow us to control how
+  lines of text flow around page breaks.
 summary: |
-  
+  In this episode we'll learn about:
+
+  * Paged media
+  * Widows and Orphans
 ---
 
 More and more these days, CSS is being used to control the styling of
