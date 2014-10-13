@@ -131,6 +131,13 @@
 	@media screen and (min-width:66.875em) {
 		opacity:1;
 	}
+
+	.page-all-episodes &,
+	.page-books &,
+	.page-about &,
+	.page-subscribe & {
+		margin-left:-40rem;
+	}
 }
 .subscribe-img {
 	float:left;
