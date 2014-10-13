@@ -15,20 +15,12 @@
 .site-container-inner {
 	@extend %container;
 	max-width:60rem;
-
-	@media screen and (min-width:66.875em) {
-		left:6rem;
-	}
 }
 
 .site-header {
 	margin-bottom:$font-margin-bottom;
 	text-align:center;
 	border-bottom:1rem solid $color-brand;
-
-	@media screen and (min-width:66.875em) {
-		padding-left:12rem;
-	}
 }
 .site-content {
 	@extend %container;
@@ -136,7 +128,7 @@
 	.page-books &,
 	.page-about &,
 	.page-subscribe & {
-		margin-left:-40rem;
+		margin-left:-47rem;
 	}
 }
 .subscribe-img {
