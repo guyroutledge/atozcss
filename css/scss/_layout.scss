@@ -27,7 +27,7 @@
 	border-bottom:1rem solid $color-brand;
 
 	@media screen and (min-width:66.875em) {
-		left:12rem;
+		padding-left:12rem;
 	}
 }
 .site-content {
@@ -137,14 +137,3 @@
 	width:90px;
 	margin-right:2rem;
 }
-
-.subscribe-button-container {
-	overflow:hidden;
-}
-.button-subscribe {
-	float:left;
-	color:$color-dark;
-	margin:$font-margin-bottom 0;
-}
-
-

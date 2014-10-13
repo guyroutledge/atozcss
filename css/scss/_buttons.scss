@@ -24,4 +24,18 @@
 		background: $color-brand;
 	}
 }
+.button-container {
+	overflow:hidden;
+}
+.button-subscribe {
+	float:left;
+	color:$color-dark;
+	margin:$font-margin-bottom 0;
+}
+.button-books {
+	@extend .button-subscribe;
+	background:$color-orange;
+}
+
+
 

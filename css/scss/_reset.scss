@@ -185,3 +185,15 @@ body {
 	padding:0;
 	overflow-x:hidden;
 }
+//*************************
+// $$ Clearfix
+//**************************
+
+%clearfix:before,
+%clearfix:after {
+	content:"";
+	display:table-cell;
+}
+%clearfix:after {
+	clear:both;
+}
