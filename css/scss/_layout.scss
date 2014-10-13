@@ -9,17 +9,26 @@
 	padding-right:2rem;
 }
 %container {
+	position:relative;
 	max-width:90rem;
 }
 .site-container-inner {
 	@extend %container;
 	max-width:60rem;
+
+	@media screen and (min-width:66.875em) {
+		left:6rem;
+	}
 }
 
 .site-header {
 	margin-bottom:$font-margin-bottom;
 	text-align:center;
 	border-bottom:1rem solid $color-brand;
+
+	@media screen and (min-width:66.875em) {
+		left:12rem;
+	}
 }
 .site-content {
 	@extend %container;
