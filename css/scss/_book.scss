@@ -128,7 +128,7 @@ $book-height:350px;
 .book-offer {
 	@extend %clearfix;
 	position:relative;
-	margin:5rem 0 8rem;
+	margin:5rem 0;
 }
 .book-offer__price {
 	position:absolute;
@@ -147,4 +147,9 @@ $book-height:350px;
 	border-radius:100%;
 }
 
-
+.book__alert {
+	padding:$font-margin-bottom $font-margin-bottom 0 $font-margin-bottom;
+	color:$color-dark;
+	background:#ccc;
+	overflow:hidden;
+}
