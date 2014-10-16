@@ -53,41 +53,45 @@ different ways on various different axes.
 
 The transform property can take the following values:
 
-* matrix()
-* matrix3d()
-* translate()
-* translateX()
-* translateY()
-* translateZ()
-* translate3d()
-* scale()
-* scaleX()
-* scaleY()
-* scaleZ()
-* scale3d()
-* skew()
-* skewX()
-* skewY()
-* rotate()
-* rotateX()
-* rotateY()
-* rotateZ()
-* rotate3d()
-* perspective()
+* `matrix()`
+* `matrix3d()`
+* `translate()`
+* `translateX()`
+* `translateY()`
+* `translateZ()`
+* `translate3d()`
+* `scale()`
+* `scaleX()`
+* `scaleY()`
+* `scaleZ()`
+* `scale3d()`
+* `skew()`
+* `skewX()`
+* `skewY()`
+* `rotate()`
+* `rotateX()`
+* `rotateY()`
+* `rotateZ()`
+* `rotate3d()`
+* `perspective()`
 
 There's a long list here and to be honest, I only use a small selection
 of them on day to day projects. It's useful to know the other options
 but I most often use: 
 
-* translate()
-* rotate()
-* scale()
-* and skew()
+* `translate()`
+* `rotate()`
+* `scale()`
+* and `skew()`
 
 It's also possible to chain multiple transforms together by creating
 a space separated list as follows:
 
-	transform: scaleX(2) rotate(10deg)
+{% highlight css %}
+.some-class {
+	transform: scaleX(2) rotate(10deg);
+}
+{% endhighlight %}
 
 This will double the horizontal scale of an element and rotate it 10
 degrees clockwise.
