@@ -2,14 +2,30 @@
 layout: post_page
 title: "TranslateX"
 alias: /x
-date: 2014-08-22
-wistiaId: xabc
-videoLength: x minutes x seconds
+date: 2014-10-16
+wistiaId: jvizea6q0i
+videoLength: 5 minutes 09 seconds
 comments: true
 excerpt: >
-  
+  As we approach the end of the alphabet, and the end of the first season
+  of AtoZ CSS, there aren't many properties, values or concepts that start
+  with the letter X.
+
+  There are however a series of transform values that allow elements
+  to have their visual co-ordinates changed along the x-axis to create
+  complex and interesting visual details on the page.
 summary: |
-  
+  In this episode we'll learn all about:
+
+  * The CSS transform property
+  * Moving elements with translate and translateX
+  * The performance benefits of using translate over other methods
+
+  ## Browser support
+
+  The transform property is now unprefixed in Chrome, Firefox and Opera
+  but still needs `-webkit` prefixes in Safari, iOS Safari and Android
+  browser. IE support starts in version 9 with an `-ms` prefix. 
 ---
 
 As we approach the end of the alphabet, and the end of the first season
@@ -33,7 +49,7 @@ position in the document whilst maintaining that original space - a bit
 like the result of moving elements with `position:relative`.
 
 Elements can be translated, rotated, scaled or skewed in various
-different ways on various different axis.
+different ways on various different axes.
 
 The transform property can take the following values:
 
@@ -49,6 +65,7 @@ The transform property can take the following values:
 * scaleY()
 * scaleZ()
 * scale3d()
+* skew()
 * skewX()
 * skewY()
 * rotate()
