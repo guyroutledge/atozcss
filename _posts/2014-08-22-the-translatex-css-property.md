@@ -140,10 +140,8 @@ result of this is that animations are smoother and they have less of an
 impact on perceived responsiveness and battery life.
 
 For an in-depth and technical screencast that outlines these benefits
-really well, check out a this video from Paul Irish titled "why moving
-elements with translate is better than position absolute".
-
-[http://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/](http://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/)
+really well, check out a this video from Paul Irish titled ["why moving
+elements with translate is better than position absolute"](http://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/).
 
 I found this to be the case first hand when I made the animation for
 AtoZ CSS - to begin with, I animated the `margin-left` property of the
