@@ -65,6 +65,12 @@ property and the the `rotate()` function.
 A positive value with rotate clockwise and a negative value,
 anti-clockwise.
 
+{% highlight css %}
+img {
+	transform: rotate(10deg);
+}
+{% endhighlight %}
+
 This is the same as using the single-axis rotation of `rotateZ()` as the
 image is rotating around the z-axis.
 
@@ -72,12 +78,24 @@ When using `rotateY()`, the image roates around the y-axis which can be
 a useful trick to achieve something like a card flip effect or something
 similar. 
 
+{% highlight css %}
+img {
+	transform: rotateY(45deg);
+}
+{% endhighlight %}
+
 If I add in an animation that continuously rotates the image around the
 y-axis, it should be a bit clearer as to what's going on.
 
-Combining a mid-point rotation around the x-axis shows some of the weird
-and wonderful things that can be achieved by combining transforms
-together...
+{% highlight css %}
+img {
+	animation: spin 2s infinite linear;
+}
+@keyframes spin {
+	from { transform:rotateY(0deg); }
+	to { transform:rotateY(360deg); }
+}
+{% endhighlight %}
 
 You may notice that when the element rotates around 180 degrees, the
 image appears to become a mirror image. By default the back of the image
@@ -189,7 +207,7 @@ If I rotate the "container" around the y-axis, we'll be able to see each
 side in turn.
 
 {% highlight css %}
-.container { animation: spin 4s infinite linear; }
+.cube-z { animation: spin 4s infinite linear; }
 
 @keyframes spin {
   from { transform:rotateY(0deg) }
