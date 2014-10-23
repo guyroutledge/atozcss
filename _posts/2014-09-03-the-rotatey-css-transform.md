@@ -1,15 +1,30 @@
 ---
 layout: post_page
-title: "The rotateY css transform"
+title: "rotateY"
 alias: /y
-date: 2014-09-03
-wistiaId: yzabcde
-videoLength: x minutes x seconds
+date: 2014-10-23
+wistiaId: k8pabgcyg8
+videoLength: 7 minutes 07 seconds
 comments: true
 excerpt: >
-  
+  In the previous episode we learned about the transform property and the
+  value translateX().
+
+  In this episode we'll be digging deeper into transforms and manipulating
+  elements in 3D.
 summary: |
-  
+  In the previous episode we learned about the transform property and the
+  value translateX().
+
+  In this episode we'll be digging deeper into transforms and manipulating
+  elements in 3D.
+
+  In this episode we'll learn all about:
+
+  * 3D space in CSS
+  * How to rotate elements around their vertical and horizontal axis
+  * And how perspective works 
+
 ---
 
 In the previous episode we learned about the transform property and the
@@ -213,7 +228,7 @@ side in turn.
   from { transform:rotateY(0deg) }
   to { transform:rotateY(360deg) }
 }
-{% endhighlihgt %}
+{% endhighlight %}
 
 This gives us a sense of three dimensions but if we add a bit of
 perspective, the effect becomes much clearer and a real sense of 3D is
