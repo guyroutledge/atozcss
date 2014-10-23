@@ -39,7 +39,7 @@ naturally stack above elements further up.
 </body>
 {% endhighlight %}
 
-Given this snippet of HTML, the `footer` would stack on top of the main`
+Given this snippet of HTML, the `footer` would stack on top of the `main`
 content area which would stack on top of the `header` if they were all
 positioned to overlap each other.
 
@@ -54,11 +54,11 @@ by default stacks on top of the previous two elements.
 .site-header, .site-content, .site-footer {
   position:absolute;
   width:400px;
-  height:100px;
+  padding:20px;
 }
-.site-header { background:red; top:0; left:0; }
-.site-content { background:blue; top:50px; left:50px; }
-.site-footer { background:green; top:100px; left:100px; }
+.site-header { top:0; left:0; }
+.site-content { top:50px; left:50px; }
+.site-footer { top:100px; left:100px; }
 {% endhighlight %}
 
 If I use the offset properties, `top` and `left`, we can see the order
@@ -94,9 +94,32 @@ of `z-index:9`. Unfortunately, it's a bit more complex than that.
 
 ## Z-index within stacking contexts
 
+{% highlight html %}
+<header class="site-header blue">header</header>
+<main class="site-content green">content
+	<div class="box yellow"></div>
+</main>
+<footer class="site-footer pink">footer</footer>
+{% endhighlight %}
+
 If I add a box inside of the `site-content` container and position it 
 just outside the bottom right corner, we can see that it is above the
 green box and below the pink box.
+
+{% highlight css %}
+.box {
+    position:absolute;
+    bottom:-25px;
+    right:-25px;
+    z-index:4; /*won't work :(*/
+    width:75px; 
+    height:75px; 
+    border:1px solid #000;
+}
+.site-header { top:0; left:0; z-index:-1; }
+.site-content { top:50px; left:50px; }
+.site-footer { top:100px; left:100px; z-index:3; }
+{% endhighlight %}
 
 Based on our knowledge of `z-index`, we might think that to make this
 yellow box appear above the pink box, we can just set a higher value for
@@ -116,14 +139,14 @@ In order to demonstrate this, let's look at a slightly more involved
 example which I've borrowed from the [MDN website](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Understanding_z_index/The_stacking_context).
 
 {% highlight html %}
-<header class="site-header">
+<header class="site-header blue">
 	<h1>Header</h1>
 	<code>position: relative;<br/>
 	z-index: 5;</code>
 </header>
 
-<main class="site-content">
-	<div class="box1">
+<main class="site-content pink">
+	<div class="box1 yellow">
 		<h1>Content box 1</h1>
 		<code>position: relative;<br/>
 		z-index: 6;</code>
@@ -133,49 +156,47 @@ example which I've borrowed from the [MDN website](https://developer.mozilla.org
 		<code>position: absolute;<br/>
 		z-index: 4;</code>
 
-	<div class="box2">
+	<div class="box2 yellow">
 		<h1>Content box 2</h1>
 		<code>position: relative;<br/>
 		z-index: 1;</code>
 	</div>
 
-	<div class="box3">
+	<div class="box3 yellow">
 		<h1>Content box 3</h1>
 		<code>position: absolute;<br/>
 		z-index: 3;</code>
 	</div>
 </main>
 
-<footer class="site-footer">
+<footer class="site-footer green">
 	<h1>Footer</h1>
 	<code>position: relative;<br/>
 	z-index: 2;</code>
 </footer>
 {% endhighlight %}
 {% highlight css %}
-* {
-  margin: 0;
-}
-html {
-  padding: 20px;
-  font: 12px/20px Avenir, sans-serif;
-}
+.blue   { background:hsla(190, 81%, 67%, 0.8); color:#1c1c1c; }
+.purple { background:hsla(261, 100%, 75%, 0.8); }
+.green  { background:hsla(84, 76%, 53%, 0.8); color:#1c1c1c; }
+.yellow { background:hsla(61, 59%, 66%, 0.8); color:#1c1c1c; }
+.pink   { background:hsla(329, 58%, 52%, 0.8); }
+
 header, footer, main, div {
-  opacity: 0.7;
   position: relative;
+  border: 1px dashed #000;
 }
 h1 {
   font: inherit;
   font-weight: bold;
 }
 .site-header, .site-footer {
-  border: 1px dashed #696;
   padding: 10px;
-  background-color: #cfc;
 }
 .site-header {
   z-index: 5;
-  margin-bottom: 190px;
+  top:-30px;
+  margin-bottom: 210px;
 }
 .site-footer {
   z-index: 2;
@@ -187,13 +208,7 @@ h1 {
   top: 40px;
   left: 180px;
   width: 330px;
-  border: 1px dashed #900;
-  background-color: #fdd;
   padding: 40px 20px 20px;
-}
-.box1, .box2 {
-  border: 1px dashed #996;
-  background-color: #ffc;
 }
 .box1 {
   z-index: 6;
@@ -212,12 +227,10 @@ h1 {
   top: 20px;
   left: 180px;
   width: 150px;
-  height: 125px;
-  border: 1px dashed #009;
+  height: 250px;
   padding-top: 125px;
-  background-color: #ddf;
   text-align: center;
-  }
+}
 {% endhighlight %}
 
 Here we have a header, footer and main content container as before but
