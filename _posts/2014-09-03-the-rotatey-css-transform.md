@@ -13,18 +13,17 @@ excerpt: >
   In this episode we'll be digging deeper into transforms and manipulating
   elements in 3D.
 summary: |
-  In the previous episode we learned about the transform property and the
-  value translateX().
-
-  In this episode we'll be digging deeper into transforms and manipulating
-  elements in 3D.
-
   In this episode we'll learn all about:
 
   * 3D space in CSS
   * How to rotate elements around their vertical and horizontal axis
   * And how perspective works 
 
+  ## Browser Support
+
+  CSS transforms are supported in IE9+ and 3D transforms and perspective
+  are also supported IE9+ but don't support the `transform-style` of
+  `preserve-3d`
 ---
 
 In the previous episode we learned about the transform property and the
