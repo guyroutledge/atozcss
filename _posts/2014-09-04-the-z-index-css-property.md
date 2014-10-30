@@ -1,15 +1,23 @@
 ---
 layout: post_page
-title: "The z-index css property"
+title: "Z-index"
 alias: /z
-date: 2014-09-04
-wistiaId: zyxuv 
-videoLength: x minutes x seconds
+date: 2014-10-30
+wistiaId: 64pn9d94vn 
+videoLength: 8 minutes 39 seconds
 comments: true
 excerpt: >
-  
+  Some interface designs may call for elements to be layered or stacked on
+  top of each other. There are many ways that elements will naturally stack on top of each
+  other. But we can control this stacking order using a combination of the
+  `position` and `z-index` properties.
 summary: |
+  In this final episode of AtoZ CSS season one we'll learn about:
   
+  * The default stacking order of the document
+  * What a stacking context is and how they interact with each other
+  * How z-index controls layer order within stacking contexts
+  * And a method I use for standardising z-index across a project
 ---
 
 Some interface designs may call for elements to be layered or stacked on
