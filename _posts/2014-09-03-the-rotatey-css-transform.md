@@ -4,8 +4,11 @@ title: "rotateY"
 alias: /y
 date: 2014-10-23
 wistiaId: k8pabgcyg8
+wistiaPoster: https://embed-ssl.wistia.com/deliveries/7707a5b28ea15c56bf57cf03ddde451141b4b824.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338
 videoLength: 7 minutes 07 seconds
 comments: true
+category: advanced
+
 excerpt: >
   In the previous episode we learned about the transform property and the
   value translateX().
