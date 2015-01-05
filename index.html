@@ -6,22 +6,33 @@ title: Home
 <section class="episode-featured">
 
 	<div class="site-container-inner">
-		<h1 class="home-title">This Week&rsquo;s Episode</h1>
-		{% for post in site.posts | limit: 1 %}
-			<p class="episode-meta">Posted on: {{ post.date | date: "%d %B %Y" }} </p>
-		{% endfor %}
+		<h2 class="home-title">CSS Screencasts for Designers &amp; Developers</h2>
+		<p>Learn CSS and sharpen your front-end skills with these bite-sized screencasts.</p>
+		<p>There's something for everyone in AtoZ CSS Season 1; pick your level and get started
+		with these popular episodes below.</p>
 	</div>
 
-	{% for post in site.posts | limit: 1 %}
+		<h1 class="category-title">Beginner</h1>
 
-		{% include video.html %}
-		{% include book.html %}
-
-		<div class="site-container-inner">
-			{% include archive-post.html %}
+		<div class="video-gallery">
+			{% for post in site.categories.beginner reversed | limit: 3 %}
+				{% include gallery-item.html %}
+			{% endfor %}
 		</div>
 
-	{% endfor %}
+		<h1 class="category-title">Intermediate</h1>
+		<div class="video-gallery">
+			{% for post in site.categories.intermediate reversed | limit: 3 %}
+				{% include gallery-item.html %}
+			{% endfor %}
+		</div>
+
+		<h1 class="category-title">Advanced</h1>
+		<div class="video-gallery">
+			{% for post in site.categories.advanced reversed | limit: 3 %}
+				{% include gallery-item.html %}
+			{% endfor %}
+		</div>
 
 </section>
 
@@ -30,3 +41,4 @@ title: Home
 
 	{% include episodes-list.html %}
 </div>
+<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
