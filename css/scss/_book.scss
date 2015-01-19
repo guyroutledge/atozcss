@@ -148,8 +148,12 @@ $book-height:350px;
 }
 
 .book__alert {
+	margin-bottom:4rem;
 	padding:$font-margin-bottom $font-margin-bottom 0 $font-margin-bottom;
 	color:$color-dark;
 	background:#ccc;
 	overflow:hidden;
+}
+.book-img {
+	margin:$font-margin-bottom 0;
 }
