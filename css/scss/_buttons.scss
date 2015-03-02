@@ -34,7 +34,7 @@
 }
 .button-books {
 	@extend .button-subscribe;
-	margin-top:$font-margin-bottom/2;
+	margin:$font-margin-bottom/2 0 0;
 	background:$color-orange;
 }
 
