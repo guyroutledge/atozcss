@@ -163,3 +163,11 @@ $book-height:350px;
 .book-img {
 	margin:$font-margin-bottom 0;
 }
+
+.book-table {
+	width:100%;
+	margin:$font-margin-bottom*2 0 $font-margin-bottom;
+}
+.book-table-footer {
+	margin-bottom:$font-margin-bottom*2;
+}
