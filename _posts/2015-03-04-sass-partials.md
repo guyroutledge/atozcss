@@ -171,7 +171,7 @@ served me well across a range of projects from mobile prototypes to
 custom Wordpress themes to Ruby on Rails applications.
 
 In the next episode we'll combine this knowledge of partials with Sass
-variables and start working to some more significant examples.
+variables and start working towards some more significant examples.
 
 ## Outro
 
