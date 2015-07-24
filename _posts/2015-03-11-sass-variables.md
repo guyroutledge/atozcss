@@ -220,7 +220,7 @@ in Sass called mixins. I hope you can join me then.
 
 A transcript with links and code snippets for this episode can be found
 at the shownotes,
-[http://www.atozcss.com/sass-intro](http://www.atozcss.com/sass-vars).
+[http://www.atozcss.com/sass-vars](http://www.atozcss.com/sass-vars).
 
 If you're new round here, why not check out the first 26 episodes in
 AtoZ CSS season 1 and if you can't get enough CSS goodness, I have an
