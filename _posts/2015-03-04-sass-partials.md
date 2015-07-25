@@ -98,7 +98,7 @@ items, that kind of thing.
 
 In our `_base.scss` file, let's add a couple of lines of CSS.
 
-{% hightlight css %}
+{% highlight css %}
 body {
 	font-size:100%;
 	font-family: Helvetica, Arial, sans-serif;
