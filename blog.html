@@ -1,0 +1,22 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<div class="site-container-inner">
+
+	<h1 class="page-title">CSS Blog</h1>
+
+	<ul class="blogs">
+		{% for post in site.categories['blog'] %}
+
+			<li>
+				{% include blog-post.html %}
+			</li>
+
+		{% endfor %}
+	</ul>
+
+
+</div>

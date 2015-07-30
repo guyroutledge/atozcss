@@ -47,14 +47,11 @@
 	}
 }
 $nav-items: (
-	'home': $color-home,
-	'start-here': $color-start-here,
-	'all-episodes': $color-all-episodes,
+	'videos': $color-videos,
 	'blog': $color-blog,
+	'start-here': $color-start-here,
 	'resources': $color-resources,
-	'books': $color-books,
-	'about': $color-about,
-	'subscribe': $color-subscribe
+	'about': $color-about
 );
 
 @each $item, $item-color in $nav-items {

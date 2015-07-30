@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<article class="episode">
+
+	<div class="site-container-inner">
+		<h1>{{page.title}}</h1>
+		<p class="episode-meta">Posted on: {{ page.date | date: "%d %B %Y" }} </p>
+	</div>
+
+
+	
+
+</article>
+
+<div class="site-container-inner">
+	{% include twitter-follow.html %}
+	{% include episodes-list.html %}
+</div>

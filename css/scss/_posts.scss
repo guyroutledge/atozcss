@@ -3,7 +3,8 @@
 //**************************
 
 
-.episodes {
+.episodes,
+.blogs {
 	margin:$font-margin-bottom*1.5 0 $font-margin-bottom*2;
 	padding:0;
 	list-style:none;
@@ -27,10 +28,14 @@
 	font-size:2rem!important;
 	font-style:normal!important;
 }
-.episode-title {
+.episode-title,
+.blog-title {
 	@extend %h2;
 	margin:0;
 	line-height:1;
+}
+.blog-title {
+	margin: 0.5em 0;
 }
 .episode h1 {
 	@extend %h1;
