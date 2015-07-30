@@ -3,13 +3,71 @@ layout: default
 title: Home
 ---
 
-<section class="episode-featured">
-
-	
-
-</section>
-
 <div class="site-container-inner">
+
+	<section class="episode-featured">
+
+		<div class="css-intro">
+			<p>An online source of bite-sized videos demonstrating how CSS can be used to make websites beautiful and fun.</p>
+
+			<a href="/start" class="button start-here">Get Started Here!</a>
+			
+		</div>
+
+		<div class="tips-banner">
+			<h2>New: CSS Newsletter</h2>
+			<p>AtoZ subsribers will receive a weekly newsletter in their inbox.</p>
+			<p>In every newsletter:</p>
+			<ul>
+				<li>A small list of cool CSS stuff I've found on the web recently</li>
+				<li>A CSS tip that relates to each AtoZ CSS episode</li>
+				<li>CSS industry announcements</li>
+			</ul>
+		</div>
+
+		<section class="subscribe">
+			<div class="site-container-inner">
+				{% include form.html %}
+			</div>
+		</section>
+
+
+		<div class="book-buy">
+			<h2>Did you know I wrote a book all about CSS layout?</h2>
+			<div class="book-offer-home">
+				<a href="/books">
+					<div class="book__container--single">
+						<article class="book is-rotated">
+							<div class="book__cover">
+								<h1>
+									<span>AtoZ CSS guide to</span>
+									Layout &amp; Document Flow
+								</h1>
+							</div>
+							<div class="book__spine">
+								<p>AtoZ CSS guide <span>by Guy Routledge</span></p>
+							</div>
+						</article>
+					</div>
+				</a>
+			</div>
+			
+			<p>No?? Where have you been? </p>
+			<p>The book is so awesome it's exclusively available for members of the AtoZ community.</p>
+			<p>For all the details including a sample video and some screenshots click on the book.</p> 
+			
+		</div>
+
+		<div class="sass-teaser">
+			<h2>Coming Soon .... AtoZ Series 2</h2>
+			<p>Ever wondered what SASS is all about?</p>
+			<p>Wonder no longer, series 2 is going to cover everything you need to know to make you a SASS Ninga!</p>
+			<p>Make sure you're on the mailing list so that you get notified of episodes hot off the press.</p>
+
+		</div>
+	</section>
+
+
 	{% include twitter-follow.html %}
 
 </div>
