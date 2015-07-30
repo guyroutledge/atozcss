@@ -18,10 +18,6 @@ links:
       url: /resources
     - title: About
       url: /about
-    - title: Books
-      url: /books
-    - title: Subscribe
-      url: /subscribe
 
 highlighter: pygments
 paginate: 10 # pagination basted on number of posts
