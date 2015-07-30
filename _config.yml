@@ -8,8 +8,14 @@ permalink: /:categories/:title
 links:
     - title: Home
       url: /
+    - title: Start Here
+      url: /start
     - title: All Episodes
       url: /episodes
+    - title: Blog
+      url: /blog
+    - title: Resources
+      url: /resources
     - title: About
       url: /about
     - title: Books
