@@ -171,3 +171,18 @@ $book-height:350px;
 .book-table-footer {
 	margin-bottom:$font-margin-bottom*2;
 }
+
+// Book on homepage
+
+.book-buy {
+	@extend %clearfix;
+	margin: 5rem 0;
+}
+.book-offer-home {
+	float: right;
+
+	.book__container--single {
+		margin-right: -5em;
+		margin-top: -3em;
+	}
+}
