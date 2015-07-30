@@ -63,6 +63,21 @@
 		color:$color-medium-grey;
 	}
 }
+.episodes-list-short {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	li {
+		display: inline;
+		font-size: 1.4em;
+		padding: 0 0.25em;
+
+		&:last-child {
+			@extend %clearfix;
+		}
+	}
+}
 
 .episode-content-title {
 	@extend %h2;
