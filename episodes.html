@@ -7,6 +7,9 @@ permalink: /episodes/index.html
 <div class="site-container-inner">
 
 	<h1 class="page-title">{{ page.title }}</h1>
+
+	{% include episodes-list-short.html %}
+
 	<ul class="episodes">
 		{% for post in site.posts %}
 
