@@ -1,0 +1,13 @@
+
+	<nav class="episode-nav">
+		{% if page.previous %}
+			<a rel="prev" class="episode-nav-prev" href="{{ page.previous.url }}">
+					← {{ page.previous.title }}
+			</a>
+		{% endif %}
+		{% if page.next %}
+			<a rel="next" class="episode-nav-next" href="{{ page.next.url }}">
+					{{ page.next.title }} →
+			</a>
+		{% endif %}
+	</nav>
