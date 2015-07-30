@@ -9,7 +9,7 @@ permalink: /blog/
 	<h1 class="page-title">CSS Blog</h1>
 
 	<ul class="blogs">
-		{% for post in site.categories['blog'] %}
+		{% for post in site.categories['blog'] reversed %}
 
 			<li>
 				{% include blog-post.html %}

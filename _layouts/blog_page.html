@@ -5,16 +5,33 @@ layout: default
 <article class="episode">
 
 	<div class="site-container-inner">
-		<h1>{{page.title}}</h1>
+		<h1>{{page.title}} - ({{page.property}})</h1>
 		<p class="episode-meta">Posted on: {{ page.date | date: "%d %B %Y" }} </p>
 	</div>
 
 
-	
+	<div class="site-container-inner">
+				
+		{{ content }}
+		
+		<div class="episode-info">	
+			<p>Check out more about the {{page.property}} property in the {{page.property}} video episode:</p>
+			
+			{% include video.html %}
 
+			<p>A transcript and code snippets for this video can be found in the shownotes at 
+				<a href="{{ page.alias | remove: "tip-" }}"><strong>{{page.property}}</strong></a></p>
+		</div>
+	</div>
+
+
+
+	<div class="site-container-inner">
+		{% include pagination.html %}
+	</div>
+	
 </article>
 
 <div class="site-container-inner">
 	{% include twitter-follow.html %}
-	{% include episodes-list.html %}
 </div>
