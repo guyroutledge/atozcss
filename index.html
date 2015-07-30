@@ -5,40 +5,12 @@ title: Home
 
 <section class="episode-featured">
 
-	<div class="site-container-inner">
-		<h2 class="home-title">CSS Screencasts for Designers &amp; Developers</h2>
-		<p>Learn CSS and sharpen your front-end skills with these bite-sized video screencasts.</p>
-		<p>There's something for everyone in AtoZ CSS Season 1; pick your level and get started
-		with these popular episodes below.</p>
-	</div>
-
-		<h1 class="category-title">Beginner</h1>
-
-		<div class="video-gallery">
-			{% for post in site.categories.beginner reversed | limit: 3 %}
-				{% include gallery-item.html %}
-			{% endfor %}
-		</div>
-
-		<h1 class="category-title">Intermediate</h1>
-		<div class="video-gallery">
-			{% for post in site.categories.intermediate reversed | limit: 3 %}
-				{% include gallery-item.html %}
-			{% endfor %}
-		</div>
-
-		<h1 class="category-title">Advanced</h1>
-		<div class="video-gallery">
-			{% for post in site.categories.advanced reversed | limit: 3 %}
-				{% include gallery-item.html %}
-			{% endfor %}
-		</div>
+	
 
 </section>
 
 <div class="site-container-inner">
 	{% include twitter-follow.html %}
 
-	{% include episodes-list.html %}
 </div>
 <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
