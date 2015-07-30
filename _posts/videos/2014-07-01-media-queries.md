@@ -7,7 +7,7 @@ wistiaId: 85ensigs69
 wistiaPoster: https://embed-ssl.wistia.com/deliveries/5516516328eca896735d5f7ed37a44b835818c0d.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338
 videoLength: 6 minutes 59 seconds
 comments: true
-category: intermediate
+categories: intermediate video
 excerpt: >
   The @media rule allows conditional styling of elements. The conditions
   can be based on the type of media or known characteristics of the

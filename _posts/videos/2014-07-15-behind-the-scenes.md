@@ -6,6 +6,7 @@ date: 2014-07-15
 wistiaId: svqs7rb9oy
 videoLength: 5 minutes 06 seconds
 comments: true
+categories: video
 excerpt: >
   Watch the process of creating an episode of AtoZ CSS as I broadcast my
   screen in hyper-fast-forward. This is the entire process of writing

@@ -6,6 +6,7 @@ date: 2014-07-22
 wistiaId: fwtui3zjc3
 videoLength: 6 minutes 44 seconds
 comments: true
+categories: video
 excerpt: >
   The CSS `line-height` property acts in a similar way to leading in print
   design.

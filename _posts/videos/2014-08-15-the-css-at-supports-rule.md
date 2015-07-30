@@ -7,6 +7,7 @@ wistiaId: 08d1e2yncj
 disqusId: supports
 videoLength: 7 minutes 25 seconds
 comments: true
+categories: video
 excerpt: >
   When using new or experimental CSS, it can be useful to know
   if the browser supports the features we're writing code for.

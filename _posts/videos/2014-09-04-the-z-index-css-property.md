@@ -7,7 +7,7 @@ wistiaId: 64pn9d94vn
 wistiaPoster: https://embed-ssl.wistia.com/deliveries/2f51dc48c13b31885cffde56cdaa8b7f21bfdad2.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338
 videoLength: 8 minutes 39 seconds
 comments: true
-category: advanced
+categories: advanced video
 excerpt: >
   Some interface designs may call for elements to be layered or stacked on
   top of each other. There are many ways that elements will naturally stack on top of each

@@ -6,6 +6,7 @@ date: 2014-08-19
 wistiaId: gjhbhy0vtm
 videoLength: 6 minutes 36 seconds
 comments: true
+categories: video
 excerpt: >
   Pseudo elements are elements on the page that aren't found in the HTML
   code.  They can be manipulated with any CSS that would be applied to

@@ -6,6 +6,7 @@ date: 2014-07-15
 wistiaId: pg5zytsy0v
 videoLength: 6 minutes 21 seconds
 comments: true
+categories: video
 excerpt: >
   Animation used to be the realm of JavaScript. Now, in modern browsers,
   we can animate elements using CSS. The @keyframes block and animation

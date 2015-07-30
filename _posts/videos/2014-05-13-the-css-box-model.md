@@ -6,7 +6,7 @@ wistiaId: koja055lr9
 wistiaPoster: https://embed-ssl.wistia.com/deliveries/be4bdaebd9ec0b6cb4e6ad462faf2657d6a844ed.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338
 videoLength: 4 minutes 31 seconds
 comments: true
-category: beginner
+categories: beginner video
 excerpt: >
   Every element on a web page is a box and we can describe the 
   characteristics of these boxes using the CSS Box Model. 

@@ -6,6 +6,7 @@ date: 2014-06-03
 wistiaId: k62bvbu9bi
 videoLength: 4 minutes 02 seconds
 comments: true
+categories: video
 excerpt: >
   There’s a number of pseudo classes in CSS. These pseudo classes help us style different states and target specific
   elements based on their relationship or position to other elements. The :enabled and :disabled pseudo classes style form

@@ -5,6 +5,7 @@ alias: /c
 wistiaId: qmw1dqzbd4
 videoLength: 6 minutes 22 seconds
 comments: true
+categories: video
 excerpt: >
   The web would be a pretty dull place without a splash of colour.
   There are a number of different properties that take a colour value and

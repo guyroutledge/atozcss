@@ -7,7 +7,7 @@ wistiaId: 8effled1nu
 wistiaPoster: https://embed-ssl.wistia.com/deliveries/8f6c2c7fa57ef41b0615d12c16ab0d9b3f985375.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338
 videoLength: 7 minutes 25 seconds
 comments: true
-category: advanced
+categories: advanced video
 excerpt: >
   :nth-child is a pseudo class used to select elements by a numeric
   expression. The syntax is quite different to most other aspects of CSS
