@@ -6,14 +6,12 @@ disqusName: atozcss
 
 permalink: /:categories/:title
 links:
-    - title: Home
-      url: /
-    - title: Start Here
-      url: /start
-    - title: All Episodes
-      url: /episodes
+    - title: Videos
+      url: /videos
     - title: Blog
       url: /blog
+    - title: Start Here
+      url: /start
     - title: Resources
       url: /resources
     - title: About
