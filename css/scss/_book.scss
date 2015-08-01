@@ -176,13 +176,15 @@ $book-height:350px;
 
 .book-buy {
 	@extend %clearfix;
-	margin: 5rem 0;
+	margin: 5rem 0 3rem;
 }
 .book-offer-home {
 	float: right;
+	margin:2em 0 2em 1em;
 
 	.book__container--single {
 		margin-right: -5em;
 		margin-top: -3em;
 	}
+
 }
