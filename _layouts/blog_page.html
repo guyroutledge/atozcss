@@ -6,7 +6,7 @@ layout: default
 
 	<div class="site-container-inner">
 		<h1>{{page.title}}</h1>
-		<h2>({{page.property}})</h2>
+		<h2>#csstips</h2>
 		<p class="episode-meta">Posted on: {{ page.date | date: "%d %B %Y" }} </p>
 	</div>
 
@@ -20,8 +20,9 @@ layout: default
 			
 			{% include video.html %}
 
-			<p>A transcript and code snippets for this video can be found in the shownotes at 
-				<a href="{{ page.alias | remove: "tip-" }}"><strong>{{page.property}}</strong></a></p>
+			<p>A transcript and code snippets for this video can be found in the shownotes for the 
+				<a href="{{ page.alias | remove: "tip-" }}"><strong>{{page.property}}</strong></a>
+			video.</p> 
 		</div>
 	</div>
 
