@@ -408,7 +408,6 @@
 																<p>
                                                                 If you've written or seen any interesting articles or CSS experiments that you think should be 
                                                                 featured in next month's newsletter, drop me a <a href="http://www.twitter.com/guyroutledge">tweet</a> and let me know! 
-                                                                If you'd like to see this become more of a weekly newsletter then I'd be keen to hear your thoughts as well.
                                                                 </p>
 
 																<p>Cheers</p>
