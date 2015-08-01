@@ -1,35 +1,40 @@
 {
- "title" : 		"CSS News",
- "tag_line" : 		"My favourite articles and news plus a new CSS tip",
- "intro_text" : 	"<comment>",
- "css_tip_letter": 	"A",
- "css_tip_property": 	"auto",
- "wistia_hash":		"ed40f35ba1df68ca05f8f848810aa0576f98cda2",
+ "title" :           "CSS News",
+ "tag_line" :        "My favourite articles and news plus a new CSS tip",
+ "intro_text" :      "Welcome to the all-new, weekly AtoZ newsletter full of CSS goodness! I'll be sharing my favourite front-end articles and resources that I stumble across each week. If you see (or write) anything that you think should be included, shoot me a tweet @guyroutledge and I'll check it out!",
+ "css_tip_letter":   "A",
+ "css_tip_property": "auto",
+ "wistia_hash":      "ed40f35ba1df68ca05f8f848810aa0576f98cda2",
  "news": [
     {
-	"url":		"http://buff.ly/1J2imYX",
-	"link_text": 	"12 Little-Known CSS Facts",
-	"link_comment": "<comment>"
-    },{
-	"url":		"http://buff.ly/1gJH19K",
-	"link_text": 	"Random #CSS gradient generator with code snippets",
-	"link_comment": "<comment>"
-    },{
-	"url":		"http://buff.ly/1NQk27e",
-	"link_text": 	"OOBEMITSCSS",
-	"link_comment": "<comment>"
-    },{
-	"url":		"http://flexbox.io/#/",
-	"link_text": 	"What the Flexbox?",
-	"link_comment": "<comment>"
-    },{
-	"url":		"http://www.smashingmagazine.com/2015/07/designing-simple-pie-charts-with-css/",
-	"link_text": 	"Designing simple pie charts in CSS",
-	"link_comment": "<comment>"
-    },{
-	"url":		"http://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll",
-	"link_text": 	"Jekyll Couse with Tuts+",
-	"link_comment": "I recently produced a Jekyll course for Tuts+.  Jekyll is a static website generator. The AtoZ website is built using Jekyll and adding new content couldn't be easier. "
+	"url":          "http://www.sitepoint.com/12-little-known-css-facts-the-sequel/",
+	"link_text":    "12 Little-Known CSS Facts",
+	"link_comment": "Louis Lazaris shares a sequel to his first round of little known CSS facts. There's some great stuff in there including some interesting experiments with special characters in CSS selectors."
+    },
+	{
+	"url":          "http://paintbycode.github.io/gradient-generator/",
+	"link_text":    "Random CSS gradient generator",
+	"link_comment": "This simple tool does exactly what it says on the tin and outputs code snippets in either hex or rgb color syntax."
+    },
+	{
+	"url":          "http://www.sitepoint.com/atomic-oobemitscss/",
+	"link_text":    "Atomic OOBEMITSCSS",
+	"link_comment": "Una Kravets shares the CSS naming convention she's taking these days: Atomic OOBEMITSCSS. Seriously."
+    },
+	{
+	"url":          "http://flexbox.io/#/",
+	"link_text":    "What the Flexbox?",
+	"link_comment": "Wes Bos has snagged the most awesome domain name and created a 20-part free video tutorial series all about Flexbox. There's 13 videos on the fundamentals and 7 practical code alongs. Great stuff."
+    },
+	{
+	"url":          "http://www.smashingmagazine.com/2015/07/designing-simple-pie-charts-with-css/",
+	"link_text":    "Designing simple pie charts in CSS",
+	"link_comment": "The incredibly talented Lea Verou takes a section from her recent book, CSS Secrets, and explains how to make pie charts with transforms and pseudo elements."
+    },
+	{
+	"url":          "http://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll",
+	"link_text":    "My first course for Tuts+",
+	"link_comment": "I recently produced a course for Tuts+ about Building Static Sites with Jekyll. I'm a big Jekyll fan (the AtoZ site is built with it) and in the course we go through a detailed process of building a portfolio site from scratch."
 	}
   ]
 }
