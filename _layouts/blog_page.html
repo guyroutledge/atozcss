@@ -16,12 +16,12 @@ layout: default
 		{{ content }}
 		
 		<div class="episode-info">	
-			<p>Check out more about the {{page.property}} property in the {{page.property}} video episode:</p>
+			<p>Check out more about {{page.title | downcase}} in the {{page.title | downcase}} video episode:</p>
 			
 			{% include video.html %}
 
 			<p>A transcript and code snippets for this video can be found in the shownotes for the 
-				<a href="{{ page.alias | remove: "tip-" }}"><strong>{{page.property}}</strong></a>
+				<a href="{{ page.alias | remove: "tip-" }}"><strong>{{page.title | downcase}}</strong></a>
 			video.</p> 
 		</div>
 	</div>
