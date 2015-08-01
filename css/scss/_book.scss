@@ -179,12 +179,20 @@ $book-height:350px;
 	margin: 5rem 0 3rem;
 }
 .book-offer-home {
-	float: right;
 	margin:2em 0 2em 1em;
 
 	.book__container--single {
+		float:none;
+		margin-top:0;
 		margin-right: -5em;
-		margin-top: -3em;
+	}
+
+	@media screen and (min-width:46.25em) {
+		float: right;
+
+		.book__container--single {
+			margin-top: -3em;
+		}
 	}
 
 }
