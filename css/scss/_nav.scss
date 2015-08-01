@@ -15,6 +15,10 @@
 		float:left;
 		width:50%;
 		margin:0;
+
+		&:last-child {
+			width:100%;
+		}
 	}
 	a {
 		display:inline-block;
@@ -34,6 +38,9 @@
 		}
 		li {
 			width:auto;
+			&:last-child {
+				width:auto;
+			}
 		}
 		a {
 			position:relative;
