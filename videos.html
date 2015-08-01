@@ -11,7 +11,7 @@ permalink: /videos/index.html
 	{% include episodes-list-short.html %}
 
 	<ul class="episodes">
-		{% for post in site.categories['video'] %}
+		{% for post in site.categories['video'] reversed %}
 
 			<li>
 				{% include archive-post.html %}
