@@ -1,0 +1,35 @@
+{
+ "title" : 		"AtoZ CSS News",
+ "tag_line" : 		"My favourite articles and news plus a new CSS tip",
+ "intro_text" : 	"<intro text>",
+ "css_tip_letter": 	"D",
+ "css_tip_property": 	"display",
+ "wistia_hash":		"c058add2c78cfb2b75964ee877f22d20e43e610a",
+ "news": [
+    {
+	"url":		"<url for the news item>",
+	"link_text": 	"<text for the link>",
+	"link_comment": "<comment about the news item>"
+    },{
+	"url":		"<url for the news item>",
+	"link_text": 	"<text for the link>",
+	"link_comment": "<comment about the news item>"
+    },{
+	"url":		"<url for the news item>",
+	"link_text": 	"<text for the link>",
+	"link_comment": "<comment about the news item>"
+    },{
+	"url":		"<url for the news item>",
+	"link_text": 	"<text for the link>",
+	"link_comment": "<comment about the news item>"
+    },{
+	"url":		"<url for the news item>",
+	"link_text": 	"<text for the link>",
+	"link_comment": "<comment about the news item>"
+    },{
+	"url":		"<url for the news item>",
+	"link_text": 	"<text for the link>",
+	"link_comment": "<comment about the news item>"
+	}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+ "title" : 		"CSS News",
+ "tag_line" : 		"My favourite articles and news plus a new CSS tip",
+ "intro_text" : 	"<comment>",
+ "css_tip_letter": 	"A",
+ "css_tip_property": 	"auto",
+ "wistia_hash":		"ed40f35ba1df68ca05f8f848810aa0576f98cda2",
+ "news": [
+    {
+	"url":		"http://buff.ly/1J2imYX",
+	"link_text": 	"12 Little-Known CSS Facts",
+	"link_comment": "<comment>"
+    },{
+	"url":		"http://buff.ly/1gJH19K",
+	"link_text": 	"Random #CSS gradient generator with code snippets",
+	"link_comment": "<comment>"
+    },{
+	"url":		"http://buff.ly/1NQk27e",
+	"link_text": 	"OOBEMITSCSS",
+	"link_comment": "<comment>"
+    },{
+	"url":		"http://flexbox.io/#/",
+	"link_text": 	"What the Flexbox?",
+	"link_comment": "<comment>"
+    },{
+	"url":		"http://www.smashingmagazine.com/2015/07/designing-simple-pie-charts-with-css/",
+	"link_text": 	"Designing simple pie charts in CSS",
+	"link_comment": "<comment>"
+    },{
+	"url":		"http://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll",
+	"link_text": 	"Jekyll Couse with Tuts+",
+	"link_comment": "I recently produced a Jekyll course for Tuts+.  Jekyll is a static website generator. The AtoZ website is built using Jekyll and adding new content couldn't be easier. "
+	}
+  ]
+}

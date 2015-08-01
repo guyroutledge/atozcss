@@ -1,0 +1,35 @@
+{
+ "title" : 		"AtoZ CSS News",
+ "tag_line" : 		"My favourite articles and news plus a new CSS tip",
+ "intro_text" : 	"<intro text>",
+ "css_tip_letter": 	"G",
+ "css_tip_property": 	"general sibling",
+ "wistia_hash":		"be9b4915c04404ba9cb7753f0a01df7db301d62c",
+ "news": [
+    {
+	"url":		"<url for the news item>",
+	"link_text": 	"<text for the link>",
+	"link_comment": "<comment about the news item>"
+    },{
+	"url":		"<url for the news item>",
+	"link_text": 	"<text for the link>",
+	"link_comment": "<comment about the news item>"
+    },{
+	"url":		"<url for the news item>",
+	"link_text": 	"<text for the link>",
+	"link_comment": "<comment about the news item>"
+    },{
+	"url":		"<url for the news item>",
+	"link_text": 	"<text for the link>",
+	"link_comment": "<comment about the news item>"
+    },{
+	"url":		"<url for the news item>",
+	"link_text": 	"<text for the link>",
+	"link_comment": "<comment about the news item>"
+    },{
+	"url":		"<url for the news item>",
+	"link_text": 	"<text for the link>",
+	"link_comment": "<comment about the news item>"
+	}
+  ]
+}

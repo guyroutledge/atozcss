@@ -1,0 +1,489 @@
+<?php $atoz = json_decode(file_get_contents($argv[1])); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <!-- This is a simple example template that you can edit to create your own custom templates -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- Facebook sharing information tags -->
+        <meta property="og:title" content="*|MC:SUBJECT|*">
+        
+        <title>*|MC:SUBJECT|*</title>
+		
+	<style type="text/css">
+		#outlook a{
+			padding:0;
+		}
+		body{
+			width:100% !important;
+		}
+		body{
+			-webkit-text-size-adjust:none;
+		}
+		body{
+			margin:0;
+			padding:0;
+		}
+		img{
+			border:none;
+			font-size:14px;
+			font-weight:bold;
+			height:auto;
+			line-height:100%;
+			outline:none;
+			text-decoration:none;
+			text-transform:capitalize;
+		}
+		#backgroundTable{
+			height:100% !important;
+			margin:0;
+			padding:0;
+			width:100% !important;
+		}
+	/*
+	@tab Page
+	@section background color
+	@tip Set the background color for your email. You may want to choose one that matches your company's branding.
+	@theme page
+	*/
+		body,.backgroundTable{
+			/*@editable*/background-color:#222222;
+		}
+	/*
+	@tab Page
+	@section email border
+	@tip Set the border for your email.
+	*/
+		#templateContainer{
+			/*@editable*/border:0;
+		}
+	/*
+	@tab Page
+	@section heading 1
+	@tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+	@theme heading1
+	*/
+		h1,.h1{
+			/*@editable*/color:#ffffff;
+			display:block;
+			/*@editable*/font-family:Arial;
+			/*@editable*/font-size:40px;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			margin-bottom:10px;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section heading 2
+	@tip Set the styling for all second-level headings in your emails.
+	@theme heading2
+	*/
+		h2,.h2{
+			/*@editable*/color:#999999;
+			display:block;
+			/*@editable*/font-family:Arial;
+			/*@editable*/font-size:26px;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			margin-bottom:10px;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section heading 3
+	@tip Set the styling for all third-level headings in your emails.
+	@theme heading3
+	*/
+		h3,.h3{
+			/*@editable*/color:#999999;
+			display:block;
+			/*@editable*/font-family:Arial;
+			/*@editable*/font-size:18px;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			margin-bottom:10px;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Page
+	@section heading 4
+	@tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+	@theme heading4
+	*/
+		h4,.h4{
+			/*@editable*/color:#999999;
+			display:block;
+			/*@editable*/font-family:Arial;
+			/*@editable*/font-size:16px;
+			/*@editable*/font-weight:bold;
+			/*@editable*/line-height:125%;
+			margin-bottom:10px;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section preheader style
+	@tip Set the background color for your email's preheader area.
+	@theme page
+	*/
+		#templatePreheader{
+			/*@editable*/background-color:#222222;
+		}
+	/*
+	@tab Header
+	@section preheader text
+	@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+	*/
+		.preheaderContent div{
+			/*@editable*/color:#ffffff;
+			/*@editable*/font-family:Arial;
+			/*@editable*/font-size:11px;
+			/*@editable*/line-height:125%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Header
+	@section preheader link
+	@tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+	*/
+		.preheaderContent div a:link,.preheaderContent div a:visited{
+			/*@editable*/color:#606060;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+		.preheaderContent div img{
+			height:auto;
+			max-width:600px;
+		}
+	/*
+	@tab Header
+	@section header style
+	@tip Set the background color and border for your email's header area.
+	@theme header
+	*/
+		#templateHeader{
+			/*@editable*/background-color:#222222;
+			/*@editable*/border-bottom:0;
+		}
+	/*
+	@tab Header
+	@section header text
+	@tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+	*/
+		.headerContent{
+			/*@editable*/color:#606060;
+			/*@editable*/font-family:Arial;
+			/*@editable*/font-size:9px;
+			/*@editable*/font-weight:normal;
+			/*@editable*/line-height:150%;
+			/*@editable*/padding:0;
+			/*@editable*/text-align:left;
+			/*@editable*/vertical-align:middle;
+		}
+	/*
+	@tab Header
+	@section header link
+	@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+	*/
+		.headerContent a:link,.headerContent a:visited{
+			/*@editable*/color:#6dc6dd;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+		#headerImage{
+			height:auto;
+			max-width:600px !important;
+		}
+	/*
+	@tab Body
+	@section body style
+	@tip Set the background color for your email's body area.
+	*/
+		#templateContainer,.bodyContent{
+			/*@editable*/background-color:#222222;
+		}
+	/*
+	@tab Body
+	@section body text
+	@tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+	@theme main
+	*/
+		.bodyContent div{
+			/*@editable*/color:#ffffff;
+			/*@editable*/font-family:Arial;
+			/*@editable*/font-size:16px;
+			/*@editable*/line-height:150%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Body
+	@section body link
+	@tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+	*/
+		.bodyContent div a:link,.bodyContent div a:visited{
+			/*@editable*/color:#9be22d;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:none;
+		}
+		.bodyContent img{
+			display:inline;
+			margin-bottom:10px;
+		}
+	/*
+	@tab Footer
+	@section footer style
+	@tip Set the background color and top border for your email's footer area.
+	@theme footer
+	*/
+		#templateFooter{
+			/*@editable*/background-color:#cf3b82;
+			/*@editable*/border-top:0;
+		}
+	/*
+	@tab Footer
+	@section footer text
+	@tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+	@theme footer
+	*/
+		.footerContent div{
+			/*@editable*/color:#ffffff;
+			/*@editable*/font-family:Arial;
+			/*@editable*/font-size:11px;
+			/*@editable*/line-height:125%;
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Footer
+	@section footer link
+	@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+	*/
+		.footerContent div a:link,.footerContent div a:visited{
+			/*@editable*/color:#999999;
+			/*@editable*/font-weight:normal;
+			/*@editable*/text-decoration:underline;
+		}
+		.footerContent img{
+			display:inline;
+		}
+	/*
+	@tab Footer
+	@section social bar style
+	@tip Set the background color and border for your email's footer social bar.
+	*/
+		#social{
+			/*@editable*/background-color:#cf3b82;
+			/*@editable*/border:0;
+		}
+	/*
+	@tab Footer
+	@section social bar style
+	@tip Set the background color and border for your email's footer social bar.
+	*/
+		#social div{
+			/*@editable*/text-align:left;
+		}
+	/*
+	@tab Footer
+	@section utility bar style
+	@tip Set the background color and border for your email's footer utility bar.
+	*/
+		#utility{
+			/*@editable*/background-color:#cf3b82;
+			/*@editable*/border-top:0;
+		}
+	/*
+	@tab Footer
+	@section utility bar style
+	@tip Set the background color and border for your email's footer utility bar.
+	*/
+		#utility div{
+			/*@editable*/text-align:left;
+		}
+		#monkeyRewards img{
+			max-width:160px;
+		}
+</style></head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable">
+            	<tr>
+                	<td align="center" valign="top">
+                        <!-- // Begin Template Preheader \\ -->
+                        <table border="0" cellpadding="10" cellspacing="0" width="600" id="templatePreheader">
+                            <tr>
+                                <td valign="top" class="preheaderContent">
+                                
+                                	<!-- // Begin Module: Standard Preheader \\ -->
+                                    <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                    	<tr>
+                                        	<td valign="top">
+                                            	<div mc:edit="std_preheader_content">
+                                                	AtoZ CSS News
+                                                </div>
+                                            </td>
+                                            <td valign="top" width="180">
+                                            	<div mc:edit="std_preheader_links">
+                                                	<!-- *|IFNOT:ARCHIVE_PAGE|* --><a href="*|ARCHIVE|*" target="_blank">View this email in a browser</a><!-- *|END:IF|* -->
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                	<!-- // End Module: Standard Preheader \\ -->
+                                
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // End Template Preheader \\ -->
+                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Header \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
+                                        <tr>
+                                            <td class="headerContent">
+                                            
+                                            	<!-- // Begin Module: Standard Header Image \\ -->
+                                            	<img src="https://gallery.mailchimp.com/fb5c2d7d6163f7fcbba78e8b0/images/email_banner.png" style="max-width:600px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowdesigner="" mc:allowtext="">
+                                            	<!-- // End Module: Standard Header Image \\ -->
+                                            
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Header \\ -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Body \\ -->
+                                	<table border="0" cellpadding="10" cellspacing="0" width="600" id="templateBody">
+                                    	<tr>
+                                            <td valign="top" class="bodyContent">
+                                
+                                                <!-- // Begin Module: Standard Content \\ -->
+                                                <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <div mc:edit="std_content00">
+                                                                <span class="h1"> <?php echo $atoz->title ?> </span>
+
+								<span class="h3"> <?php echo $atoz->tag_line ?> </span>
+                                                               
+								<p><?php echo $atoz->intro_text ?></p>
+
+								<br><hr><br>
+
+								<span class="h2">Great CSS Reads</span>
+
+                                                                <?php foreach ( $atoz->news as $newsitem ) : ?>
+									<span class="h3">
+                                                                                <a href="<?php echo $newsitem->url ?>" target="_blank">
+											<?php echo $newsitem->link_text ?>
+										</a>
+                                                                        </span>
+                                                                        <p><?php echo $newsitem->link_comment ?></p>
+                                                                <?php endforeach; ?>
+
+								<br><hr><br>
+								<span class="h2">CSS Tips</span>
+
+								<p>This week's tip on the blog is <?php echo $atoz->css_tip_letter ?> for <?php echo $atoz->css_tip_property ?>. Check it out here: </p>
+
+								<span class="h3">
+									<a href="http://www.atozcss.com/blog/tip-<?php echo strtolower($atoz->css_tip_letter) ?>" target="_blank">
+									CSS Tip - <?php echo $atoz->css_tip_letter ?> ( <?php echo $atoz->css_tip_property ?> ) 
+									</a>
+								</span>
+
+								<p>Or if you missed the original video check it out here:</p>
+								<br>
+								<a href="http://www.atozcss.com/<?php echo strtolower($atoz->css_tip_letter) ?>" >
+									<img src="https://embed-ssl.wistia.com/deliveries/<?php echo $atoz->wistia_hash ?>.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338" alt="video image" width=400 >
+								</a>
+
+
+ 
+								<br><hr><br>
+                                                                <p>That's all for now, folks.</p>
+
+																<p>
+                                                                If you've written or seen any interesting articles or CSS experiments that you think should be 
+                                                                featured in next month's newsletter, drop me a <a href="http://www.twitter.com/guyroutledge">tweet</a> and let me know! 
+                                                                If you'd like to see this become more of a weekly newsletter then I'd be keen to hear your thoughts as well.
+                                                                </p>
+
+																<p>Cheers</p>
+
+ 																<p>-- Guy</p>
+                                                            </div>
+														</td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Standard Content \\ -->
+                                                
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Body \\ -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Footer \\ -->
+                                	<table border="0" cellpadding="10" cellspacing="0" width="600" id="templateFooter">
+                                    	<tr>
+                                        	<td valign="top" class="footerContent">
+                                            
+                                                <!-- // Begin Module: Standard Footer \\ -->
+                                                <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                                	<tr>
+                                                    	<td colspan="2" valign="middle" id="social">
+                                                        	<div>
+                                                            	<p>
+                                                                AtoZ CSS was lovingly created by <a href="http://www.guyroutledge.co.uk">Guy Routledge</a> with Sass and vim.
+                                                            </p></div>
+                                                        </td>
+                                                    </tr>
+													<tr>
+														<td valign="top" width="370">
+                                                            <div mc:edit="std_footer">
+                                                                <em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
+                                                                *|IFNOT:ARCHIVE_PAGE|**|LIST:DESCRIPTION|*
+                                                                <br><br>
+                                                                <strong>Our mailing address is:</strong>
+                                                                <br>
+                                                                *|HTML:LIST_ADDRESS_HTML|**|END:IF|*
+                                                            </div>   
+                                                        </td>
+													</tr>
+													<tr>
+                                                        <td colspan="2" valign="middle" id="utility">
+                                                            <div mc:edit="std_utility">
+                                                                &nbsp;<a href="*|UNSUB|*">unsubscribe from this list</a> | <a href="*|UPDATE_PROFILE|*">update subscription preferences</a><!-- *|IFNOT:ARCHIVE_PAGE|* --> | <a href="*|ARCHIVE|*">view email in browser</a><!-- *|END:IF|* -->&nbsp;
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top" width="170" id="monkeyRewards">
+                                                            <div mc:edit="monkeyrewards">
+                                                                *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Standard Footer \\ -->
+                                            
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Footer \\ -->
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
+
