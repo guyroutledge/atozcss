@@ -30,11 +30,6 @@
 	"url":          "http://www.smashingmagazine.com/2015/07/designing-simple-pie-charts-with-css/",
 	"link_text":    "Designing simple pie charts in CSS",
 	"link_comment": "The incredibly talented Lea Verou takes a section from her recent book, CSS Secrets, and explains how to make pie charts with transforms and pseudo elements."
-    },
-	{
-	"url":          "http://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll",
-	"link_text":    "My first course for Tuts+",
-	"link_comment": "I recently produced a course for Tuts+ about Building Static Sites with Jekyll. I'm a big Jekyll fan (the AtoZ site is built with it) and in the course we go through a detailed process of building a portfolio site from scratch."
-	}
+    }
   ]
 }
