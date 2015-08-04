@@ -12,17 +12,17 @@ layout: default
 
 
 	<div class="site-container-inner">
-				
+
 		{{ content }}
-		
-		<div class="episode-info">	
-			<p>Check out more about {{page.title | downcase}} in the {{page.title | downcase}} video episode:</p>
-			
+
+		<div class="episode-info">
+			<p>Check out more about <code>{{page.title | downcase}}</code> in the original screencast video:</p>
+
 			{% include video.html %}
 
-			<p>A transcript and code snippets for this video can be found in the shownotes for the 
-				<a href="{{ page.alias | remove: "tip-" }}"><strong>{{page.title | downcase}}</strong></a>
-			video.</p> 
+			<p>A transcript and code snippets for this video can be found in the shownotes for the
+				<a href="{{ page.alias | remove: "tip-" }}"><code>{{page.title | downcase}}</code></a>
+			video.</p>
 		</div>
 	</div>
 
@@ -31,7 +31,7 @@ layout: default
 	<div class="site-container-inner">
 		{% include pagination.html %}
 	</div>
-	
+
 </article>
 
 <div class="site-container-inner">
