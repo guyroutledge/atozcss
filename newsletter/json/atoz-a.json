@@ -1,6 +1,6 @@
 {
  "title" :           "CSS News",
- "tag_line" :        "My favourite articles and news plus a new CSS tip",
+ "tag_line" :        "My favourite articles of the week, plus a quick CSS Tip",
  "intro_text" :      "Welcome to the all-new, weekly AtoZ newsletter full of CSS goodness! I'll be sharing my favourite front-end articles and resources that I stumble across each week. If you see (or write) anything that you think should be included, shoot me a tweet @guyroutledge and I'll check it out!",
  "css_tip_letter":   "A",
  "css_tip_property": "auto",
