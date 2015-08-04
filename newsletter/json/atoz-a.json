@@ -2,11 +2,9 @@
  "title" :           "CSS News",
  "tag_line" :        "My favourite articles of the week, plus a quick CSS Tip",
  "intro_text" :      "Welcome to the all-new, weekly AtoZ newsletter full of CSS goodness! I'll be sharing my favourite front-end articles and resources that I stumble across each week. If you see (or write) anything that you think should be included, shoot me a tweet and I'll check it out!",
->>>>>>> changes to newsletter to make it mobile friendly
  "css_tip_letter":   "A",
  "css_tip_property": "Auto",
  "wistia_id":        "vg84pyi0rg",
- "wistia_hash":      "ed40f35ba1df68ca05f8f848810aa0576f98cda2",
  "news": [
     {
 	"url":          "http://www.sitepoint.com/12-little-known-css-facts-the-sequel/",
