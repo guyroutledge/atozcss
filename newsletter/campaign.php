@@ -35,7 +35,7 @@ if( isset($result->status) && $result->status == 'error' ) {
     //echo $MailChimp->errorCode;
     //echo $MailChimp->errorMessage;
 } else {
-    echo "Successfully created new campaign!"
+    echo "Successfully created new campaign!";
 }
 
 
