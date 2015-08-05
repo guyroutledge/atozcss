@@ -12,7 +12,7 @@ $api_key = "3b071b9ad360b38ca7e89ca5be8cb8b9-us3";
 $args['type'] = 'regular';
 
 $args['options'] = 
-  array ( 	'list_id' => 'bd49279454',
+  array ( 	'list_id' => '5fa71cd7de',
 		'subject' => 'AtoZ CSS News',
 		'from_email' => 'mail@guyroutledge.co.uk',
 		'from_name' => 'AtoZ CSS',
