@@ -4,7 +4,7 @@
  "intro_text" :         "For the last few weeks I've been working on a pretty rich interface of animations, transitions and 3D transforms so you might notice a bit of a theme in this weeks's hot picks. Enjoy!",
  "css_tip_letter":      "B",
  "css_tip_property":    "Box Model",
- "wistia_id":           "<id>",
+ "wistia_id":           "koja055lr9",
  "news": [
     {
 	"url":          "http://buff.ly/1SRoKTL",
@@ -21,7 +21,7 @@
     },{
 	"url":          "http://buff.ly/1II5M0k",
 	"link_text":    "Debugging CSS Animations",
-	"link_comment": "Sarah Drasner goes over some tips and the tools that can be used to refine and debug your animations in this in-depth article for CSS Tricks."
+	"link_comment": "Sarah Drasner goes over some tips and tools that can be used to refine and debug your animations in this in-depth article for CSS Tricks."
     },{
 	"url":          "http://buff.ly/1f3bcqM",
 	"link_text":    "JS & CSS Animation Libraries",
