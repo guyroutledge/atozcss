@@ -1,31 +1,31 @@
 {
  "title" :              "AtoZ CSS News",
  "tag_line" :           "My favourite articles and news plus a new CSS tip",
- "intro_text" :         "<intro text>",
+ "intro_text" :         "For the last few weeks I've been working on a pretty rich interface of animations, transitions and 3D transforms so you might notice a bit of a theme in this weeks's hot picks. Enjoy!",
  "css_tip_letter":      "B",
- "css_tip_property":    "Box-Model",
+ "css_tip_property":    "Box Model",
  "wistia_id":           "<id>",
  "news": [
     {
-	"url":          "<url for the news item>",
-	"link_text":    "<text for the link>",
-	"link_comment": "<comment about the news item>"
+	"url":          "http://buff.ly/1SRoKTL",
+	"link_text":    "Advanced CSS Filters",
+	"link_comment": "For anyone who's ever wanted to re-create the iOS blurred background effect, this post might be of interest. CSS Filters Level 2 and Vincent De Oliveira have your back..."
     },{
-	"url":          "<url for the news item>",
-	"link_text":    "<text for the link>",
-	"link_comment": "<comment about the news item>"
+	"url":          "http://buff.ly/1MZSYlD",
+	"link_text":    "CSS vs SVG Graphical Text Effects",
+	"link_comment": "Sara Soueidan writes on the Adobe Dreamweaver Blog about different approaches for creating text effects; with some old and new CSS ways and smart new SVG ways."
     },{
-	"url":          "<url for the news item>",
-	"link_text":    "<text for the link>",
-	"link_comment": "<comment about the news item>"
+	"url":          "http://buff.ly/1fSWweK",
+	"link_text":    "Acce{CSS}",
+	"link_comment": "Moving away from the CSS effects topic to something a little different: a Sass mixin that helps you debug how accessible your project is. I've yet to trial this in the real world, but it looks great!"
     },{
-	"url":          "<url for the news item>",
-	"link_text":    "<text for the link>",
-	"link_comment": "<comment about the news item>"
+	"url":          "http://buff.ly/1II5M0k",
+	"link_text":    "Debugging CSS Animations",
+	"link_comment": "Sarah Drasner goes over some tips and the tools that can be used to refine and debug your animations in this in-depth article for CSS Tricks."
     },{
-	"url":          "<url for the news item>",
-	"link_text":    "<text for the link>",
-	"link_comment": "<comment about the news item>"
+	"url":          "http://buff.ly/1f3bcqM",
+	"link_text":    "JS & CSS Animation Libraries",
+	"link_comment": "Everyone loves a resource round-up post and here's one from Designify from earlier this year. Whether you need a physics engine or just some quick-use pre-defined animations, this post has them all."
 	}
   ]
 }
