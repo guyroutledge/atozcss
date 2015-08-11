@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<article class="episode">
+
+	<div class="site-container-inner">
+		<h1>{{page.title}}</h1>
+		<h2>#csstips</h2>
+		<p class="episode-meta">Posted on: {{ page.date | date: "%d %B %Y" }} </p>
+	</div>
+
+
+	<div class="site-container-inner">
+
+		{{ content }}
+
+		<div class="episode-info">
+			<p>Check out more about <code>{{page.title | downcase}}</code> in the original screencast video:</p>
+
+			{% include video.html %}
+
+			<p>A transcript and code snippets for this video can be found in the shownotes for the
+				<a href="{{ page.alias | remove: "tip-" }}"><code>{{page.title | downcase}}</code></a>
+			video.</p>
+		</div>
+	</div>
+
+
+
+	<div class="site-container-inner">
+		{% include pagination.html %}
+	</div>
+
+</article>
+
+<div class="site-container-inner">
+	{% include twitter-follow.html %}
+</div>

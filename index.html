@@ -3,42 +3,80 @@ layout: default
 title: Home
 ---
 
-<section class="episode-featured">
-
-	<div class="site-container-inner">
-		<h2 class="home-title">CSS Screencasts for Designers &amp; Developers</h2>
-		<p>Learn CSS and sharpen your front-end skills with these bite-sized video screencasts.</p>
-		<p>There's something for everyone in AtoZ CSS Season 1; pick your level and get started
-		with these popular episodes below.</p>
-	</div>
-
-		<h1 class="category-title">Beginner</h1>
-
-		<div class="video-gallery">
-			{% for post in site.categories.beginner reversed | limit: 3 %}
-				{% include gallery-item.html %}
-			{% endfor %}
-		</div>
-
-		<h1 class="category-title">Intermediate</h1>
-		<div class="video-gallery">
-			{% for post in site.categories.intermediate reversed | limit: 3 %}
-				{% include gallery-item.html %}
-			{% endfor %}
-		</div>
-
-		<h1 class="category-title">Advanced</h1>
-		<div class="video-gallery">
-			{% for post in site.categories.advanced reversed | limit: 3 %}
-				{% include gallery-item.html %}
-			{% endfor %}
-		</div>
-
-</section>
-
 <div class="site-container-inner">
+
+	<section class="episode-featured">
+
+		<div class="css-intro">
+			<h1 class="no-margin">CSS Screencasts</h1>
+			<h2>for Designers & Developers</h2>
+
+			<p>Inside you’ll find bite-sized videos covering everything from CSS fundamentals
+			to some of the more weird and wonderful topics. Get started below to check out a
+			handful of the most popular screencasts from season 1, all categorised by level
+			of difficulty.</p>
+
+			<a href="/start-here/" class="button start-here">Get Started Here!</a>
+		</div>
+
+		<div class="tips-banner">
+			<h2>Weekly CSS News</h2>
+			<p>Get the week’s hottest news and links straight to your inbox. In every newsletter you’ll find:</p>
+			<ul>
+				<li>A curated list of blog posts, articles, tools and resources that I've found on the web recently.</li>
+				<li>A quick CSS tip to accompany each video from the first season of AtoZ CSS.</li>
+				<li>Industry news, conference info, other events and all sorts of useful info.</li>
+			</ul>
+		</div>
+
+		<section class="subscribe">
+			<div class="site-container-inner">
+				{% include form.html %}
+			</div>
+		</section>
+
+		<div class="book-buy">
+			<h2>Did you know I wrote a book all about CSS layout?</h2>
+			<div class="book-offer-home">
+				<a href="/books">
+					<div class="book__container--single">
+						<article class="book is-rotated">
+							<div class="book__cover">
+								<h1>
+									<span>AtoZ CSS guide to</span>
+									Layout &amp; Document Flow
+								</h1>
+							</div>
+							<div class="book__spine">
+								<p>AtoZ CSS guide <span>by Guy Routledge</span></p>
+							</div>
+						</article>
+					</div>
+				</a>
+			</div>
+
+			<p>Well, if you didn’t, you do&nbsp;now!</p>
+			<p>Learn the fundamental building blocks of CSS; inline elements, block elements, how the cascade works,
+			all about float, inline-block and CSS positioning. There's a whole practical section which steps
+			through the process of writing the CSS for a whole website and then a final section all about CSS of
+			the future - flexbox and the new grid layout&nbsp;spec.</p>
+			<p>If you prefer watching to reading, there’s also a 90-minute video series to accompany the practical
+			section of the book. How handy is&nbsp;that?</p>
+			<p>You can <a href="/books">check out screenshots from the book</a> and <a href="/books">watch a sample video</a>
+			before checking out with Stripe or Paypal&nbsp;:)</p>
+		</div>
+
+		<div class="sass-teaser">
+			<h2>Coming Soon: AtoZ Season&nbsp;2</h2>
+			<p>I have a confession to make: I hardly ever write CSS any more.</p>
+			<h3>I write <strong>Sass.</strong></h3>
+			<p>Ever wondered what Sass is, what it does or why it’s such a big deal? Well, wonder no longer. The next
+			26-video series is going to cover everything you need to know to make you a Sass&nbsp;Superhero!</p>
+			<p>Make sure you're on the mailing list to hear all about the launch of the next season. But in the&nbsp;meantime...</p>
+		</div>
+	</section>
+
+
 	{% include twitter-follow.html %}
 
-	{% include episodes-list.html %}
 </div>
-<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>

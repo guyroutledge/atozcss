@@ -12,10 +12,12 @@
 	</head>
 	<body class="page-{{ page.title | downcase | replace:' ','-' }}">
 		<header class="site-header">
-			<h1 class="site-logo" title="{{ site.name }}">
-				A<span>to</span>Z
-				<b>CSS</b>
-			</h1>
+			<a href="/">
+				<h1 class="site-logo" title="{{ site.name }}">
+					A<span>to</span>Z
+					<b>CSS</b>
+				</h1>
+			</a>
 			<nav class="site-nav">
 				<ul>
 				{% for link in site.links %}

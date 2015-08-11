@@ -5,8 +5,13 @@
 %container {
 	margin-left:auto;
 	margin-right:auto;
-	padding-left:2rem;
-	padding-right:2rem;
+	padding-left:1rem;
+	padding-right:1rem;
+
+	@media screen and (min-width: 31.25em) {
+		padding-left:2rem;
+		padding-right:2rem;
+	}
 }
 %container {
 	position:relative;
@@ -68,7 +73,10 @@
 .home-title {
 	line-height:1.1;
 }
-
+.sass-teaser,
+.css-intro {
+	margin: 3em 0;
+}
 
 //*************************
 // $$ About Page
@@ -124,10 +132,12 @@
 		opacity:1;
 	}
 
-	.page-all-episodes &,
-	.page-books &,
+	.page-home &,
+	.page-videos &,
+	.page-blog &,
 	.page-about &,
-	.page-subscribe & {
+	.page-start-here &,
+	.page-resources & {
 		margin-left:-47rem;
 	}
 }

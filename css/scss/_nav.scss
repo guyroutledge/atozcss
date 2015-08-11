@@ -15,6 +15,10 @@
 		float:left;
 		width:50%;
 		margin:0;
+
+		&:last-child {
+			width:100%;
+		}
 	}
 	a {
 		display:inline-block;
@@ -34,6 +38,9 @@
 		}
 		li {
 			width:auto;
+			&:last-child {
+				width:auto;
+			}
 		}
 		a {
 			position:relative;
@@ -47,11 +54,11 @@
 	}
 }
 $nav-items: (
-	'home': $color-home,
-	'all-episodes': $color-all-episodes,
-	'books': $color-books,
-	'about': $color-about,
-	'subscribe': $color-subscribe
+	'videos': $color-videos,
+	'blog': $color-blog,
+	'start-here': $color-start-here,
+	'resources': $color-resources,
+	'about': $color-about
 );
 
 @each $item, $item-color in $nav-items {
