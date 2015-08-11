@@ -1,0 +1,31 @@
+<p>Not only can we use the <code>color</code> property to change the behaviour of our website, but also the behaviour of the browser.</p>
+
+<p>It is really easy to change the default browser highlight colors using the background and color properties on the <code>::selection</code> pseudo-element.</p>
+
+<div data-height="268" data-theme-id="17492" data-slug-hash="zGywNE" data-default-tab="css" data-user="atozcss" class="codepen"><pre><code>::selection {
+		background: green;
+		color: white
+}
+
+.important::selection {
+		background: red;
+}</code></pre>
+<p>See the Pen <a href="http://codepen.io/atozcss/pen/zGywNE/">tip-c</a> by Guy Routledge (<a href="http://codepen.io/atozcss">@atozcss</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+</div>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<p><br />
+Test out this feature by highlighting some text in each of the paragraphs in the codepen Result.</p>
+
+<p>Notice that to target the second paragram (the important class) the css selector needs to be more specific, otherwise the first block of css code will apply to all elements on the page.</p>
+
+<h2 id="color-generators">Color Generators</h2>
+<p>There are a couple of  great places to find and create color themes. The following are a couple that I recommend:</p>
+
+<ul>
+  <li><a href="https://color.adobe.com/">https://color.adobe.com/</a>
+ (look on the Explore tab if you want to see existing themes)</li>
+  <li><a href="http://coolors.co">http://coolors.cc/</a></li>
+  <li><a href="http://paletton.com/">http://paletton.com/</a></li>
+</ul>
+
