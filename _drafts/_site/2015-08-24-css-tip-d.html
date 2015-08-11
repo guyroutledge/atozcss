@@ -1,0 +1,28 @@
+<p>Not all things are equal when we don’t want to <code>display</code> content.</p>
+
+<p><code>display:none</code> is not the same as <code>visibility:hidden</code></p>
+
+<ul>
+  <li><code>display:none</code> does not allocate any space on the page; the element is removed from the normal flow of the page</li>
+  <li><code>visibility:hidden</code> does allocate space; the item simply cannot be seen</li>
+</ul>
+
+<div data-height="268" data-theme-id="17492" data-slug-hash="XboRoE" data-default-tab="css" data-user="atozcss" class="codepen"><pre><code>div {
+  width: 300px;
+  border: 1px solid grey;
+}
+
+.display-test {
+  display: none;
+}
+.vis-test {
+  visibility: hidden;
+}</code></pre>
+<p>See the Pen <a href="http://codepen.io/atozcss/pen/XboRoE/">tip-d</a> by Guy Routledge (<a href="http://codepen.io/atozcss">@atozcss</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+</div>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<p><br />
+Notice how there is blank space in the second box where a paragraph has been hidden. There is no allocated space in the first box that uses <code>display:none</code>.</p>
+
+<p>In both cases the item can still be interacted with via the dom, but not the child elements in the <code>display:none</code> case.</p>

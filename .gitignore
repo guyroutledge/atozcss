@@ -3,3 +3,4 @@ css/*.css
 _site/*
 node_modules/*
 *sublime*
+.gitconfig
