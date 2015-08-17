@@ -22,6 +22,15 @@ body {
 	color:$color-copy;
 }
 
+::selection {
+	color:#fff;
+	background: $color-brand;
+}
+::-moz-selection {
+	color:#fff;
+	background: $color-brand;
+}
+
 //*************************
 // $$ Links
 //**************************
