@@ -28,21 +28,21 @@ permalink: /start-here/
 		<h1 class="category-title">CSS Beginner</h1>
 
 		<div class="video-gallery">
-			{% for post in site.categories.beginner reversed | limit: 3 %}
+			{% for post in site.categories.beginner reversed %}
 				{% include gallery-item.html %}
 			{% endfor %}
 		</div>
 
 		<h1 class="category-title">CSS Intermediate</h1>
 		<div class="video-gallery">
-			{% for post in site.categories.intermediate reversed | limit: 3 %}
+			{% for post in site.categories.intermediate reversed %}
 				{% include gallery-item.html %}
 			{% endfor %}
 		</div>
 
 		<h1 class="category-title">CSS Advanced</h1>
 		<div class="video-gallery">
-			{% for post in site.categories.advanced reversed | limit: 3 %}
+			{% for post in site.categories.advanced reversed %}
 				{% include gallery-item.html %}
 			{% endfor %}
 		</div>
