@@ -4,7 +4,7 @@ title: Hover
 alias: /h
 date: 2014-06-24
 wistiaId: ig3axa1zs3
-wistiaPoster: https://embed-ssl.wistia.com/deliveries/e35e19614ceb85e27d9eb1ff60e1ad10853944b8.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338
+wistiaPoster: e35e19614ceb85e27d9eb1ff60e1ad10853944b8
 videoLength: 6 minutes 19 seconds
 comments: true
 categories: beginner video

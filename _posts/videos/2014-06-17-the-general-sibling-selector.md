@@ -4,7 +4,7 @@ title: "General sibling"
 alias: /g
 date: 2014-06-17
 wistiaId: 9d4r1qiqe4
-wistiaPoster: https://embed-ssl.wistia.com/deliveries/be9b4915c04404ba9cb7753f0a01df7db301d62c.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338
+wistiaPoster: be9b4915c04404ba9cb7753f0a01df7db301d62c
 videoLength: 5 minutes 19 seconds
 comments: true
 categories: intermediate video

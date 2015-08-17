@@ -4,7 +4,7 @@ title: ":nth-child"
 alias: /n
 date: 2014-08-05
 wistiaId: 8effled1nu
-wistiaPoster: https://embed-ssl.wistia.com/deliveries/8f6c2c7fa57ef41b0615d12c16ab0d9b3f985375.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338
+wistiaPoster: 8f6c2c7fa57ef41b0615d12c16ab0d9b3f985375
 videoLength: 7 minutes 25 seconds
 comments: true
 categories: advanced video
