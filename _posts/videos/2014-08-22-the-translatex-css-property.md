@@ -6,7 +6,7 @@ date: 2014-10-16
 wistiaId: jvizea6q0i
 videoLength: 5 minutes 09 seconds
 comments: true
-categories: video
+categories: intermediate video
 excerpt: >
   As we approach the end of the alphabet, and the end of the first season
   of AtoZ CSS, there aren't many properties, values or concepts that start

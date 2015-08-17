@@ -6,7 +6,7 @@ date: 2014-10-01
 wistiaId: ijork7g838
 videoLength: 5 minutes 24 seconds
 comments: true
-categories: video
+categories: beginner video
 excerpt: >
   Vertical centering is a firm favourite of designers - for both print
   and digital media. But aligning things vertically with CSS is not the

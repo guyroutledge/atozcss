@@ -6,7 +6,7 @@ date: 2014-08-11
 wistiaId: 1lm6l98v58
 videoLength: 4 minutes 43 seconds
 comments: true
-categories: video
+categories: beginner video
 excerpt: >
   The opacity property specifies how opaque an element is. It takes
   a value ranging from 0 to 1 where 0 is completely transparent and 1 is

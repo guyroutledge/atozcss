@@ -6,7 +6,7 @@ date: 2014-09-24
 wistiaId: kxh7150659 
 videoLength: 6 minutes 31 seconds
 comments: true
-categories: video
+categories: intermediate video
 excerpt: >
   In the previous episode we looked at all sorts of properties for styling
   text. In modern browsers, and in IE back to version 4, we can add
