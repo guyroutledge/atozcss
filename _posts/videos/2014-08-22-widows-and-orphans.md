@@ -6,7 +6,7 @@ date: 2014-10-09
 wistiaId: w6czfxn0k9
 videoLength: 5 minutes 24 seconds
 comments: true
-categories: video
+categories: intermediate video
 excerpt: >
   More and more these days, CSS is being used to control the styling of
   things other than websites.

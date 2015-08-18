@@ -4,7 +4,7 @@ title: "Float"
 alias: /f
 date: 2014-06-10
 wistiaId: t8ekz6iwcv
-wistiaPoster: https://embed-ssl.wistia.com/deliveries/07fb96ef417ae28e69d8757edb00e7d442d6ba1c.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338
+wistiaPoster: 07fb96ef417ae28e69d8757edb00e7d442d6ba1c
 videoLength: 6 minutes 35 seconds
 comments: true
 categories: intermediate video

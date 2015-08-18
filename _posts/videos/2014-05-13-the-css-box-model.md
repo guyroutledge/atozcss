@@ -3,7 +3,7 @@ layout: post_page
 title: Box Model
 alias: /b
 wistiaId: koja055lr9
-wistiaPoster: https://embed-ssl.wistia.com/deliveries/be4bdaebd9ec0b6cb4e6ad462faf2657d6a844ed.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338
+wistiaPoster: be4bdaebd9ec0b6cb4e6ad462faf2657d6a844ed
 videoLength: 4 minutes 31 seconds
 comments: true
 categories: beginner video

@@ -6,7 +6,7 @@ date: 2014-07-01
 wistiaId: q9m9d0n2hl
 videoLength: 7 minutes 12 seconds
 comments: true
-categories: video
+categories: intermediate video
 excerpt: >
   ID is a CSS selector that allows the styling of a single unique element. 
   Their use in CSS is common and often a little controversial. In this 

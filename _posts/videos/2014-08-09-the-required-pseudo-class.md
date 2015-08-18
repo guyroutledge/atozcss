@@ -6,7 +6,7 @@ date: 2014-09-02
 wistiaId: qdefggbhue
 videoLength: 5 minutes 36 seconds
 comments: true
-categories: video
+categories: intermediate video
 excerpt: >
   :required is a state based pseudo class that can be useful when
   styling forms.

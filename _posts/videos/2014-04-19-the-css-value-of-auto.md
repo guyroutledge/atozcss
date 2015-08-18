@@ -3,7 +3,7 @@ layout: post_page
 title: Auto
 alias: /a
 wistiaId: vg84pyi0rg
-wistiaPoster: https://embed-ssl.wistia.com/deliveries/ed40f35ba1df68ca05f8f848810aa0576f98cda2.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338
+wistiaPoster: ed40f35ba1df68ca05f8f848810aa0576f98cda2
 videoLength: 5 minutes 25 seconds
 comments: true
 categories: beginner video

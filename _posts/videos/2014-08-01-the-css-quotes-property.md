@@ -7,7 +7,7 @@ wistiaId: y3p4f1gz4k
 disqusId: quotes
 videoLength: 5 minutes 02 seconds
 comments: true
-categories: video
+categories: advanced video
 excerpt: >
   Single and double quotes appear frequently when writing code.  However,
   when displaying any quoted text like the `q` element or when using

@@ -6,7 +6,7 @@ date: 2014-09-16
 wistiaId: kuc9u5inju
 videoLength: 7 minutes 17 seconds
 comments: true
-categories: video
+categories: beginner video
 excerpt: >
   Text is everywhere. Without it, the web wouldn't be such a valuable
   resource.  There are many different CSS properties for styling text

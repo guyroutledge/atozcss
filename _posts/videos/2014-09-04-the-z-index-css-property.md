@@ -4,7 +4,7 @@ title: "Z-index"
 alias: /z
 date: 2014-10-30
 wistiaId: 64pn9d94vn 
-wistiaPoster: https://embed-ssl.wistia.com/deliveries/2f51dc48c13b31885cffde56cdaa8b7f21bfdad2.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338
+wistiaPoster: 2f51dc48c13b31885cffde56cdaa8b7f21bfdad2
 videoLength: 8 minutes 39 seconds
 comments: true
 categories: advanced video
