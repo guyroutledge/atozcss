@@ -4,6 +4,7 @@ title: "Line-height"
 alias: /l
 date: 2014-07-22
 wistiaId: fwtui3zjc3
+wistiaPoster: 6d1a0cd1ede191e2bc664ca22c66e325a57fc4de
 videoLength: 6 minutes 44 seconds
 comments: true
 categories: beginner video

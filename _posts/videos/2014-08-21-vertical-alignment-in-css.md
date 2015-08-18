@@ -4,6 +4,7 @@ title: "Vertical-align"
 alias: /v
 date: 2014-10-01
 wistiaId: ijork7g838
+wistiaPoster: 2eb3fe02d09f6cdd2e1e29be0a9dbb0dbcdbb55e
 videoLength: 5 minutes 24 seconds
 comments: true
 categories: beginner video

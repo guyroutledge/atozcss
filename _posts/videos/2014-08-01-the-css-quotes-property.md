@@ -4,6 +4,7 @@ title: "Quotes"
 alias: /q
 date: 2014-08-26
 wistiaId: y3p4f1gz4k
+wistiaPoster: 5da25ee0d8759743d079ec2c1833c6c1cf83d2a8
 disqusId: quotes
 videoLength: 5 minutes 02 seconds
 comments: true

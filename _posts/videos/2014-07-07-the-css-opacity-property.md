@@ -4,6 +4,7 @@ title: "Opacity"
 alias: /o
 date: 2014-08-11
 wistiaId: 1lm6l98v58
+wistiaPoster: 325114f6966f23b0c8b0de6f64953ad7fddfd69e
 videoLength: 4 minutes 43 seconds
 comments: true
 categories: beginner video

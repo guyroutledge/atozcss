@@ -4,6 +4,7 @@ title: "Required"
 alias: /r
 date: 2014-09-02
 wistiaId: qdefggbhue
+wistiaPoster: 9f988ce641ecf7879800a0c5f86c3c388bcdead0
 videoLength: 5 minutes 36 seconds
 comments: true
 categories: intermediate video

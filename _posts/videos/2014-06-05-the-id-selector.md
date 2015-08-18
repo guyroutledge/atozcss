@@ -4,6 +4,7 @@ title: ID
 alias: /i
 date: 2014-07-01
 wistiaId: q9m9d0n2hl
+wistiaPoster: ff4e24986051d472937e8d4eada23b2ad1d8eb68
 videoLength: 7 minutes 12 seconds
 comments: true
 categories: intermediate video

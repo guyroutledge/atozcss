@@ -4,6 +4,7 @@ title: "TranslateX"
 alias: /x
 date: 2014-10-16
 wistiaId: jvizea6q0i
+wistiaPoster: ff24bc7aa0822de6c4aef04b2a72880c40eeb3c1
 videoLength: 5 minutes 09 seconds
 comments: true
 categories: intermediate video

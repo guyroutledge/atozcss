@@ -4,6 +4,7 @@ title: Display
 alias: /d
 date: 2014-05-27
 wistiaId: kgrhaeh5o3
+wistiaPoster: c058add2c78cfb2b75964ee877f22d20e43e610a
 videoLength: 6 minutes 23 seconds
 comments: true
 categories: beginner video

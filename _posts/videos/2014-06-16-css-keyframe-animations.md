@@ -4,6 +4,7 @@ title: "@keyframes"
 alias: /k
 date: 2014-07-15
 wistiaId: pg5zytsy0v
+wistiaPoster: 3a9dbb672472fd17b8f48e21581b0013193cd826
 videoLength: 6 minutes 21 seconds
 comments: true
 categories: intermediate video

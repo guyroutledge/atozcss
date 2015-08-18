@@ -4,6 +4,7 @@ title: "Unicode-range"
 alias: /u
 date: 2014-09-24
 wistiaId: kxh7150659 
+wistiaPoster: 9a55e4d44e66baf750e89ca3615c8000f0540d44
 videoLength: 6 minutes 31 seconds
 comments: true
 categories: intermediate video

@@ -4,6 +4,7 @@ title: "Enabled"
 alias: /e
 date: 2014-06-03
 wistiaId: k62bvbu9bi
+wistiaPoster: fd75b1a28932db7eabe3cc1aab42608f0821f976
 videoLength: 4 minutes 02 seconds
 comments: true
 categories: intermediate video

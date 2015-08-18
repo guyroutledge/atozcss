@@ -4,6 +4,7 @@ title: "Justify"
 alias: /j
 date: 2014-07-08
 wistiaId: h307awvs6z
+wistiaPoster: 3bb2e91bf0a52135afe050a2dd4abfa1bb422338
 videoLength: 6 minutes 01 seconds
 comments: true
 categories: intermediate video

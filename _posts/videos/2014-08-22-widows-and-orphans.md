@@ -4,6 +4,7 @@ title: "Widows"
 alias: /w
 date: 2014-10-09
 wistiaId: w6czfxn0k9
+wistiaPoster: 8371979fd374017400ed32278ed5be8cd99e2a2f
 videoLength: 5 minutes 24 seconds
 comments: true
 categories: intermediate video

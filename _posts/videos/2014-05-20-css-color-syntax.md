@@ -3,6 +3,7 @@ layout: post_page
 title: Color
 alias: /c
 wistiaId: qmw1dqzbd4
+wistiaPoster: d0a437449181e02d074907c6f00758edadb22c8b
 videoLength: 6 minutes 22 seconds
 comments: true
 categories: beginner video

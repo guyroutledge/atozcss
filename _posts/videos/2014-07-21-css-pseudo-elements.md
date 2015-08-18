@@ -4,6 +4,7 @@ title: "Pseudo Elements"
 alias: /p
 date: 2014-08-19
 wistiaId: gjhbhy0vtm
+wistiaPoster: 8dfd459623456c45e7be804feeaa1a318dd449cc
 videoLength: 6 minutes 36 seconds
 comments: true
 categories: intermediate video

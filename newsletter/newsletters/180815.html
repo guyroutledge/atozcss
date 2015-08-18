@@ -1,4 +1,3 @@
-<?php $atoz = json_decode(file_get_contents($argv[1])); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -490,16 +489,13 @@
                         <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
                         
 				<h1 style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
-				<?php echo $atoz->title ?>
-				</h1>
+				AtoZ CSS News				</h1>
 
 				<h3 style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.5px;text-align: left;color: #999999 !important;">
-				<?php echo $atoz->tag_line ?>
-				</h3>
+				My favourite articles and news plus a new CSS tip				</h3>
 
 				<p style="margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;line-height: 150%;text-align: left;">
-				<?php echo str_replace("tweet", '<a href="http://www.twitter.com/guyroutledge" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">tweet</a>', $atoz->intro_text) ?>
-				</p>
+				I've been getting back into screencasting mode recently (see below...) and of course, I've also been scouring the web for all sorts of interesting articles for your reading pleasure. Enjoy!				</p>
 			
                         </td>
                     </tr>
@@ -541,27 +537,109 @@
                     </tr>
                 </tbody></table>
 
-		<?php foreach ( $atoz->news as $newsitem ) : ?>
-                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+		                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
                         
                         <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
                        
                        <h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
-                        <a href="<?php echo $newsitem->url ?>" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
-                        <?php echo $newsitem->link_text ?></a>
+                        <a href="http://buff.ly/1DFAmrt" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        Learn Less in 10 Minutes</a>
                         </h3>
 
                         <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
-                        <?php echo $newsitem->link_comment ?>
-                        </p>
+                        I mostly write Sass but on occasion, a contract might call for using Less or Stylus. If you need to level up in Less, 10 minutes sounds like a pretty enticing value proposition!                        </p>
 
  
                         </td>
                     </tr>
                 </tbody></table>
-		<?php endforeach; ?>
+		                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        
+                        <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
+                       
+                       <h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
+                        <a href="http://buff.ly/1DGW4v0" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        Can I Use from the Command Line</a>
+                        </h3>
 
+                        <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
+                        This tool is really useful! I'm often searching for browser support over at caniuse.com but with this handy Node package, I can get the info I need without leaving my local development environment.                        </p>
+
+ 
+                        </td>
+                    </tr>
+                </tbody></table>
+		                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        
+                        <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
+                       
+                       <h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
+                        <a href="http://buff.ly/1PoqXpD" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        Oxygen</a>
+                        </h3>
+
+                        <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
+                        If OOCSS, SMACSS and BEM or AtomicOOBEMITSCSS don't float your boat, how about Oxygen? An object orientated methodology for CSS.                        </p>
+
+ 
+                        </td>
+                    </tr>
+                </tbody></table>
+		                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        
+                        <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
+                       
+                       <h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
+                        <a href="http://buff.ly/1KlmteY" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        CSS Colorful Icons</a>
+                        </h3>
+
+                        <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
+                        This Codepen features 10 funky little icons made entirely with CSS. I particularly like the little border-radius highlights - a great proof of concept.                        </p>
+
+ 
+                        </td>
+                    </tr>
+                </tbody></table>
+		                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        
+                        <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
+                       
+                       <h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
+                        <a href="http://buff.ly/1L2fA4W" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        Checkbox Trickery with CSS</a>
+                        </h3>
+
+                        <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
+                        To Do apps are usually the realm of JavaScript tutorials but here, Will demonstrates how checkboxes can make a pure CSS to-do app. Pretty clever stuff!                        </p>
+
+ 
+                        </td>
+                    </tr>
+                </tbody></table>
+		                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        
+                        <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
+                       
+                       <h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
+                        <a href="http://mbsy.co/czMZQ?url=http://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        Building Static Sites with Jekyll</a>
+                        </h3>
+
+                        <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
+                        Finally, I've recently teamed up with Tuts+ to create my first video course for them. The course is very practical and goes step by step through the process of building a simple portfolio site with Jekyll, Markdown, Liquid, Git and Sass. This is a paid course and as a Tuts+ affiliate, I'll earn a small commission for anyone who signs up to watch. Thanks in advance!                        </p>
+
+ 
+                        </td>
+                    </tr>
+                </tbody></table>
+		
 		<!-- // KYLIE: End Links Tip Section \\ -->
 
 
@@ -599,12 +677,12 @@
 			Each week I'll be giving you a quick CSS tip for each of the first 26 AtoZ CSS videos.
 			</p>
                         <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
-                        This week's tip on the blog is <?php echo $atoz->css_tip_letter ?> for <?php echo $atoz->css_tip_property ?>. Check it out here:
+                        This week's tip on the blog is C for Color. Check it out here:
                         </p>
 
                         <h3 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
-                        <a href="http://www.atozcss.com/blog/css-tip-<?php echo strtolower($atoz->css_tip_letter) ?>" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
-                        CSS Tip:  <?php echo $atoz->css_tip_property ?> 
+                        <a href="http://www.atozcss.com/blog/css-tip-c" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        CSS Tip:  Color 
                         </a>
                         </h3>
 
@@ -613,8 +691,8 @@
                         </p>	
 
 			<!--
-                        <a href="http://www.atozcss.com/<?php echo strtolower($atoz->css_tip_letter) ?>" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
-                        <img src="https://embed-ssl.wistia.com/deliveries/<?php echo $atoz->wistia_id ?>.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338" alt="video image" width=400 >
+                        <a href="http://www.atozcss.com/c" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        <img src="https://embed-ssl.wistia.com/deliveries/qmw1dqzbd4.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338" alt="video image" width=400 >
                         </a>
 			-->
 
@@ -633,7 +711,7 @@
                         		
                         		<td valign="top" class="mcnTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;line-height: 150%;text-align: left;">
 
-                        		*|WISTIA:[$vid=<?php echo $atoz->wistia_id ?>, $max_width=450, $watch_url=http://www.atozcss.com/<?php echo strtolower($atoz->css_tip_letter) ?>, $title=N, $border=N, $trim_border=N, $play_button_color=cc3f85e0]|*		
+                        		*|WISTIA:[$vid=qmw1dqzbd4, $max_width=450, $watch_url=http://www.atozcss.com/c, $title=N, $border=N, $trim_border=N, $play_button_color=cc3f85e0]|*		
                         		</td>
                     		</tr>
                 		</tbody></table>

@@ -4,6 +4,7 @@ title: " @supports"
 alias: /s
 date: 2014-09-09
 wistiaId: 08d1e2yncj
+wistiaPoster: 31355259d59909eb06a2cb26925498bf5c124cd2
 disqusId: supports
 videoLength: 7 minutes 25 seconds
 comments: true

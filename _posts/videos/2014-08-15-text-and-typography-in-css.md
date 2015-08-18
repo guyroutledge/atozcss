@@ -4,6 +4,7 @@ title: "Text"
 alias: /t
 date: 2014-09-16
 wistiaId: kuc9u5inju
+wistiaPoster: 53060aacc16ccd8d226e7fc9d17a616495c7bd52
 videoLength: 7 minutes 17 seconds
 comments: true
 categories: beginner video
