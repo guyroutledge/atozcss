@@ -14,6 +14,7 @@ if [[ $# -ne 1 ]]; then
   print "  <letter>: the tip letter"
 fi
 
+. $HOME/Sites/atozcss/.env
 
 tip="$1"
 date=`date +%d%m%y`
@@ -21,4 +22,4 @@ json_file="json/atoz-$tip.json"
 html_file="newsletters/$date.html"
 
 php newsletter.php $json_file > $html_file
-php campaign.php $html_file
+php campaign.php $mailchimp_api $html_file

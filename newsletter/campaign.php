@@ -3,11 +3,10 @@
 include ('MailChimp.php');
 use DrewM\MailChimp;
 
-$newsletter = $argv[1];
+$api_key = $argv[1];
+$newsletter = $argv[2];
 $date  = date('d-M-Y');
 $html = file_get_contents($newsletter);
-
-$api_key = "3b071b9ad360b38ca7e89ca5be8cb8b9-us3";
 
 $args['type'] = 'regular';
 
