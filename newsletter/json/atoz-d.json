@@ -23,8 +23,8 @@
 	"link_text":    "CSS First",
 	"link_comment": "You may have heard about Content First or Mobile First but in this article Keith talks about a CSS First approach - not writing all the CSS before the markup, but checking the existing codebase before writing more CSS. Some good thoughts here."
     },{
-	"url":	        "How to Vertically Align Elements Using CSS",
-	"link_text":    "http://createdineden.com/blog/2014/september/24/a-professional-guide-how-to-vertically-align-elements-using-css/",
+	"url":          "http://createdineden.com/blog/2014/september/24/a-professional-guide-how-to-vertically-align-elements-using-css/",
+	"link_text":     "How to Vertically Align Elements Using CSS",
 	"link_comment": "Vertical centring was always something that designers loved and developers hated, but now it's much easier than before. In this post, Rhi goes through a whole load of different approaches."
 	},{
 	"url":	        "http://mbsy.co/czMZQ?url=http://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll",

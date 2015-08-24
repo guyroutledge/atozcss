@@ -1,0 +1,5 @@
+Unstaged changes after reset:
+M	.gitignore
+D	newsletter/json/atoz-c.json
+M	newsletter/json/atoz-d.json
+M	newsletter/json/completed/atoz-c.json
