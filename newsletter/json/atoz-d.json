@@ -1,31 +1,35 @@
 {
  "title" :              "AtoZ CSS News",
  "tag_line" :           "My favourite articles and news plus a new CSS tip",
- "intro_text" :	        "<intro text>",
+ "intro_text" :	        "It seems like I spent all last week in meetings or writing emails but I still had a bit of time to get in some reading. Here's some of my favourites from the last week and details of a recent course I produced for Tuts+. Enjoy!",
  "css_tip_letter":      "D",
  "css_tip_property":    "Display",
- "wistia_id":		"<wistia id for the episode image>",
+ "wistia_id":		"kgrhaeh5o3",
  "news": [
     {
-	"url":	        "<url for the news item>",
-	"link_text":    "<text for the link>",
-	"link_comment": "<comment about the news item>"
+	"url":	        "http://www.smashingmagazine.com/2015/08/flexible-future-for-web-design-with-flexbox/",
+	"link_text":    "Laying out a Flexible Future",
+	"link_comment": "Ben looks at the bright future of web design as he explains the features of flexbox and the new mindset for using this very different way of thinking and building. Flexbox support is getting very close to prime-time, so leveling up now is a good plan."
     },{
-	"url":	        "<url for the news item>",
-	"link_text":    "<text for the link>",
-	"link_comment": "<comment about the news item>"
+	"url":	        "http://motionandmeaning.io/",
+	"link_text":    "Motion And Meaning",
+	"link_comment": "I'm a huge podcast fan and I recently came across a new front-end show all about motion design by Val Head and Cynnydd Bowles. They're 5 episodes in and it's looking like a great resource."
     },{
-	"url":	        "<url for the news item>",
-	"link_text":    "<text for the link>",
-	"link_comment": "<comment about the news item>"
+	"url":	        "http://mbsy.co/czMZQ?url=https://webdesign.tutsplus.com/articles/free-course-using-svg-sprites--cms-24619",
+	"link_text":    "Free Course: Using SVG Sprites",
+	"link_comment": "Tuts+ have recently launched a free course all about spriting with SVG. This technique is now a popular alternative to icon fonts and is something I'm looking into for my next project."
     },{
-	"url":	        "<url for the news item>",
-	"link_text":    "<text for the link>",
-	"link_comment": "<comment about the news item>"
+	"url":	        "http://keithjgrant.com/posts/css-first.html",
+	"link_text":    "CSS First",
+	"link_comment": "You may have heard about Content First or Mobile First but in this article Keith talks about a CSS First approach - not writing all the CSS before the markup, but checking the existing codebase before writing more CSS. Some good thoughts here."
     },{
-	"url":	        "<url for the news item>",
-	"link_text":    "<text for the link>",
-	"link_comment": "<comment about the news item>"
+	"url":	        "How to Vertically Align Elements Using CSS",
+	"link_text":    "http://createdineden.com/blog/2014/september/24/a-professional-guide-how-to-vertically-align-elements-using-css/",
+	"link_comment": "Vertical centring was always something that designers loved and developers hated, but now it's much easier than before. In this post, Rhi goes through a whole load of different approaches."
+	},{
+	"url":	        "http://mbsy.co/czMZQ?url=http://webdesign.tutsplus.com/courses/building-static-websites-with-jekyll",
+	"link_text":    "Building Static Sites with Jekyll",
+	"link_comment": "In case you missed it last week, I recently teamed up with Tuts+ to create my first video course for them. The course is very practical and goes step by step through the process of building a simple portfolio site with Jekyll, Markdown, Liquid, Git and Sass. This is a paid course and as a Tuts+ affiliate, I'll earn a small commission for anyone who signs up to watch. Thanks in advance!"
 	}
   ]
 }
