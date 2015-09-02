@@ -22,4 +22,4 @@ json_file="json/atoz-$tip.json"
 html_file="newsletters/$date.html"
 
 php newsletter.php $json_file > $html_file
-php campaign.php $mailchimp_api $html_file
+php campaign.php $json_file $mailchimp_api $html_file
