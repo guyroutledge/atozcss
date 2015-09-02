@@ -1,5 +1,6 @@
 {
  "title" :              "AtoZ CSS News",
+ "subject_line":	"<subject line for email>",
  "tag_line" :           "My favourite articles and news plus a new CSS tip",
  "intro_text" :	        "<intro text>",
  "css_tip_letter":      "F",
