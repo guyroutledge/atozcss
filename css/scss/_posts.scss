@@ -14,10 +14,32 @@
 	}
 }
 .episode-video {
-	margin:$font-margin-bottom 0 $font-margin-bottom*2;
+	margin:$font-margin-bottom 0 0.5rem;
 
 	input[type="email"] {
 		color:$color-dark;
+	}
+}
+.episode-promo {
+	margin:1em auto 0.5em;
+	text-align:center;
+
+	@media screen and (min-width:40em) {
+		margin:0;
+	}
+
+	.page-home & {
+		margin-top:$font-margin-bottom;
+	}
+}
+.episode-header {
+	text-align:center;
+
+	@media screen and (min-width:40em) {
+		text-align:left;
+		overflow:hidden;
+		.episode-main-title { float:left; width:40%; }
+		.episode-promo { float:right; }
 	}
 }
 .episode-info {
@@ -139,6 +161,7 @@
 
 
 .episode-nav {
+	margin:0.5em 0 1em;
 	overflow:hidden;
 }
 .episode-nav-next {
