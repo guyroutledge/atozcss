@@ -553,7 +553,7 @@
                         </h3>
 
                         <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
-                        <?php echo $newsitem->link_comment ?>
+			<?php echo preg_replace('/(@(\w+))/', '<a href="http://twitter.com/\2" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;" >\1</a>', $newsitem->link_comment) ?>
                         </p>
 
  
