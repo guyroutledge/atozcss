@@ -1,4 +1,3 @@
-<?php $atoz = json_decode(file_get_contents($argv[1])); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -483,31 +482,34 @@
 
 
 
-		<!-- // ATOZCSS: Newsletter Header Section \\ -->
+		<!-- // KYLIE: Newsletter Header Section \\ -->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
                         
                         <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
                         
 				<h1 style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
-				<?php echo $atoz->title ?>
+				
+Notice: Trying to get property of non-object in /Users/kylie/Sites/atozcss/newsletter/newsletter.php on line 493
 				</h1>
 
 				<h3 style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.5px;text-align: left;color: #999999 !important;">
-				<?php echo $atoz->tag_line ?>
+				
+Notice: Trying to get property of non-object in /Users/kylie/Sites/atozcss/newsletter/newsletter.php on line 497
 				</h3>
 
 				<p style="margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;line-height: 150%;text-align: left;">
-				<?php echo str_replace("tweet", '<a href="http://www.twitter.com/guyroutledge" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">tweet</a>', $atoz->intro_text) ?>
+				
+Notice: Trying to get property of non-object in /Users/kylie/Sites/atozcss/newsletter/newsletter.php on line 501
 				</p>
 			
                         </td>
                     </tr>
                 </tbody></table>
-		<!-- // ATOZCSS: End Newsletter Header Section \\ -->
+		<!-- // KYLIE: End Newsletter Header Section \\ -->
 
 
-		<!-- // ATOZCSS: Horizontal Line \\ -->
+		<!-- // KYLIE: Horizontal Line \\ -->
 		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     		<tbody class="mcnDividerBlockOuter">
         		<tr>
@@ -523,12 +525,12 @@
         		</tr>
     		</tbody>
 		</table>
-		<!-- // ATOZCSS: End Horizontal Line \\ -->
+		<!-- // KYLIE: End Horizontal Line \\ -->
 
 
 
 
-		<!-- // ATOZCSS: Links Section \\ -->
+		<!-- // KYLIE: Links Section \\ -->
 
                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
@@ -541,34 +543,18 @@
                     </tr>
                 </tbody></table>
 
-		<?php foreach ( $atoz->news as $newsitem ) : ?>
-                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                    <tbody><tr>
-                        
-                        <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
-                       
-                       <h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
-                        <a href="<?php echo $newsitem->url ?>" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
-                        <?php echo $newsitem->link_text ?></a>
-                        </h3>
+		
+Notice: Trying to get property of non-object in /Users/kylie/Sites/atozcss/newsletter/newsletter.php on line 544
 
-                        <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
-                        <?php echo $newsitem->link_comment ?>
-                        </p>
+Warning: Invalid argument supplied for foreach() in /Users/kylie/Sites/atozcss/newsletter/newsletter.php on line 544
 
- 
-                        </td>
-                    </tr>
-                </tbody></table>
-		<?php endforeach; ?>
-
-		<!-- // ATOZCSS: End Links Section \\ -->
+		<!-- // KYLIE: End Links Section \\ -->
 
 
 
 
 
-		<!-- // ATOZCSS: Horizontal Line \\ -->
+		<!-- // KYLIE: Horizontal Line \\ -->
 		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     		<tbody class="mcnDividerBlockOuter">
         		<tr>
@@ -584,11 +570,11 @@
         		</tr>
     		</tbody>
 		</table>
-		<!-- // ATOZCSS: End Horizontal Line \\ -->
+		<!-- // KYLIE: End Horizontal Line \\ -->
 
 
 
-		<!-- // ATOZCSS: CodeSchool Sponsorship Section \\ -->
+		<!-- // KYLIE: CodeSchool Sponsorship Section \\ -->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
                         
@@ -607,7 +593,7 @@
                         </td>
                     </tr>
                 </tbody></table>
-		<!-- // ATOZCSS: CodeSchool Sponsorship Section \\ -->
+		<!-- // KYLIE: CodeSchool Sponsorship Section \\ -->
 
 
 
@@ -615,7 +601,7 @@
 
 
 
-		<!-- // ATOZCSS: Horizontal Line \\ -->
+		<!-- // KYLIE: Horizontal Line \\ -->
 		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     		<tbody class="mcnDividerBlockOuter">
         		<tr>
@@ -631,11 +617,11 @@
         		</tr>
     		</tbody>
 		</table>
-		<!-- // ATOZCSS: End Horizontal Line \\ -->
+		<!-- // KYLIE: End Horizontal Line \\ -->
 
 
 
-		<!-- // ATOZCSS: CSS Tip Section \\ -->
+		<!-- // KYLIE: CSS Tip Section \\ -->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
                         
@@ -647,12 +633,20 @@
 			Each week I'll be giving you a quick CSS tip for each of the first 26 AtoZ CSS videos.
 			</p>
                         <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
-                        This week's tip on the blog is <?php echo $atoz->css_tip_letter ?> for <?php echo $atoz->css_tip_property ?>. Check it out here:
+                        This week's tip on the blog is 
+Notice: Trying to get property of non-object in /Users/kylie/Sites/atozcss/newsletter/newsletter.php on line 650
+ for 
+Notice: Trying to get property of non-object in /Users/kylie/Sites/atozcss/newsletter/newsletter.php on line 650
+. Check it out here:
                         </p>
 
                         <h3 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
-                        <a href="http://www.atozcss.com/blog/css-tip-<?php echo strtolower($atoz->css_tip_letter) ?>" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
-                        CSS Tip:  <?php echo $atoz->css_tip_property ?> 
+                        <a href="http://www.atozcss.com/blog/css-tip-
+Notice: Trying to get property of non-object in /Users/kylie/Sites/atozcss/newsletter/newsletter.php on line 654
+" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        CSS Tip:  
+Notice: Trying to get property of non-object in /Users/kylie/Sites/atozcss/newsletter/newsletter.php on line 655
+ 
                         </a>
                         </h3>
 
@@ -661,15 +655,19 @@
                         </p>	
 
 			<!--
-                        <a href="http://www.atozcss.com/<?php echo strtolower($atoz->css_tip_letter) ?>" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
-                        <img src="https://embed-ssl.wistia.com/deliveries/<?php echo $atoz->wistia_id ?>.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338" alt="video image" width=400 >
+                        <a href="http://www.atozcss.com/
+Notice: Trying to get property of non-object in /Users/kylie/Sites/atozcss/newsletter/newsletter.php on line 664
+" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        <img src="https://embed-ssl.wistia.com/deliveries/
+Notice: Trying to get property of non-object in /Users/kylie/Sites/atozcss/newsletter/newsletter.php on line 665
+.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338" alt="video image" width=400 >
                         </a>
 			-->
 
                         </td>
                     </tr>
                 </tbody></table>
-		<!-- // ATOZCSS: End CSS Tip Section \\ -->
+		<!-- // KYLIE: End CSS Tip Section \\ -->
 
 		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     		<tbody class="mcnTextBlockOuter">
@@ -681,7 +679,11 @@
                         		
                         		<td valign="top" class="mcnTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;line-height: 150%;text-align: left;">
 
-                        		*|WISTIA:[$vid=<?php echo $atoz->wistia_id ?>, $max_width=450, $watch_url=http://www.atozcss.com/<?php echo strtolower($atoz->css_tip_letter) ?>, $title=N, $border=N, $trim_border=N, $play_button_color=cc3f85e0]|*		
+                        		*|WISTIA:[$vid=
+Notice: Trying to get property of non-object in /Users/kylie/Sites/atozcss/newsletter/newsletter.php on line 684
+, $max_width=450, $watch_url=http://www.atozcss.com/
+Notice: Trying to get property of non-object in /Users/kylie/Sites/atozcss/newsletter/newsletter.php on line 684
+, $title=N, $border=N, $trim_border=N, $play_button_color=cc3f85e0]|*		
                         		</td>
                     		</tr>
                 		</tbody></table>
@@ -692,7 +694,7 @@
 		</table>
 
 
-		<!-- // ATOZCSS: Horizontal Line \\ -->
+		<!-- // KYLIE: Horizontal Line \\ -->
 		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     		<tbody class="mcnDividerBlockOuter">
         		<tr>
@@ -708,11 +710,11 @@
         		</tr>
     		</tbody>
 		</table>
-		<!-- // ATOZCSS: End Horizontal Line \\ -->
+		<!-- // KYLIE: End Horizontal Line \\ -->
                
 
  
-		<!-- // ATOZCSS: Farewell Section \\ -->
+		<!-- // KYLIE: Farewell Section \\ -->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
                         
@@ -733,7 +735,7 @@
                         </td>
                     </tr>
                 </tbody></table>
-		<!-- // ATOZCSS: Farewell Section \\ -->
+		<!-- // KYLIE: Farewell Section \\ -->
 
 
 			                            <table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
@@ -755,7 +757,7 @@
 
 
 
-<!-- // ATOZCSS: Everything below is the social, footer \\ -->
+<!-- // KYLIE: Everything below is the social, footer \\ -->
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnShareBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
     <tbody class="mcnShareBlockOuter">
