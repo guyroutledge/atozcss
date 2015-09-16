@@ -229,7 +229,7 @@ shownotes at [atozcss.com/c](http://www.atozcss.com/c).
 For more info and ways to subscribe to more videos check out
 [atozcss.com/subscribe](http://www.atozcss.com/subscribe).  If you have
 any questions of comments, you can tweet me 
-[@guyroutledge](http://www.twitter.com/guyroutledge) or drop me an email.
+[@atozcss](http://www.twitter.com/atozcss) or drop me an email.
 
 Cheers.
 

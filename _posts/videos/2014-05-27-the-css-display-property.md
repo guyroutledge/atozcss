@@ -153,7 +153,7 @@ review on iTunes as it will really help others find them, and give me
 a warm fuzzy feeling.
 
 If you have any questions of comments, you can tweet me
-[@guyroutledge](http://www.twitter.com/guyroutledge) or
+[@atozcss](http://www.twitter.com/atozcss) or
 drop me an email.
 
 Cheers.

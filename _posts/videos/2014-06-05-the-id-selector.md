@@ -234,7 +234,7 @@ If you find these videos at all useful and want to help keep them free
 forever, donations are more than welcome!
 
 If you have any questions or comments, you can tweet me
-[@guyroutledge](http://www.twitter.com/guyroutledge) or
+[@atozcss](http://www.twitter.com/atozcss) or
 drop me an email.
 
 Cheers.

@@ -142,7 +142,7 @@ A transcript and code snippets for this video can be found in the
 shownotes at [atozcss.com/w](http://www.atozcss.com/w).
 
 If you have any questions please leave a comment or, you can tweet me
-[@guyroutledge](http://www.twitter.com/guyroutledge) or drop me an
+[@atozcss](http://www.twitter.com/atozcss) or drop me an
 email.
 
 Cheers.

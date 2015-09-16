@@ -94,7 +94,7 @@ If you find these videos at all useful, please leave me a rating and
 review on iTunes.
 
 If you have any questions or comments, you can tweet me
-[@guyroutledge](http://www.twitter.com/guyroutledge) or
+[@atozcss](http://www.twitter.com/atozcss) or
 drop me an email.
 
 Cheers.
