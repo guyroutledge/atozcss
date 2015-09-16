@@ -1,11 +1,11 @@
 {
- "title" :              "AtoZ CSS News",
- "subject_line":	"<email subject line>",
- "tag_line" :           "My favourite articles and news plus a new CSS tip",
- "intro_text" :	        "Welcome to another issue of AtoZ CSS News! This will be (another) jam-packed list of links about animation - it definitely seems to be the thing that everyone's talking about. Enjoy!",
- "css_tip_letter":      "G",
- "css_tip_property":    "General Sibling",
- "wistia_id":		"9d4r1qiqe4",
+ "title" :           "AtoZ CSS News",
+ "subject_line":     "CSS animation, motion sensitivity, SVG and a new video!",
+ "tag_line" :        "My favourite articles and news plus a new CSS tip",
+ "intro_text" :      "Welcome to another issue of AtoZ CSS News! This will be (another) jam-packed list of links about animation - it definitely seems to be the thing that everyone's talking about. Enjoy!",
+ "css_tip_letter":   "G",
+ "css_tip_property": "General Sibling",
+ "wistia_id":        "9d4r1qiqe4",
  "news": [
     {
 	"url":	        "https://cssanimation.rocks/courses/animation-101/",
@@ -27,7 +27,6 @@
 	"url":	        "https://www.codeschool.com/courses/adventures-in-web-animations",
 	"link_text":    "Adventures in Web Animations",
 	"link_comment": "I recently recorded some new video content for Code School as part of their recent course in web animation techniques. I produced a video all about the animate.css library which is currently available on Code TV https://www.codeschool.com/shows/code-tv and I have another video coming soon. Please support AtoZ and our sponsors by checking them out!"
-	}
     },{
 	"url":	        "http://www.twitter.com/atozcss",
 	"link_text":    "New Twitter Account: @atozcss",
