@@ -269,7 +269,7 @@ shownotes at [atozcss.com/y](http://www.atozcss.com/y).
 
 If you have any questions, comments or things you'd like to see and hear
 about in Season 2, you can tweet me
-[@guyroutledge](http://www.twitter.com/guyroutledge) or drop me an
+[@atozcss](http://www.twitter.com/atozcss) or drop me an
 email.
 
 Cheers!

@@ -317,7 +317,7 @@ pick between 1 and 2.
 
 So that concludes the final episode of this series. Do stay in touch by
 following me on twitter
-[@guyroutledge](http://www.twitter.com/guyroutledge) and sign up to the
+[@atozcss](http://www.twitter.com/atozcss) and sign up to the
 mailing list to hear about the plans for Season 2. 
 
 Until then, you can get a transcript and code snippets for this video at

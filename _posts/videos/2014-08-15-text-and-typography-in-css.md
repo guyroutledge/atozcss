@@ -167,7 +167,7 @@ A transcript and code snippets for this video can be found in the
 shownotes at [atozcss.com/t](http://www.atozcss.com/t).
 
 If you found this video interesting or useful, leave me a comment or
-shoot me a tweet [@guyroutledge](http://www.twitter.com/guyroutledge) to
+shoot me a tweet [@atozcss](http://www.twitter.com/atozcss) to
 let me know what you liked, or what you didn't.
 
 Cheers

@@ -170,7 +170,7 @@ A transcript and code snippets for this video can be found in the
 shownotes at [atozcss.com/j](http://www.atozcss.com/j).
 
 If you have any questions or comments, you can tweet me
-[@guyroutledge](http://www.twitter.com/guyroutledge) or
+[@atozcss](http://www.twitter.com/atozcss) or
 drop me an email.
 
 Cheers.

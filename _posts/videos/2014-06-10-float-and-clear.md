@@ -206,7 +206,7 @@ If you enjoy these videos and know someone else who might find them
 useful, please leave me an honest rating and review on iTunes.
 
 If you have any questions or comments, you can tweet me
-[@guyroutledge](http://www.twitter.com/guyroutledge) or
+[@atozcss](http://www.twitter.com/atozcss) or
 drop me an email.
 
 Cheers.

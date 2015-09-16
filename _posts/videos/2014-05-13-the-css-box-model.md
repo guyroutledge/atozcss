@@ -148,6 +148,6 @@ A transcript, links and code snippets for this video can be found in the
 shownotes at [atozcss.com/b](http://www.atozcss.com/b).
 
 If you have any questions, feedback or comments, please tweet me
-[@guyroutledge](http://www.twitter.com/guyroutledge) or drop me an email.
+[@atozcss](http://www.twitter.com/atozcss) or drop me an email.
 
 See you in the next episode. Cheers.
