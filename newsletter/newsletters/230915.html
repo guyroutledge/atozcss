@@ -1,4 +1,3 @@
-<?php $atoz = json_decode(file_get_contents($argv[1])); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -490,16 +489,13 @@
                         <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
                         
 				<h1 style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
-				<?php echo $atoz->title ?>
-				</h1>
+				AtoZ CSS News				</h1>
 
 				<h3 style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.5px;text-align: left;color: #999999 !important;">
-				<?php echo $atoz->tag_line ?>
-				</h3>
+				My favourite articles and news plus a new CSS tip				</h3>
 
 				<p style="margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;line-height: 150%;text-align: left;">
-				<?php echo str_replace("tweet", '<a href="http://www.twitter.com/guyroutledge" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">tweet</a>', $atoz->intro_text) ?>
-				</p>
+				This week I came across a whole load of style guide resources which I thought y'all might find interesting. Enjoy!				</p>
 			
                         </td>
                     </tr>
@@ -541,27 +537,109 @@
                     </tr>
                 </tbody></table>
 
-		<?php foreach ( $atoz->news as $newsitem ) : ?>
-                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+		                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
                         
                         <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
                        
                        <h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
-                        <a href="<?php echo $newsitem->url ?>" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
-                        <?php echo $newsitem->link_text ?></a>
+                        <a href="https://frontify.com/styleguide" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        Frontify</a>
                         </h3>
 
                         <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
-			<?php echo preg_replace('/(@(\w+))/', '<a href="http://twitter.com/\2" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;" >\1</a>', $newsitem->link_comment) ?>
-                        </p>
+			First up is a (free) service that promises simple fast and fun style guide creation. You can upload assets, select colours add typography and then share the styleguide with your team or clients. Looks pretty fancy - I'll be trying it out soon!                        </p>
 
  
                         </td>
                     </tr>
                 </tbody></table>
-		<?php endforeach; ?>
+		                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        
+                        <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
+                       
+                       <h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
+                        <a href="http://sassdoc.com/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        Sass Doc</a>
+                        </h3>
 
+                        <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
+			Sass Doc is an npm module that dynamically builds a documentation site from comments in your Sass. It's also highly customisable and themeable so you can make it your own. Documentation can sometimes be a chore but tools like this make it a breeze. Check it out.                        </p>
+
+ 
+                        </td>
+                    </tr>
+                </tbody></table>
+		                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        
+                        <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
+                       
+                       <h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
+                        <a href="http://styleguides.io/podcast/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        Style Guide Podcast</a>
+                        </h3>
+
+                        <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
+			If you're a podcast lover like me, you'll love the Style Guide Podcast with Anna Debenham and Brad Frost. There's 12 episodes all about style guides and a whole load of articles and other resources too.                        </p>
+
+ 
+                        </td>
+                    </tr>
+                </tbody></table>
+		                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        
+                        <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
+                       
+                       <h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
+                        <a href="http://blog.bitovi.com/style-guide-driven-development/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        A How To Guide To Improve your Development Workflow</a>
+                        </h3>
+
+                        <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
+			In this post, Adriana goes into detail about the benefits of using a living style guide and a fairly simple 4-step process for use in development which should make developers (and other team members) happy. Sounds good to me!                        </p>
+
+ 
+                        </td>
+                    </tr>
+                </tbody></table>
+		                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        
+                        <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
+                       
+                       <h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
+                        <a href="http://documentcss.com/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        DocumentCSS</a>
+                        </h3>
+
+                        <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
+			If we can agree that having a style guide is a good thing, Document CSS is a tool that can help. It automatically creates a living style guide with interactive examples - that change as your design changes. I'm all for processes that make things like this easier and (once I get some time) will be keen to try this out.                        </p>
+
+ 
+                        </td>
+                    </tr>
+                </tbody></table>
+		                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        
+                        <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
+                       
+                       <h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
+                        <a href="http://www.twitter.com/atozcss" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        New Twitter Account: @atozcss</a>
+                        </h3>
+
+                        <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
+			I've decided (at long last) to move all my CSS related twittering to its own account. But at the moment, it's looking a bit lonely over there :( so I thought I'd take this opportunity to ask you to follow <a href="http://twitter.com/atozcss" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;" >@atozcss</a> if you'd like to stay in the loop, more CSS links, and whatever else we can think of! Thanks very much!                        </p>
+
+ 
+                        </td>
+                    </tr>
+                </tbody></table>
+		
 		<!-- // ATOZCSS: End Links Section \\ -->
 
 
@@ -647,12 +725,12 @@
 			Each week I'll be giving you a quick CSS tip for each of the first 26 AtoZ CSS videos.
 			</p>
                         <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
-                        This week's tip on the blog is <?php echo $atoz->css_tip_letter ?> for <?php echo $atoz->css_tip_property ?>. Check it out here:
+                        This week's tip on the blog is H for Height. Check it out here:
                         </p>
 
                         <h3 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
-                        <a href="http://www.atozcss.com/blog/css-tip-<?php echo strtolower($atoz->css_tip_letter) ?>" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
-                        CSS Tip:  <?php echo $atoz->css_tip_property ?> 
+                        <a href="http://www.atozcss.com/blog/css-tip-h" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        CSS Tip:  Height 
                         </a>
                         </h3>
 
@@ -661,8 +739,8 @@
                         </p>	
 
 			<!--
-                        <a href="http://www.atozcss.com/<?php echo strtolower($atoz->css_tip_letter) ?>" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
-                        <img src="https://embed-ssl.wistia.com/deliveries/<?php echo $atoz->wistia_id ?>.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338" alt="video image" width=400 >
+                        <a href="http://www.atozcss.com/h" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
+                        <img src="https://embed-ssl.wistia.com/deliveries/ig3axa1zs3.jpg?image_play_button=true&image_play_button_color=cc3f85e0&image_crop_resized=600x338" alt="video image" width=400 >
                         </a>
 			-->
 
@@ -681,7 +759,7 @@
                         		
                         		<td valign="top" class="mcnTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;line-height: 150%;text-align: left;">
 
-                        		*|WISTIA:[$vid=<?php echo $atoz->wistia_id ?>, $max_width=450, $watch_url=http://www.atozcss.com/<?php echo strtolower($atoz->css_tip_letter) ?>, $title=N, $border=N, $trim_border=N, $play_button_color=cc3f85e0]|*		
+                        		*|WISTIA:[$vid=ig3axa1zs3, $max_width=450, $watch_url=http://www.atozcss.com/h, $title=N, $border=N, $trim_border=N, $play_button_color=cc3f85e0]|*		
                         		</td>
                     		</tr>
                 		</tbody></table>
