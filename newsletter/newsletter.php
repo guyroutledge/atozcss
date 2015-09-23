@@ -528,6 +528,51 @@
 
 
 
+		<!-- // ATOZCSS: CodeSchool Sponsorship Section \\ -->
+                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        
+                        <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
+                        
+                        
+                         <a href="http://www.codeschool.com/?utm_source=test&utm_medium=newsletter&utm_content=getting%20started&utm_campaign=a%20to%20z%20css"> 
+                                        <img align="center" alt="Code School ad" src="https://gallery.mailchimp.com/fb5c2d7d6163f7fcbba78e8b0/images/cfa34034-5ece-4cfa-83e8-4c714f4d49a8.png" width="501"  style="max-width: 501px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
+				</a>
+
+                        <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
+			AtoZ CSS News is sponsored by <a href="http://www.codeschool.com/?utm_source=test&utm_medium=newsletter&utm_content=getting%20started&utm_campaign=a%20to%20z%20css">Code School</a>. With more than 45 courses covering JavaScript, HTML/CSS, Ruby, Git, and iOS, Code School pairs experienced instructors with engaging content. Start learning for only $29/mo.
+			</p>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+		<!-- // ATOZCSS: CodeSchool Sponsorship Section \\ -->
+
+
+
+
+		<!-- // ATOZCSS: Horizontal Line \\ -->
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    		<tbody class="mcnDividerBlockOuter">
+        		<tr>
+            		<td class="mcnDividerBlockInner" style="padding: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                		<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top-width: 2px;border-top-style: solid;border-top-color: #999999;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    		<tbody><tr>
+                        		<td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            		<span></span>
+                        		</td>
+                    		</tr>
+                		</tbody></table>
+            		</td>
+        		</tr>
+    		</tbody>
+		</table>
+		<!-- // ATOZCSS: End Horizontal Line \\ -->
+
+
+
+
+
 		<!-- // ATOZCSS: Links Section \\ -->
 
                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
@@ -586,52 +631,6 @@
 		</table>
 		<!-- // ATOZCSS: End Horizontal Line \\ -->
 
-
-
-		<!-- // ATOZCSS: CodeSchool Sponsorship Section \\ -->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                    <tbody><tr>
-                        
-                        <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
-                        
-                        
-                         <a href="http://www.codeschool.com/?utm_source=test&utm_medium=newsletter&utm_content=getting%20started&utm_campaign=a%20to%20z%20css"> 
-                                        <img align="center" alt="Code School ad" src="https://gallery.mailchimp.com/fb5c2d7d6163f7fcbba78e8b0/images/cfa34034-5ece-4cfa-83e8-4c714f4d49a8.png" width="501"  style="max-width: 501px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
-				</a>
-
-                        <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
-			AtoZ CSS News is sponsored by <a href="http://www.codeschool.com/?utm_source=test&utm_medium=newsletter&utm_content=getting%20started&utm_campaign=a%20to%20z%20css">Code School</a>. With more than 45 courses covering JavaScript, HTML/CSS, Ruby, Git, and iOS, Code School pairs experienced instructors with engaging content. Start learning for only $29/mo.
-			</p>
-
-
-                        </td>
-                    </tr>
-                </tbody></table>
-		<!-- // ATOZCSS: CodeSchool Sponsorship Section \\ -->
-
-
-
-
-
-
-
-		<!-- // ATOZCSS: Horizontal Line \\ -->
-		<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-    		<tbody class="mcnDividerBlockOuter">
-        		<tr>
-            		<td class="mcnDividerBlockInner" style="padding: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                		<table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top-width: 2px;border-top-style: solid;border-top-color: #999999;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                    		<tbody><tr>
-                        		<td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                            		<span></span>
-                        		</td>
-                    		</tr>
-                		</tbody></table>
-            		</td>
-        		</tr>
-    		</tbody>
-		</table>
-		<!-- // ATOZCSS: End Horizontal Line \\ -->
 
 
 
