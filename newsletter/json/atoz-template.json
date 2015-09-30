@@ -1,6 +1,7 @@
 {
  "title" :              "AtoZ CSS News",
  "tag_line" :           "My favourite articles and news plus a new CSS tip",
+ "subject_line":             "<subject>",
  "intro_text" :	        "<intro text>",
  "css_tip_letter":      "<uppercase letter>",
  "css_tip_property":    "<property_name>",

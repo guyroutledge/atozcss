@@ -1,6 +1,7 @@
 {
  "title" :              "AtoZ CSS News",
  "tag_line" :           "My favourite articles and news plus a new CSS tip",
+ "subject_line":             "Controlling the cascade, CSS modules, post CSS and the Moonwalk!",
  "intro_text" :	        "This week I've had my head down building devops processes for my new business but I've still managed to track down a handful of facinating reads in the CSS world. As always, if you have found or written anything that you think should be featured here, do let me know!",
  "css_tip_letter":      "I",
  "css_tip_property":    "ID",
