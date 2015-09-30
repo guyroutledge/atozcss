@@ -1,0 +1,31 @@
+{
+ "title" :              "AtoZ CSS News",
+ "tag_line" :           "My favourite articles and news plus a new CSS tip",
+ "intro_text" :	        "This week I've had my head down building devops processes for my new business but I've still managed to track down a handful of facinating reads in the CSS world. As always, if you have found or written anything that you think should be featured here, do let me know!",
+ "css_tip_letter":      "I",
+ "css_tip_property":    "ID",
+ "wistia_id":		"q9m9d0n2hl",
+ "news": [
+    {
+	"url":	        "http://simurai.com/blog/2015/09/09/back-to-the-roots/",
+	"link_text":    "Back to the :roots",
+	"link_comment": "In this post @simurai goes through 4 great tips for regaining control of the CSS cascade and making it your friend again. Namely, moving your styles closer to the root of your modules, styling properties as combos, using dynamic values (like ems) and inheritance for UA styles."
+    },{
+	"url":	        "http://glenmaddern.com/articles/css-modules",
+	"link_text":    "CSS Modules",
+	"link_comment": "Glen Maddern and the CSS Modules team are proposing another JS solution to the “big problems” of CSS. From everything I've read on this topic, this seems to be the most familiar approach to writing “normal” CSS so far. Even as a CSS fan, I can see some good stuff coming out of these new approaches."
+    },{
+	"url":	        "http://webdesign.tutsplus.com/tutorials/postcss-deep-dive-what-you-need-to-know--cms-24535",
+	"link_text":    "PostCSS Deep Dive: What you need to know",
+	"link_comment": "You may have heard of (and hopefully used) Autoprefixer but in this article from @wdtuts, Kezz goes into a lot of detail about everything you need to know about PostCSS - the thing that Autoprefixer is a plugin for - including what it is, what it isn't, what makes it special and how to use it."
+    },{
+	"url":	        "https://www.talater.com/upup/",
+	"link_text":    "UpUp - Offline First",
+	"link_comment": "Departing from the usual CSS-only articles, I noticed this link popping up in a few places last week. Upup is a 'tiny script that makes sure your site is always there for your users'. Sounds interesting, eh? The idea is born out of the “Offline First” revolution to enable users to view your content even without an internet connection. Very interesting."
+    },{
+	"url":	        "http://codepen.io/rgg/pen/rOWPoQ",
+	"link_text":    "Pure CSS Moonwalk",
+	"link_comment": "And finally, something completely different and just for laughs: A pure CSS moonwalk. It's exactly what it says."
+	}
+  ]
+}
