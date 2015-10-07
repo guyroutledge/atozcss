@@ -535,7 +535,7 @@
                         <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
 
 
-                         <a href="http://www.codeschool.com/?utm_source=test&utm_medium=newsletter&utm_content=getting%20started&utm_campaign=a%20to%20z%20css">
+                         <a href="https://www.codeschool.com/?utm_source=test&utm_medium=newsletter&utm_term=october&utm_content=homepage&utm_campaign=a%20to%20z%20css">
                                         <img align="center" alt="Code School ad" src="https://gallery.mailchimp.com/fb5c2d7d6163f7fcbba78e8b0/images/9206ab86-150a-421e-82f3-7400969b6739.png" width="501"  style="max-width: 501px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
 				</a>
 
