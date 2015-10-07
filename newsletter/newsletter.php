@@ -6,7 +6,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>*|MC:SUBJECT|*</title>
-        
+
     <style type="text/css">
 		body,#bodyTable,#bodyCell{
 			height:100% !important;
@@ -397,12 +397,12 @@
     <tbody class="mcnTextBlockOuter">
         <tr>
             <td valign="top" class="mcnTextBlockInner" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                
+
                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="366" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
-                        
+
                         <td valign="top" class="mcnTextContent" style="padding-top: 9px;padding-left: 18px;padding-bottom: 9px;padding-right: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Helvetica;font-size: 11px;line-height: 125%;text-align: left;">
-                        
+
                             AtoZ CSS News
                         </td>
                     </tr>
@@ -410,21 +410,21 @@
 
 			<table align="right" border="0" cellpadding="0" cellspacing="0" width="197" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
-                        
+
                         <td valign="top" class="mcnTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Helvetica;font-size: 11px;line-height: 125%;text-align: left;">
-                        
+
                             <a href="*|ARCHIVE|*" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: underline;">View this email in your browser</a>
                         </td>
                     </tr>
                 </tbody></table>
-                
+
             </td>
         </tr>
     </tbody>
 </table></td>
                                                     </tr>
                                                 </table>
-                                            </td>                                            
+                                            </td>
                                         </tr>
                                     </table>
                                     <!-- // END PREHEADER -->
@@ -445,12 +445,12 @@
                     <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                                
-                                   <a href="http://www.atozcss.com"> 
+
+                                   <a href="http://www.atozcss.com">
                                         <img align="left" alt="" src="https://gallery.mailchimp.com/fb5c2d7d6163f7fcbba78e8b0/images/email_banner.png" width="564" style="max-width: 650px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
 				</a>
-                                    
-                                
+
+
                             </td>
                         </tr>
                     </tbody></table>
@@ -479,16 +479,16 @@
     <tbody class="mcnTextBlockOuter">
         <tr>
             <td valign="top" class="mcnTextBlockInner" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                
+
 
 
 
 		<!-- // ATOZCSS: Newsletter Header Section \\ -->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
-                        
+
                         <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
-                        
+
 				<h1 style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
 				<?php echo $atoz->title ?>
 				</h1>
@@ -500,7 +500,7 @@
 				<p style="margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;line-height: 150%;text-align: left;">
 				<?php echo str_replace("tweet", '<a href="http://www.twitter.com/guyroutledge" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">tweet</a>', $atoz->intro_text) ?>
 				</p>
-			
+
                         </td>
                     </tr>
                 </tbody></table>
@@ -531,16 +531,16 @@
 		<!-- // ATOZCSS: CodeSchool Sponsorship Section \\ -->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
-                        
+
                         <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
-                        
-                        
-                         <a href="http://www.codeschool.com/?utm_source=test&utm_medium=newsletter&utm_content=getting%20started&utm_campaign=a%20to%20z%20css"> 
+
+
+                         <a href="http://www.codeschool.com/?utm_source=test&utm_medium=newsletter&utm_content=getting%20started&utm_campaign=a%20to%20z%20css">
                                         <img align="center" alt="Code School ad" src="https://gallery.mailchimp.com/fb5c2d7d6163f7fcbba78e8b0/images/9206ab86-150a-421e-82f3-7400969b6739.png" width="501"  style="max-width: 501px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
 				</a>
 
                         <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
-			AtoZ CSS News is sponsored by <a href="http://www.codeschool.com/?utm_source=test&utm_medium=newsletter&utm_content=getting%20started&utm_campaign=a%20to%20z%20css">Code School</a>. With more than 45 courses covering JavaScript, HTML/CSS, Ruby, Git, and iOS, Code School pairs experienced instructors with engaging content. Start learning for only $29/mo.
+			AtoZ CSS News is sponsored by <a href="http://www.codeschool.com/?utm_source=test&utm_medium=newsletter&utm_content=getting%20started&utm_campaign=a%20to%20z%20css">Code School</a>. Join over 1 million students who are learning by doing with Code School courses covering JavaScript, HTML, CSS, Ruby, Git, iOS, and more. Only $29/mo.
 			</p>
 
                         </td>
@@ -577,9 +577,9 @@
 
                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
-                        
+
                         <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
-                        
+
 			<h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #999999 !important;">Great CSS Reads</h2>
 
                         </td>
@@ -589,9 +589,9 @@
 		<?php foreach ( $atoz->news as $newsitem ) : ?>
                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
-                        
+
                         <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
-                       
+
                        <h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
                         <a href="<?php echo $newsitem->url ?>" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
                         <?php echo $newsitem->link_text ?></a>
@@ -601,7 +601,7 @@
 			<?php echo preg_replace('/(@(\w+))/', '<a href="http://twitter.com/\2" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;" >\1</a>', $newsitem->link_comment) ?>
                         </p>
 
- 
+
                         </td>
                     </tr>
                 </tbody></table>
@@ -637,9 +637,9 @@
 		<!-- // ATOZCSS: CSS Tip Section \\ -->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
-                        
+
                         <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
-                        
+
 			<h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #999999 !important;">CSS Tips</h2>
 
                         <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
@@ -651,13 +651,13 @@
 
                         <h3 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
                         <a href="http://www.atozcss.com/blog/css-tip-<?php echo strtolower($atoz->css_tip_letter) ?>" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
-                        CSS Tip:  <?php echo $atoz->css_tip_property ?> 
+                        CSS Tip:  <?php echo $atoz->css_tip_property ?>
                         </a>
                         </h3>
 
                         <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
                         Or if you missed the original video check it out here:
-                        </p>	
+                        </p>
 
 			<!--
                         <a href="http://www.atozcss.com/<?php echo strtolower($atoz->css_tip_letter) ?>" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;">
@@ -674,17 +674,17 @@
     		<tbody class="mcnTextBlockOuter">
         		<tr>
             		<td valign="top" class="mcnTextBlockInner" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                		
+
                 		<table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     		<tbody><tr>
-                        		
+
                         		<td valign="top" class="mcnTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;line-height: 150%;text-align: left;">
 
-                        		*|WISTIA:[$vid=<?php echo $atoz->wistia_id ?>, $max_width=450, $watch_url=http://www.atozcss.com/<?php echo strtolower($atoz->css_tip_letter) ?>, $title=N, $border=N, $trim_border=N, $play_button_color=cc3f85e0]|*		
+                        		*|WISTIA:[$vid=<?php echo $atoz->wistia_id ?>, $max_width=450, $watch_url=http://www.atozcss.com/<?php echo strtolower($atoz->css_tip_letter) ?>, $title=N, $border=N, $trim_border=N, $play_button_color=cc3f85e0]|*
                         		</td>
                     		</tr>
                 		</tbody></table>
-                
+
             		</td>
         		</tr>
     		</tbody>
@@ -708,20 +708,20 @@
     		</tbody>
 		</table>
 		<!-- // ATOZCSS: End Horizontal Line \\ -->
-               
 
- 
+
+
 		<!-- // ATOZCSS: Farewell Section \\ -->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
-                        
+
                         <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #FFFFFF;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
-                        
+
                         <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
 			That's all for now, folks.<br>
 			<br>
 			If you've written or seen any interesting articles or CSS experiments that you think should be featured in next week's newsletter,
-			<a href="http://www.twitter.com/guyroutledge" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;"> drop me a tweet</a> 
+			<a href="http://www.twitter.com/guyroutledge" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;"> drop me a tweet</a>
 			and let me know! <br>
 			<br>
 			Cheers<br>
@@ -769,7 +769,7 @@
 						<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
 							<tbody><tr>
 								<td align="left" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-			                        
+
 			                            <table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
 			                                <tbody><tr>
 			                                    <td valign="top" style="padding-right: 9px;padding-bottom: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnShareContentItemContainer">
@@ -796,7 +796,7 @@
 								</td>
 						    	<td align="left" valign="top">
 								<![endif]-->
-			                        
+
 			                            <table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
 			                                <tbody><tr>
 			                                    <td valign="top" style="padding-right: 9px;padding-bottom: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnShareContentItemContainer">
@@ -823,7 +823,7 @@
 								</td>
 						    	<td align="left" valign="top">
 								<![endif]-->
-			                        
+
 			                            <table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
 			                                <tbody><tr>
 			                                    <td valign="top" style="padding-right: 9px;padding-bottom: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnShareContentItemContainer">
@@ -850,7 +850,7 @@
 								</td>
 						    	<td align="left" valign="top">
 								<![endif]-->
-			                        
+
 			                            <table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
 			                                <tbody><tr>
 			                                    <td valign="top" style="padding-right: 9px;padding-bottom: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnShareContentItemContainer">
@@ -877,7 +877,7 @@
 								</td>
 						    	<td align="left" valign="top">
 								<![endif]-->
-			                        
+
 			                            <table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
 			                                <tbody><tr>
 			                                    <td valign="top" style="padding-right: 0;padding-bottom: 9px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnShareContentItemContainer">
@@ -904,7 +904,7 @@
 								</td>
 						    	<td align="left" valign="top">
 								<![endif]-->
-			                        
+
 								</td>
 							</tr>
 						</tbody></table>
@@ -939,17 +939,17 @@
     <tbody class="mcnTextBlockOuter">
         <tr>
             <td valign="top" class="mcnTextBlockInner" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                
+
                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
-                        
+
                         <td valign="top" class="mcnTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Helvetica;font-size: 11px;line-height: 125%;text-align: left;">
-                        
+
                             AtoZ CSS was lovingly created by <a href="http://www.guyroutledge.co.uk" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #999999;font-weight: normal;text-decoration: underline;">Guy Routledge</a> with Sass and Vim.
                         </td>
                     </tr>
                 </tbody></table>
-                
+
             </td>
         </tr>
     </tbody>
@@ -957,12 +957,12 @@
     <tbody class="mcnTextBlockOuter">
         <tr>
             <td valign="top" class="mcnTextBlockInner" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                
+
                 <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
-                        
+
                         <td valign="top" class="mcnTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Helvetica;font-size: 11px;line-height: 125%;text-align: left;">
-                        
+
                             <em>Copyright  *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
 <br>
 *|IFNOT:ARCHIVE_PAGE|*
@@ -983,7 +983,7 @@
                         </td>
                     </tr>
                 </tbody></table>
-                
+
             </td>
         </tr>
     </tbody>
