@@ -540,7 +540,7 @@
 				</a>
 
                         <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
-			AtoZ CSS News is sponsored by <a href="http://www.codeschool.com/?utm_source=test&utm_medium=newsletter&utm_content=getting%20started&utm_campaign=a%20to%20z%20css">Code School</a>. Join over 1 million students who are learning by doing with Code School courses covering JavaScript, HTML, CSS, Ruby, Git, iOS, and more. Only $29/mo.
+			AtoZ CSS News is sponsored by <a href="https://www.codeschool.com/?utm_source=test&utm_medium=newsletter&utm_term=october&utm_content=homepage&utm_campaign=a%20to%20z%20css">Code School</a>. Join over 1 million students who are learning by doing with Code School courses covering JavaScript, HTML, CSS, Ruby, Git, iOS, and more. Only $29/mo.
 			</p>
 
                         </td>
