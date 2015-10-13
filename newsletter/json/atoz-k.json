@@ -1,0 +1,32 @@
+{
+ "title" :              "AtoZ CSS News",
+ "tag_line" :           "My favourite articles and news plus a new CSS tip",
+ "subject_line":        "HD design, tech debt, flexbox, self-building websites and more!",
+ "intro_text" :	        "I've been working hard preparing for the launch of www.thefoodrush.com magazine this week. It's been a touch stresseful but a lot of fun. But I've also come across some great articles and tools that you might find useful. Enjoy!",
+ "css_tip_letter":      "K",
+ "css_tip_property":    "Keyframes & vendor prefixes",
+ "wistia_id":		"pg5zytsy0v",
+ "news": [
+    {
+	"url":	        "http://thenextweb.com/dd/2015/10/07/how-to-survive-high-definition-web-design/",
+	"link_text":    "How to survive HD web design",
+	"link_comment": "High definition screens make the web a beautiful place - as long as developers have built the site HD friendly. This can often come with performance costs so is a difficult requirement to juggle. This article from The Next Web provides some great insights into the problems and some useful techniques for mastering this tricky art."
+    },{
+	"url":	        "https://css-tricks.com/defining-and-dealing-with-technical-debt/",
+	"link_text":    "Defining and Dealing with Technical Debt",
+	"link_comment": "Technical Debt can sneak up on you in many projects regardless of scale or team size. I'm sure I've been responsible for plenty over the years! This article from CSS Tricks goes a long way to outlining the problem (the good and the bad), the consequences and some solutions. This is a must read for conscientious developers."
+    },{
+	"url":	        "https://unravelingflexbox.com/",
+	"link_text":    "Become a Flexbox Master",
+	"link_comment": "I've written about flexbox a lot in my book (probably more than I've actually used it to be honest) but the support is now incredibly good across browsers and it's ready for primetime. In this video course & book, Landon Schropp teaches all you need to know. I've not read it yet but the site looks very impressive for sure!"
+    },{
+	"url":	        "https://webflow.com/cms",
+	"link_text":    "Webflow",
+	"link_comment": "I've heard a fair amount of talk about web design becoming a commodity with the likes of cheap WP themes, Squarespace and Wix. Webflow is one I'd not heard of before but their stunning intro video really caught my eye along with their proposition to 'build custom dynamic websites without writing code or managing databases'. I'd be keen to hear your thoughts..."
+    },{
+	"url":	        "http://geticonjar.com/",
+	"link_text":    "Icon Jar",
+	"link_comment": "Icons are great and are heavily used in a lot of interface design. Whether you use icon fonts or SVG sprites, having a way to manage a library of icon assets is something I've never had but have always longed for. Icon Jar is an app that stores and organises your icons so you can find them easily when you need them. Looks great!"
+	}
+  ]
+}
