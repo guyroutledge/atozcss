@@ -8,8 +8,8 @@
  "wistia_id":		"fwtui3zjc3",
  "news": [
     {
-	"url":	        "Advanced web typography: Open Type Features",
-	"link_text":    "http://www.elliotjaystocks.com/blog/a-recap-on-opentype-features/",
+	"url":	        "http://www.elliotjaystocks.com/blog/a-recap-on-opentype-features/",
+	"link_text":    "Advanced web typography: Open Type Features",
 	"link_comment": "For anyone who's not familiar with Open Type features in CSS (things that make your type look all fancy), Elliot J Stocks provides a great overview in this article and a previous four-post series. Here we're talking kerning, ligatures, small caps, numerals, swashes and stylesets."
     },{
 	"url":	        "http://kennethormandy.com/journal/normalize-opentype-css",
@@ -25,7 +25,7 @@
 	"link_comment": "Drawing on a very familiar theme, Tuts+ have produced an A-Z of all things type. It may not be a complete set yet, but there are some great articles here for digging in to this hugely important topic."
     },{
 	"url":	        "http://webtypography.net/",
-	"link_text":    "The Elements of Typographic Style Applied to the Web",
+	"link_text":    "The Elements of Typographic Style",
 	"link_comment": "This (free) online book provides a great grounding in the principals in typography and how they can be applied to the modern web. The project is open source and if you have any typographic knowledge to share, I'm sure they'd be happy for your contributions!"
 	}
   ]

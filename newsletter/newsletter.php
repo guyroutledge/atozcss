@@ -536,7 +536,7 @@
 
 
                          <a href="https://www.codeschool.com/?utm_source=test&utm_medium=newsletter&utm_term=october&utm_content=homepage&utm_campaign=a%20to%20z%20css">
-                                        <img align="center" alt="Code School ad" src="https://gallery.mailchimp.com/fb5c2d7d6163f7fcbba78e8b0/images/9206ab86-150a-421e-82f3-7400969b6739.png" width="501"  style="max-width: 501px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
+                                        <img align="center" alt="Code School ad" src="https://gallery.mailchimp.com/fb5c2d7d6163f7fcbba78e8b0/images/ec5123ec-b209-405d-8e40-7f7eeb9068a6.png" width="501"  style="max-width: 501px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
 				</a>
 
                         <p style="line-height: 20.7999992370605px;margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ffffff;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 16px;text-align: left;">
