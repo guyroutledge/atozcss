@@ -1,7 +1,9 @@
-<?php 
+<?php
 
 include ('MailChimp.php');
 use DrewM\MailChimp;
+
+date_default_timezone_set('UTC');
 
 $json_file = $argv[1];
 $api_key = $argv[2];
@@ -13,7 +15,7 @@ $atoz = json_decode(file_get_contents($json_file));
 
 $args['type'] = 'regular';
 
-$args['options'] = 
+$args['options'] =
   array ( 	'list_id' => '5fa71cd7de',
 		'subject' => $atoz->subject_line,
 		'from_email' => 'mail@guyroutledge.co.uk',
