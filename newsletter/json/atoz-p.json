@@ -1,0 +1,32 @@
+{
+ "title" :              "AtoZ CSS News",
+ "tag_line" :           "My favourite articles and news plus a new CSS tip",
+ "subject_line":        "AtoZ CSS: Hard to find devs, Responsive type, accessibility, skewed edges and side projects",
+ "intro_text" :	        "Welcome to another week of the best in CSS articles from around the web. Well, the best that I've found over the last week anyway. As always, if anyone has written anything that they'd like featured, just let me know! On with the show...",
+ "css_tip_letter":      "P",
+ "css_tip_property":    "Placeholder",
+ "wistia_id":		"gjhbhy0vtm",
+ "news": [
+    {
+	"url":	        "https://medium.com/creative-business/why-is-it-so-hard-to-find-a-front-end-developer-cb92848a7c6f",
+	"link_text":    "Why is it so hard to find a front-end developer?",
+	"link_comment": "An interesting question and an interesting look into some of the complexities of our trade. Namely, front-end is complicated and there's more to it than just development."
+    },{
+	"url":	        "https://www.liquidlight.co.uk/blog/article/responsive-typography-in-scss/",
+	"link_text":    "Responsive typography in Scss",
+	"link_comment": "In this post @mikestreety outlines a process and a system for organising your typography styles with Sass. They've developed a centralised system built on top of sass-mq which should help you out with your multi-device designs."
+    },{
+	"url":	        "http://www.ebaytechblog.com/2015/11/04/how-our-css-framework-helps-enforce-accessibility/",
+	"link_text":    "How [Ebay's] CSS framework helps enforce accessibility",
+	"link_comment": "There is precious little written about accessibility and I'll be the first to admit that sometimes it slips my mind too. This post from the Ebay tech blog provides some great food for thought about creating accessible UI controls."
+    },{
+	"url":	        "http://www.hongkiat.com/blog/skewed-edges-css/",
+	"link_text":    "How to create skewed edges with CSS",
+	"link_comment": "An upcoming project of mine (the long awaited website for my company that makes websites) has a lot of skewed elements and this post from @hongikat will almost certainly come in useful when I come to build out the design."
+    },{
+	"url":	        "http://pantonesmoothies.com/",
+	"link_text":    "Pantone Smoothies",
+	"link_comment": "I also came across this great little side project earlier in the week. A series of smoothies that match Pantone colours. There's not a huge amount of CSS learnin to be done here but it's a beautifully executed project!"
+	}
+  ]
+}
