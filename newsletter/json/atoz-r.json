@@ -1,0 +1,32 @@
+{
+ "title" :              "AtoZ CSS News",
+ "tag_line" :           "My favourite articles and news plus a new CSS tip",
+ "subject_line":        "AtoZ CSS News: Flexbox special",
+ "intro_text" :	        "Flexbox has been around a while but I'd wager many designers and developers have stayed clear of it for client projects due to browser support and the importance of layout working as designed. Well, with ALL major browsers supporting flexbox unprefixed, now is the time to level up if you've not experimented with this powerhouse of tools. Here's 5 resources to help you on your way...",
+ "css_tip_letter":      "R",
+ "css_tip_property":    "Rems",
+ "wistia_id":		"qdefggbhue",
+ "news": [
+    {
+	"url":	        "http://flexboxfroggy.com/",
+	"link_text":    "Flexbox Froggy",
+	"link_comment": "For a great introduction to what flexbox is and how it works, check out this beautifully designed interactive game. One of my students told me about this last night when we were discussing how to build a “holy grail layout”; a two column layout with a combination of fixed and flexible containers (more on that later). This is a great way to start your flexbox journey."
+    },{
+	"url":	        "http://www.smashingmagazine.com/tag/flexbox/",
+	"link_text":    "Flexbox For Interfaces All the Way: Tracks Case Study",
+	"link_comment": "This post on Smashing Magazine provides a great case study of building all sorts of flexible components and patterns with flexbox. The post covers inline patterns, flexy form inputs, navigation components and media objects and even more complex modules like a calendar widget. If you're already familiar with flexbox, this post may help you get to the next level."
+    },{
+	"url":	        "https://medium.com/@Heydon/flexbox-grid-finesse-4d22b80bfee1#.52tnrwhub",
+	"link_text":    "Flexbox Grid Finesse",
+	"link_comment": "I've always shyed away from using flexbox for the big-picture, underlying structure of my content (due to past concerns about browser support) but in this post, Heydon goes through some great tips for using flexbox to improve the way we handle grid layouts, allowing them to be a bit more flexible and adapt to the content within. Interesting read."
+    },{
+	"url":	        "https://philipwalton.github.io/solved-by-flexbox/",
+	"link_text":    "Solved by Flexbox",
+	"link_comment": "If you're liking the sound of all this flexbox stuff but aren't sure what/how/why it could be useful, this classic resource from Philip Walton provides a series of examples where flexbox solves everyday CSS layout problems. I often find myself recommending this resource to students so thought I'd share it with you too."
+    },{
+	"url":	        "http://www.atozcss.com/books",
+	"link_text":    "AtoZ CSS Guide to Layout and Document Flow",
+	"link_comment": "If all this flexbox stuff is a bit too intense, why not start with the fundamentals with my 260 page ebook all about CSS layout. It starts with the building blocks of inline vs. block elements, then explains float layouts, inline-block layouts, positioning and even has a whole chapter on the fundamentals of flexbox and the new grid layout module too. This is a great grounding in all things layout for beginners."
+	}
+  ]
+}
