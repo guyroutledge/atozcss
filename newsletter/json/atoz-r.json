@@ -22,7 +22,7 @@
     },{
 	"url":	        "https://philipwalton.github.io/solved-by-flexbox/",
 	"link_text":    "Solved by Flexbox",
-	"link_comment": "If you're liking the sound of all this flexbox stuff but aren't sure what/how/why it could be useful, this classic resource from Philip Walton provides a series of examples where flexbox solves everyday CSS layout problems. I often find myself recommending this resource to students so thought I'd share it with you too."
+	"link_comment": "If you're liking the sound of all this flexbox stuff but aren't sure what/how/why it could be useful, this classic resource from Philip Walton provides a series of examples where flexbox solves everyday CSS layout problems - including the holy grain fixed/fluid layout. I often find myself recommending this resource to students so thought I'd share it with you too."
     },{
 	"url":	        "http://www.atozcss.com/books",
 	"link_text":    "AtoZ CSS Guide to Layout and Document Flow",
