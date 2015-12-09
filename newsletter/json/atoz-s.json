@@ -1,0 +1,32 @@
+{
+ "title" :              "AtoZ CSS News",
+ "tag_line" :           "My favourite articles and news plus a new CSS tip",
+ "subject_line":        "AtoZ CSS News: Iconfonts, Snap points, Lazy loading, Native variables and Twitter hearts",
+ "intro_text" :	        "This week I've been writing about legacy browser support whilst recording screencasts about flexbox. And this week's top CSS articles are similarly diverse. Here's my five favourites just for you...",
+ "css_tip_letter":      "S",
+ "css_tip_property":    "Browser Support",
+ "wistia_id":		"08d1e2yncj",
+ "news": [
+    {
+	"url":	        "http://benfrain.com/seriously-use-icon-fonts/",
+	"link_text":    "Seriously, Use Icon Fonts",
+	"link_comment": "In response to an article by Tyler Sticka titled “Seriously, don’t use icon fonts” Ben Frain lends some balance to the debate and outlines some reasons why you *might* want to use an icon font. It's so refreshing to read some respectful debate for a change."
+    },{
+	"url":	        "http://www.sitepoint.com/intuitive-scrolling-interfaces-with-css-scroll-snap-points/",
+	"link_text":    "Intuitive Scrolling Interfaces with CSS Scroll Snap Points",
+	"link_comment": "I had never heard aobut CSS Snap Points until I stumbled across this post on Sitepoint. Snap points allow you to build layouts where content snaps into position on scroll, enabling the creation of pagination or carousel style effects. This is an interesting addition to CSS for sure."
+    },{
+	"url":	        "http://philipwalton.com/articles/why-im-excited-about-native-css-variables/",
+	"link_text":    "Why I'm Excited About Native CSS Variables",
+	"link_comment": "Another new feature to land in CSS recently is native CSS variables. In this post, Philip Walton outlines what they are and how they're different to variables you may be used - in Sass for example. This could be the beginning of a new frontier in CSS. Are pre-processors dead?"
+    },{
+	"url":	        "https://css-tricks.com/the-blur-up-technique-for-loading-background-images/",
+	"link_text":    "The Blur Up Technique for Loading Background Images",
+	"link_comment": "In this CSS Tricks post, Emil walks you through the process of creating a lazy loading effect for background images. A tiny image is loaded super fast blurred with CSS filters and then transitioned to a high-res sharper version of the image once loaded. Clever and effective."
+    },{
+	"url":	        "https://medium.com/@OxyDesign/twitter-s-heart-animation-in-full-css-b1c00ca5b774#.fyrn16ni1",
+	"link_text":    "Twitter's Heart Animation in Full CSS",
+	"link_comment": "I really like reading step by step breakdowns of well-known designs or animations and this is a great example. Nicolas shows how he broke down and built back together the new Twitter heart animation. He goes into great detail and provides loads of code snippets throughout. Great stuff."
+	}
+  ]
+}
