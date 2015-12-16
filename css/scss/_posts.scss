@@ -34,13 +34,6 @@
 }
 .episode-header {
 	text-align:center;
-
-	@media screen and (min-width:40em) {
-		text-align:left;
-		overflow:hidden;
-		.episode-main-title { float:left; width:40%; }
-		.episode-promo { float:right; }
-	}
 }
 .episode-info {
 	margin-top: 3em;
