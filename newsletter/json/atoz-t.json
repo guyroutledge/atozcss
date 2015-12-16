@@ -8,6 +8,10 @@
  "wistia_id":		"kuc9u5inju",
  "news": [
     {
+	"url":	        "http://www.atozcss.com/blog/css-tip-t",
+	"link_text":    "AtoZ Tips: Open Type Features",
+	"link_comment": "Text is everywhere so we should do everything in our power to make it look its best. We have a whole load of CSS properties at our fingertips for styling text but this weeks tips will dive into Open Type features like ligatures, swashes and kerning to really make your text stand out."
+    },{
 	"url":	        "http://webdesign.tutsplus.com/tutorials/blending-modes-in-css-color-theory-and-practical-application--cms-25201",
 	"link_text":    "Blending Modes in CSS",
 	"link_comment": "Blend modes are something that designers have been using for years in apps like Photoshop but now we can use them in CSS. Perhaps it won't be long before designing in the browser will really be the norm? In this incredibly detailed post, Jonathan Cutrell goes into the colour theory and practical application of this exciting new CSS feature."
