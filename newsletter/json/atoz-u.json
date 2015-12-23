@@ -1,0 +1,32 @@
+{
+ "title" :              "AtoZ CSS News",
+ "tag_line" :           "My favourite articles and news plus a new CSS tip",
+ "subject_line":        "Unicode, CSS Modules, Container Queries, SVG in email and CSS particles",
+ "intro_text" :	        "Happy Holidays! I hope you have a wonderful holiday season and a very Happy New Year. Thank you so much for your support over the last year, it's been a busy one for sure. Here's my gift to you: 5 links to satisfy your CSS cravings. Enjoy!",
+ "css_tip_letter":      "U",
+ "css_tip_property":    "Unicode",
+ "wistia_id":		"kxh7150659",
+ "news": [
+    {
+	"url":	        "http://www.atozcss.com/blog/css-tip-u/",
+	"link_text":    "AtoZ Tip: Unicode in CSS",
+	"link_comment": "Here are a couple of quick tips for using unicode characters in CSS to go along with the original screencast video about the unicode-range property."
+    },{
+	"url":	        "http://www.sitepoint.com/understanding-css-modules-methodology/",
+	"link_text":    "Understanding the CSS Modules Methodology",
+	"link_comment": "In this post, Hugo Giraudel explains what CSS modules are (it's all about scoped styles), how they work, some potential pain points and potential use cases."
+    },{
+	"url":	        "https://24ways.org/2015/being-responsive-to-the-small-things/",
+	"link_text":    "Being Responsible to the Small Things",
+	"link_comment": "Jonathan Snook writes for 24 Ways about the problem with using media queries at the viewport level and suggests we use JavaScript to mimic container queries instead."
+    },{
+	"url":	        "https://css-tricks.com/a-guide-on-svg-support-in-email/",
+	"link_text":    "A Guide on SVG Support in Email",
+	"link_comment": "I personally hate building HTML emails but have seen some pretty fancy things starting to happen in this space. In this CSS Tricks post, Geoff Graham gives you the rundown on SVG in email."
+    },{
+	"url":	        "http://codepen.io/giana/pen/eJNxmy",
+	"link_text":    "CSS Box Shadow Particles",
+	"link_comment": "You can do some pretty amazing things with a single element and multiple box shadows but this Codepen from Giana is quite incredible. Check it out!"
+    }
+  ]
+}
