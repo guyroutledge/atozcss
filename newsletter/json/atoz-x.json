@@ -1,0 +1,36 @@
+{
+ "title" :              "AtoZ CSS News",
+ "tag_line" :           "My favourite articles and news plus a new CSS tip",
+ "subject_line":        "AtoZ CSS: Easing, Specificity, Swiss CSS, Death to IE and a joke",
+ "intro_text" :	        "It's been a busy start to the year at AtoZ HQ. I've been busily writing about Sass all week whilst gearing up for the launch of the new video series. But there's been plenty of fascinating front-end developments going on elsewhere too, here are some of my favourites...",
+ "css_tip_letter":      "X",
+ "css_tip_property":    "Translate vs. Position",
+ "wistia_id":		"jvizea6q0i",
+ "news": [
+    {
+	"url":	        "http://www.atozcss.com/blog/css-tip-w/",
+	"link_text":    "AtoZ Tip: Translate vs. Position",
+	"link_comment": "There are often many ways of doing the same thing in CSS. One of those cases is when placing elements with position:relative or transform:translate(). In this tip we'll look at the difference between the two and how they can be combined to achieve some interesting results."
+    },{
+	"url":	        "http://mbsy.co/czMZQ?url=https://webdesign.tutsplus.com/courses/easing-in-to-cubic-bezier-functions",
+	"link_text":    "Easing in to Cubic Bezier Functions",
+	"link_comment": "I recently produced a quick coffee-break course for Tuts+ all about CSS easing and cubic bezier curves. You should be able to watch it for free but you will need to sign up for a free account to do so. Let me know what you think..."
+    },{
+	"url":	        "https://css-tricks.com/a-specificity-battle/",
+	"link_text":    "A Specificity Battle",
+	"link_comment": "In this CSS Tricks post, specificity is the topic of the day where Francisco Dias demonstrates 19 ways to override a background color, looking at all the various options in increasing order of specificity."
+    },{
+	"url":	        "http://swissincss.com/",
+	"link_text":    "Swiss in CSS",
+	"link_comment": "I'm a big fan of simple, minimal design and the International Typographic Style is a classic example of just that. This site is a showcase of posters in the Swiss style, built and animated with CSS. Beautiful stuff."
+    },{
+	"url":	        "http://thenextweb.com/microsoft/2016/01/05/web-developers-rejoice-internet-explorer-8-9-and-10-die-on-tuesday/",
+	"link_text":    "Internet Explorer 8, 9 and 10 are dead",
+	"link_comment": "Yesterday was a big day for lovers of modern CSS techniques everywhere. Legacy versions of IE will no longer be supported by Microsoft and users of older versions will receive a nagging message telling them to upgrade. Progress!"
+    },{
+	"url":	        "http://digitalsynopsis.com/design/34-css-puns-web-design-funny-jokes/",
+	"link_text":    "34 CSS Puns That’ll Make You Laugh, Even If You Aren’t A Web Designer",
+	"link_comment": "Who doesn't like a laugh (and I'm not just talking about a laugh at Internet Explorer's expense - that's old news). This post from Digital Synopsis has been doing the rounds a lot lately but there's some very amusing puns in here. Once you're done reading the serious articles, enjoy a browse through these!"
+    }
+  ]
+}
