@@ -1,0 +1,36 @@
+{
+ "title" :              "AtoZ CSS News",
+ "tag_line" :           "My favourite articles and news plus a new CSS tip",
+ "subject_line":        "AtoZ CSS: Matrices, Flexbox, Sticky Position and a CSS Game",
+ "intro_text" :	        "AtoZ Sass production is well under way and in just 2 weeks time, I'll be publishing a four-part blog series to help you get up and running with Sass basics so you can follow along with the next series of videos. If you're a Sass beginner (or have never even tried it yet) please let me know so I can make sure the introduction is suitable for you. If you're already a Sass expert, let me know that and I'll be sure to include some more advanced material in the video too! Just hit reply and say 'Sass Expert' or 'Sass Beginner'.",
+ "css_tip_letter":      "Y",
+ "css_tip_property":    "Y-axis transform and matrices",
+ "wistia_id":		"k8pabgcyg8",
+ "news": [
+    {
+	"url":	        "http://www.atozcss.com/blog/css-tip-y/",
+	"link_text":    "AtoZ Tip: Y-axis transforms and Matrices",
+	"link_comment": "3D CSS is pretty cool but still somewhat under used. In this week's tip you'll learn about all sorts of transforms that can occur around the y-axis and all about how the transform: matrix( ) property works."
+    },{
+	"url":	        "http://www.sitepoint.com/watch-the-axis-of-flexbox/",
+	"link_text":    "Video: The Axis of Flexbox",
+	"link_comment": "I've recently team up with Sitepoint to record a short series of videos about flexbox. This screencast is all about the different axis of flexbox. The way flexbox elements flow is completely different from traditional layout methods like float and this video gives you the low down on the theory behind how it all works."
+    },{
+	"url":	        "http://tobiasahlin.com/blog/curved-path-animations-in-css/",
+	"link_text":    "Moving Along a Curved Path in CSS with Layered Animation",
+	"link_comment": "I read this post the other day and it's seriously impressive. I don't know if you've ever wanted or needed to animate an element along a curved path before, but this post goes into a great amount of detail about the problem, the solution (multiple timing functions and 3D transforms on multiple elements). Crazy smart stuff!"
+    },{
+	"url":	        "http://webdesign.tutsplus.com/tutorials/sticky-positioning-with-nothing-but-css--cms-24042",
+	"link_text":    "Stick Positioning with Nothing but CSS",
+	"link_comment": "Fixed headers have been popular over the last few years and now 'sticky elements' are gaining popularity too. There are a number of JS libraries out there such as Scroll Magic or Skrollr that can help with sticky elements but there is a native position value in CSS that handles similar behaviour. The browser support isn't good yet but its worth a look for sure."
+    },{
+	"url":	        "http://ipestov.com/22-essential-css-recipes/",
+	"link_text":    "22 Essential CSS Recipes",
+	"link_comment": "Blend modes, gradient borders, transitioning z-index, object-fit, CSS counters, and lots lots more. I won't spoil it all for you, go and check out this great round-up of cool things you can do with CSS."
+    },{
+	"url":	        "http://victordarras.fr/cssgame/",
+	"link_text":    "CSS Game",
+	"link_comment": "And finally, a game made entirely with CSS. This is another great example of the amazing things you can do with CSS with a crazy idea and way too much free time. This is pure genius and really hard to play - especially if you have a trackpad rather than a normal mouse. Give it a go and let me know if you win because I want to know what happens when you do!"
+    }
+  ]
+}
