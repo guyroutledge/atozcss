@@ -2,7 +2,7 @@
  "title" :              "AtoZ CSS News",
  "tag_line" :           "My favourite articles and news plus a new CSS tip",
  "subject_line":        "AtoZ CSS: Matrices, Flexbox, Sticky Position and a CSS Game",
- "intro_text" :	        "AtoZ Sass production is well under way and in just 2 weeks time, I'll be publishing a four-part blog series to help you get up and running with Sass basics so you can follow along with the next series of videos. If you're a Sass beginner (or have never even tried it yet) please let me know so I can make sure the introduction is suitable for you. If you're already a Sass expert, let me know that and I'll be sure to include some more advanced material in the video too! Just hit reply and say 'Sass Expert' or 'Sass Beginner'.",
+ "intro_text" :	        "AtoZ Sass production is well under way and in just 2 weeks time, I'll be publishing a four-part blog series to help you get up and running with Sass basics so you can follow along with the next series of videos. If you're a Sass beginner (or have never even tried it yet) please let me know so I can make sure the introduction is suitable for you. If you're already a Sass expert, let me know that and I'll be sure to include some more advanced material in the videos too! Just hit reply and say 'Sass Expert' or 'Sass Beginner'.",
  "css_tip_letter":      "Y",
  "css_tip_property":    "Y-axis transform and matrices",
  "wistia_id":		"k8pabgcyg8",
@@ -14,11 +14,11 @@
     },{
 	"url":	        "http://www.sitepoint.com/watch-the-axis-of-flexbox/",
 	"link_text":    "Video: The Axis of Flexbox",
-	"link_comment": "I've recently team up with Sitepoint to record a short series of videos about flexbox. This screencast is all about the different axis of flexbox. The way flexbox elements flow is completely different from traditional layout methods like float and this video gives you the low down on the theory behind how it all works."
+	"link_comment": "I've recently team up with Sitepoint to record a short series of videos about flexbox. This screencast is all about the different axis of flexbox which determine the direction of flow of flex items. The way flexbox elements flow is completely different from traditional layout methods like float and this video gives you the low down on the theory behind it all."
     },{
 	"url":	        "http://tobiasahlin.com/blog/curved-path-animations-in-css/",
 	"link_text":    "Moving Along a Curved Path in CSS with Layered Animation",
-	"link_comment": "I read this post the other day and it's seriously impressive. I don't know if you've ever wanted or needed to animate an element along a curved path before, but this post goes into a great amount of detail about the problem, the solution (multiple timing functions and 3D transforms on multiple elements). Crazy smart stuff!"
+	"link_comment": "I read this post the other day and it's seriously impressive. I don't know if you've ever wanted or needed to animate an element along a curved path before, but this post goes into a great amount of detail about the problem and the solution (multiple timing functions and 3D transforms on multiple elements). Crazy smart stuff!"
     },{
 	"url":	        "http://webdesign.tutsplus.com/tutorials/sticky-positioning-with-nothing-but-css--cms-24042",
 	"link_text":    "Stick Positioning with Nothing but CSS",
