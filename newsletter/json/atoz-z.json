@@ -1,0 +1,36 @@
+{
+ "title" :              "AtoZ CSS News",
+ "tag_line" :           "My favourite articles and news plus a new CSS tip",
+ "subject_line":        "AtoZ CSS: Motion design, CSS architecture, ITCSS, Redesigns and Tooltips",
+ "intro_text" :	        "Thanks for joining me for another week of CSS News. I've found some great articles and tools recently and can't wait to share them with you. Production of AtoZ Sass has also been going strong and over the next week I'm hoping to record the first handful of videos and even do a live broadcast of me redesiging and developing the AtoZ website from the ground up. Follow <a href='http://www.twitter.com/atozcss'>@atozcss</a> or me <a href='http://www.twitter.com/guyroutledge'>@guyroutledge</a> to be notified when that happens.",
+ "css_tip_letter":      "Z",
+ "css_tip_property":    "Working with z-index",
+ "wistia_id":		"64pn9d94vn",
+ "news": [
+    {
+	"url":	        "http://www.atozcss.com/blog/css-tip-z/",
+	"link_text":    "AtoZ Tip: Working with z-index",
+	"link_comment": "In the somewhat predictable Z for Z-index tip - the final post in this series - we dig into a couple of details for working with stacking and layering of elements in the document and look at ways to systemise the process."
+    },{
+	"url":	        "http://alistapart.com/article/motion-with-meaning-semantic-animation-in-interface-design",
+	"link_text":    "Motion with Meaning: Semantic Animation in Interface Design",
+	"link_comment": "Animation seems to be constantly growing in popularity and is a common feature of many websites and web applications. But we should be careful to ensure that UI motion always has meaning and isn't distracting or harmful to the user experience. This post on A List Apart takes a detailed look at what works and what doesn't."
+    },{
+	"url":	        "https://www.smashingmagazine.com/2016/01/variables-in-css-architecture/",
+	"link_text":    "Variables: The Backbone of CSS Architecture",
+	"link_comment": "In preparation for the up coming AtoZ Sass series, I'll be sharing an introductory guide which will cover all the fundamentals including things like variables. If you want to get a jump start on Sass, have a read of this post on Smashing Magazine which gives some great tips for planning and architecting your styles with Sass."
+    },{
+	"url":	        "http://wesbos.com/css-highlight-animation/",
+	"link_text":    "CSS Highlight Animation",
+	"link_comment": "In this video, Wes Bos goes through the process of reverse engineering an effect he saw on Web Designer Depot to create an animated hover effect that appears to highlight text that spans multiple lines."
+    },{
+	"url":	        "https://medium.com/@tedgoas/an-open-letter-to-designers-of-unsolicited-redesigns-and-unbuildable-apps-44048ba16b76#.o4haogsxa",
+	"link_text":    "An Open Letter to Designers of Unsolicited Redesigns...",
+	"link_comment": "Unsolicited redesigns are often dismissed by the design community for being overly cosmetic, not solving real problems or working within real constraints. But I really like the alternative viewpoint as expressed in this post by Ted Goas. He suggests that redesigning a known site or app interface is a great way to practice and can be a great source of inspiration to others. Keep doing what you're doing."
+    },{
+	"url":	        "http://kushagragour.in/lab/hint/",
+	"link_text":    "Hint.css 2.0",
+	"link_comment": "Finally, I saw Hint.css pop up in numerous places in my Twitter feed the other day. A new version of this pure CSS tooltip library has just been released along with a really nice looking demo site. If you need a tooltip in your next project, take a look at this for sure."
+    }
+  ]
+}
