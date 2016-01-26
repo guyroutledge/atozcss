@@ -22,7 +22,9 @@ which can hold a number of different types of data. In this episode
 we'll cover: 
 
 * the seven core data types in Sass
-* and how we can use maths to manipulate these various values
+* and how we can manipulate these various values
+
+
 
 ## Data Types
 
@@ -38,20 +40,29 @@ Sass variables can store a number of different data types including:
 
 These different data types allow us to create variables for all sorts of
 different CSS values. A variable is just a handy label for an arbitrary
-value and can help make code easier to read and quick to update.
+value and they can help make our code easier to read and quick to update.
 
-Numbers are used a lot in CSS from setting margins and font-size to
+Let's look at each of the different data types in turn to clarify what
+they are and how to use them.
+
+
+### Numbers
+
+Numbers are used a lot in CSS from setting margins and font-sizes to
 border-radius and line height. Numbers come in a few different flavours
-include integers (whole numbers), floating points (decimals) and length
-values like `px` and `%`.
+including integers (whole numbers), floating points (decimals) and length
+values like `10px`, `20em` or `50%`.
 
 {% highlight scss %}
 1, 2, 3, 0.1, 5.3, 10px, 20em, 50%
 {% endhighlight %}
 
+### Strings
+
 Strings of text are found in a number of CSS values including font
 families, colours and URLs. String in CSS are found both with and
-without quotes and are said to be "quoted" or unquoted strings. 
+without surrounding quotation marks and are said to be "quoted" or
+unquoted strings. 
 
 {% highlight scss %}
 "Times New Roman", '../images/logo.png', red, sans-serif
@@ -60,24 +71,40 @@ without quotes and are said to be "quoted" or unquoted strings.
 Sass (just like CSS) doesn't differentiate between strings with quotes
 and strings without quotes. The only exception is when dealing with some
 specific CSS values like `sans-serif` or `inherit` which should not be
-quoted. Colour names have special meaning in Sass and should be unquoted 
-and not not used in strings.
+quoted. Colour names also have special meaning in Sass and should be
+unquoted.
 
-As a general rule, string should be quoted and I favour single quotes
+In all other cases, strings should be quoted and I favour single quotes
 because they're easier to type and I personally find them neater to look
 at.
 
+### Colors
+
 Colors come in many forms such as named colours, hex, `rgb` and `hsl`.
+
 Colours have their own data type because they can be manipulated by
 [color functions](http://www.atozsass.com/c) and be added and subtracted
 from each other to produce new colours.
 
-Booleans are `true` or `false` and aren't particularly useful for
+{% highlight scss %}
+$named-color: black
+$hex-color:   #000
+$rgba-color:  rgba( 0, 0, 0, 1 )
+$hsla-color:  hsl( 0, 0%, 0%, 1 )
+{% endhighlight %}
+
+### Boolean
+
+Booleans are either `true` or `false` and aren't particularly useful for
 setting values for CSS properties but *are* very useful when combined
 with logical flow control whilst building complex components, frameworks
-or library code.
+or library code. There's a whole video coming up on loops and flow
+control - keep your eye out for that to see a good use case for boolean
+variables
 
-`null` is a special value which represents and empty value. If
+### Null
+
+`null` is a special data type which represents and empty value. If
 a variable contains a null value, applying this to a CSS property will
 cause that line of code to be removed at compile time:
 
@@ -97,10 +124,12 @@ $line-height: 1.2;
 */
 {% endhighlight %}
 
+### Lists
+
 Lists contain multiple values separated by spaces or commas. They are
 used to represent shorthand declarations like `margin` and `padding` or
-for font-stacks.  You can even have a list that contains other
-variables.
+for font stacks. You can have a list that contains other
+variables or even a list of lists.
 
 {% highlight scss %}
 $space-separated-list: 0 0 20px 0;
@@ -108,13 +137,25 @@ $comma-separated-list: Helvetica, Arial, sans-serif;
 $variable-list: $space-separated-list, $comma-separated-list;
 {% endhighlight %}
 
+### Maps
+
 For more complex lists of variables, one final data type is "map"
 variables. These contain a store of key and value pairs like
 a JavaScript object or Ruby hash and are a very powerful new feature of
 Sass 3.3.
 
-Because there's a lot to maps, we'll cover them in detail in their own
-video in Sass episode 13.
+{% highlight scss %}
+$font-sizes: (
+	h1: 50px,
+	h2: 36px,
+	h3: 24px,
+	h4: 20px,
+	p:  18px
+);
+{% endhighlight %}
+
+Because there's a lot discuss regarding maps, we'll cover them in detail
+in their own video in Episode 13.
 
 So, with all these different types of variable values, what can we do
 with them?
@@ -131,7 +172,8 @@ With whole numbers or decimals, we can add, subtract, multiply, divide
 and modulo (which returns the remainder after a division). 
 
 When using mathematical operations with length values in Sass (values
-like 10px or 2em), we do need to be mindful of the units.
+like 10px or 2em), we do need to be mindful of the length units as many
+units are incompatible.
 
 I'm using [Sassmeister](http://www.sassmeister.com) here to demonstrate
 some Sass maths. I've got two variables `$a` and `$b` in the Sass on the
@@ -149,8 +191,8 @@ div { width: $a - $b }
 {% endhighlight %}
 
 Dividing lengths with the same units results in a number with no units.
-This can be a handy trick for stripping the units from any length
-value so you can perform more Sass magic on the value.
+This can be a handy trick for stripping the units from any length value
+so you can perform further Sass operations on the plain number value.
 
 {% highlight scss %}
 $a: 100px;
@@ -172,7 +214,7 @@ div {
 {% endhighlight %}
 
 If you do need to perform calculations with mixed units, this can
-actually be done in normal CSS with the `calc()` function and is
+actually be done in normal CSS with the `calc()` function which is
 supported in IE9+.
 
 When working with mathematical operations in Sass, it's always a good
@@ -181,7 +223,7 @@ more readable and reduces the risk of confusing mathematical operators
 for other normal CSS characters like hyphens or forward slashes.
 
 Sass variables and maths are a great combination and can really help to
-add meaning and clarity to your code as instead of the result of
+add meaning and clarity to your code. And instead of the result of
 a calculation being declared as a value, you can see the maths write
 there in the code. I'm not a huge fan of maths in general but Sass
 certainly sweetens the deal.

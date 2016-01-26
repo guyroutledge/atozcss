@@ -25,20 +25,26 @@ to CSS preprocessing with Sass. Head to
 
 Today I'd like to talk to you about the Sass ampersand character. This
 is a powerful part of the Sass language with many possible use cases. In
-this episode we'll look at:
+this episode you'll learn:
 
-* The parent selector
+* All about the Sass parent selector
 * The reverse parent selector
 * and the double ampersand selector
 
+
+
 ## Parent selector
 
-Nesting in Sass - which is always something to do infrequently to
-avoid unnecessarily high specificity - allows us to write a shorter
-syntax which is then compiled into CSS.
+Nesting is a popular feature in Sass. But it's something to do
+infrequently and carefully to avoid unnecessarily high specificity in
+our selectors.
+
+Nesting allows us to write a shorter syntax which is then compiled into
+CSS.
 
 For example, when styling a site's navigation, we might use the
-following snippet to style the unordered list and list items within:
+following snippet to style the unordered list and list items within the
+nav:
 
 {% highlight scss %}
 .site-nav {
@@ -67,8 +73,8 @@ Here the `ul`, `li` and `a` tags are indented inside the braces of the
 For each selector that's nested within the `.site-nav`, the parent
 selector is output in front.
 
-When working with pseudo classes or pseudo elements, we may try writing
-code like this to style the hover state of anchor tags:
+When working with pseudo classes or pseudo elements, we might attempt to
+write code like this to style the hover state of anchor tags:
 
 {% highlight scss %}
 .site-nav {
@@ -82,9 +88,9 @@ code like this to style the hover state of anchor tags:
 }
 {% endhighlight %}
 
-But this will output the following CSS which won't style the hover
-states as planned but would select the hover state of any links inside
-of links.
+But this will output CSS which won't style the hover states as planned
+and would actually select the hover state of any links inside of links
+which doesn't make sense from a document hierarchy standpoint.
 
 {% highlight css %}
 .site-nav a  { color:#fff }
@@ -92,8 +98,9 @@ of links.
 {% endhighlight %}
 
 So to solve this problem, we need a way of referencing the parent
-selector within Sass nesting. We do that with the ampersand `&`
-character.
+selector within Sass nesting. 
+
+We do that with the ampersand `&` character.
 
 {% highlight scss %}
 .site-nav {
@@ -107,8 +114,8 @@ character.
 }
 {% endhighlight %}
 
-The ampersand is a bit like a special variable that always has the value
-of the current selector's parent. 
+The ampersand is a bit like a special variable that always holds the value
+of the current selector's parent.
 
 While nesting is a useful way to avoid typing out repetitive selectors,
 it should be used with caution. Try to limit nesting to pseudo selectors
@@ -173,7 +180,6 @@ Here the ampersand appears at the end of the selector but still serves
 the same purpose which is to output the parent selector in its place.
 This snippet would then compile as follows:
 
-
 {% highlight scss %}
 a { 
 	color: #666; 
@@ -195,14 +201,14 @@ a {
 This use of the ampersand is really handy for situations where a parent
 class is used to override styles. And using it in this way and helps to
 keep all related styling together making the code more compact and
-easier to read without scrolling up and down your editor.
+easier to read without scrolling up and down the file.
 
 
 
 
 ## Double Ampersand
 
-One final use of the Sass ampersand that we'll look at today is the
+One final use of the Sass ampersand that we'll look at here is the
 "double ampersand" selector. 
 
 Here's an example of what a double ampersand selector might look like:
@@ -260,11 +266,13 @@ This may look a little odd to begin with but the end result is much less
 code and removes the need to override styles that have already been
 declared.
 
+
+
 ## Outro
 
-In the next episode we'll be discussing B for BEM and look at another
-powerful use of the Sass ampersand. Make sure you sign up for the
-mailing list to be the first to hear about the next release and get
+In the next episode we'll be discussing B for "BEM" and looking at
+another powerful use of the Sass ampersand. Make sure you sign up for
+the mailing list to be the first to hear about the next release and get
 weekly CSS news and links delivered straight to your inbox.
 
 For this episode, a transcript and code snippets can be found at

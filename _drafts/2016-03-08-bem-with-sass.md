@@ -14,11 +14,17 @@ summary: |
 ---
 
 [BEM](http://www.bem.info) is a CSS naming convention that encourages
-writing modular code. In this video you'll learn:
+writing modular code. 
+
+It can really help bring structure and meaning to the way you name your
+classes and it's something I use consistently in my day to day work.
+
+In this episode you'll learn:
 
 * What BEM is
 * How to leverage the Sass ampersand with BEM
 * And some BEM best practices
+
 
 
 ## What is BEM?
@@ -27,7 +33,7 @@ BEM is a naming convention to help add structure and meaning to
 class names.
 
 It stands for Block, Element, Modifier and is a good system for buidling
-flexible and modular code from a series of components. [Harry
+flexible and modular code by creating a series of components. [Harry
 Roberts](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) 
 has a great definition of BEM:
 
@@ -102,13 +108,14 @@ long which can get tedious to type. Well, Sass may just be able to help
 us out...
 
 
-## The Ampersand and BEM
+
+## The Sass Ampersand and BEM
 
 In the [previous episode](http://www.atozsass.com/a) we looked at the
 Sass ampersand character and how it can be used as a placeholder for the
 parent selector when nesting.
 
-The ampersand has another use and is particularly handy when working
+The ampersand has another use and can be particularly handy when working
 with BEM.
 
 Going back to the previous example, here's the full code for our media
@@ -135,9 +142,9 @@ block in "normal" CSS.
 }
 {% endhighlight %}
 
-You may notice that "media" is repeated in each selector and repetition
-is something we often want to reduce. Instead, this syntax can be
-re-written with nesting and the Sass ampersand:
+`media` is repeated in each selector and repetition is something we
+often want to reduce in our code. Instead, this syntax can be re-written
+with nesting and the Sass ampersand:
 
 {% highlight css %}
 .media {
@@ -171,8 +178,9 @@ Nesting in this way provides all the benefits of nesting (grouping code
 together and demonstrating hierarchy) without the downside of generating
 overly specific selectors.
 
-So, this may sound like the perfect solution, right? Well, unfortunately
-there are a couple of downsides.
+So, this may sound like the perfect solution? But, unfortunately there
+are a couple of downsides.
+
 
 
 ## BEM best practices
@@ -206,15 +214,15 @@ your modules so they can be kept as compact as possible to improve
 readability. Each block should be a distinct component rather than 
 using the block as a naming prefix for all elements on a given page.
 
-Components are things like buttons, sign up forms, items in a grid of
-products or portfolio pieces, pagination or social icons; anything
+Components are things like buttons, registration forms, items in a grid
+of products or portfolio pieces, pagination or social icons; anything
 distinct that's made up of a number of elements that could be reused
 throughout a site.
 
 In the past I've made the mistake of taking a parent class like `.home`
 or `.products` and using that as the base "block" for all my BEM
 classes. This leads to a lot of really long and complex class names
-which is less than ideal.
+which is less than ideal and very tedious to type.
 
 {% highlight css %}
 .home { }
@@ -225,7 +233,7 @@ which is less than ideal.
 .home__features-item-title--center { }
 {% endhighlight %}
 
-Instead, the above `.home__features-item` should be its own component
+Instead, the `.home__features-item` should be its own component
 - perhaps just called `.feature` - with its own elements and modifiers.
 
 {% highlight css %}
@@ -243,6 +251,8 @@ Atomic Design or one of the many others out there) can help focus your
 thinking and add meaning and structure to your code which is important
 for maintainability and readability and will be a great help to you and
 your fellow team mates in the future.
+
+
 
 ## Outro
 

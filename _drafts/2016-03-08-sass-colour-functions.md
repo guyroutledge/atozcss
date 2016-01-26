@@ -37,14 +37,14 @@ tweak colours to get the just the right tone or contrast. Sass has
 a number of colour functions built into it that can help do just that.
 
 Each colour function takes a base colour - which can be any valid colour
-format such as a keyword, hex code, rgb or hsl value - and the modify it
-by a certain amount.
+format such as a keyword, hex code, rgb value, hsl value or a variable
+- and the modify it by a certain amount (often as a percentage).
 
 {% highlight scss%}
 function( $color, $amount );
 {% endhighlight %}
 
-Let's illustrate some of the most useful colour functions with this
+Let's illustrate some of the most useful colour functions with an
 example. Here I have a box with a background colour which is defined by
 the variable `$base-color`.
 
@@ -81,8 +81,8 @@ The colour could be more saturated or desaturated too:
 }
 {% endhighlight %}
 
-The colour could be inverted or made grayscale or turned into its
-complimentary colour (the opposite colour on the colour wheel).
+The colour could be inverted, made grayscale or turned into its
+complimentary colour (which is its opposite colour on the colour wheel).
 
 {% highlight scss%}
 .box {
@@ -93,12 +93,13 @@ complimentary colour (the opposite colour on the colour wheel).
 {% endhighlight %}
 
 There are a number of functions available for making a colour more
-transparent or more opaque which take a decimal rather than a percentage.
+transparent or more opaque which take a decimal rather than a percentage
+- just like when setting the alpha channel in `rgba` or `opacity`.
 
 {% highlight scss%}
 .box {
-	background: opacify( $base-color, 0.3 );
 	background: transparentize( $base-color, 0.5 );
+	background: opacify( $base-color, 0.3 );
 	background: rgba( $base-color, 0.4 );
 }
 {% endhighlight %}
@@ -109,7 +110,7 @@ transparent or more opaque which take a decimal rather than a percentage.
 
 It's not uncommon to want to make multiple modifications to a colour
 such as lightening and increasing saturation; or transparentizing and
-darkening. This can be achieved by putting functions inside of
+darkening. This can be achieved by putting functions inside of other
 functions. Let's take a look at lightening and saturating a colour
 together:
 
@@ -134,7 +135,6 @@ result of running the `lighten` function.
 If you find this a bit awkward to read, you could create a variable for
 the lightened colour and just pass that to `saturate`:
 
-
 {% highlight scss%}
 $lightened-color: lighten( $base-color, 20% );
 
@@ -143,8 +143,9 @@ $lightened-color: lighten( $base-color, 20% );
 }
 {% endhighlight %}
 
-I personally prefer the first option because it keeps everything
-together.
+I personally prefer the first, one line option because it keeps
+everything together and reduces the need for additional global
+variables.
 
 
 
@@ -152,7 +153,7 @@ together.
 
 You may be thinking that the designs you work with are much stricter
 about colours than letting them be arbitrarily darkened or lightened in
-the code and that's fair enough.
+the code - and that's a fair point.
 
 But there are some occasions when modifying a colour is much quicker and
 much more flexible than endlessly using a eyedropper tool in your
@@ -259,7 +260,7 @@ into all sorts of ways to pass around and manipulate variables in Sass.
 
 Make sure you sign up for the mailing list to be the first to hear about
 the next release and get weekly CSS news and links delivered straight to
-your inbox.
+your inbox every Wednesday.
 
 For this episode, a transcript and code snippets can be found at
 [atozsass.com/c](http://www.atozsass.com/c). 
