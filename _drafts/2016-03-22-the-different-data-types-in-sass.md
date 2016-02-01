@@ -22,7 +22,7 @@ which can hold a number of different types of data. In this episode
 we'll cover: 
 
 * the seven core data types in Sass
-* and how we can manipulate these various values
+* and how we can manipulate and operate on these various values
 
 
 

@@ -13,10 +13,11 @@ summary: |
 
 ---
 
-Hi and welcome to a brand new series of AtoZ CSS. Over the next 26
-episodes we'll be diving into the CSS preprocessor, Sass and looking at
-a different topic, concept, feature or tool - one for each letter of the
-alphabet.
+Hello welcome to a AtoZ CSS and to a brand new video series!
+
+Over the next 26 episodes we'll be diving into the CSS preprocessor,
+Sass and looking at a different topic, concept, feature or tool - one
+for each letter of the alphabet.
 
 If you're new to Sass then I highly recommend checking out my
 introductory ebook Up and Running with Sass which is a practical intro
@@ -24,10 +25,10 @@ to CSS preprocessing with Sass. Head to
 [atozcss.com/books](http://www.atozcss.com/books) for more details.
 
 Today I'd like to talk to you about the Sass ampersand character. This
-is a powerful part of the Sass language with many possible use cases. In
-this episode you'll learn:
+single character is a powerful part of the Sass language and has
+a number of different uses. In this episode you'll learn:
 
-* All about the Sass parent selector
+* All about nesting and the Sass parent selector
 * The reverse parent selector
 * and the double ampersand selector
 

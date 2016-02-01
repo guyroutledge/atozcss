@@ -13,41 +13,46 @@ summary: |
 
 ---
 
-Functions are a core concept in many programming languages but aren't
-something we can do in normal CSS.
+Functions are a core concept in many programming languages but creating
+our own custom functions isn't something we can use in normal CSS.
 
-However, Sass brings the power of programming to the table and enables
-us to create custom functions for performing common tasks to make our
-style code more flexible, reusable and more meaningful to ourselves and
-our fellow developers.
+However, Sass brings the power of programming to the table and *does*
+allow us to create custom functions for performing common tasks.
 
 In this episode you'll learn:
 
 * What functions can do and why they're useful
-* How to create and use a custom Sass function
+* How to create and use your own custom functions in Sass
 * Examples of functions in the real world
 
 
 
 ## What and Why?
 
-A Sass function constitutes a sequence of instructions that generates
-a value. Functions often accept input parameters (called arguments) and
+Functions wrap up a named sequence of instructions that generates
+a value.  They often accept input parameters (called arguments) and
 return back an output value.
 
 Functions provide the blueprint for a repeatable process that takes one
-value (or multiple values), performs some kind of calculation and sends
-back a new value. They are ideal for performing mathematical operations
-or converting one type of value into another type of value.
+value (or multiple values), performs some kind of calculation and then
+sends back a new value. They are ideal for performing mathematical
+operations or converting one type of value into another type of value.
 
-Using functions hands over the responsibility of performing complex
+{% highlight bash %}
+@function function-name( $parameters ) {
+	// do stuff with input $parameters
+	@return $output-value;
+}
+{% endhighlight %}
+
+Using functions hands over the responsibility of doing complex
 calculations to a machine rather than leaving that work and mental
-overhead to that of the person writing the code. 
+overhead to ourselves. This can help us work faster and reduces the risk
+of human error.
 
-This can help us work faster and reduces the risk of human error.
-
-The concept of functions can be a little abstract to get your head
-around to begin with so let's look at an example.
+If you're not familiar with programming, the concept of functions can be
+a little abstract to get your head around to begin with so let's look at
+an example.
 
 
 
@@ -55,19 +60,18 @@ around to begin with so let's look at an example.
 
 Let's take the example of converting a pixel value into a rem value.
 These are both CSS lengths that can be set for a number of CSS
-properties. 
+properties like `font-size` or `padding`.
 
-When working on a responsive project, it's often prerferable to use
+When working on a responsive project, it's often preferable to use
 relative units like `rem` instead of `px` so we can build a flexible
-system of proportions rather than building every last component to have
-absolute widths, heights and font-sizes.
+system of proportions rather than sizing every last component to
+absolute widths, heights and spacing values.
 
 While using `rem` values produces more flexible elements, it's often
-more straightforward to think in pixel values. So we could create a Sass
-function that converts pixels into rems, giving us the best of both
-worlds and removing the need for constantly reaching for a calculator;
-I hate CSS maths so if I can get a machine to do this for me, all the
-better!
+easier to visualize pixel values. So we could create a Sass function
+that converts pixels into rems, giving us the best of both worlds and
+removing the need for constantly reaching for a calculator; I hate CSS
+maths so if I can get a machine to do this for me, all the better!
 
 Before we look at the Sass syntax for creating and using a function,
 let's look at the calculation that converts pixels to rems.
@@ -87,7 +91,7 @@ the result 0.5.
 8px / 16px = 0.5
 {% endhighlight %}
 
-So the calculation to conver a pixel value to a rem value is to divide
+So the calculation to convert a pixel value to a rem value is to divide
 the pixel value by the base font-size and then multiply this by 1rem. We
 can create a Sass function to automate this process for us as follows:
 
@@ -133,11 +137,12 @@ types of input.
 
 In a future episode we'll look at adding flow control and conditional
 statements to functions as well as debugging functions and warning the
-user of incorrect use but for now, let's add a couple of extra features
-to this pixel to rem coverter.
+user of incorrect use, but for now, let's add a couple of extra features
+to this pixel to rem converter.
 
 Let's make our function more flexible and allow it to accept either
-a pixel length or a number and convert it into rems.
+a pixel length or a number (that's assumed to be a number of pixels) and
+convert it into rems.
 
 To do that, we'll first make another function which turns any length
 value into a number without any units. Once we've done that, we can
@@ -189,21 +194,16 @@ Which will output
 
 So not only is our function flexible but it's really useful; instead of
 seeing values like `0.9375rem` in the stylesheet and trying to get
-a sense of what that means, we can see a number like `15` and our 
-intentions are much clearer.
-
-Creating custom functions is a little advanced and can be quite an
-abstract concept to get your head around but hopefully you can see that
-there's great power in this awesome Sass feature.
-
+a sense of what that means, we can see a number like `15` and can almost
+immediately get a sense of how the kind of length we're talking about.
 
 
 
 ## Outro
 
-In the next episode we'll be discussing G for "Grunt & Gulp" which are 
-command line tools that you can use to automate the process of compiling
-your Sass (and many more tasks too). 
+In the next episode we'll be tackling G for "Grunt & Gulp" which are 
+command line tools that you can use to automate the task of compiling
+your Sass (and many more tasks too).
 
 Make sure you sign up for the mailing list to be the first to hear about
 the next release and get weekly CSS news and links delivered straight to

@@ -13,15 +13,17 @@ summary: |
 
 ---
 
-[BEM](http://www.bem.info) is a CSS naming convention that encourages
-writing modular code. 
+[BEM](http://www.bem.info) is a system of naming classes that encourages
+the good practice of writing modular code.
 
-It can really help bring structure and meaning to the way you name your
-classes and it's something I use consistently in my day to day work.
+It can really help bring structure and meaning to the way we name things
+and it's something I use consistently in my day to day client work. It
+can be used with or without Sass but Sass and BEM are a great
+combination.
 
 In this episode you'll learn:
 
-* What BEM is
+* What BEM is and what it stands for
 * How to leverage the Sass ampersand with BEM
 * And some BEM best practices
 
@@ -32,7 +34,7 @@ In this episode you'll learn:
 BEM is a naming convention to help add structure and meaning to
 class names.
 
-It stands for Block, Element, Modifier and is a good system for buidling
+It stands for Block, Element, Modifier and is a good system for building
 flexible and modular code by creating a series of components. [Harry
 Roberts](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) 
 has a great definition of BEM:
@@ -112,8 +114,8 @@ us out...
 ## The Sass Ampersand and BEM
 
 In the [previous episode](http://www.atozsass.com/a) we looked at the
-Sass ampersand character and how it can be used as a placeholder for the
-parent selector when nesting.
+Sass ampersand character and how it can be used to represent the parent
+selector when when nesting.
 
 The ampersand has another use and can be particularly handy when working
 with BEM.
