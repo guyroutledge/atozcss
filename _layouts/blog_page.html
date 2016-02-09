@@ -7,7 +7,6 @@ layout: default
 	<div class="site-container-inner episode-header">
 		<div class="episode-main-title">
 			<h1>{{page.title}}</h1>
-			<h2>#csstips</h2>
 			<p class="episode-meta">Posted on: {{ page.date | date: "%d %B %Y" }} </p>
 		</div>
 	</div>
@@ -16,15 +15,6 @@ layout: default
 
 		{{ content }}
 
-		<div class="episode-info">
-			<p>You can learn more about this topic in the original screencast&nbsp;video:</p>
-
-			{% include video.html %}
-
-			<p>A transcript and code snippets for this video can be found in the shownotes for the
-				<a href="{{ page.alias | remove: "tip-" }}"><code>{{page.title | downcase}}</code></a>
-			video.</p>
-		</div>
 	</div>
 
 	<div class="site-container-inner">
