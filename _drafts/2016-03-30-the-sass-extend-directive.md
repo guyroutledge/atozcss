@@ -31,10 +31,10 @@ Another Sass feature which seems to work in a similar way is the
 To understand extending selectors, let's first have a quick recap of the
 mixin directive.
 
-I have a simple mixin here that sets up some default font styling. To
-use the mixin we declare `@include` followed by the mixin name within
-another CSS selector. And the styles from within the mixin are output at
-that point in the code when the CSS compiles.
+I have an example here with a mixin that sets up some default font
+styling. To use the mixin we declare `@include` followed by the mixin
+name within another CSS selector. And the styles from within the mixin
+are output at that point in the code when the CSS compiles.
 
 {% highlight scss %}
 @mixin uppercase-letter-spacing {
@@ -249,10 +249,10 @@ Which is an extension of:
 
 {% highlight scss %}
 .latest-posts {
-	@extend .col 
-	@extend .medium-4 
-	@extend .large-6 
-	@extend .last
+	@extend .col;
+	@extend .medium-4;
+	@extend .large-6;
+	@extend .last;
 	/* other styles below */
 }
 {% endhighlight %}

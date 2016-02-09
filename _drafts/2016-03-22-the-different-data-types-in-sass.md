@@ -175,9 +175,12 @@ When using mathematical operations with length values in Sass (values
 like 10px or 2em), we do need to be mindful of the length units as many
 units are incompatible.
 
-I'm using [Sassmeister](http://www.sassmeister.com) here to demonstrate
-some Sass maths. I've got two variables `$a` and `$b` in the Sass on the
-left hand side and the compiled CSS shows up on the right hand side.
+I've set up a local project with my Sass watching for changes on the 
+command line. I've got Sublime Text open with the `style.scss` file on
+the left and the compiled `style.css` file on the right.
+
+We'll use this setup to demonstrate some Sass maths and show the
+compiled CSS each time a change is made. 
 
 Lengths with matching units can be added and subtracted from each other.
 However, lengths with matching units can't be multiplied together.

@@ -257,7 +257,7 @@ Grunt to Gulp for all my projects.
 
 
 
-## Next Steps
+## Next Steps with Automation
 
 Having gone through the process of setting up these tools, we can now
 add additional tasks to help speed up our workflow.

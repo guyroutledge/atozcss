@@ -144,7 +144,7 @@ they'll be used for this example.
 {% highlight scss %}
 $selector: 'highlight';
 $property: 'bottom';
-$value:    'red';
+$value:    red;
 {% endhighlight %}
 
 We can use the `$value` variable in the typical way to set the `color`
@@ -206,7 +206,7 @@ $breakpoint: 500px;
 
 @media screen and ( min-width: $breakpoint ) {
 	body {
-		color:red;
+		font-size: 1.25rem;
 	}
 }
 {% endhighlight %}
@@ -230,7 +230,7 @@ $query: 'screen and ( min-width: #{$breakpoint} )';
 
 @media $query {
 	body {
-		color:red;
+		font-size: 1.25rem;
 	}
 }
 {% endhighlight %}
@@ -240,7 +240,7 @@ Instead, we need to use interpolation and everything works as planned.
 {% highlight scss %}
 @media #{$query} {
 	body {
-		color:red;
+		font-size: 1.25rem;
 	}
 }
 {% endhighlight %}

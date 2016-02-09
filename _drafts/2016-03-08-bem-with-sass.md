@@ -248,8 +248,7 @@ Instead, the `.home__features-item` should be its own component
 .feature__title--center { }
 {% endhighlight %}
 
-Naming things is hard but using a system like BEM (or Suit or ITCSS or
-Atomic Design or one of the many others out there) can help focus your
+Naming things is hard but using a system like BEM can help focus your
 thinking and add meaning and structure to your code which is important
 for maintainability and readability and will be a great help to you and
 your fellow team mates in the future.
