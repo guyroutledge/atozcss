@@ -24,7 +24,7 @@ resources and links.
 Sass is a very popular tool but you may be new to web design or
 development and first want to find out what it is and how to start using
 it. To make sure you get the most out of the video series, I'll be
-publishing a 5-part written introduction to get you up and running.
+publishing a 4-part written introduction to get you up and running.
 
 Here we go...
 
