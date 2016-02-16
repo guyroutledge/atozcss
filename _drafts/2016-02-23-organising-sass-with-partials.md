@@ -1,11 +1,13 @@
 ---
 layout: blog_page
-title: "AtoZ Sass: Partials"
+title: "AtoZ Sass Intro: Organising Sass with Partials"
 category: blog
 excerpt: >
-  
-summary: |
-  
+  Having installed Sass and setup our environment
+  in the previous post, we're now ready to take a look at how Sass can
+  make us better developers and help organise our code. We'll look at
+  the number one problem with vanilla CSS projects, how Sass can help us
+  solve that and a breakdown of my Sass project folder structure.
 ---
 
 This is part 3 of a 4-part introductory series to Sass in preparation
