@@ -13,9 +13,9 @@ excerpt: >
 This is part 2 of a 4-part introductory series to Sass in preparation
 for the video series [AtoZ Sass](http://www.atozsass.com).
 
-* Part 1: [What is Sass](/blog/what-is-sass/)
-* Part 2: Installing Sass
-* Part 3: Organising Sass with Partials
+* Part 1: [What is Sass](/blog/what-is-sass)
+* Part 2: [Installing Sass](/blog/installing-sass)
+* Part 3: [Organising Sass with Partials](/blog/organising-sass-with-partials)
 * Part 4: Variables, Mixins and Nested Selectors
 
 In the previous post we learned what Sass is, where is came from and

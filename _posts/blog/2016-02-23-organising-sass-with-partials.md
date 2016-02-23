@@ -194,7 +194,7 @@ a tweet:
 
 ## Other Posts in this Series
 
-* Part 1: [What is Sass](/what-is-sass)
-* Part 2: [Installing Sass](/installing-sass)
+* Part 1: [What is Sass](/blog/what-is-sass)
+* Part 2: [Installing Sass](/blog/installing-sass)
 * Part 3: Organising Sass with Partials
 * Part 4: Variables, Mixins and Nested Selectors
