@@ -1,7 +1,7 @@
 .subscribe {
 	position:relative;
 	background:$color-light-grey;
-	border:1px solid darken( $color-light-grey, 5% );
+	border:1px solid $color-border;
 	z-index:20;
 }
 .subscribe-form {
@@ -18,6 +18,9 @@
 		display:block;
 		margin:2rem 0;
 	}
+	input {
+		border-radius:2px;
+	}
 	input[type="email"] {
 		width:16em;
 		max-width:100%;
@@ -28,7 +31,8 @@
 
 		background:#fff;
 		border:0;
-		box-shadow:inset 0.2em 0.2em 0.25em rgba(0,0,0,0.2);
+		outline:1px solid $color-border;
+		box-shadow:0;
 
 		&:focus {
 			outline:0;
