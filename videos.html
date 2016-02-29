@@ -6,17 +6,29 @@ permalink: /videos/index.html
 
 <div class="site-container-inner">
 
-	<h1 class="page-title">{{ page.title }}</h1>
-
-	{% include episodes-list-short.html %}
-
+	<h1>AtoZ Sass</h1>
 	<ul class="episodes">
 		{% for post in site.categories['video'] reversed %}
+			{% if post.series == 'atoz-sass' %}
 
-			<li>
-				{% include archive-post.html %}
-			</li>
+				<li>
+					{% include archive-post.html %}
+				</li>
 
+			{% endif %}
+		{% endfor %}
+	</ul>
+
+	<h1>AtoZ CSS</h1>
+	<ul class="episodes">
+		{% for post in site.categories['video'] reversed %}
+			{% if post.series == 'atoz-css' %}
+
+				<li>
+					{% include archive-post.html %}
+				</li>
+
+			{% endif %}
 		{% endfor %}
 	</ul>
 
