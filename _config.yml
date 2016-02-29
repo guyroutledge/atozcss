@@ -10,12 +10,10 @@ links:
       url: /videos
     - title: Blog
       url: /blog
-    - title: Start Here
-      url: /start-here
-    - title: Resources
-      url: /resources
-    - title: About
-      url: /about
+    - title: Books
+      url: /books
+    - title: Courses
+      url: /#
 
 highlighter: pygments
 paginate: 10 # pagination basted on number of posts

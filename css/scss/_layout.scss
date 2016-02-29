@@ -23,11 +23,8 @@
 }
 
 .site-header {
-	margin-bottom:$font-margin-bottom;
+	margin-bottom:$font-margin-bottom * 2;
 	text-align:center;
-
-	background:$color-dark;
-	border-bottom:1rem solid $color-brand;
 }
 .site-content {
 	@extend %container;

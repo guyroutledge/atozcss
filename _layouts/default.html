@@ -13,12 +13,18 @@
 	<body class="page-{{ page.title | downcase | replace:' ','-' }}">
 		<header class="site-header">
 			<nav class="site-nav">
-				<ul>
-				{% for link in site.links %}
-					<li>
-						<a href="{{ link.url }}" class="site-nav-{{ link.title | downcase | replace:' ','-' }}"> {{ link.title }} </a>
-					</li>
-				{% endfor %}
+				<ul class="main-nav">
+					{% for link in site.links %}
+						<li class="site-nav-{{ link.title | downcase | replace:' ','-' }}">
+							<a href="{{ link.url }}" > {{ link.title }} </a>
+						</li>
+					{% endfor %}
+				</ul>
+				<ul class="secondary-nav">
+					<li><a href="/start-here">Start Here</a></li>
+					<li><a href="/subscribe">Subscribe</a></li>
+					<li><a href="/resources">Resources</a></li>
+					<li><a href="/about">About</a></li>
 				</ul>
 			</nav>
 		</header>
