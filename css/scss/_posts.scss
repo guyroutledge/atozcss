@@ -59,6 +59,9 @@
 .blog-title {
 	margin: 0.5em 0;
 }
+.episode-content > a {
+	text-decoration:none;
+}
 .episode h1 {
 	@extend %h1;
 	margin:0;
