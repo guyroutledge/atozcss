@@ -12,12 +12,6 @@
 	</head>
 	<body class="page-{{ page.title | downcase | replace:' ','-' }}">
 		<header class="site-header">
-			<a href="/">
-				<h1 class="site-logo" title="{{ site.name }}">
-					A<span>to</span>Z
-					<b>CSS</b>
-				</h1>
-			</a>
 			<nav class="site-nav">
 				<ul>
 				{% for link in site.links %}
@@ -56,6 +50,15 @@
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 			</div>
 		</footer>
+
+		<div class="site-footer-logo">
+			<a href="/">
+				<h1 class="site-logo" title="{{ site.name }}">
+					A<span>to</span>Z
+					<b>CSS</b>
+				</h1>
+			</a>
+		</div>
 
 		<script type="text/javascript">
 
