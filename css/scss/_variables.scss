@@ -16,8 +16,8 @@ $color-medium-grey:#666;
 
 $color-heading:#4A4A4A;
 $color-copy:$color-dark;
-$color-link:$color-copy;
-$color-link-hover:$color-pink;
+$color-link:$color-brand;
+$color-link-hover:$color-copy;
 $color-border:#ddd;
 
 $color-videos:$color-green;
@@ -28,6 +28,7 @@ $color-about:$color-orange;
 
 $font-brand:'Avenir Next', 'Avenir', Arial, sans-serif;
 $font-copy:$font-brand;
+$font-code:'Menlo', 'Monaco', 'Courier New', monospace;
 $font-margin-bottom:3rem;
 $font-leading:1.5;
 
