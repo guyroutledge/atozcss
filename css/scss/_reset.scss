@@ -37,7 +37,7 @@ body {
 
 a {
 	color:$color-link;
-	text-decoration:none;
+	text-decoration:underline;
 	cursor:pointer;
 	-webkit-transition:0.3s;
 	        transition:0.3s;
