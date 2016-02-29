@@ -1,6 +1,7 @@
 .subscribe {
 	position:relative;
-	background:#000;
+	background:$color-light-grey;
+	border:1px solid darken( $color-light-grey, 5% );
 	z-index:20;
 }
 .subscribe-form {
