@@ -54,7 +54,14 @@
 .blog-title {
 	@extend %h2;
 	margin:0;
+
+	color:$color-link;
 	line-height:1;
+	transition:0.3s;
+
+	&:hover {
+		color:$color-heading;
+	}
 }
 .blog-title {
 	margin: 0.5em 0;
@@ -91,6 +98,7 @@
 		margin:0 0.25em;
 
 		color:$color-medium-grey;
+		font-size:1.6rem;
 	}
 }
 .episodes-list-short {
