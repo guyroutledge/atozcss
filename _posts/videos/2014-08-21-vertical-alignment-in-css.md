@@ -1,4 +1,5 @@
 ---
+series: atoz-css
 layout: post_page
 title: "Vertical-align"
 alias: /v

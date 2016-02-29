@@ -1,4 +1,5 @@
 ---
+series: atoz-css
 layout: post_page
 title: Color
 alias: /c
