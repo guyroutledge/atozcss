@@ -17,6 +17,15 @@
 	background:$color-light-grey;
 	border:1px solid $color-border;
 }
+@media screen and (max-width:53.125em) {
+	.episode-container,
+	.episode-sidebar {
+		float:none;
+		width:100%;
+		max-width:90rem;
+		margin:0 auto 2rem;
+	}
+}
 
 
 //*************************
