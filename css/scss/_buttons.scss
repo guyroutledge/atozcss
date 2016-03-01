@@ -6,9 +6,10 @@
 	margin:0;
 	padding:0.5em 1em;
 
-	color:$color-dark;
+	color:#fff;
 	font-size:1.75rem;
-	font-weight:400;
+	font-weight:600;
+	font-family:$font-brand;
 	text-transform:uppercase;
 
 	background:$color-blue;
@@ -43,6 +44,7 @@
 	@extend .button-subscribe;
 	margin:$font-margin-bottom/2 0 0;
 	background:$color-orange;
+	border-color:darken( $color-orange, 10% );
 }
 .button-books-sidebar {
 	float:none;

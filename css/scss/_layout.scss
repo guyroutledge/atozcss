@@ -39,11 +39,11 @@
 
 	p {
 		@extend %container;
-		color:$color-dark;
+		color:#fff;
 		font-size:1.5rem;
 	}
 	a {
-		color:$color-dark;
+		color:inherit;
 
 		&:hover {
 			color:#fff;
