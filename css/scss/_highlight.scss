@@ -13,6 +13,7 @@
 	border-radius:2px;
 
 	pre {
+		color:#fff;
 		font-family:$font-code;
 		white-space:pre;
 		word-spacing: normal;
@@ -30,9 +31,8 @@ h1, h2, h3, h4, h5, h6, p, li {
 		display:inline-block;
 		padding:0 0.25em;
 
-		color:$color-pink;
 		font-family:$font-code;
-		font-size:1.8rem;
+		font-size:0.875em;
 
 		background:$color-light-grey;
 		border:1px solid $color-border;
