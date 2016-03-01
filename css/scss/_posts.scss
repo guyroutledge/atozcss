@@ -55,7 +55,6 @@
 	@extend %h2;
 	margin:0;
 
-	color:$color-link;
 	line-height:1;
 	transition:0.3s;
 
@@ -63,8 +62,12 @@
 		color:$color-heading;
 	}
 }
+.episode-title {
+	color:$color-link;
+}
 .blog-title {
 	margin: 0.5em 0;
+	color:$color-green;
 }
 .episode-content > a {
 	text-decoration:none;

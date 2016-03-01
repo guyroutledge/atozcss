@@ -92,3 +92,32 @@
 	}
 }
 
+//*************************
+// $$ Blog Page
+//**************************
+
+.page-blog .site-content,
+.blog-post {
+	a { color: saturate( darken( $color-blog, 10% ), 10% ); }
+}
+
+//*************************
+// $$ Books Page
+//**************************
+
+.page-atoz-css-books .site-content,
+.book-post {
+	a { color: $color-books; }
+}
+
+//*************************
+// $$ Course Page
+//**************************
+
+
+.page-courses .site-content,
+.course-post {
+	a { color: $color-courses; }
+}
+
+
