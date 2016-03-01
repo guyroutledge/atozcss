@@ -1,9 +1,12 @@
 ---
 layout: blog_page
-title: "Sass Variables, Mixins and Nested Selectors"
+title: "AtoZ Sass Intro: Sass Variables, Mixins and Nested Selectors"
 category: blog
 excerpt: >
-  
+  In this final part of our 4-part series you'll learn about some of the
+  fundamental Sass features including variables, nested selectors and
+  mixins. There's lots more to come in the up coming video series too
+  but this is a great place to start.
 summary: |
   
 ---
@@ -13,7 +16,7 @@ for the video series [AtoZ Sass](http://www.atozsass.com).
 
 * Part 1: [What is Sass](/blog/what-is-sass/)
 * Part 2: [Installing Sass](/blog/installing-sass/)
-* Part 3: [Organising Sass with Partials](/blog/sass-partials)
+* Part 3: [Organising Sass with Partials](/blog/organising-sass-with-partials)
 * Part 4: Variables, Mixins and Nested Selectors
 
 When I first started learning Sass, the feature that instantly sold me
@@ -21,16 +24,17 @@ was variables in CSS. From a maintainability and efficiency point of
 view, this has saved me hours of development time.
 
 In this post we'll take an overview of a number of fundamental Sass
-features but to save this post from being insanely long, we'll not go into
+features. To save this post from being insanely long, we'll not go into
 too much detail but just provide enough info so you can follow along
 with the up coming video series. 
 
 If you *would* like a more comprehensive and more practical introduction
 to getting up and running with Sass, I'm compiling a more detailed
-version of this blog series into an ebook just for you. Check out [the
-books page](/books) for more information.
+version of this blog series into an ebook just for you. Keep your eye 
+on [the books page](/books) for more information and join the mailing
+list to be the first to hear when it's available.
 
-But for now, we're going to cover:
+But for now, in this post we're going to cover:
 
 * Declaring and using various Sass variables
 * Nesting selectors
@@ -77,7 +81,7 @@ a {
 
 Sass can handle all sorts of different types of variables including:
 
-Colours, as we've already seen but in any valid colour format.
+Colours, as we've already seen but in any valid colour format:
 
 {% highlight scss %}
 $primary-color: #cc3f85;
@@ -86,7 +90,7 @@ $tertiary-color: hsl(200, 50, 50);
 $hover-color: rgba($secondary-color, 0.5)
 {% endhighlight %}
 
-Lists, for things like font-stacks or shorthand CSS properties
+Lists, for things like font-stacks or shorthand CSS properties:
 
 {% highlight scss %}
 $font-stack: Avenir, Helvetica, Arial, sans-serif;
@@ -94,7 +98,7 @@ $default-margin: 0 0 1em 0;
 $heading-font: italic 20px/30px $font-stack;
 {% endhighlight %}
 
-Strings of text for things like urls or pseudo element content
+Strings of text for things like urls or pseudo element content:
 
 {% highlight scss %}
 $background-image: '../../img/body-bg.jpg';
@@ -102,7 +106,7 @@ $content: 'hi you guys!';
 $fallback-font: 'Times New Roman';
 {% endhighlight %}
 
-Numbers and length values
+Numbers and length values:
 
 {% highlight scss %}
 $magic-number: 42;
@@ -111,7 +115,7 @@ $padding: 20px;
 $margin: 1em;
 {% endhighlight %}
 
-Boolean values true or false - not that commonly used but good for those
+Boolean values: true or false - not that commonly used but good if you're 
 building frameworks and component libraries.
 
 {% highlight scss %}
@@ -121,7 +125,7 @@ $hide-for-mobile: false;
 
 And finally, a new variable type added in Sass 3.3, maps of key-value
 pairs. These look a bit like JavaScript objects or Ruby hashes and are
-very powerful.
+very powerful for storing many values in a single variable.
 
 {% highlight scss %}
 $colors: (
@@ -133,13 +137,14 @@ $z-layers: (
 	modal: 9000,
 	modal-bg: 8000,
 	header: 6000,
-	background: 0
+	background: 0,
 	behind: -1
 );
 {% endhighlight %}
 
 There's lots to talk about regarding maps and there will be a whole [AtoZ
-Sass](http://www.atozsass.com) video about working with them. 
+Sass](http://www.atozsass.com) video about working with them in a few
+weeks time. 
 
 ## Nested Selectors
 
@@ -150,7 +155,7 @@ to how indentation is used in HTML to show the various parent, child and
 sibling relationships of elements in the document.
 
 Take the following snippet of code which sets up some structural styles
-for a pages main navigation:
+for a page's main navigation:
 
 {% highlight css %}
 .site-header {
@@ -171,7 +176,7 @@ for a pages main navigation:
 There is a lot of repetition in the descendent selectors and with Sass
 we can re-write this as follows:
 
-{% highlight css %}
+{% highlight scss %}
 .site-header {
 	position:relative;
 
@@ -287,7 +292,7 @@ h3, h4, h5, h6 {
 {% endhighlight %}
 
 Do keep in mind that using a mixin in this way is is effectively like
-outsources your copy and pasting to Sass. When the styles are compiled
+outsourcing copy and paste to Sass. When the styles are compiled
 into CSS there will be lots of instances of `text-transform` and
 `letter-spacing`.
 
@@ -369,5 +374,5 @@ word with a Tweet:
 
 * Part 1: [What is Sass](/blog/what-is-sass)
 * Part 2: [Installing Sass](/blog/installing-sass)
-* Part 3: [Organising Sass with Partials](/blog/sass-partials)
+* Part 3: [Organising Sass with Partials](/blog/organising-sass-with-partials)
 * Part 4: Variables, Mixins and Nested Selectors
