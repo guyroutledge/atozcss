@@ -18,24 +18,38 @@
 		display:block;
 		margin:2rem 0;
 	}
+	p {
+		font-size:0.875em;
+	}
 	input {
 		border-radius:2px;
 	}
 	input[type="email"] {
-		width:16em;
-		max-width:100%;
 		margin:0;
 		padding:0.5em 1em;
 
 		color:$color-dark;
 
 		background:#fff;
-		border:0;
-		outline:1px solid $color-border;
-		box-shadow:0;
+		border:1px solid $color-border;
 
 		&:focus {
 			outline:0;
 		}
+	}
+}
+.subscribe-form-fields {
+	display:flex;
+
+	input[type="email"] {
+		flex:1;
+		border-radius:2px 0 0 2px;
+
+		@media screen and (max-width:31.25em) {
+			font-size:1.75rem;
+		}
+	}
+	input[type="submit"] {
+		border-radius:0 2px 2px 0;
 	}
 }
