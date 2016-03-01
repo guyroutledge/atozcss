@@ -16,7 +16,7 @@ for the video series [AtoZ Sass](http://www.atozsass.com).
 * Part 1: [What is Sass](/blog/what-is-sass/)
 * Part 2: [Installing Sass](/blog/installing-sass/)
 * Part 3: Organising Sass with Partials
-* Part 4: Variables, Mixins and Nested Selectors
+* Part 4: [Variables, Mixins and Nested Selectors](/blog/sass-variables-nesting-and-mixins)
 
 Having [installed Sass and setup our environment](/blog/installing-sass)
 in the previous post, we're now ready to take a look at how Sass can
@@ -197,4 +197,4 @@ a tweet:
 * Part 1: [What is Sass](/blog/what-is-sass)
 * Part 2: [Installing Sass](/blog/installing-sass)
 * Part 3: Organising Sass with Partials
-* Part 4: Variables, Mixins and Nested Selectors
+* Part 4: [Variables, Mixins and Nested Selectors](/blog/sass-variables-nesting-and-mixins)
