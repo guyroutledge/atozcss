@@ -1,4 +1,25 @@
 //*************************
+// $$ Episode Layout
+//**************************
+
+.episode {
+	@extend %clearfix;
+}
+.episode-container {
+	float:left;
+	width:64%;
+}
+.episode-sidebar {
+	float:right;
+	width:32%;
+	margin-top:-6rem;
+	padding:6rem 2em 2em;
+	background:$color-light-grey;
+	border:1px solid $color-border;
+}
+
+
+//*************************
 // $$ Posts
 //**************************
 

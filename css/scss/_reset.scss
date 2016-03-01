@@ -2,11 +2,6 @@
 // $$ Reset
 //**************************
 
-// Use a better box-model
-* {
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 audio, canvas, video {
@@ -207,7 +202,7 @@ body {
 %clearfix:before,
 %clearfix:after {
 	content:"";
-	display:table-cell;
+	display:table;
 }
 %clearfix:after {
 	clear:both;

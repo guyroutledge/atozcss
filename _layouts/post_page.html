@@ -4,19 +4,20 @@ layout: default
 
 <article class="episode">
 
-	<div class="site-container-inner episode-header">
-		<div class="episode-main-title">
-			<h1>{{page.title}}</h1>
-			<p class="episode-meta">Posted on: {{ page.date | date: "%d %B %Y" }} </p>
-		</div>
-	</div>
-	<div class="episode-content">
-		{% include video.html %}
-		{% include pagination.html %}
+	<div class="episode-container">
 
-		<div class="site-container-inner">
+		<div class="episode-header">
+			<div class="episode-main-title">
+				<h1>{{page.title}}</h1>
+				<p class="episode-meta">Posted on: {{ page.date | date: "%d %B %Y" }} </p>
+			</div>
+		</div>
+		<div class="episode-content">
+			{% include video.html %}
+			{% include pagination.html %}
+
 			<section>
-				<input class="episode-content-toggle" type="checkbox" id="summary">
+				<input class="episode-content-toggle" type="checkbox" id="summary" checked>
 				<label class="episode-content-title" for="summary">Summary</label>
 				<div class="episode-accordion">
 					{{ page.summary | markdownify }}
@@ -29,10 +30,17 @@ layout: default
 					{{ content }}
 				</div>
 			</section>
+
+			{% include twitter-follow.html %}
+			{% include episodes-list.html %}
+
 		</div>
+
 	</div>
 
-	<div class="site-container-inner">
+	<aside class="episode-sidebar">
+
+		{% include ad-book.html %}
 
 		{% if page.comments %}
 			<div id="disqus_thread" class="episode-comments"></div>
@@ -52,11 +60,10 @@ layout: default
 			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 			<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 		{% endif %}
-	</div>
+
+	</aside>
 
 </article>
 
 <div class="site-container-inner">
-	{% include twitter-follow.html %}
-	{% include episodes-list.html %}
 </div>
