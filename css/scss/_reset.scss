@@ -77,6 +77,9 @@ body {
 		margin-top:$font-margin-bottom;
 	}
 }
+h1, %h1 {
+	line-height: 1.1;
+}
 
 p {
 	margin:0 0 $font-margin-bottom;
