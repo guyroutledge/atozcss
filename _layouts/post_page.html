@@ -40,7 +40,11 @@ layout: default
 
 	<aside class="episode-sidebar">
 
-		{% include ad-book.html %}
+		{% if page.sidebar_ad %}
+			{% include {{ page.sidebar_ad }} %}
+		{% else %}
+			{% include ad-book.html %}
+		{% endif %}
 
 		{% if page.comments %}
 			<div id="disqus_thread" class="episode-comments"></div>
