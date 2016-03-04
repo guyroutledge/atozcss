@@ -126,6 +126,31 @@ $book-height:350px;
 // $$ Books Page
 //**************************
 
+.books-title,
+.books-archive {
+	text-align:center;
+}
+.books-archive {
+	@extend %clearfix;
+	margin:0 0 2rem;
+	padding:0;
+	list-style:none;
+
+	li {
+		float:left;
+		width: 50%;
+		padding:2rem;
+
+		@media screen and (max-width:700px) {
+			float:none;
+			width:90%;
+			margin:2rem auto;
+		}
+	}
+	img {
+		max-height:400px;
+	}
+}
 .book-offer {
 	@extend %clearfix;
 	position:relative;
