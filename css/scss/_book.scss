@@ -73,8 +73,38 @@
 // $$ Single Book Page
 //**************************
 
+.single-book {
+	@extend %clearfix;
+}
+.single-book-image {
+	position:relative;
+	float:left;
+	width:40%;
+	padding-right:8rem;
 
+	p {
+		margin:0;
+	}
+	strong {
+		color:$color-books;
+	}
+}
+.single-book-content {
+	float:left;
+	width:60%;
+	padding-right:8rem;
+}
 
+@media screen and (max-width:800px) {
+	.single-book-image,
+	.single-book-content {
+		float:none;
+		width:100%;
+		max-width:90rem;
+		margin-bottom:2rem;
+		padding-right:0;
+	}
+}
 
 // Book on homepage
 

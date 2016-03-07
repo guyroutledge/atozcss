@@ -5,11 +5,9 @@ layout: default
 <div class="single-book">
 	<div class="single-book-image">
 		<img src="/img/{{ page.cover_image }}" alt="{{ page.title }}">
-		<div class="book-price">
-			{{ page.price }}
-		</div>
-		<p>Word Count: {{ page.words }}</p>
-		<p>Last Updated: {{ page.last_updated }}</p>
+		<p>Price:        <strong>{{ page.price }}</strong></p>
+		<p>Word Count:   <strong>{{ page.words }}</strong></p>
+		<p>Last Updated: <strong>{{ page.last_updated }}</strong></p>
 	</div>
 
 	<div class="single-book-content">
@@ -18,7 +16,7 @@ layout: default
 
 		{{ page.description | markdownify }}
 
-		<p>This book is now available to order {{ checkout_options }}.</p>
+		<p>This book is now available to order {{ page.checkout_options }}.</p>
 
 		<h3>In this book&hellip;</h3>
 		<ul>
@@ -28,7 +26,4 @@ layout: default
 		{{ content }}
 	</div>
 
-	<div class="single-book-buy">
-		<a href="{{ page.buy_link }}" class="button button-books">buy now</a>
-	</div>
 </div>
