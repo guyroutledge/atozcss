@@ -1,0 +1,27 @@
+<div class="latest-posts">
+	<article class="latest-video">
+		<h2 class="latest-post-title">Latest Video</h2>
+		<div class="latest-post-content">
+
+			{% for post in site.categories['video'] | reversed | limit: 1 %}
+				<h1>{{ post.title }}</h1>
+				<p>{{ post.excerpt }}</p>
+				<a href="{{ post.permalink }}">Watch now</a>
+			{% endfor %}
+
+		</div>
+	</article>
+
+	<article class="latest-article">
+		<h2 class="latest-post-title">Latest Article</h2>
+		<div class="latest-post-content">
+
+			{% for post in site.categories['blog'] | reversed | limit: 1 %}
+				<h1>{{ post.title }}</h1>
+				<p>{{ post.excerpt }}</p>
+				<a href="{{ post.permalink }}">Read more</a>
+			{% endfor %}
+
+		</div>
+	</article>
+</div>
