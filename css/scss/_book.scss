@@ -58,7 +58,10 @@
 	}
 }
 .book-img {
+	display:block;
 	margin:$font-margin-bottom 0;
+	padding:1rem;
+	border:1px solid $color-border;
 }
 
 .book-table {
@@ -93,6 +96,11 @@
 	float:left;
 	width:60%;
 	padding-right:8rem;
+
+	ul {
+		margin-left:0;
+		padding-left:0;
+	}
 }
 
 @media screen and (max-width:800px) {
