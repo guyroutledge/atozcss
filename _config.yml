@@ -8,7 +8,7 @@ permalink: /:categories/:title
 links:
     - title: Videos
       url: /videos
-    - title: Blog
+    - title: Articles
       url: /blog
     - title: Books
       url: /books
