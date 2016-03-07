@@ -7,28 +7,43 @@
 	overflow:hidden;
 
 	ul {
+		list-style:none;
 		margin:0;
 		padding:0;
 	}
 	li {
 		flex:1;
 		margin:0;
+		transition:0.3s;
+
+		&:hover {
+			opacity:0.8;
+		}
+		@media screen and (max-width:500px) {
+			width:50%;
+		}
 	}
 	a {
-		display:inline-block;
 		color:#fff;
 		text-decoration:none;
 	}
 }
 .main-nav {
 	display:flex;
+	flex-wrap:wrap;
 
 	a {
+		display:block;
+		width:100%;
 		padding:3rem 2rem;
 
 		font-size:3.2rem;
 		font-weight:bold;
 		text-shadow:0 1px 0 #000;
+
+		@media screen and (max-width:700px) {
+			font-size:2.5rem;
+		}
 	}
 }
 .secondary-nav {
@@ -46,15 +61,22 @@
 		&:first-child:before {
 			display:none;
 		}
+
+		@media screen and (max-width:500px) {
+			display:block;
+			float:left;
+			&:before { display:none; }
+		}
 	}
 	a {
+		display:inline-block;
 		padding:0.75em 0.5em;
 		color:#fff;
 	}
 }
 $nav-items: (
 	'videos': $color-brand,
-	'blog': $color-blog,
+	'articles': $color-blog,
 	'books': $color-books,
 	'courses': $color-courses,
 );
