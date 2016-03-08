@@ -1,6 +1,7 @@
 ---
+series: atoz-css
 layout: post_page
-title: "Enabled"
+title: ":enabled"
 alias: /e
 date: 2014-06-03
 wistiaId: k62bvbu9bi

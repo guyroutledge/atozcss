@@ -3,12 +3,18 @@
 //**************************
 
 .highlight {
+	width:100%;
 	margin:2rem 0;
 	padding:0 2rem;
-	background:rgba(desaturate(darken($color-brand, 50%), 20%), 0.2);
+
 	font-size:1.5rem;
 
+	background:$color-dark;
+	border-radius:2px;
+
 	pre {
+		color:#fff;
+		font-family:$font-code;
 		white-space:pre;
 		word-spacing: normal;
 		word-wrap: normal;
@@ -23,9 +29,14 @@
 h1, h2, h3, h4, h5, h6, p, li {
 	code {
 		display:inline-block;
-		color:$color-pink;
-		background:rgba(desaturate(darken($color-brand, 50%), 20%), 0.2);
 		padding:0 0.25em;
+
+		font-family:$font-code;
+		font-size:0.875em;
+
+		background:$color-light-grey;
+		border:1px solid $color-border;
+		border-radius:2px;
 	}
 }
 .c                 { color: $color-medium-grey }              /* Comment                     */

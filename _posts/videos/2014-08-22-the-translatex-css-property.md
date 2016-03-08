@@ -1,6 +1,7 @@
 ---
+series: atoz-css
 layout: post_page
-title: "TranslateX"
+title: "translateX"
 alias: /x
 date: 2014-10-16
 wistiaId: jvizea6q0i

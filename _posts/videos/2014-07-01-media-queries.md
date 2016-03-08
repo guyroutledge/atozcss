@@ -1,6 +1,7 @@
 ---
+series: atoz-css
 layout: post_page
-title: "Media"
+title: "@media"
 alias: /m
 date: 2014-07-29
 wistiaId: 85ensigs69

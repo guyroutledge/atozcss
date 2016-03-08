@@ -5,84 +5,62 @@ title: Home
 
 <div class="site-container-inner">
 
-	<section class="episode-featured">
+	<div class="css-intro">
+		<h1>CSS Screencasts for Designers & Developers</h1>
 
-		<div class="css-intro">
-			<h1 class="no-margin">CSS Screencasts</h1>
-			<h2>for Designers & Developers</h2>
+		<p>Here you’ll find <strong>bite-sized videos</strong> covering everything from CSS fundamentals
+		to some of the more weird and wonderful topics along with CSS <strong>articles, ebooks
+		and in-depth training courses.</strong></p>
+	</div>
 
-			<p>Inside you’ll find bite-sized videos covering everything from CSS fundamentals
-			to some of the more weird and wonderful topics. Get started below to check out a
-			handful of the most popular screencasts from season 1, all categorised by level
-			of difficulty.</p>
+</div>
 
-			<a href="/start-here/" class="button start-here">Get Started Here!</a>
-		</div>
+{% include latest-posts.html %}
 
-		<div id="css-news" class="tips-banner">
-			<h2>Weekly CSS News</h2>
-			<p>Get the week’s hottest news and links straight to your inbox. In every newsletter you’ll find:</p>
-			<ul>
-				<li>A curated list of blog posts, articles, tools and resources that I've found on the web recently.</li>
-				<li>A quick CSS tip to accompany each video from the first season of AtoZ CSS.</li>
-				<li>Industry news, conference info, other events and all sorts of useful info.</li>
-			</ul>
-		</div>
+<div class="site-container-inner">
 
-		<section class="subscribe">
-			<div class="site-container-inner">
-				{% include form.html %}
-			</div>
-		</section>
+	<div id="css-news" class="tips-banner">
+		<h2>Weekly CSS News</h2>
+		<p>Get the week’s hottest news and links straight to your inbox. In every newsletter you’ll find:</p>
+		<ul>
+			<li>Details of the latest videos, articles, books and courses published on AtoZ CSS.</li>
+			<li>A curated list of blog posts, articles, tools and resources from around the web.</li>
+			<li>Industry news, conference and event information.</li>
+		</ul>
+	</div>
 
-		<!--
-		<a href="https://www.codeschool.com/?utm_source=test&utm_medium=banner&utm_term=october&utm_content=homepage&utm_campaign=a%20to%20z%20css" target="_blank">
-			<div class="episode-promo">
-				<img src="/img/codeschool-large.png" alt="Become a better developer">
-			</div>
-		</a>
-		-->
-
-		<div class="book-buy">
-			<h2>Did you know I wrote a book all about CSS layout?</h2>
-			<div class="book-offer-home">
-				<a href="/books">
-					<div class="book__container--single">
-						<article class="book is-rotated">
-							<div class="book__cover">
-								<h1>
-									<span>AtoZ CSS guide to</span>
-									Layout &amp; Document Flow
-								</h1>
-							</div>
-							<div class="book__spine">
-								<p>AtoZ CSS guide <span>by Guy Routledge</span></p>
-							</div>
-						</article>
-					</div>
-				</a>
-			</div>
-
-			<p>Well, if you didn’t, you do&nbsp;now!</p>
-			<p>Learn the fundamental building blocks of CSS; inline elements, block elements, how the cascade works,
-			all about float, inline-block and CSS positioning. There's a whole practical section which steps
-			through the process of writing the CSS for a whole website and then a final section all about CSS of
-			the future - flexbox and the new grid layout&nbsp;spec.</p>
-			<p>If you prefer watching to reading, there’s also a 90-minute video series to accompany the practical
-			section of the book. How handy is&nbsp;that?</p>
-			<p>You can <a href="/books">check out screenshots from the book</a> and <a href="/books">watch a sample video</a>
-			before checking out with Stripe or Paypal&nbsp;:)</p>
-		</div>
-
-		<div class="sass-teaser">
-			<h2>Coming Soon: AtoZ Season&nbsp;2</h2>
-			<p>I have a confession to make: I hardly ever write CSS any more.</p>
-			<h3>I write <strong>Sass.</strong></h3>
-			<p>Ever wondered what Sass is, what it does or why it’s such a big deal? Well, wonder no longer. The next
-			26-video series is going to cover everything you need to know to make you a Sass&nbsp;Superhero!</p>
-			<p>Make sure you're on the mailing list to hear all about the launch of the next season. But in the&nbsp;meantime...</p>
+	<section class="subscribe">
+		<div class="site-container-inner">
+			{% include form.html %}
 		</div>
 	</section>
+
+
+	<div class="book-buy">
+		<h2>Dive deeper into CSS with AtoZ Books</h2>
+
+		<p>Blog posts and screencasts are great for quick learning and keeping up to date with what's happening
+		in the industry but they can only go into so much detail.</p>
+
+		<p>For more in depth learning, check out <a href="/books">AtoZ CSS Books</a>.</p>
+
+		<p>Need to start using Sass but
+		not sure where or how to start? Grab a copy of <a href="/books/up-and-running-with-sass">Up and Running with Sass</a>
+		for a practical step-by-step introduction to this powerful preprocessor.</p>
+
+		<p>Want to improve your understanding of document flow and create all manner of modern layouts with CSS?
+		Learn the fundamental building blocks of CSS layout; inline elements, block elements, how the cascade works,
+		all about float, inline-block and CSS positioning in the <a href="/books/css-layout-and-document-flow">CSS Layout and
+		Document Flow</a> book. There's a whole practical section which steps
+		through the process of writing the CSS for a whole website and then a final section all about CSS of
+		the future - flexbox and the new grid layout&nbsp;spec.</p>
+
+		<p>If you prefer watching to reading, there’s also a 90-minute video series to accompany the practical
+		section of the book. How handy is&nbsp;that?</p>
+
+		<p>You can <a href="/books/css-layout-and-document-flow">check out screenshots from the book</a> and <a href="/books/css-layout-and-document-flow">watch a sample video</a>
+		before checking out with Stripe.</p>
+	</div>
 
 
 	{% include twitter-follow.html %}

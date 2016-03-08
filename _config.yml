@@ -1,6 +1,6 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
-name: A to Z CSS
-description: Learn CSS and sharpen your front-end skills with this totally free 26-part video series
+name: AtoZ CSS
+description: Supercharge your front-end skills. Level up your CSS and Sass with bite-sized videos, weekly news and in-depth books & training courses.
 url: www.atozcss.com
 disqusName: atozcss
 
@@ -8,14 +8,12 @@ permalink: /:categories/:title
 links:
     - title: Videos
       url: /videos
-    - title: Blog
+    - title: Articles
       url: /blog
-    - title: Start Here
-      url: /start-here
-    - title: Resources
-      url: /resources
-    - title: About
-      url: /about
+    - title: Books
+      url: /books
+    - title: Courses
+      url: /courses
 
 highlighter: pygments
 paginate: 10 # pagination basted on number of posts

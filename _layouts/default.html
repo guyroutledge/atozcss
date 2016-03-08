@@ -5,6 +5,7 @@
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="{{ site.description }}">
+		{% include meta-tags.html %}
 		<link rel="author" href="/humans.txt">
 		<style>
 			{% include style.css %}
@@ -12,19 +13,19 @@
 	</head>
 	<body class="page-{{ page.title | downcase | replace:' ','-' }}">
 		<header class="site-header">
-			<a href="/">
-				<h1 class="site-logo" title="{{ site.name }}">
-					A<span>to</span>Z
-					<b>CSS</b>
-				</h1>
-			</a>
 			<nav class="site-nav">
-				<ul>
-				{% for link in site.links %}
-					<li>
-						<a href="{{ link.url }}" class="site-nav-{{ link.title | downcase | replace:' ','-' }}"> {{ link.title }} </a>
-					</li>
-				{% endfor %}
+				<ul class="main-nav">
+					{% for link in site.links %}
+						<li class="site-nav-{{ link.title | downcase | replace:' ','-' }}">
+							<a href="{{ link.url }}" > {{ link.title }} </a>
+						</li>
+					{% endfor %}
+				</ul>
+				<ul class="secondary-nav">
+					<li><a href="/start-here">Start Here</a></li>
+					<li><a href="/subscribe">Subscribe</a></li>
+					<li><a href="/resources">Resources</a></li>
+					<li><a href="/about">About</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -32,10 +33,6 @@
 		<main class="site-content">
 			{{ content }}
 		</main>
-
-		{% if page.title != "Subscribe" %}
-			{% include itunes.html %}
-		{% endif %}
 
 		{% if page.title == "Home" %}
 			{% include animation.html %}
@@ -60,6 +57,15 @@
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 			</div>
 		</footer>
+
+		<div class="site-footer-logo">
+			<a href="/">
+				<h1 class="site-logo" title="{{ site.name }}">
+					A<span>to</span>Z
+					<b>CSS</b>
+				</h1>
+			</a>
+		</div>
 
 		<script type="text/javascript">
 

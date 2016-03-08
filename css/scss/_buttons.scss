@@ -6,12 +6,17 @@
 	margin:0;
 	padding:0.5em 1em;
 
-	color:$color-dark;
-	font-size:2rem;
-	font-weight:400;
-	background:$color-blue;
-	border:0;
+	color:#fff;
+	font-size:1.75rem;
+	font-weight:600;
+	font-family:$font-brand;
+	text-transform:uppercase;
 
+	background:$color-blue;
+	border:1px solid darken( $color-blue, 10% );
+	border-radius:2px;
+
+	text-decoration:none;
 	cursor:pointer;
 	-webkit-appearance:none;
 	-moz-appearance:none;
@@ -19,9 +24,12 @@
 	-webkit-transition:0.3s;
 			transition:0.3s;
 
-	&:hover {
+	&:hover,
+	&:focus,
+	&:active {
 		color:#fff;
 		background: $color-brand;
+		border:1px solid darken( $color-brand, 10% );
 	}
 }
 .button-container {
@@ -34,8 +42,10 @@
 }
 .button-books {
 	@extend .button-subscribe;
+	float:none;
 	margin:$font-margin-bottom/2 0 0;
 	background:$color-orange;
+	border-color:darken( $color-orange, 10% );
 }
 .button-books-sidebar {
 	float:none;

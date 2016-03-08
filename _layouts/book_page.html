@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="single-book">
+	<div class="single-book-image">
+		<img src="/img/{{ page.cover_image }}" alt="{{ page.title }}">
+
+		<p>Price:        <strong>{{ page.price }}</strong></p>
+		<p>Word Count:   <strong>{{ page.words }}</strong></p>
+		<p>Last Updated: <strong>{{ page.last_updated }}</strong></p>
+
+	</div>
+
+	<div class="single-book-content">
+		<h1>{{page.title}}</h1>
+		<h2>{{ page.subtitle }}</h2>
+
+		{{ page.description | markdownify }}
+
+		<p>This book is now available to order {{ page.checkout_options }}.</p>
+
+		<h3>In this book&hellip;</h3>
+		<ul>
+			{{ page.benefits | markdownify }}
+		</ul>
+
+		{{ content }}
+	</div>
+
+</div>

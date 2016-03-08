@@ -7,58 +7,79 @@
 	overflow:hidden;
 
 	ul {
+		list-style:none;
 		margin:0;
 		padding:0;
-		text-align:center;
 	}
 	li {
-		float:left;
-		width:50%;
+		flex:1;
 		margin:0;
+		transition:0.3s;
 
-		&:last-child {
-			width:100%;
+		&:hover {
+			opacity:0.8;
+		}
+		@media screen and (max-width:500px) {
+			flex-basis:50%;
+			width:50%;
+		}
+	}
+	a {
+		color:#fff;
+		text-decoration:none;
+	}
+}
+.main-nav {
+	display:flex;
+	flex-wrap:wrap;
+
+	a {
+		display:block;
+		width:100%;
+		padding:3rem 2rem;
+
+		font-size:3.2rem;
+		font-weight:bold;
+		text-shadow:0 1px 0 #000;
+
+		@media screen and (max-width:700px) {
+			font-size:2.5rem;
+		}
+	}
+}
+.secondary-nav {
+	font-size:0.875em;
+	background:$color-dark;
+	overflow:hidden;
+
+	li {
+		display:inline-block;
+
+		&:before {
+			content:"・";
+			color:#fff;
+		}
+		&:first-child:before {
+			display:none;
+		}
+
+		@media screen and (max-width:500px) {
+			display:block;
+			float:left;
+			&:before { display:none; }
 		}
 	}
 	a {
 		display:inline-block;
-		width:100%;
-		padding:1rem 2rem;
-
-		color:#000;
-		background:$color-brand;
-		text-align:center;
-	}
-}
-@media screen and (min-width:25em) {
-	.site-nav {
-		ul {
-			display:inline-block;
-			margin-bottom:-1rem;
-		}
-		li {
-			width:auto;
-			&:last-child {
-				width:auto;
-			}
-		}
-		a {
-			position:relative;
-			top:0.5rem;
-			width:auto;
-
-			&:hover, &:focus, &:active {
-				top:0;
-			}
-		}
+		padding:0.75em 0.5em;
+		color:#fff;
 	}
 }
 $nav-items: (
-	'videos': $color-videos,
-	'blog': $color-blog,
-	'start-here': $color-start-here,
-	'resources': $color-resources,
-	'about': $color-about
+	'videos': $color-brand,
+	'articles': $color-blog,
+	'books': $color-books,
+	'courses': $color-courses,
 );
 
 @each $item, $item-color in $nav-items {
@@ -68,10 +89,8 @@ $nav-items: (
 	}
 	.page-#{$item} {
 		.site-nav-#{$item} {
-			top:0;
-			color:#fff;
-			background:$color-brand;
 		}
 	}
 
 }
+

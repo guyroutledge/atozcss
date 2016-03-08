@@ -1,136 +1,33 @@
 //*************************
-// $$ 3D Book
-//**************************
-
-$book-width:250px;
-$book-height:350px;
-
-.book__container {
-	position: absolute;
-	top: 675px;
-	left: -120px;
-	z-index: 10;
-
-	perspective:1800px;
-
-	transition:opacity 0.3s ease;
-	opacity:0;
-
-	@media screen and (min-width:66.875em) {
-		opacity:1;
-	}
-
-	h2:first-child {
-		font-size:3rem;
-	}
-}
-.book__container--single {
-	position:relative;
-	float:left;
-	margin-right:2rem;
-	perspective:1800px;
-	z-index: 10;
-}
-
-.book {
-	position:relative;
-	width:$book-width;
-	height:$book-height;
-
-	transition: transform .5s;
-	transform-style: preserve-3d;
-	backface-visibility:hidden;
-
-	&.is-rotated,
-	&:hover {
-		transform:rotate3d(0, 1, 0, 45deg);
-	}
-}
-.book__cover,
-.book__spine {
-	background:$color-brand;
-	backface-visibility:hidden;
-	transform-style: preserve-3d;
-}
-
-.book__cover {
-	position:absolute;
-	top:0;
-	left:0;
-	width:$book-width;
-	height:100%;
-	transform:translateZ(20px);
-
-	h1 {
-		position:absolute;
-		bottom:10px;
-		right:20px;
-		width:200px;
-
-		color:#000;
-		font-size:4rem;
-		line-height:1;
-		text-align:right;
-	}
-	span {
-		display:block;
-		font-size:1.5rem;
-		color:#fff;
-	}
-	&:after {
-		content:"";
-		position:absolute;
-		left:5px;
-
-		width:40px;
-		height:$book-height;
-		background:linear-gradient(to right, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 10%);
-	}
-}
-
-.book__spine {
-	position:absolute;
-	left:-20px;
-	width:40px;
-	height:$book-height;
-
-	transform:rotate3d(0, 1, 0, -90deg);
-
-	p {
-		width:$book-height;
-		height:40px;
-		margin:0;
-		padding:0 2em;
-
-		color:#fff;
-		font-size:1.75rem;
-		transform-origin:0 0;
-		transform: rotate(90deg) translateY(-35px);
-	}
-	span {
-		color:#000;
-	}
-	h2 {
-		position:absolute;
-		top:100%;
-		margin:0;
-		padding:0.5em 0;
-
-		font-size:4rem;
-		line-height:1;
-	}
-}
-
-//*************************
 // $$ Books Page
 //**************************
 
-.book-offer {
-	@extend %clearfix;
-	position:relative;
-	margin:5rem 0;
+.books-title,
+.books-archive {
+	text-align:center;
 }
-.book-offer__price {
+.books-archive {
+	@extend %clearfix;
+	margin:0 0 2rem;
+	padding:0;
+	list-style:none;
+
+	li {
+		float:left;
+		width: 50%;
+		padding:2rem;
+
+		@media screen and (max-width:700px) {
+			float:none;
+			width:90%;
+			margin:2rem auto;
+		}
+	}
+	img {
+		max-height:400px;
+	}
+}
+.book-price {
 	position:absolute;
 	top:-40px;
 	left:-70px;
@@ -161,7 +58,10 @@ $book-height:350px;
 	}
 }
 .book-img {
+	display:block;
 	margin:$font-margin-bottom 0;
+	padding:1rem;
+	border:1px solid $color-border;
 }
 
 .book-table {
@@ -172,6 +72,48 @@ $book-height:350px;
 	margin-bottom:$font-margin-bottom*2;
 }
 
+//*************************
+// $$ Single Book Page
+//**************************
+
+.single-book {
+	@extend %clearfix;
+}
+.single-book-image {
+	position:relative;
+	float:left;
+	width:40%;
+	padding-right:8rem;
+
+	p {
+		margin:0;
+	}
+	strong {
+		color:$color-books;
+	}
+}
+.single-book-content {
+	float:left;
+	width:60%;
+	padding-right:8rem;
+
+	ul {
+		margin-left:0;
+		padding-left:0;
+	}
+}
+
+@media screen and (max-width:800px) {
+	.single-book-image,
+	.single-book-content {
+		float:none;
+		width:100%;
+		max-width:90rem;
+		margin-bottom:2rem;
+		padding-right:0;
+	}
+}
+
 // Book on homepage
 
 .book-buy {
@@ -179,7 +121,7 @@ $book-height:350px;
 	margin: 5rem 0 3rem;
 }
 .book-offer-home {
-	margin:2em 0 2em 1em;
+	margin:4em 0 2em 1em;
 
 	.book__container--single {
 		float:none;

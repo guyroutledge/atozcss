@@ -1,6 +1,7 @@
 ---
+series: atoz-css
 layout: post_page
-title: "Required"
+title: ":required"
 alias: /r
 date: 2014-09-02
 wistiaId: qdefggbhue

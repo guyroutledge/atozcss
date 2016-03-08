@@ -2,11 +2,6 @@
 // $$ Reset
 //**************************
 
-// Use a better box-model
-* {
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 audio, canvas, video {
@@ -18,7 +13,7 @@ audio, canvas, video {
 html { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 html, button, input, select, textarea { font-family: $font-copy; color: $color-copy; }
 body {
-	background:$color-dark;
+	background:#fff;
 	color:$color-copy;
 }
 
@@ -37,7 +32,7 @@ body {
 
 a {
 	color:$color-link;
-	text-decoration:none;
+	text-decoration:underline;
 	cursor:pointer;
 	-webkit-transition:0.3s;
 	        transition:0.3s;
@@ -66,14 +61,19 @@ body {
 @each $heading, $font-size in $font-sizes {
 	#{$heading},
 	%#{$heading} {
-		font-size: $font-size;
-		font-weight:normal;
 		margin:0 0 $font-margin-bottom / 2;
+
+		color:$color-heading;
+		font-size: $font-size;
+		font-weight:700;
 		line-height:1.3;
 	}
 	p + #{$heading} {
 		margin-top:$font-margin-bottom;
 	}
+}
+h1, %h1 {
+	line-height: 1.1;
 }
 
 p {
@@ -202,7 +202,7 @@ body {
 %clearfix:before,
 %clearfix:after {
 	content:"";
-	display:table-cell;
+	display:table;
 }
 %clearfix:after {
 	clear:both;

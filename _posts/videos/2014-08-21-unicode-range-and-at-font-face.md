@@ -1,4 +1,5 @@
 ---
+series: atoz-css
 layout: post_page
 title: "Unicode-range"
 alias: /u
@@ -187,7 +188,7 @@ A transcript and code snippets for this video can be found in the
 shownotes at [atozcss.com/u](http://www.atozcss.com/u).
 
 If you have any questions please leave a comment or, you can tweet me
-[@atozcss](http://www.twitter.com/atozcss) or drop me an
+[@guyroutledge](http://www.twitter.com/guyroutledge) or drop me an
 email.
 
 Cheers.

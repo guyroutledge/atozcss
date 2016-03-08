@@ -1,15 +1,26 @@
 ---
 layout: post_page
 title: "The Sass Ampersand"
-date: 2016-03-01
+date: 2016-03-08
 wistiaId: sassa
 wistiaPoster: 
-videoLength: x minutes x seconds
+videoLength: 6 minutes 20 seconds
 comments: false
 categories: video
 excerpt: >
-
+  In this first video of a brand new AtoZ screencast series, we start
+  our journey into the world of Sass. The Sass ampersand character is
+  very powerful and acts as a placeholder for the parent selector within
+  nesting.
 summary: |
+  The Sass ampersand has a number of uses for outputting the parent
+  selector when nesting.
+
+  In this video you'll learn:
+
+  * All about nesting and the Sass parent selector
+  * The reverse parent selector
+  * and the double ampersand selector
 
 ---
 

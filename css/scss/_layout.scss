@@ -2,6 +2,11 @@
 // $$ Layout
 //**************************
 
+// Use a better box-model
+* {
+	box-sizing:border-box;
+}
+
 %container {
 	margin-left:auto;
 	margin-right:auto;
@@ -15,7 +20,7 @@
 }
 %container {
 	position:relative;
-	max-width:90rem;
+	max-width:120rem;
 }
 .site-container-inner {
 	@extend %container;
@@ -23,9 +28,8 @@
 }
 
 .site-header {
-	margin-bottom:$font-margin-bottom;
+	margin-bottom:$font-margin-bottom * 2;
 	text-align:center;
-	border-bottom:1rem solid $color-brand;
 }
 .site-content {
 	@extend %container;
@@ -34,17 +38,17 @@
 }
 .site-footer {
 	position:relative;
-	padding:4rem;
+	padding:4rem 4rem 6rem;
 	background:$color-brand;
 	z-index:20;
 
 	p {
 		@extend %container;
-		color:$color-dark;
+		color:#fff;
 		font-size:1.5rem;
 	}
 	a {
-		color:$color-dark;
+		color:inherit;
 
 		&:hover {
 			color:#fff;
@@ -93,56 +97,32 @@
 	}
 }
 
-
 //*************************
-// $$ Subscribe
+// $$ Blog Page
 //**************************
 
-.subscribe-icons {
-	position:absolute;
-	top:39.5rem;
-	left:50%;
-
-	width:14rem;
-	margin-left:-57rem;
-	text-align:center;
-
-	-webkit-transition:0.5s;
-			transition:0.5s;
-
-	opacity:0;
-	z-index:0;
-
-	&:hover img {
-		-webkit-filter:brightness(1.3);
-	}
-	img {
-		width:60px;
-		-webkit-transition:0.3s;
-				transition:0.3s;
-	}
-
-	h2 {
-		color:#fff;
-		font-size:2rem;
-		line-height:1em;
-	}
-
-	@media screen and (min-width:66.875em) {
-		opacity:1;
-	}
-
-	.page-home &,
-	.page-videos &,
-	.page-blog &,
-	.page-about &,
-	.page-start-here &,
-	.page-resources & {
-		margin-left:-47rem;
-	}
+.page-blog .site-content,
+.blog-post {
+	a { color: saturate( darken( $color-blog, 10% ), 10% ); }
 }
-.subscribe-img {
-	float:left;
-	width:90px;
-	margin-right:2rem;
+
+//*************************
+// $$ Books Page
+//**************************
+
+.page-atoz-css-books .site-content,
+.book-post {
+	a { color: $color-books; }
 }
+
+//*************************
+// $$ Course Page
+//**************************
+
+
+.page-courses .site-content,
+.course-post {
+	a { color: $color-courses; }
+}
+
+
