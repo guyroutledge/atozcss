@@ -246,7 +246,7 @@
 	@tip Set the styling for your email's body links. Choose a color that helps them stand out from your text.
 	*/
 		.bodyContainer .mcnTextContent a{
-			/*@editable*/color:#9be22d;
+			/*@editable*/color:#cc3f85;
 			/*@editable*/font-weight:normal;
 			/*@editable*/text-decoration:none;
 		}
@@ -256,7 +256,7 @@
 	@tip Set the background color and borders for your email's footer area.
 	*/
 		#templateFooter{
-			/*@editable*/background-color:#cf3b82;
+			/*@editable*/background-color:#cc3f85;
 			/*@editable*/border-top:0;
 			/*@editable*/border-bottom:0;
 		}
@@ -557,7 +557,7 @@
 
                         <td valign="top" class="mcnTextContent" style="padding-top:9px; padding-left:18px; padding-bottom:9px; padding-right:0;">
 
-                            AtoZ CSS Episode 4: display
+							<?php echo $atoz->title . ' ' . $atoz->episode . ': ' . $atoz->episode_title ?>
                         </td>
                     </tr>
                 </tbody></table>
@@ -637,9 +637,8 @@
 
                         <td valign="top" class="mcnTextContent" style="padding: 9px 18px; font-size: 14px;">
 
-                            <h1>Episode 4: <code style="color:#cc3f85;font-family:courier">display</code></h1>
-
-<h4 class="null">Block&nbsp;or inline? Or flow content or phrasing content?&nbsp;</h4>
+							<h1><?php echo $atoz->episode_title ?></h1>
+							<h4 class="null"><?php echo $atoz->episode_subtitle ?></h4>
 
                         </td>
                     </tr>
@@ -648,6 +647,7 @@
             </td>
         </tr>
     </tbody>
+
 </table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock">
     <tbody class="mcnTextBlockOuter">
         <tr>
@@ -657,8 +657,7 @@
                     <tbody><tr>
 
                         <td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
-
-                            *|WISTIA:[$vid=kgrhaeh5o3, $max_width=650, $watch_url=http://www.atozcss.com/d, $title=N, $border=N, $trim_border=N, $play_button_color=cc3f85e0]|*
+							*|WISTIA:[$vid=<?php echo $atoz->episode_wistia_id ?>, $max_width=650, $watch_url=http://www.atozsass.com/<?php echo $atoz->episode_letter ?>, $title=N, $border=N, $trim_border=N, $play_button_color=cc3f85e0]|*
                         </td>
                     </tr>
                 </tbody></table>
@@ -676,11 +675,10 @@
 
                         <td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
 
-                            <h2 class="null">In this episode</h2>
+                            <h2 class="null">In This Week’s Episode&hellip;</h2>
 
-<p>How elements take up space on the page is controlled by their display.&nbsp;There used to be two broad display types in CSS: elements were "inline"&nbsp;or "block-level" but there’s a bit more to it than that...</p>
-
-<p><span style="font-size:20px; line-height:1.6em">For a full transcript, visit&nbsp;</span><a href="http://www.atozcss.com/d" style="font-size: 20px; line-height: 1.6em;" target="_blank">http://www.atozcss.com/d</a></p>
+							<p><span style="font-size:16px; line-height:1.4"><?php echo $atoz->episode_summary ?></span></p>
+							<p><span style="font-size:20px; line-height:1.6">For a full transcript, visit&nbsp;</span><a href="http://www.atozsass.com/<?php echo $atoz->episode_letter ?>" style="font-size: 20px; line-height: 1.6em;" target="_blank">http://www.atozsass.com/<?php echo $atoz->episode_letter ?></a></p>
 
                         </td>
                     </tr>
@@ -717,13 +715,9 @@
 
                         <td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
 
-                            <h2 class="null">Weekly CSS News</h2>
+                            <h2 class="null">Great CSS Reads</h2>
 
-<p>news intro</p>
-
-<h3 class="null"><span style="font-size:24px"><a href="http://www.atozcss.com" target="_blank">News Item Title</a></span></h3>
-
-<p>News Item description</p>
+							<p><?php echo $atoz->news_intro ?></p>
 
                         </td>
                     </tr>
@@ -732,7 +726,36 @@
             </td>
         </tr>
     </tbody>
-</table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
+</table>
+
+		<!-- // ATOZCSS: Links Section \\ -->
+
+		<?php foreach ( $atoz->news as $newsitem ) : ?>
+                <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" class="mcnTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+
+                        <td valign="top" class="mcnTextContent" style="padding: 9px 18px;color: #333333;font-size: 14px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;line-height: 150%;text-align: left;">
+
+                            <h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #ffffff !important;">
+                                <a href="<?php echo $newsitem->url ?>" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #cc3f85;font-weight: normal;text-decoration: none;">
+									<?php echo $newsitem->link_text ?>
+                                </a>
+                            </h2>
+
+                            <p style="line-height: 20.7999992370605px;margin: 0 0 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #333333;font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size: 14px;text-align: left;">
+                                <?php echo preg_replace('/(@(\w+))/', '<a href="http://twitter.com/\2" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #9be22d;font-weight: normal;text-decoration: none;" >\1</a>', $newsitem->link_comment) ?>
+                            </p>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+		<?php endforeach; ?>
+
+		<!-- // ATOZCSS: End Links Section \\ -->
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
     <tbody class="mcnDividerBlockOuter">
         <tr>
             <td class="mcnDividerBlockInner" style="min-width:100%; padding:18px;">
@@ -760,9 +783,8 @@
 
                         <td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
 
-                            <h2 class="null">AtoZ CSS Ad</h2>
-
-<p>Dive deeper into CSS and Sass and help support AtoZ.</p>
+							<h2 class="null"><?php echo $atoz->ad_title ?></h2>
+							<p><?php echo $atoz->ad_intro ?></p>
 
                         </td>
                     </tr>
@@ -779,9 +801,9 @@
                         <tbody><tr>
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
 
-
-                                        <img align="center" alt="" src="https://gallery.mailchimp.com/fb5c2d7d6163f7fcbba78e8b0/images/ec5123ec-b209-405d-8e40-7f7eeb9068a6.png" width="501" style="max-width:501px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
-
+								<a href="<?php echo $atoz->ad_url ?>">
+									<img align="center" alt="" src="<?php echo $atoz->ad_image ?>" width="565" style="max-width:565px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
+								</a>
 
                             </td>
                         </tr>
@@ -816,8 +838,7 @@
                     <tbody><tr>
 
                         <td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
-
-                            If you know anyone else who'd enjoy checking these videos out, please do let them know!&nbsp;To help spread the word, <a href="http://twitter.com/home?status=Learn%20about%20flow%20content%20and%20phrasing%20content%20and%20the%20difference%20between%20block%20and%20inline%20in%20this%20week's%20%23atozcss%20http://www.atozcss.com/c" target="_blank">click to tweet</a> the message below.
+							If you find AtoZ CSS valuable in any way, please share it with your friends and colleagues. To help spread the word, <a href="http://twitter.com/home?status=<?php echo preg_replace( '/\s/', '%20', $atoz->click_to_tweet ) ?>%20http://www.atozsass.com<?php echo $atoz->episode_letter ?>%20@atozcss" target="_blank">click to tweet</a> the message below.
                         </td>
                     </tr>
                 </tbody></table>
@@ -844,7 +865,7 @@
                             <table border="0" cellpadding="18" cellspacing="0" class="mcnTextContentContainer" width="100%" style="min-width: 100% !important;border: 3px none #007FFF;background-color: #66D9EF;">
                                 <tbody><tr>
                                     <td valign="top" class="mcnTextContent" style="color: #333333;font-size: 20px;text-align: center;">
-                                        Click to tweet
+										<?php echo $atoz->click_to_tweet ?>
                                     </td>
                                 </tr>
                             </tbody></table>
@@ -891,7 +912,7 @@
                     <td valign="top" class="mcnTextContent">
                         I'd love to hear your comments and feedback to help improve your AtoZ experience.<br>
 <br>
-If there's anything you'd like to see covered in a future video, article, book or course, please don't hesitate to get in touch.<br>
+If there's anything you'd like to see covered in a future video, article, book or course, just hit reply to this email to get in touch.<br>
 <br>
 Cheers<br>
 &nbsp;-- Guy

@@ -4,39 +4,36 @@
 	"episode":             "Episode 1",
 	"episode_title":       "The Sass Ampersand",
 	"episode_subtitle":    "working with parent selectors in Sass",
-	"episode_wistia_id":   "64pn9d94vn",
-	"episode_summary":     "",
+	"episode_wistia_id":   "0qspvyc6uf",
+	"episode_summary":     "Welcome to the all new AtoZ CSS! In this first video of a brand new 26-part screencast series, we start our journey into the world of pre-processing with Sass. Today you'll learn about the Sass ampersand character which is very powerful and acts as a placeholder for the parent selector within nesting.",
 	"episode_letter":      "a",
-	"news_intro":          "",
+	"news_intro":          "I've been busy redesigning the AtoZ CSS website over the last few days but here are a handful of cracking CSS reads just for you:",
 	"news": [
 		{
-			"url":	        "http://www.atozcss.com/blog/css-tip-z/",
-			"link_text":    "AtoZ Tip: Working with z-index",
-			"link_comment": "In the somewhat predictable Z for Z-index tip - the final post in this series - we dig into a couple of details for working with stacking and layering of elements in the document and look at ways to systemise the process."
+			"url":	        "https://css-tricks.com/introducing-css-scroll-snap-points/",
+			"link_text":    "Introducing CSS Scroll Snap Points",
+			"link_comment": "css-tricks.com"
 		},{
-			"url":	        "http://alistapart.com/article/motion-with-meaning-semantic-animation-in-interface-design",
-			"link_text":    "Motion with Meaning: Semantic Animation in Interface Design",
-			"link_comment": "Animation seems to be constantly growing in popularity and is a common feature of many websites and web applications. But we should be careful to ensure that UI motion always has meaning and isn't distracting or harmful to the user experience. This post on A List Apart takes a detailed look at what works and what doesn't."
+			"url":	        "http://blog.lunarlogic.io/2016/boost-your-css-animation-performance-with-repaintless-css",
+			"link_text":    "Boost Your CSS Animation Performance with the Repaintless.css Library",
+			"link_comment": "blog.lunarlogic.io"
 		},{
-			"url":	        "https://www.smashingmagazine.com/2016/01/variables-in-css-architecture/",
-			"link_text":    "Variables: The Backbone of CSS Architecture",
-			"link_comment": "In preparation for the up coming AtoZ Sass series, I'll be sharing an introductory guide which will cover all the fundamentals including things like variables. If you want to get a jump start on Sass, have a read of this post on Smashing Magazine which gives some great tips for planning and architecting your styles with Sass."
+			"url":	        "http://uxmovement.com/thinking/why-circular-profile-pictures-accentuate-faces/",
+			"link_text":    "Why Circular Profile Pictures Accentuate Faces",
+			"link_comment": "uxmovement.com"
 		},{
-			"url":	        "http://wesbos.com/css-highlight-animation/",
-			"link_text":    "CSS Highlight Animation",
-			"link_comment": "In this video, Wes Bos goes through the process of reverse engineering an effect he saw on Web Designer Depot to create an animated hover effect that appears to highlight text that spans multiple lines."
+			"url":	        "http://zellwk.com/blog/rem-vs-em/",
+			"link_text":    "REM vs EM - The Great Debate",
+			"link_comment": "zellwk.com"
 		},{
-			"url":	        "https://medium.com/@tedgoas/an-open-letter-to-designers-of-unsolicited-redesigns-and-unbuildable-apps-44048ba16b76#.o4haogsxa",
-			"link_text":    "An Open Letter to Designers of Unsolicited Redesigns...",
-			"link_comment": "Unsolicited redesigns are often dismissed by the design community for being overly cosmetic, not solving real problems or working within real constraints. But I really like the alternative viewpoint as expressed in this post by Ted Goas. He suggests that redesigning a known site or app interface is a great way to practice and can be a great source of inspiration to others. Keep doing what you're doing."
-		},{
-			"url":	        "http://kushagragour.in/lab/hint/",
-			"link_text":    "Hint.css 2.0",
-			"link_comment": "Finally, I saw Hint.css pop up in numerous places in my Twitter feed the other day. A new version of this pure CSS tooltip library has just been released along with a really nice looking demo site. If you need a tooltip in your next project, take a look at this for sure."
+			"url":	        "http://www.flexboxdefense.com/",
+			"link_text":    "Flexbox Defense",
+			"link_comment": "flexboxdefense.com"
 		}
 	],
-	"ad_title":             "",
-	"ad_intro":             "",
-	"ad_image":             "",
-	"click_to_tweet":       ""
+	"ad_title":             "New Book Launch: Up and Running with Sass",
+	"ad_intro":             "I've compiled the introductory Sass blog post series into an ebook, tweaked the content and packed it full of tips, advice, best practices and practical exercises to help you start working with Sass as quickly as possible. Grab your FREE copy on Amazon before this Sunday!",
+	"ad_image":             "https://gallery.mailchimp.com/fb5c2d7d6163f7fcbba78e8b0/images/aac80632-b220-4063-b3da-4e0e656ec170.png",
+	"ad_url":               "http://atozcss.com/books/up-and-running-with-sass/",
+	"click_to_tweet":       "Learn about the almighty Sass ampersand character in this week's AtoZ Sass screencast."
 }
