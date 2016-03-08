@@ -1,7 +1,7 @@
 ---
 series: atoz-css
 layout: post_page
-title: ID
+title: IDs and Specificity
 alias: /i
 date: 2014-07-01
 wistiaId: q9m9d0n2hl

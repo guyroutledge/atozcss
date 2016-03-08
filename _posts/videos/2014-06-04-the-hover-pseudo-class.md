@@ -1,7 +1,7 @@
 ---
 series: atoz-css
 layout: post_page
-title: Hover
+title: ":hover"
 alias: /h
 date: 2014-06-24
 wistiaId: ig3axa1zs3
