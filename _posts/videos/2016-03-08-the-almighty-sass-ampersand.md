@@ -1,12 +1,14 @@
 ---
+series: atoz-sass
+sidebar_ad: ad-book-sass.html
 layout: post_page
 title: "The Sass Ampersand"
 date: 2016-03-08
-wistiaId: sassa
-wistiaPoster: 
-videoLength: 6 minutes 20 seconds
-comments: false
-categories: video
+wistiaId: 0qspvyc6uf
+wistiaPoster: 90acfe6bb1baba0562eae3208d11d5cb652ff430
+videoLength: 6 minutes 30 seconds
+comments: true
+categories: video beginner
 excerpt: >
   In this first video of a brand new AtoZ screencast series, we start
   our journey into the world of Sass. The Sass ampersand character is
