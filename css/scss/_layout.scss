@@ -87,6 +87,16 @@
 // $$ About Page
 //**************************
 
+.about-image {
+	float:left;
+	margin:0 3rem 2rem -10rem;
+
+	@media screen and (max-width:670px) {
+		float:none;
+		display:block;
+		margin-left:0;
+	}
+}
 .about-equipment {
 	margin:0 0 $font-margin-bottom 0;
 	overflow:hidden;
