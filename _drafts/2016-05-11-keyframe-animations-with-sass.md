@@ -32,12 +32,12 @@ In the next episode we'll be discussing L for "Loops" and dive into more of
 the programatic power of Sass with flow control like conditional
 statements. I hope you can join me next time.
 
-To make sure you don't miss out on the next release, do sign up for the
-mailing list and you'll also get weekly CSS news and links delivered
-straight to your inbox.
+To be the first to hear about the release of the next episode, do sign
+up for the mailing list and you'll also get weekly CSS news and links
+delivered straight to your inbox.
 
 For this episode, a transcript and code snippets can be found at
-[atozsass.com/i](http://www.atozsass.com/i).
+[atozsass.com/k](http://www.atozsass.com/k).
 
 To keep in touch or let me know of any questions or comments you might
 have, you can tweet me [@guyroutledge](http://www.twitter.com/guyroutledge)
