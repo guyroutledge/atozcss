@@ -1,16 +1,38 @@
 ---
+series: atoz-sass
+sidebar_ad: ad-book-sass.html
 layout: post_page
 title: "BEM with Sass"
-date: 2016-03-08
-wistiaId: sassb
-wistiaPoster: 
-videoLength: x minutes x seconds
-comments: false
-categories: video
+date: 2016-03-15
+wistiaId: mncewzddes
+wistiaPoster: e3474b7eab62656c3488cbe461226de7e43b2a73
+videoLength: 8 minutes 19 seconds
+comments: true
+categories: video beginner
 excerpt: >
+  BEM is a system of naming classes that encourages the good practice of
+  writing modular code.  It can really help bring structure and meaning
+  to the way we name things and it's something I use consistently in my
+  day to day client work. It can be used with or without Sass but Sass
+  and BEM are a great combination. In this video you'll learn what BEM
+  is, what it stands for, how to leverage the Sass ampersand with BEM
+  and some BEM best practices.
 
 summary: |
+  BEM stands for Block, Element Modifier and is a front-end naming
+  methodology used for bring stucture and meaning to class names.
 
+  It uses a system of double underscores to define Elements and double
+  dashes to define Modifier classes
+
+  	.block { }
+  	.block__element { }
+  	.block--modifier { }
+
+  Sass and BEM play nicely togehter or separately. When using BEM in
+  Sass you can use the `&` to reference the name of the block in nesting
+  without ending up with descendent selectors output in the compiled
+  CSS.
 ---
 
 [BEM](http://www.bem.info) is a system of naming classes that encourages
