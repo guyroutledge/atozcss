@@ -265,13 +265,8 @@ Let's first set up a series of variables and then create two lists, one
 for the variable names and one for the list of colours:
 
 {% highlight scss %}
-$color-white: #fff;
-$color-red: #f00;
-$color-green: #0f0;
-$color-blue: #00f;
-$color-black: #000;
 $names: white, red, green, blue, black;
-$colors: $color-white, $color-red, $color-green, $color-blue, $color-black;
+$colors: #fff, #cc3f85, #9be22d, #66d9ef, #000;
 {% endhighlight %}
 
 We now need to iterate through each name in the list to create
@@ -329,13 +324,8 @@ To browse through the full code for this example, head to
 on Codepen](http://codepen.io/atozcss/pen/YqpQRW).
 
 {% highlight scss %}
-$color-white: #fff;
-$color-red: #f00;
-$color-green: #0f0;
-$color-blue: #00f;
-$color-black: #000;
 $names: white, red, green, blue, black;
-$colors: $color-white, $color-red, $color-green, $color-blue, $color-black;
+$colors: #fff, #cc3f85, #9be22d, #66d9ef, #000;
 
 .swatches {
 	list-style:none;
