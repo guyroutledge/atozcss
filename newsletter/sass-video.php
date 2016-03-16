@@ -838,7 +838,7 @@
                     <tbody><tr>
 
                         <td valign="top" class="mcnTextContent" style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
-							If you find AtoZ CSS valuable in any way, please share it with your friends and colleagues. To help spread the word, <a href="http://twitter.com/home?status=<?php echo preg_replace( '/\s/', '%20', $atoz->click_to_tweet ) ?>%20http://www.atozsass.com<?php echo $atoz->episode_letter ?>%20@atozcss" target="_blank">click to tweet</a> the message below.
+							If you find AtoZ CSS valuable in any way, please share it with your friends and colleagues. To help spread the word, <a href="http://twitter.com/home?status=<?php echo preg_replace( '/\s/', '%20', $atoz->click_to_tweet ) ?>%20http://www.atozsass.com/<?php echo $atoz->episode_letter ?>%20@atozcss" target="_blank">click to tweet</a> the message below.
                         </td>
                     </tr>
                 </tbody></table>
