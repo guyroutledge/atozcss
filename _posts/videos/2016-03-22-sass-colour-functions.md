@@ -8,7 +8,7 @@ wistiaId: d9hgpojp7r
 wistiaPoster: fe23019a63d0a7c64633abe50af4f8b4b78055c3
 videoLength: 7 minutes 30 seconds
 comments: true
-categories: video
+categories: video beginner
 excerpt: >
   Colour is hugely important for adding life and visual interest to
   a project and is an invaluable tool for highlighting parts of the
