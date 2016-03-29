@@ -1,0 +1,39 @@
+{
+	"subject_line":        "New Episode: Sass Colour Functions",
+	"title" :              "AtoZ Sass",
+	"episode":             "Episode 3",
+	"episode_title":       "Sass Colour Functions",
+	"episode_subtitle":    "manipulate and tweak your colours with code",
+	"episode_wistia_id":   "d9hgpojp7r",
+	"episode_summary":     "Colour is hugely important for adding life and visual interest to a project and is an invaluable tool for highlighting parts of the interface that a user can interact with.  In this practical episode we're going to talk all about manipulating colours programmatically with Sass.",
+	"episode_letter":      "c",
+	"news_intro":          "In the news this week...",
+	"news": [
+		{
+			"url":	        "https://www.bensmithett.com/stop-using-so-many-sass-variables/",
+			"link_text":    "Stop Using So Many Sass Variables",
+			"link_comment": "bensmithett.com"
+		},{
+			"url":	        "http://zurb.com/article/1430/the-unexpected-result-of-our-transactiona",
+			"link_text":    "The Unexpected Result of our Transactional Email Experiment",
+			"link_comment": "zurb.com"
+		},{
+			"url":	        "http://www.studiothick.com/essays/web-typography-is-broken/",
+			"link_text":    "Web Typography is Broken. Here's How We Can Fix It",
+			"link_comment": "studiothick.com"
+		},{
+			"url":	        "http://www.paulund.co.uk/style-checkboxes-with-css",
+			"link_text":    "Style Checkboxes with CSS",
+			"link_comment": "paulund.co.uk"
+		},{
+			"url":	        "http://www.sitepoint.com/results-ultimate-css-survey",
+			"link_text":    "Results of the Ultimate CSS Survey",
+			"link_comment": "sitepoint.com"
+		}
+	],
+	"ad_title":             "Start using Sass today: get the Up and Running with Sass ebook",
+	"ad_intro":             "The best way to learn is by doing. In this ebook you'll learn the fundamentals of the Sass language and follow practical exercises for installing Sass via the command line or using the free GUI app, Koala. The book is jam-packed with tips, advice, best practices and practical exercises to help you start working with Sass as quickly as possible. Learn more and buy now on Amazon.",
+	"ad_image":             "http://www.atozcss.com/img/banners/sass-book.png",
+	"ad_url":               "http://atozcss.com/books/up-and-running-with-sass/",
+	"click_to_tweet":       "Learn to manipulate colours programmatically with Sass in this week's AtoZ Sass video."
+}
