@@ -1,16 +1,35 @@
 ---
+series: atoz-sass
+sidebar_ad: ad-book-sass.html
 layout: post_page
-title: "Different Data Types in Sass"
-date: 2016-03-08
-wistiaId: sassd
-wistiaPoster: 
-videoLength: x minutes x seconds
+title: "Different Data Types in&nbsp;Sass"
+date: 2016-03-29
+wistiaId: ka4j3fytnn
+wistiaPoster: d1d5f22b971936fbe8d76ba4a82d0eb4b377f141
+videoLength: 8 minutes 19 seconds
 comments: false
 categories: video
 excerpt: >
+  Sass brings a lot more power to CSS and starts to make it feel like
+  a programming language rather than just a series of property and value
+  declarations. One key feature that enables this programatic feel is 
+  Sass variables, which can hold a number of different types of data. In
+  this episode we'll cover the seven core data types in Sass and how we 
+  can manipulate and operate on these various values
 
 summary: |
+  Sass variables can a have a number of different data types including:
 
+  * numbers
+  * strings
+  * colors
+  * booleans
+  * nulls
+  * lists
+  * and maps
+
+  In this episode we'll take a look at examples of each type and some
+  of the mathematical operations that can be performed on them.
 ---
 
 Sass brings a lot more power to CSS and starts to make it feel like
