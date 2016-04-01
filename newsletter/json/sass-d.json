@@ -1,0 +1,39 @@
+{
+	"subject_line":        "New Episode: Data Types in Sass",
+	"title" :              "AtoZ Sass",
+	"episode":             "Episode 4",
+	"episode_title":       "Different Data Types in Sass",
+	"episode_subtitle":    "create, update and operate on various variables",
+	"episode_wistia_id":   "ka4j3fytnn",
+	"episode_summary":     "Sass brings a lot more power to CSS and starts to make it feel like a programming language rather than just a series of property and value declarations. One key feature that enables this programatic feel is Sass variables, which can hold a number of different types of data. In this episode we'll cover the seven core data types in Sass and how we can manipulate and operate on these various values",
+	"episode_letter":      "d",
+	"news_intro":          "In the news this week...",
+	"news": [
+		{
+			"url":	        "https://medium.com/@scottgalloway/saas-theme-management-with-sass-baa3a3cb6a5d#.1brn9lilw",
+			"link_text":    "SaaS Theme Management with Sass",
+			"link_comment": "medium.com"
+		},{
+			"url":	        "http://tympanus.net/codrops/2016/03/21/animated-animals-css-svg",
+			"link_text":    "Animated Animals in CSS and SVG",
+			"link_comment": "tympanus.net"
+		},{
+			"url":	        "http://tech.trello.com/trellisheets-how-we-spin-up-css-for-trello-sites-with-ease/",
+			"link_text":    "Trellisheets: How We Spin up CSS for Trello Sites with Ease",
+			"link_comment": "tech.trello.com"
+		},{
+			"url":	        "https://blog.prototypr.io/16-css-lessons-via-post-it-notes-103d64809e7#.twds1vgbm",
+			"link_text":    "16 CSS Lessons via Post-it&reg; Notes",
+			"link_comment": "blog.prototypr.io"
+		},{
+			"url":	        "https://github.com/necolas/normalize.css/blob/master/CHANGELOG.md",
+			"link_text":    "Normalize.css 4.0 Released",
+			"link_comment": "github.com"
+		}
+	],
+	"ad_title":             "Start using Sass today: get the Up and Running with Sass ebook",
+	"ad_intro":             "The best way to learn is by doing. In this ebook you'll learn the fundamentals of the Sass language and follow practical exercises for installing Sass via the command line or using the free GUI app, Koala. The book is jam-packed with tips, advice, best practices and practical exercises to help you start working with Sass as quickly as possible. Learn more and buy now on Amazon.",
+	"ad_image":             "http://www.atozcss.com/img/banners/sass-book.png",
+	"ad_url":               "http://atozcss.com/books/up-and-running-with-sass/",
+	"click_to_tweet":       "Learn about the 7 different types of Sass variables in this week's AtoZ CSS video."
+}
