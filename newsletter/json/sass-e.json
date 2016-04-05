@@ -1,0 +1,39 @@
+{
+	"subject_line":        "The Sass Extend Directive",
+	"title" :              "AtoZ Sass",
+	"episode":             "Episode 5",
+	"episode_title":       "The Sass Extend Directive",
+	"episode_subtitle":    "one of the most controversial Sass features...",
+	"episode_wistia_id":   "qlhn48xoh1",
+	"episode_summary":     "Mixins are a way of creating flexible, reusable chunks of code. Another Sass feature which seems to work in a similar way is the @extend directive. In this episode we'll learn all about extends and how they're different to mixins, how to create and extend placeholder selectors and about some of the pros and cons of using extend in real projects."
+	"episode_letter":      "e",
+	"news_intro":          "It's been a busy few weeks at AtoZ CSS with a new client project and work started on my up coming Flexbox workshop that I'll be teaching online in the coming weeks. Here's some great posts I've found around the web this week...",
+	"news": [
+		{
+			"url":	        "http://zurb.com/article/1432/foundation-for-emails-2-is-here",
+			"link_text":    "Foundatino for Emails 2 is Here!",
+			"link_comment": "zurb.com"
+		},{
+			"url":	        "http://zellwk.com/blog/from-html-grids-to-css-grids/",
+			"link_text":    "Moving from HTML Gid Systems to CSS Grid Systems",
+			"link_comment": "zellwk.com"
+		},{
+			"url":	        "https://medium.com/@danrschlosser/the-polish-checklist-for-web-developers-5b190b8b6851#.4x0ef57hg",
+			"link_text":    "The Polish Checklist for Web Developers",
+			"link_comment": "medium.com"
+		},{
+			"url":	        "https://webkit.org/blog/5989/css-variables-in-webkit/",
+			"link_text":    "[Native] CSS Variables in Webkit",
+			"link_comment": "webkit.org"
+		},{
+			"url":	        "http://tech.trivago.com/2016/02/02/large-scale-css-refactoring-at-trivago/",
+			"link_text":    "Large Scale CSS Refactoring at trivago",
+			"link_comment": "tech.trivago.com"
+		}
+	],
+	"ad_title":             "Start using Sass today: get the Up and Running with Sass ebook",
+	"ad_intro":             "The best way to learn is by doing. In this ebook you'll learn the fundamentals of the Sass language and follow practical exercises for installing Sass via the command line or using the free GUI app, Koala. The book is jam-packed with tips, advice, best practices and practical exercises to help you start working with Sass as quickly as possible. Learn more and buy now on Amazon.",
+	"ad_image":             "http://www.atozcss.com/img/banners/sass-book.png",
+	"ad_url":               "http://atozcss.com/books/up-and-running-with-sass/",
+	"click_to_tweet":       "Learn about the difference between mixins and extends and some of their pros and cons in this week's AtoZ CSS screencast."
+}
