@@ -130,7 +130,9 @@
 // $$ Course Page
 //**************************
 
-
+.course-title {
+	text-align:center;
+}
 .page-courses .site-content,
 .course-post {
 	a { color: $color-courses; }
