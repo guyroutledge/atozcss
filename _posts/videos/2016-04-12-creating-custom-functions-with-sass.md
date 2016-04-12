@@ -1,11 +1,13 @@
 ---
+series: atoz-sass
+sidebar_ad: ad-book-sass.html
 layout: post_page
 title: "Creating Custom Functions with Sass"
-date: 2016-03-08
-wistiaId: sassf
+date: 2016-04-12
+wistiaId: iy66gxeo54
 wistiaPoster: 
-videoLength: x minutes x seconds
-comments: false
+videoLength: 7 minutes 47 seconds
+comments: true
 categories: video
 excerpt: >
   Functions are a core concept in many programming languages but
