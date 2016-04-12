@@ -38,11 +38,13 @@
 			{% include animation.html %}
 		{% endif %}
 
-		<section class="subscribe">
-			<div class="site-container-inner">
-				{% include form.html %}
-			</div>
-		</section>
+		{% if page.title != "Flexbox in Action" %}
+			<section class="subscribe">
+				<div class="site-container-inner">
+					{% include form.html %}
+				</div>
+			</section>
+		{% endif %}
 
 		<footer class="site-footer">
 			<div class="site-container-inner">
