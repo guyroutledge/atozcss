@@ -4,8 +4,8 @@ sidebar_ad: ad-book-sass.html
 layout: post_page
 title: "Compiling Sass with Grunt and Gulp"
 date: 2016-04-19
-wistiaId: 
-wistiaPoster: 
+wistiaId: kwjzgengyl
+wistiaPoster: 2708674c51abbdc90dca29a8c2fd990272afd0bc
 videoLength: 12 minutes 50 seconds
 comments: false
 categories: video
